@@ -1402,6 +1402,81 @@ const TOPICS = [
     id: 28, emoji: "🌳", nameKo: "공원",
     questions: [
       {
+        id: 91,
+        question: "You indicated in the survey that you go to parks. Tell me about one of your favorite parks in detail. What does it look like?",
+        translation: "설문에서 공원에 간다고 하셨는데요. 가장 좋아하는 공원에 대해 자세히 말해 주세요. 어떤 모습인가요?",
+        type: "장소묘사",
+        structure: ["자주 가는 곳: 스타파크 (서울 변두리)", "약 1,000명 수용 가능한 규모", "집에서 도보 10분 거리", "교통비 안 들어 좋음", "다른 공원보다 시설 좋음: 주차장/화장실/와이파이/조깅코스", "전반적으로 방문하기 좋은 곳"],
+        script: [
+          { en: "The park I often go to is Star Park, which is located on the outskirts of Seoul.", ko: "제가 자주 가는 공원은 서울 변두리에 있는 스타파크예요." },
+          { en: "It's big enough to hold about a thousand people.", ko: "한 천 명 정도는 거뜬히 수용할 수 있을 만큼 커요." },
+          { en: "There are a few reasons I like going there.", ko: "제가 자주 가는 데는 몇 가지 이유가 있어요." },
+          { en: "First, it's really close to my house — it only takes about ten minutes on foot.", ko: "우선, 집에서 정말 가까워요 — 걸어서 10분 정도밖에 안 걸려요." },
+          { en: "So I don't have to spend much on transportation.", ko: "그래서 교통비를 많이 쓸 필요가 없어요." },
+          { en: "Also, it has better facilities than other parks.", ko: "또, 다른 공원보다 시설이 좋아요." },
+          { en: "For example, there's a big parking lot, clean restrooms, free Wi-Fi, and a beautiful jogging trail.", ko: "예를 들면, 넓은 주차장, 깨끗한 화장실, 무료 와이파이, 그리고 예쁜 조깅 코스가 있어요." },
+          { en: "Overall, it's a great place to visit.", ko: "전반적으로 방문하기 정말 좋은 곳이에요." }
+        ],
+        pronunciation: [
+          { en: "The park I often go to is Star Park,", ko: "더 파크 아이 오픈 고투 이즈 스타파크" },
+          { en: "which is located on the outskirts of Seoul.", ko: "위치즈 로케이티드 온디 아웃스커츠 어브 서울" },
+          { en: "It's big enough to hold about a thousand people.", ko: "잇츠 빅 이너프 투 홀드 어바웃어 싸우전드 피플" },
+          { en: "There are a few reasons I like going there.", ko: "데어라러 퓨 리즌즈 아이 라익 고잉데어" },
+          { en: "First, it's really close to my house —", ko: "퍼스트, 잇츠 릴리 클로스투 마이 하우스" },
+          { en: "it only takes about ten minutes on foot.", ko: "잇 온리 테익스 어바웃 텐 미닛츠 온풋" },
+          { en: "So I don't have to spend much on transportation.", ko: "소 아이 돈트 해브투 스펜드 머치 온 트랜스포테이션" },
+          { en: "Also, it has better facilities than other parks.", ko: "얼소, 잇 해즈 베러 퍼실리티즈 댄 아더 파크스" },
+          { en: "there's a big parking lot, clean restrooms,", ko: "데어저 빅 파킹랏, 클린 레스트룸즈" },
+          { en: "free Wi-Fi, and a beautiful jogging trail.", ko: "프리 와이파이, 앤어 뷰티풀 조깅 트레일" },
+          { en: "Overall, it's a great place to visit.", ko: "오버롤, 잇처 그레잇 플레이스 투 비짓" }
+        ],
+        warnings: [
+          { word: "outskirts", guide: "아웃스커츠" },
+          { word: "transportation", guide: "트랜스포테이션" },
+          { word: "facilities", guide: "퍼실리티즈" },
+          { word: "restrooms", guide: "레스트룸즈" }
+        ]
+      },
+      {
+        id: 92,
+        question: "Tell me about your typical day at the park. What do you usually do at the park when you visit it?",
+        translation: "공원에서 보내는 전형적인 하루에 대해 말해 주세요. 공원에 가면 보통 무엇을 하나요?",
+        type: "활동패턴",
+        structure: ["보통 주말에 한 번 감", "평일엔 바빠서 못 감", "친구 루다랑 감 (자유시간 비슷)", "가기 전 전화로 상의", "도착하면 스트레칭부터", "이후 조깅 or 산책 약 2시간", "벤치에서 휴식+수다 (드라마/가족/일)", "특별친 않지만 항상 즐김"],
+        script: [
+          { en: "I usually go to the park once a week, mostly on weekends.", ko: "저는 보통 일주일에 한 번, 주로 주말에 공원에 가요." },
+          { en: "On weekdays, I'm too busy with work, so I don't really have time to go.", ko: "평일에는 일하느라 바빠서 갈 시간이 별로 없어요." },
+          { en: "I normally go with my best friend, Looda, since we tend to have the same free time.", ko: "보통 가장 친한 친구 루다랑 같이 가는데, 자유 시간이 비슷하거든요." },
+          { en: "Before we go, I usually call her to talk about when to meet and what to do there.", ko: "가기 전에 보통 전화로 언제 만날지, 뭐 할지 얘기해요." },
+          { en: "We like to work out when we're there.", ko: "가면 보통 운동을 하는 편이에요." },
+          { en: "When we arrive, we start with some light stretching to warm up.", ko: "도착하면 먼저 가볍게 스트레칭으로 몸을 풀어요." },
+          { en: "Then we go jogging or just take a walk for about two hours.", ko: "그러고 나서 한두 시간 정도 조깅하거나 그냥 산책을 해요." },
+          { en: "After that, we rest on a bench and chat about dramas, family, work, stuff like that.", ko: "그 후엔 벤치에 앉아서 드라마, 가족, 일 이런 얘기하면서 쉬어요." },
+          { en: "It's nothing too special, but I always enjoy it.", ko: "그렇게 특별하진 않지만 항상 즐거워요." }
+        ],
+        pronunciation: [
+          { en: "I usually go to the park once a week,", ko: "아이 유주얼리 고투더 파크 원서 윅" },
+          { en: "mostly on weekends.", ko: "모스틀리 온 위켄즈" },
+          { en: "On weekdays, I'm too busy with work,", ko: "온 위크데이즈, 아임 투 비지 윗 워크" },
+          { en: "so I don't really have time to go.", ko: "소 아이 돈트 릴리 해브 타임투고" },
+          { en: "I normally go with my best friend, Looda,", ko: "아이 노멀리 고 윗마이 베스트 프렌드, 루다" },
+          { en: "since we tend to have the same free time.", ko: "신스 위 텐투 해브더 세임 프리 타임" },
+          { en: "Before we go, I usually call her", ko: "비포어 위고, 아이 유주얼리 콜허" },
+          { en: "to talk about when to meet and what to do there.", ko: "투 토커바웃 웬투밋 앤 왓투두데어" },
+          { en: "When we arrive, we start with some light stretching to warm up.", ko: "웬 위 어라이브, 위 스타트 윗섬 라잇 스트레칭 투 웜업" },
+          { en: "Then we go jogging or just take a walk for about two hours.", ko: "덴 위고 조깅 오어 저스트 테이커 워크 퍼러바웃 투아워즈" },
+          { en: "After that, we rest on a bench", ko: "애프터댓, 위 레스트 온어 벤치" },
+          { en: "and chat about dramas, family, work, stuff like that.", ko: "앤 챗 어바웃 드라마즈, 패밀리, 워크, 스터프 라익댓" },
+          { en: "It's nothing too special, but I always enjoy it.", ko: "잇츠 낫씽 투 스페셜, 벗 아이 올웨이즈 인조이잇" }
+        ],
+        warnings: [
+          { word: "stretching", guide: "스트레칭" },
+          { word: "usually", guide: "유주얼리" },
+          { word: "friend", guide: "프렌드" },
+          { word: "special", guide: "스페셜" }
+        ]
+      },
+      {
         id: 90,
         question: "Tell me about the last time you went to the park. When was it? What did you do at the park? Tell me about your last visit to the park in as much detail as possible.",
         translation: "공원에 마지막으로 갔던 때에 대해 말해 주세요. 언제였나요? 공원에서 무엇을 했나요? 최대한 자세히 말해 주세요.",
@@ -1440,6 +1515,56 @@ const TOPICS = [
           { word: "scenery", guide: "씨너리" },
           { word: "impressed", guide: "임프레스트" },
           { word: "warm-ups", guide: "웜업스" }
+        ]
+      },
+      {
+        id: 93,
+        question: "Tell me about a memorable event that happened in the park when you visited there. Start by telling me the background: when it was, where it was, and what you were doing. Then, tell me everything you remember related to that incident.",
+        translation: "공원에 갔을 때 있었던 기억에 남는 일에 대해 말해 주세요. 언제였는지, 어디였는지, 무엇을 하고 있었는지부터 이야기해 주시고, 그 사건에 대해 기억나는 것을 전부 말해 주세요.",
+        type: "기억에 남는 경험",
+        structure: ["2년 전 동탄중앙공원", "혼자 조깅 중", "이상한 라이브 노랫소리 들림", "궁금해서 따라감", "직장 동료가 여친에게 노래 프러포즈", "당황+민망한 상황", "주변인들 웃음", "결국 프러포즈 성공", "공원 갈 때마다 생각남"],
+        script: [
+          { en: "About two years ago, I had a very memorable experience at Dongtan Central Park.", ko: "약 2년 전, 동탄 중앙공원에서 정말 기억에 남는 경험을 했어요." },
+          { en: "At that time, I was jogging alone along the park trail.", ko: "그때 저는 공원 산책로를 따라 혼자 조깅하고 있었어요." },
+          { en: "Suddenly, I heard a terrible live music sound.", ko: "갑자기 끔찍한 라이브 노랫소리가 들렸어요." },
+          { en: "It was so terrible that I couldn't stand it.", ko: "너무 끔찍해서 참을 수가 없었어요." },
+          { en: "I was curious, so I followed the sound.", ko: "궁금해서 그 소리를 따라갔어요." },
+          { en: "In the middle of the park, someone was singing a song to his girlfriend.", ko: "공원 한가운데서 누군가 여자친구에게 노래를 불러주고 있었어요." },
+          { en: "And you know what? He was my colleague!", ko: "그런데 있잖아요? 그 사람은 제 직장 동료였어요!" },
+          { en: "He was proposing to her by singing!", ko: "노래로 프러포즈를 하고 있었던 거예요!" },
+          { en: "Poor her! She looked embarrassed, and I was very ashamed too.", ko: "불쌍한 그녀! 여자친구는 당황한 표정이었고, 저도 너무 민망했어요." },
+          { en: "Some people around him were even laughing.", ko: "주변 사람들 중 몇몇은 웃기까지 했어요." },
+          { en: "I didn't know why he chose singing as a proposal, but he got a 'yes' in the end.", ko: "왜 하필 노래를 프러포즈 방법으로 골랐는지는 모르겠지만, 결국 그는 '예스'를 받아냈어요." },
+          { en: "Since that day, whenever I visit the park, I remember that funny moment.", ko: "그날 이후로 그 공원에 갈 때마다 그 재밌었던 순간이 떠올라요." }
+        ],
+        pronunciation: [
+          { en: "About two years ago,", ko: "어바웃 투 이어즈어고" },
+          { en: "I had a very memorable experience", ko: "아이 해더 베리 메머러블 익스피어리언스" },
+          { en: "at Dongtan Central Park.", ko: "앳 동탄 센트럴 파크" },
+          { en: "At that time, I was jogging alone", ko: "앳 댓 타임, 아이 워즈 조깅 얼론" },
+          { en: "along the park trail.", ko: "얼롱 더 파크 트레일" },
+          { en: "Suddenly, I heard a terrible live music sound.", ko: "서든리, 아이 허더 테러블 라이브 뮤직 사운드" },
+          { en: "It was so terrible that I couldn't stand it.", ko: "잇 워즈 소 테러블 댓 아이 쿠든트 스탠딧" },
+          { en: "I was curious, so I followed the sound.", ko: "아이 워즈 큐리어스, 소 아이 팔로우드 더 사운드" },
+          { en: "In the middle of the park,", ko: "인더 미들 어브더 파크" },
+          { en: "someone was singing a song to his girlfriend.", ko: "썸원 워즈 싱잉어 송 투 히즈 걸프렌드" },
+          { en: "And you know what?", ko: "앤 유 노우 왓" },
+          { en: "He was my colleague!", ko: "히 워즈 마이 컬리그" },
+          { en: "He was proposing to her by singing!", ko: "히 워즈 프러포징 투허 바이 싱잉" },
+          { en: "Poor her!", ko: "푸어 허" },
+          { en: "She looked embarrassed,", ko: "쉬 룩트 임배러스트" },
+          { en: "and I was very ashamed too.", ko: "앤 아이 워즈 베리 어셰임드 투" },
+          { en: "Some people around him were even laughing.", ko: "썸 피플 어라운드힘 워 이븐 래핑" },
+          { en: "I didn't know why he chose singing as a proposal,", ko: "아이 디든 노우 와이 히 초우즈 싱잉 애저 프러포절" },
+          { en: "but he got a 'yes' in the end.", ko: "벗 히 가더 예스 인디 엔드" },
+          { en: "Since that day, whenever I visit the park,", ko: "신스 댓 데이, 웨네버 아이 비짓 더 파크" },
+          { en: "I remember that funny moment.", ko: "아이 리멤버 댓 퍼니 모먼트" }
+        ],
+        warnings: [
+          { word: "colleague", guide: "컬리그" },
+          { word: "embarrassed", guide: "임배러스트" },
+          { word: "ashamed", guide: "어셰임드" },
+          { word: "proposing", guide: "프러포징" }
         ]
       }
     ]
