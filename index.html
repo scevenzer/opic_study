@@ -254,16 +254,16 @@
     /* ── 형광펜 하이라이트 ── */
     mark.hl {
       background: #FDE68A;
-      padding: 0 1px;
-      border-radius: 2px;
+      padding: 4px 2px;
+      border-radius: 3px;
       cursor: pointer;
     }
     .sentence-top, .pron-top {
       display: flex; align-items: flex-start; gap: 4px;
     }
     .sentence-top .sentence-en { flex: 1; }
-    .pron-top .pron-en { flex: 1; }
-    .flag-btn {
+    .pron-top .pron-en, .pron-top .pron-ko { flex: 1; }
+    .flag-btn, .clear-hl-btn {
       flex-shrink: 0;
       border: none; background: none;
       cursor: pointer;
@@ -271,6 +271,7 @@
       color: var(--muted); opacity: 0.5;
     }
     .flag-btn.flagged { opacity: 1; }
+    .clear-hl-btn { opacity: 0.6; }
     .sentence-card.flagged .sentence-en,
     .pron-card.flagged .pron-en,
     .pron-card.flagged .pron-ko {
@@ -723,6 +724,7 @@
             <div class="sentence-card ${hl.flagged ? 'flagged' : ''}">
               <div class="sentence-top">
                 <div class="sentence-en hl-target" data-q="${q.id}" data-tab="script" data-idx="${i}">${renderMarked(s.en, hl.ranges)}</div>
+                ${hl.ranges.length ? `<button class="clear-hl-btn" onclick="clearHL(this,'${q.id}','script',${i})" title="형광펜 지우기">🧹</button>` : ''}
                 <button class="flag-btn ${hl.flagged ? 'flagged' : ''}" onclick="toggleFlag(this,'${q.id}','script',${i})" title="이 문장 체크">🖍</button>
               </div>
               <div class="sentence-ko" id="ko-${q.id}-${i}">${s.ko}</div>
@@ -750,9 +752,13 @@
             <div class="pron-card ${hlPron.flagged ? 'flagged' : ''}">
               <div class="pron-top">
                 <div class="pron-en hl-target" data-q="${q.id}" data-tab="pron-en" data-idx="${i}">${renderMarked(p.en, hlEn.ranges)}</div>
+                ${hlEn.ranges.length ? `<button class="clear-hl-btn" onclick="clearHL(this,'${q.id}','pron-en',${i})" title="형광펜 지우기">🧹</button>` : ''}
                 <button class="flag-btn ${hlPron.flagged ? 'flagged' : ''}" onclick="toggleFlag(this,'${q.id}','pron',${i})" title="이 문장 체크">🖍</button>
               </div>
-              <div class="pron-ko hl-target" data-q="${q.id}" data-tab="pron-ko" data-idx="${i}">${renderMarked(p.ko, hlKo.ranges)}</div>
+              <div class="pron-top">
+                <div class="pron-ko hl-target" data-q="${q.id}" data-tab="pron-ko" data-idx="${i}">${renderMarked(p.ko, hlKo.ranges)}</div>
+                ${hlKo.ranges.length ? `<button class="clear-hl-btn" onclick="clearHL(this,'${q.id}','pron-ko',${i})" title="형광펜 지우기">🧹</button>` : ''}
+              </div>
             </div>`;
           }).join('')}
           ${q.warnings ? `
@@ -832,6 +838,32 @@
       const hl = getHL(qId, tab, idx);
       el.innerHTML = renderMarked(text, hl.ranges);
     }
+    function clearHL(btn, qId, tab, idx) {
+      const hl = getHL(qId, tab, idx);
+      hl.ranges = [];
+      saveHighlights();
+      rerenderHLTarget(qId, tab, idx);
+      btn.remove();
+    }
+    function ensureClearBtn(qId, tab, idx) {
+      const el = document.querySelector(`.hl-target[data-q="${qId}"][data-tab="${tab}"][data-idx="${idx}"]`);
+      if (!el) return;
+      const row = el.parentElement;
+      const hl = getHL(qId, tab, idx);
+      let btn = row.querySelector('.clear-hl-btn');
+      if (hl.ranges.length > 0) {
+        if (!btn) {
+          btn = document.createElement('button');
+          btn.className = 'clear-hl-btn';
+          btn.title = '형광펜 지우기';
+          btn.textContent = '🧹';
+          btn.onclick = () => clearHL(btn, qId, tab, idx);
+          el.insertAdjacentElement('afterend', btn);
+        }
+      } else if (btn) {
+        btn.remove();
+      }
+    }
     function getOffsetWithin(root, node, offset) {
       let total = 0;
       const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
@@ -860,6 +892,7 @@
       saveHighlights();
       sel.removeAllRanges();
       rerenderHLTarget(qId, tab, idx);
+      ensureClearBtn(qId, tab, idx);
     }
     let hlSelectionTimer = null;
     document.addEventListener('selectionchange', () => {
@@ -881,6 +914,7 @@
       hl.ranges = sorted;
       saveHighlights();
       rerenderHLTarget(qId, tab, idx);
+      ensureClearBtn(qId, tab, idx);
       e.stopPropagation();
     });
     function toggleFlag(btn, qId, tab, idx) {
