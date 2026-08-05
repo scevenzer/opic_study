@@ -506,6 +506,17 @@
     <div style="height:24px;"></div>
   </div>
 
+  <!-- ── SURVIVAL PHRASES ── -->
+  <div id="screen-survival" class="screen">
+    <div class="header">
+      <button class="btn-back" onclick="goBack()">←</button>
+      <h2>🆘 위기 대응 표현</h2>
+    </div>
+    <p class="phrases-intro">말문이 막히거나 당황스러운 문제가 나왔을 때 쓰는 표현이에요. 시간을 벌거나, 자연스럽게 다른 답으로 돌리거나, 다음 문제로 넘어갈 때 활용하세요.</p>
+    <div id="survival-list"></div>
+    <div style="height:24px;"></div>
+  </div>
+
   <!-- ── EXPRESSIONS ── -->
   <div id="screen-expressions" class="screen">
     <div class="header">
@@ -646,6 +657,11 @@
             <span class="topic-emoji">💡</span>
             <div class="topic-name">표현 노트</div>
             <div class="topic-count">뉘앙스 표현</div>
+          </div>
+          <div class="topic-card" onclick="goSurvival()">
+            <span class="topic-emoji">🆘</span>
+            <div class="topic-name">위기 대응 표현</div>
+            <div class="topic-count">4개 상황별 대처법</div>
           </div>`;
       }
     }
@@ -1057,6 +1073,31 @@
 
     function renderPhrases() {
       document.getElementById('phrases-list').innerHTML = PHRASES.map((cat, ci) => `
+        <details class="phrase-section" ${ci === 0 ? 'open' : ''}>
+          <summary>
+            <span>${cat.emoji}</span>
+            <span>${cat.title}<span class="phrase-section-desc">${cat.desc}</span></span>
+          </summary>
+          <div class="phrase-items">
+            ${cat.phrases.map(p => `
+              <div class="phrase-item">
+                <div class="phrase-tag">${p.tag}</div>
+                <div class="phrase-en">${p.en}</div>
+                <div class="phrase-ko">${p.ko}</div>
+              </div>`).join('')}
+          </div>
+        </details>`).join('');
+    }
+
+    // ── Survival Phrases ──
+    function goSurvival() {
+      screenStack.push('home');
+      renderSurvival();
+      showScreen('survival');
+    }
+
+    function renderSurvival() {
+      document.getElementById('survival-list').innerHTML = SURVIVAL_PHRASES.map((cat, ci) => `
         <details class="phrase-section" ${ci === 0 ? 'open' : ''}>
           <summary>
             <span>${cat.emoji}</span>

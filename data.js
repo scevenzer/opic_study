@@ -2270,3 +2270,47 @@ const EXPRESSIONS = [
     nuance: "추천 조합: Well(시작) + you know(중간) + so(전환)"
   }
 ];
+
+// 위기 대응 표현 (출처: 「동공 지진으로부터 그대를 구해줄 표현들」)
+const SURVIVAL_PHRASES = [
+  {
+    emoji: "⏳", title: "잠깐 시간이 필요한 경우",
+    desc: "할 말은 생각나는데 시간을 끌 때 유용해요. 인트로에 자신 없을 땐 질문을 되물어보세요.",
+    phrases: [
+      { tag: "시간끌기", en: "Well, let me think.", ko: "음, 생각 좀 해볼게요" },
+      { tag: "시간끌기", en: "Give me a second.", ko: "잠깐만 시간을 주세요" },
+      { tag: "시간끌기", en: "Hold on, I am thinking, I am thinking.", ko: "잠시만요, 지금 생각 중이에요" },
+      { tag: "시간끌기", en: "I don't know.", ko: "글쎄요" },
+      { tag: "질문 되묻기", en: "What do I do before going to the movies? I do just like what others do.", ko: "제가 영화 보러 가기 전에 무엇을 하냐고요? 다른 사람들이 하는 걸 하지요" }
+    ]
+  },
+  {
+    emoji: "😅", title: "어려운 문제가 출제된 경우",
+    desc: "어렵거나 돌발적인 문제로 당황했다면, 살짝 투정 부리거나 감정에 호소해 보세요.",
+    phrases: [
+      { tag: "투정", en: "Why do you ask me this kind of question?", ko: "왜 제게 이런 질문을 하는 거죠?" },
+      { tag: "투정", en: "Are you kidding me?", ko: "장난해요?" },
+      { tag: "투정", en: "Do you really think I remember? Seriously, I can't remember.", ko: "제가 진짜 기억할 거라고 생각하는 거예요? 진짜로 기억이 안 나요" },
+      { tag: "감정호소", en: "Wow, this is way too tough for me.", ko: "와, 이건 진짜 저에겐 너무 어렵네요" },
+      { tag: "감정호소", en: "Gee... I have not thought about it at all.", ko: "아이고, 이런 건 전혀 생각해 본 적이 없어요" },
+      { tag: "재도전", en: "Umm... this is a tricky question, but let me give it a try.", ko: "음, 이건 좀 까다로운 문제네요, 하지만 한번 해볼게요" }
+    ]
+  },
+  {
+    emoji: "🔄", title: "준비해 간 답변과 딱 맞지 않는 경우",
+    desc: "다른 사람 습관을 물어보면 주어를 '나'로 바꿔서 답하고, 도저히 답할 수 없으면 준비한 답변 중 가장 비슷한 걸로 대신하세요.",
+    phrases: [
+      { tag: "주어 바꾸기", en: "Well, I do not know about other people, but in my case, I try to eat healthy food.", ko: "글쎄요, 다른 사람들에 대해선 잘 모르겠고요, 제 경우에는요, 건강한 음식을 먹으려 해요" },
+      { tag: "답변 대체", en: "Instead of going to the movies, can I tell you about the concert that I recently went to? Cause I did not get a chance to watch a movie lately.", ko: "영화 보러 가는 얘기 대신 최근에 다녀온 콘서트에 대해서 말해도 될까요? 왜냐면 최근에 영화 볼 기회가 없었거든요" }
+    ]
+  },
+  {
+    emoji: "⏭️", title: "다음 문제로 넘어가고 싶은 경우",
+    desc: "다음 문제로 넘기기 전에 답하려고 노력했다는 인상을 주는 게 좋아요. 1, 2번 표현을 먼저 말한 후 넘어가는 것도 좋은 방법이에요.",
+    phrases: [
+      { tag: "패스하기", en: "You know what? I have not seriously given a thought about it. I will have to pass this one.", ko: "있잖아요, 이것에 대해서는 심각하게 생각해 본 적이 없어요. 이 문제는 넘겨야겠네요" },
+      { tag: "핑계대기", en: "Omg, it is really noisy around me. I could not hear your question, can I move on?", ko: "세상에, 제 주위가 너무 시끄럽네요. 질문을 못 들었어요. 다음 질문으로 넘어가도 될까요?" },
+      { tag: "역질문", en: "You know what? I guess I have been really fortunate. No, I have never had any similar experiences before. Well, have you ever experienced anything like this?", ko: "있잖아요, 아마 제가 참 운이 좋았나 봐요. 아뇨, 저는 전에 그런 비슷한 경험을 해본 적이 없어요. 음, 혹시 당신은 그런 비슷한 경험이 있나요?" }
+    ]
+  }
+];
