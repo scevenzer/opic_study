@@ -159,6 +159,8 @@
       border-bottom: 3px solid transparent;
     }
     .tab-btn.active { color: var(--primary); border-bottom-color: var(--primary); }
+    .category-tabs { margin: 4px 16px 0; border-top: none; border-bottom: 1px solid var(--border); }
+    .category-tabs .tab-btn { font-size: 11px; padding: 10px 2px; }
 
     /* ── Tab Panes ── */
     .tab-pane { display: none; padding: 16px; }
@@ -321,33 +323,6 @@
     /* Space for bottom bar */
     #screen-question .tab-pane { padding-bottom: 80px; }
 
-    /* ── Common Phrases Entry Card ── */
-    .phrases-entry-card {
-      display: flex; align-items: center; justify-content: space-between;
-      background: linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%);
-      border-radius: var(--radius);
-      padding: 14px 16px;
-      margin: 0 16px 16px;
-      cursor: pointer;
-      color: white;
-    }
-    .phrases-entry-left { display: flex; align-items: center; gap: 12px; }
-    .phrases-entry-icon { font-size: 24px; }
-    .phrases-entry-title { font-size: 16px; font-weight: 700; }
-    .phrases-entry-sub { font-size: 12px; opacity: 0.8; margin-top: 2px; }
-    .phrases-entry-arrow { font-size: 20px; opacity: 0.7; }
-
-    /* ── Expressions Entry Card ── */
-    .expr-entry-card {
-      display: flex; align-items: center; justify-content: space-between;
-      background: linear-gradient(135deg, #F59E0B 0%, #EF4444 100%);
-      border-radius: var(--radius);
-      padding: 14px 16px;
-      margin: 0 16px 16px;
-      cursor: pointer;
-      color: white;
-    }
-
     /* ── Expressions Screen ── */
     .expr-list { padding: 8px 16px; display: flex; flex-direction: column; gap: 10px; }
     .expr-card {
@@ -370,17 +345,6 @@
       padding: 6px 10px;
     }
     .expr-card > *:last-child { margin-bottom: 0; }
-
-    /* ── Patterns Entry Card ── */
-    .pattern-entry-card {
-      display: flex; align-items: center; justify-content: space-between;
-      background: linear-gradient(135deg, #0EA5E9 0%, #4F46E5 100%);
-      border-radius: var(--radius);
-      padding: 14px 16px;
-      margin: 0 16px 16px;
-      cursor: pointer;
-      color: white;
-    }
 
     /* ── Patterns Screen ── */
     .pattern-items { padding: 4px 0; }
@@ -479,35 +443,12 @@
         <div class="progress-fill" id="total-progress-fill" style="width:0%"></div>
       </div>
     </div>
-    <div class="phrases-entry-card" onclick="goPhrases()">
-      <div class="phrases-entry-left">
-        <span class="phrases-entry-icon">📌</span>
-        <div>
-          <div class="phrases-entry-title">공통 구문</div>
-          <div class="phrases-entry-sub">어느 상황에서나 · 7개 카테고리</div>
-        </div>
-      </div>
-      <div class="phrases-entry-arrow">›</div>
-    </div>
-    <div class="pattern-entry-card" onclick="goPatterns()">
-      <div class="phrases-entry-left">
-        <span class="phrases-entry-icon">🧩</span>
-        <div>
-          <div class="phrases-entry-title">만능 패턴 72문장</div>
-          <div class="phrases-entry-sub">빈칸만 바꾸면 어디든 쓰는 답변 틀</div>
-        </div>
-      </div>
-      <div class="phrases-entry-arrow">›</div>
-    </div>
-    <div class="expr-entry-card" onclick="goExpressions()">
-      <div class="phrases-entry-left">
-        <span class="phrases-entry-icon">💡</span>
-        <div>
-          <div class="phrases-entry-title">표현 노트</div>
-          <div class="phrases-entry-sub">뉘앙스 있는 구문 모음</div>
-        </div>
-      </div>
-      <div class="phrases-entry-arrow">›</div>
+    <div class="tabs category-tabs">
+      <button class="tab-btn active" data-cat="선택주제" onclick="switchHomeCategory('선택주제')">선택주제</button>
+      <button class="tab-btn" data-cat="돌발주제" onclick="switchHomeCategory('돌발주제')">돌발주제</button>
+      <button class="tab-btn" data-cat="롤플레이" onclick="switchHomeCategory('롤플레이')">롤플레이</button>
+      <button class="tab-btn" data-cat="2Combo" onclick="switchHomeCategory('2Combo')">2Combo</button>
+      <button class="tab-btn" data-cat="만능답변" onclick="switchHomeCategory('만능답변')">만능답변</button>
     </div>
     <div class="topic-grid" id="topic-grid"></div>
   </div>
@@ -595,6 +536,8 @@
     let highlights = {};
     let ttsPlaying = false;
     let screenStack = [];
+    let currentCategory = '선택주제';
+    const IMPROMPTU_TOPIC_IDS = [23, 25, 26]; // 동네, 은행, 호텔 → 돌발주제
 
     // ── Storage ──
     function loadProgress() {
@@ -645,26 +588,66 @@
     }
 
     // ── Render Home ──
+    function switchHomeCategory(cat) {
+      currentCategory = cat;
+      renderHome();
+    }
+    function topicCardHtml(t) {
+      const d = t.questions.filter(q => progress[String(q.id)]).length;
+      const tot = t.questions.length;
+      const pct = tot > 0 ? (d / tot) * 100 : 0;
+      return `
+        <div class="topic-card" onclick="goTopic(${t.id})">
+          <span class="topic-emoji">${t.emoji}</span>
+          <div class="topic-name">${t.nameKo}</div>
+          <div class="topic-count">${d}/${tot} 완료</div>
+          <div class="topic-bar">
+            <div class="topic-bar-fill" style="width:${pct}%"></div>
+          </div>
+        </div>`;
+    }
+    function emptyCategoryHtml(label) {
+      return `
+        <div class="no-content" style="grid-column:1/-1;">
+          <div class="no-content-icon">🚧</div>
+          ${label} 콘텐츠는 아직 준비 중이에요.
+        </div>`;
+    }
     function renderHome() {
       const total = TOPICS.reduce((a, t) => a + t.questions.length, 0);
       const done = Object.keys(progress).length;
       document.getElementById('total-count-text').textContent = `${done} / ${total} 완료`;
       document.getElementById('total-progress-fill').style.width = `${(done / total) * 100}%`;
 
-      document.getElementById('topic-grid').innerHTML = TOPICS.map(t => {
-        const d = t.questions.filter(q => progress[String(q.id)]).length;
-        const tot = t.questions.length;
-        const pct = tot > 0 ? (d / tot) * 100 : 0;
-        return `
-          <div class="topic-card" onclick="goTopic(${t.id})">
-            <span class="topic-emoji">${t.emoji}</span>
-            <div class="topic-name">${t.nameKo}</div>
-            <div class="topic-count">${d}/${tot} 완료</div>
-            <div class="topic-bar">
-              <div class="topic-bar-fill" style="width:${pct}%"></div>
-            </div>
+      document.querySelectorAll('.category-tabs .tab-btn').forEach(b => {
+        b.classList.toggle('active', b.dataset.cat === currentCategory);
+      });
+
+      const grid = document.getElementById('topic-grid');
+      if (currentCategory === '선택주제') {
+        grid.innerHTML = TOPICS.filter(t => !IMPROMPTU_TOPIC_IDS.includes(t.id)).map(topicCardHtml).join('');
+      } else if (currentCategory === '돌발주제') {
+        grid.innerHTML = TOPICS.filter(t => IMPROMPTU_TOPIC_IDS.includes(t.id)).map(topicCardHtml).join('');
+      } else if (currentCategory === '롤플레이' || currentCategory === '2Combo') {
+        grid.innerHTML = emptyCategoryHtml(currentCategory);
+      } else if (currentCategory === '만능답변') {
+        grid.innerHTML = `
+          <div class="topic-card" onclick="goPhrases()">
+            <span class="topic-emoji">📌</span>
+            <div class="topic-name">공통 구문</div>
+            <div class="topic-count">7개 카테고리</div>
+          </div>
+          <div class="topic-card" onclick="goPatterns()">
+            <span class="topic-emoji">🧩</span>
+            <div class="topic-name">만능 패턴</div>
+            <div class="topic-count">72문장</div>
+          </div>
+          <div class="topic-card" onclick="goExpressions()">
+            <span class="topic-emoji">💡</span>
+            <div class="topic-name">표현 노트</div>
+            <div class="topic-count">뉘앙스 표현</div>
           </div>`;
-      }).join('');
+      }
     }
 
     // ── Render Topic ──
