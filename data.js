@@ -1569,6 +1569,475 @@ const TOPICS = [
       }
     ]
   },
+  {
+    id: 29, emoji: "🏖️", nameKo: "해변",
+    questions: [
+      {
+        id: 94,
+        question: "Tell me about your favorite beach. What does it look like?",
+        translation: "가장 좋아하는 해변에 대해 말해 주세요. 어떤 모습인가요?",
+        type: "장소묘사",
+        structure: ["자주 가는 곳: 만리포 해변(서해안)", "약 만 명 수용 가능한 규모", "집에서 차로 2시간 거리", "교통비 부담 적음", "다른 해변보다 시설 좋음: 주차장/화장실/와이파이/샤워시설", "전반적으로 방문하기 좋은 곳"],
+        script: [
+          { en: "The beach I often go to is Manripo Beach, which is located on the west coast of Korea.", ko: "제가 자주 가는 해변은 한국 서해안에 있는 만리포 해변이에요." },
+          { en: "It's big enough to hold about ten thousand people.", ko: "만 명 정도는 거뜬히 수용할 수 있을 만큼 커요." },
+          { en: "There are a few reasons I like going there.", ko: "제가 자주 가는 데는 몇 가지 이유가 있어요." },
+          { en: "First, it's pretty close to my house — it only takes about two hours by car.", ko: "우선, 집에서 꽤 가까워요 — 차로 두 시간 정도밖에 안 걸려요." },
+          { en: "So I don't have to spend that much on transportation.", ko: "그래서 교통비를 많이 쓸 필요가 없어요." },
+          { en: "Also, it has better facilities than other beaches.", ko: "또, 다른 해변보다 시설이 좋아요." },
+          { en: "For example, there's a big parking lot, clean restrooms, free Wi-Fi, and good shower facilities.", ko: "예를 들면, 넓은 주차장, 깨끗한 화장실, 무료 와이파이, 그리고 좋은 샤워 시설이 있어요." },
+          { en: "Overall, it's a great place to visit.", ko: "전반적으로 방문하기 정말 좋은 곳이에요." }
+        ],
+        pronunciation: [
+          { en: "The beach I often go to is Manripo Beach,", ko: "더 비치 아이 오픈 고투 이즈 만리포 비치" },
+          { en: "which is located on the west coast of Korea.", ko: "위치즈 로케이티드 온더 웨스트 코스트 어브 코리아" },
+          { en: "It's big enough to hold about ten thousand people.", ko: "잇츠 빅 이너프 투 홀드 어바웃 텐 싸우전드 피플" },
+          { en: "There are a few reasons I like going there.", ko: "데어라러 퓨 리즌즈 아이 라익 고잉데어" },
+          { en: "First, it's pretty close to my house —", ko: "퍼스트, 잇츠 프리티 클로스투 마이 하우스" },
+          { en: "it only takes about two hours by car.", ko: "잇 온리 테익스 어바웃 투 아워즈 바이 카" },
+          { en: "So I don't have to spend that much on transportation.", ko: "소 아이 돈트 해브투 스펜드 댓 머치 온 트랜스포테이션" },
+          { en: "Also, it has better facilities than other beaches.", ko: "얼소, 잇 해즈 베러 퍼실리티즈 댄 아더 비치스" },
+          { en: "there's a big parking lot, clean restrooms,", ko: "데어저 빅 파킹랏, 클린 레스트룸즈" },
+          { en: "free Wi-Fi, and good shower facilities.", ko: "프리 와이파이, 앤 굿 샤워 퍼실리티즈" },
+          { en: "Overall, it's a great place to visit.", ko: "오버롤, 잇처 그레잇 플레이스 투 비짓" }
+        ],
+        warnings: [
+          { word: "facilities", guide: "퍼실리티즈" },
+          { word: "transportation", guide: "트랜스포테이션" },
+          { word: "restrooms", guide: "레스트룸즈" },
+          { word: "located", guide: "로케이티드" }
+        ]
+      },
+      {
+        id: 95,
+        question: "What kinds of activities do you like to do at the beach? What do you typically do when you go there?",
+        translation: "해변에서 어떤 활동을 즐기나요? 해변에 가면 보통 뭘 하나요?",
+        type: "활동묘사",
+        structure: ["보통 휴가 때 감", "평소엔 바빠서 못감", "친구 루다랑 감(자유시간 비슷)", "가기전 전화로 상의", "도착하면 자리 잡고 짐 풀기", "바다수영/보트/모래성", "휴가 얘기하며 식사", "특별친 않지만 항상 즐김"],
+        script: [
+          { en: "I go to the beach once in a while, mostly during my vacations.", ko: "저는 가끔, 주로 휴가 때 해변에 가요." },
+          { en: "On regular days, I'm too busy with work, so I don't really have time to go.", ko: "평소엔 일하느라 바빠서 갈 시간이 별로 없어요." },
+          { en: "I normally go with my best friend, Looda, since we tend to have the same free time.", ko: "보통 가장 친한 친구 루다랑 같이 가는데, 자유 시간이 비슷하거든요." },
+          { en: "Before we go, I usually call her to talk about when and where to go and what to do there.", ko: "가기 전에 보통 전화로 언제 어디로 갈지, 뭐 할지 얘기해요." },
+          { en: "We like to swim in the ocean when we're there.", ko: "가면 보통 바다에서 수영하는 걸 좋아해요." },
+          { en: "When we arrive, we first find a spot to rest and unpack.", ko: "도착하면 먼저 쉴 자리를 잡고 짐을 풀어요." },
+          { en: "Then we enjoy swimming, riding a boat, and building sandcastles.", ko: "그러고 나서 수영도 하고, 보트도 타고, 모래성도 쌓으면서 놀아요." },
+          { en: "After that, we grab some food and chat about our vacation.", ko: "그 후엔 뭐 좀 먹으면서 휴가 얘기를 해요." },
+          { en: "It's nothing too special, but I always enjoy it.", ko: "그렇게 특별하진 않지만 항상 즐거워요." }
+        ],
+        pronunciation: [
+          { en: "I go to the beach once in a while,", ko: "아이 고투더 비치 원신어 와일" },
+          { en: "mostly during my vacations.", ko: "모스틀리 듀링 마이 베케이션즈" },
+          { en: "On regular days, I'm too busy with work,", ko: "온 레귤러 데이즈, 아임 투 비지 윗 워크" },
+          { en: "so I don't really have time to go.", ko: "소 아이 돈트 릴리 해브 타임투고" },
+          { en: "I normally go with my best friend, Looda,", ko: "아이 노멀리 고 윗마이 베스트 프렌드, 루다" },
+          { en: "since we tend to have the same free time.", ko: "신스 위 텐투 해브더 세임 프리 타임" },
+          { en: "Before we go, I usually call her", ko: "비포어 위고, 아이 유주얼리 콜허" },
+          { en: "to talk about when and where to go and what to do there.", ko: "투 토커바웃 웬앤웨어 투고 앤 왓투두데어" },
+          { en: "We like to swim in the ocean when we're there.", ko: "위 라익투 스윔 인디 오션 웬위어데어" },
+          { en: "When we arrive, we first find a spot to rest and unpack.", ko: "웬 위 어라이브, 위 퍼스트 파인더 스팟 투 레스트 앤 언팩" },
+          { en: "Then we enjoy swimming, riding a boat, and building sandcastles.", ko: "덴 위 인조이 스위밍, 라이딩어 보트, 앤 빌딩 샌드캐슬즈" },
+          { en: "After that, we grab some food and chat about our vacation.", ko: "애프터댓, 위 그랩 썸 푸드 앤 챗 어바웃 아워 베케이션" },
+          { en: "It's nothing too special, but I always enjoy it.", ko: "잇츠 낫씽 투 스페셜, 벗 아이 올웨이즈 인조이잇" }
+        ],
+        warnings: [
+          { word: "vacations", guide: "베케이션즈" },
+          { word: "sandcastles", guide: "샌드캐슬즈" },
+          { word: "unpack", guide: "언팩" },
+          { word: "normally", guide: "노멀리" }
+        ]
+      },
+      {
+        id: 96,
+        question: "Tell me about a beautiful or memorable beach you've been to. What was it like?",
+        translation: "가보신 곳 중 아름답거나 기억에 남는 해변에 대해 말해 주세요. 어떤 모습이었나요?",
+        type: "장소 과거 묘사",
+        structure: ["10년 전 해운대 처음 방문", "가족과 여름휴가", "해변 규모에 놀람", "젊은사람+관광객으로 붐빔", "주변 카페/호텔/식당 화려함", "바닷가 카페가 제일 좋았음", "바다 전망 감상", "방문하기 좋은 곳이었음"],
+        script: [
+          { en: "I remember visiting Haeundae Beach for the first time about ten years ago.", ko: "10년쯤 전에 해운대 해변을 처음 갔던 게 기억나요." },
+          { en: "At the time, my family wanted to enjoy our summer vacation, and we'd heard Haeundae was really popular.", ko: "그때 가족이 여름휴가를 즐기고 싶어 했는데, 해운대가 엄청 인기 있다고 들었거든요." },
+          { en: "When we got there, we were surprised by how huge the beach was.", ko: "가보니 해변 규모가 엄청 커서 놀랐어요." },
+          { en: "It was really long and wide.", ko: "정말 길고 넓었어요." },
+          { en: "It was packed, especially with young people and tourists — everyone looked excited.", ko: "특히 젊은 사람들이랑 관광객들로 꽉 차 있었는데, 다들 신나 보였어요." },
+          { en: "Along the beach, there were tons of cafes, hotels, and restaurants, all pretty fancy and modern.", ko: "해변 주변에는 카페, 호텔, 식당이 즐비했는데 다 화려하고 세련됐더라고요." },
+          { en: "What I liked most about it was the seaside cafes.", ko: "제일 좋았던 건 바닷가 카페들이었어요." },
+          { en: "I could enjoy the beautiful ocean view while sitting at one of them.", ko: "카페에 앉아서 아름다운 바다 전망을 즐길 수 있었어요." },
+          { en: "Overall, Haeundae was an amazing place to visit.", ko: "전반적으로 정말 방문할 만한 곳이었어요." }
+        ],
+        pronunciation: [
+          { en: "I remember visiting Haeundae Beach for the first time", ko: "아이 리멤버 비지팅 해운대 비치 퍼더 퍼스트 타임" },
+          { en: "about ten years ago.", ko: "어바웃 텐 이어즈 어고" },
+          { en: "At the time, my family wanted to enjoy our summer vacation,", ko: "앳더 타임, 마이 패밀리 원티드 투 인조이 아워 서머 베케이션" },
+          { en: "and we'd heard Haeundae was really popular.", ko: "앤 위드 허드 해운대 워즈 릴리 파퓰러" },
+          { en: "When we got there, we were surprised by how huge the beach was.", ko: "웬위 갓데어, 위 워 서프라이즈드 바이 하우 휴지 더 비치 워즈" },
+          { en: "It was really long and wide.", ko: "잇 워즈 릴리 롱 앤 와이드" },
+          { en: "It was packed, especially with young people and tourists —", ko: "잇 워즈 팩트, 이스페셜리 윗 영 피플 앤 투어리스츠" },
+          { en: "everyone looked excited.", ko: "에브리원 룩트 익사이티드" },
+          { en: "Along the beach, there were tons of cafes, hotels, and restaurants,", ko: "얼롱더 비치, 데어워 턴즈어브 카페이즈, 호텔즈, 앤 레스토랑츠" },
+          { en: "all pretty fancy and modern.", ko: "올 프리티 팬시 앤 모던" },
+          { en: "What I liked most about it was the seaside cafes.", ko: "왓아이 라익트 모스트 어바우릿 워즈 더 씨사이드 카페이즈" },
+          { en: "I could enjoy the beautiful ocean view while sitting at one of them.", ko: "아이쿠드 인조이 더 뷰티풀 오션 뷰 와일 시딩앳 원어브뎀" },
+          { en: "Overall, Haeundae was an amazing place to visit.", ko: "오버롤, 해운대 워저 어메이징 플레이스 투 비짓" }
+        ],
+        warnings: [
+          { word: "popular", guide: "파퓰러" },
+          { word: "tourists", guide: "투어리스츠" },
+          { word: "excited", guide: "익사이티드" },
+          { word: "amazing", guide: "어메이징" }
+        ]
+      },
+      {
+        id: 97,
+        question: "Have you ever experienced a funny or interesting incident while you were at the beach? Tell me about the experience in detail.",
+        translation: "해변에서 있었던 재미있거나 특이한 경험이 있나요? 그 경험을 자세히 말해 주세요.",
+        type: "기억에 남는 경험",
+        structure: ["두 달 전, 속초 해변", "친구 성규와 감", "성규가 화장실 간 사이 혼자 맥주 마심", "지나가던 여자가 부딪혀 셔츠에 커피 쏟음", "화가 나서 계속 뭐라 함", "친구 돌아옴 → 그 여자가 친구의 아내였음", "엄청 당황+계속 사과함", "그 후로 해변 갈 때마다 생각남"],
+        script: [
+          { en: "It was about two months ago when I had a really memorable time at the beach.", ko: "두 달쯤 전에 해변에서 정말 기억에 남는 일이 있었어요." },
+          { en: "I went to Sokcho Beach with my best friend, Sunggyu.", ko: "가장 친한 친구 성규랑 속초 해변에 갔었어요." },
+          { en: "After a while, he went to the restroom, and I was just relaxing with a beer, waiting for him.", ko: "잠시 후에 그가 화장실에 가서, 저는 맥주 마시면서 그를 기다리고 있었어요." },
+          { en: "Suddenly, a woman bumped into me while walking by and spilled her coffee all over my shirt.", ko: "그런데 갑자기 지나가던 여자분이 저랑 부딪히면서 셔츠에 커피를 쏟았어요." },
+          { en: "My shirt got completely soaked, and I got really upset.", ko: "셔츠가 완전히 젖어서 정말 속상했어요." },
+          { en: "Even though she apologized, I kept complaining to her.", ko: "그분이 사과했는데도 저는 계속 뭐라고 했어요." },
+          { en: "Then, when my friend came back, I was totally shocked — she was his wife!", ko: "그러다 친구가 돌아왔는데, 완전 충격이었어요 — 그 여자분이 친구 아내였던 거예요!" },
+          { en: "I was so embarrassed. I kept apologizing to her over and over.", ko: "너무 당황해서 계속 사과했어요." },
+          { en: "Ever since then, whenever I go to that beach, I remember that whole incident.", ko: "그날 이후로 그 해변에 갈 때마다 그 일이 생각나요." }
+        ],
+        pronunciation: [
+          { en: "It was about two months ago", ko: "잇 워즈 어바웃 투 먼쓰어고" },
+          { en: "when I had a really memorable time at the beach.", ko: "웨나이 해더 릴리 메머러블 타임 앳더 비치" },
+          { en: "I went to Sokcho Beach with my best friend, Sunggyu.", ko: "아이 웬트 투 속초 비치 윗마이 베스트 프렌드, 성규" },
+          { en: "After a while, he went to the restroom,", ko: "애프터러 와일, 히 웬트투더 레스트룸" },
+          { en: "and I was just relaxing with a beer, waiting for him.", ko: "앤 아이 워즈 저스트 릴렉싱 위더 비어, 웨이팅 퍼힘" },
+          { en: "Suddenly, a woman bumped into me while walking by", ko: "서든리, 어 우먼 범트인투미 와일 워킹바이" },
+          { en: "and spilled her coffee all over my shirt.", ko: "앤 스필드 허 커피 올오버 마이 셔츠" },
+          { en: "My shirt got completely soaked, and I got really upset.", ko: "마이 셔츠 갓 컴플리틀리 소우크트, 앤 아이 갓 릴리 업셋" },
+          { en: "Even though she apologized, I kept complaining to her.", ko: "이븐도우 쉬 어팔러자이즈드, 아이 켑트 컴플레이닝투허" },
+          { en: "Then, when my friend came back, I was totally shocked —", ko: "덴, 웬마이 프렌드 케임백, 아이 워즈 토탈리 샥트" },
+          { en: "she was his wife!", ko: "쉬 워즈 히즈 와이프" },
+          { en: "I was so embarrassed.", ko: "아이 워즈 소우 임배러스트" },
+          { en: "I kept apologizing to her over and over.", ko: "아이 켑트 어팔러자이징투허 오버앤오버" },
+          { en: "Ever since then, whenever I go to that beach,", ko: "에버 신스 덴, 웨네버 아이 고투댓 비치" },
+          { en: "I remember that whole incident.", ko: "아이 리멤버 댓 홀 인시던트" }
+        ],
+        warnings: [
+          { word: "apologized", guide: "어팔러자이즈드" },
+          { word: "embarrassed", guide: "임배러스트" },
+          { word: "incident", guide: "인시던트" },
+          { word: "complaining", guide: "컴플레이닝" }
+        ]
+      }
+    ]
+  },
+  {
+    id: 30, emoji: "🧳", nameKo: "국내여행",
+    questions: [
+      {
+        id: 98,
+        question: "You indicated that you take vacations domestically. Tell me some places you like to travel to and why.",
+        translation: "국내로 여행을 다니신다고 하셨는데요. 좋아하는 여행지와 그 이유를 말해 주세요.",
+        type: "장소묘사",
+        structure: ["자주 가는 곳: 만리포 해변(서해안)", "약 만 명 수용 가능한 규모", "집에서 차로 2시간 거리", "교통비 부담 적음", "다른 곳보다 시설 좋음: 호텔/식당/관광지/카페", "전반적으로 방문하기 좋은 곳"],
+        script: [
+          { en: "The place I often travel to domestically is Manripo Beach, on the west coast of Korea.", ko: "제가 국내 여행으로 자주 가는 곳은 한국 서해안에 있는 만리포 해변이에요." },
+          { en: "It's big enough to hold about ten thousand people.", ko: "만 명 정도는 거뜬히 수용할 수 있을 만큼 커요." },
+          { en: "There are a few reasons I like going there.", ko: "제가 자주 가는 데는 몇 가지 이유가 있어요." },
+          { en: "First, it's pretty close to my house — only about two hours by car.", ko: "우선, 집에서 꽤 가까워요 — 차로 두 시간 정도밖에 안 걸려요." },
+          { en: "So I don't need to spend much on transportation.", ko: "그래서 교통비를 많이 쓸 필요가 없어요." },
+          { en: "Also, it has better facilities than other places.", ko: "또, 다른 곳보다 시설이 좋아요." },
+          { en: "For example, there are nice hotels, good restaurants, famous attractions, and beautiful cafes.", ko: "예를 들면, 좋은 호텔, 맛있는 식당, 유명한 관광지, 예쁜 카페들이 있어요." },
+          { en: "Overall, it's a great place to visit.", ko: "전반적으로 방문하기 정말 좋은 곳이에요." }
+        ],
+        pronunciation: [
+          { en: "The place I often travel to domestically", ko: "더 플레이스 아이 오픈 트래블 투 더메스티컬리" },
+          { en: "is Manripo Beach, on the west coast of Korea.", ko: "이즈 만리포 비치, 온더 웨스트 코스트 어브 코리아" },
+          { en: "It's big enough to hold about ten thousand people.", ko: "잇츠 빅 이너프 투 홀드 어바웃 텐 싸우전드 피플" },
+          { en: "There are a few reasons I like going there.", ko: "데어라러 퓨 리즌즈 아이 라익 고잉데어" },
+          { en: "First, it's pretty close to my house —", ko: "퍼스트, 잇츠 프리티 클로스투 마이 하우스" },
+          { en: "only about two hours by car.", ko: "온리 어바웃 투 아워즈 바이 카" },
+          { en: "So I don't need to spend much on transportation.", ko: "소 아이 돈 니투 스펜드 머치 온 트랜스포테이션" },
+          { en: "Also, it has better facilities than other places.", ko: "얼소, 잇 해즈 베러 퍼실리티즈 댄 아더 플레이시즈" },
+          { en: "there are nice hotels, good restaurants,", ko: "데어라 나이스 호텔즈, 굿 레스토랑츠" },
+          { en: "famous attractions, and beautiful cafes.", ko: "페이머스 어트랙션즈, 앤 뷰티풀 카페이즈" },
+          { en: "Overall, it's a great place to visit.", ko: "오버롤, 잇처 그레잇 플레이스 투 비짓" }
+        ],
+        warnings: [
+          { word: "domestically", guide: "더메스티컬리" },
+          { word: "attractions", guide: "어트랙션즈" },
+          { word: "transportation", guide: "트랜스포테이션" },
+          { word: "facilities", guide: "퍼실리티즈" }
+        ]
+      },
+      {
+        id: 99,
+        question: "Can you tell me all the things you do in order to prepare for a trip?",
+        translation: "여행을 준비할 때 순서대로 어떤 걸 하는지 말해 주세요.",
+        type: "활동묘사",
+        structure: ["여러 단계로 순서대로 준비", "1단계: 목적지+일정 결정", "2단계: 인터넷으로 정보 검색(호텔/식당/관광지/교통)", "3단계: 호텔+교통편 예약(인터넷이 빠르고 확인 쉬움)", "4단계: 전날 짐 싸기(옷/속옷/재킷/우산/간식)", "마무리"],
+        script: [
+          { en: "When I get ready for a trip, I go through a few steps in order.", ko: "여행 갈 준비를 할 때는 몇 단계를 순서대로 거쳐요." },
+          { en: "First, I decide on the destination and the itinerary.", ko: "먼저 목적지랑 일정을 정해요." },
+          { en: "Once that's set, I search online for information about the place — nice hotels, good restaurants, famous attractions, and transportation.", ko: "그게 정해지면 인터넷으로 그 지역 정보를 찾아봐요 — 좋은 호텔, 맛있는 식당, 유명한 관광지, 교통편 같은 거요." },
+          { en: "Then I book a hotel and transportation, usually online, since it's the fastest way and easy to confirm.", ko: "그다음엔 호텔이랑 교통편을 예약하는데, 보통 인터넷으로 해요, 제일 빠르고 확인하기도 쉽거든요." },
+          { en: "The day before the trip, I pack my things — clothes, underwear, a light jacket, an umbrella, some snacks, and so on.", ko: "여행 전날에는 짐을 싸요 — 옷, 속옷, 얇은 재킷, 우산, 간식 이런 것들이요." },
+          { en: "That's pretty much how I prepare for a trip.", ko: "이게 대략 제가 여행을 준비하는 방식이에요." }
+        ],
+        pronunciation: [
+          { en: "When I get ready for a trip,", ko: "웬아이 겟 레디 퍼러 트립" },
+          { en: "I go through a few steps in order.", ko: "아이 고 쓰루어 퓨 스텝스 인 오더" },
+          { en: "First, I decide on the destination and the itinerary.", ko: "퍼스트, 아이 디사이드 온더 데스티네이션 앤디 아이티너레리" },
+          { en: "Once that's set, I search online for information about the place —", ko: "원스 댓츠 셋, 아이 서치 온라인 퍼 인포메이션 어바웃더 플레이스" },
+          { en: "nice hotels, good restaurants, famous attractions, and transportation.", ko: "나이스 호텔즈, 굿 레스토랑츠, 페이머스 어트랙션즈, 앤 트랜스포테이션" },
+          { en: "Then I book a hotel and transportation, usually online,", ko: "덴 아이 북어 호텔 앤 트랜스포테이션, 유주얼리 온라인" },
+          { en: "since it's the fastest way and easy to confirm.", ko: "신스 잇츠더 패스티스트 웨이 앤 이지투 컨펌" },
+          { en: "The day before the trip, I pack my things —", ko: "더 데이 비포더 트립, 아이 팩 마이 씽즈" },
+          { en: "clothes, underwear, a light jacket, an umbrella, some snacks, and so on.", ko: "클로즈, 언더웨어, 어 라잇 재킷, 언 엄브렐라, 썸 스낵스, 앤 소온" },
+          { en: "That's pretty much how I prepare for a trip.", ko: "댓츠 프리티 머치 하우아이 프리페어 퍼러 트립" }
+        ],
+        warnings: [
+          { word: "itinerary", guide: "아이티너레리" },
+          { word: "destination", guide: "데스티네이션" },
+          { word: "confirm", guide: "컨펌" },
+          { word: "umbrella", guide: "엄브렐라" }
+        ]
+      },
+      {
+        id: 100,
+        question: "Tell me about some of the trips you took in your youth. Where did you go, who with, and what did you do?",
+        translation: "어릴 때 갔던 여행에 대해 말해 주세요. 어디로, 누구와 갔고, 뭘 했나요?",
+        type: "과거 경험",
+        structure: ["중학교 때 여행", "가족과 재밌는거 하려고", "속초 해변(동해안)", "커플들로 붐벼서 짜증", "도착 후 자리+짐정리", "수영/보트/모래성", "풍경+바다뷰에 감명", "먹으며 휴가 얘기", "좋은 시간이었음"],
+        script: [
+          { en: "I remember a trip I took back in middle school.", ko: "중학교 때 갔던 여행이 생각나요." },
+          { en: "At the time, my family wanted to do something fun, so we decided to go to the beach.", ko: "그때 가족이 재미있는 걸 하고 싶어 해서 해변에 가기로 했어요." },
+          { en: "We went to Sokcho Beach, on the east coast of Korea.", ko: "한국 동해안에 있는 속초 해변에 갔어요." },
+          { en: "It was really crowded, especially with couples, so I was a bit annoyed.", ko: "특히 커플들이 많아서 꽤 붐볐는데, 그래서 좀 짜증났어요." },
+          { en: "As soon as we got there, we found a spot to rest and unpacked.", ko: "도착하자마자 쉴 자리를 찾고 짐을 풀었어요." },
+          { en: "Then we went swimming, rode a boat, and built some sandcastles.", ko: "그러고 나서 수영도 하고, 보트도 타고, 모래성도 쌓았어요." },
+          { en: "The scenery was amazing — I was especially impressed by the beautiful ocean view.", ko: "풍경이 정말 멋있었는데, 특히 아름다운 바다 전망에 감명받았어요." },
+          { en: "After that, we grabbed some food and talked about our vacation.", ko: "그 후에는 뭐 좀 먹으면서 휴가 얘기를 했어요." },
+          { en: "Well, it was such a great time!", ko: "정말 좋은 시간이었어요!" }
+        ],
+        pronunciation: [
+          { en: "I remember a trip I took back in middle school.", ko: "아이 리멤버러 트립 아이 툭 백인 미들 스쿨" },
+          { en: "At the time, my family wanted to do something fun,", ko: "앳더 타임, 마이 패밀리 원티드투두 썸씽 펀" },
+          { en: "so we decided to go to the beach.", ko: "소 위 디사이디드 투고투더 비치" },
+          { en: "We went to Sokcho Beach, on the east coast of Korea.", ko: "위 웬투 속초 비치, 온디 이스트 코스트 어브 코리아" },
+          { en: "It was really crowded, especially with couples,", ko: "잇 워즈 릴리 크라우디드, 이스페셜리 윗 커플즈" },
+          { en: "so I was a bit annoyed.", ko: "소 아이 워저 빗 어노이드" },
+          { en: "As soon as we got there, we found a spot to rest and unpacked.", ko: "애즈 순애즈 위 갓데어, 위 파운더 스팟 투 레스트 앤 언팩트" },
+          { en: "Then we went swimming, rode a boat, and built some sandcastles.", ko: "덴 위 웬트 스위밍, 로더 보트, 앤 빌트 썸 샌드캐슬즈" },
+          { en: "The scenery was amazing —", ko: "더 씨너리 워저 메이징" },
+          { en: "I was especially impressed by the beautiful ocean view.", ko: "아이 워즈 이스페셜리 임프레스트 바이더 뷰티풀 오션 뷰" },
+          { en: "After that, we grabbed some food and talked about our vacation.", ko: "애프터댓, 위 그랩드 썸 푸드 앤 톡트 어바웃 아워 베케이션" },
+          { en: "Well, it was such a great time!", ko: "웰, 잇 워즈 서치어 그레잇 타임" }
+        ],
+        warnings: [
+          { word: "crowded", guide: "크라우디드" },
+          { word: "scenery", guide: "씨너리" },
+          { word: "impressed", guide: "임프레스트" },
+          { word: "sandcastles", guide: "샌드캐슬즈" }
+        ]
+      },
+      {
+        id: 101,
+        question: "You might have had an unexpected experience while traveling. Tell me about one unforgettable episode — when it happened, where you were, and who you were with.",
+        translation: "여행 중 겪었던 예상치 못한 경험이 있을 거예요. 언제, 어디서, 누구와 있었는지부터 잊지 못할 에피소드 하나를 말해 주세요.",
+        type: "기억에 남는 경험",
+        structure: ["두 달 전, 속초 해변으로 간 여행", "친구 성규와 감", "성규가 화장실 간 사이 혼자 맥주 마심", "지나가던 여자가 부딪혀 셔츠에 커피 쏟음", "화가 나서 계속 뭐라 함", "친구 돌아옴 → 그 여자가 친구의 아내였음", "엄청 당황+계속 사과함", "그 후로 그 해변 생각날 때마다 떠오름"],
+        script: [
+          { en: "It was about two months ago when I had a really memorable time at the beach.", ko: "두 달쯤 전에 해변에서 정말 기억에 남는 일이 있었어요." },
+          { en: "I went to Sokcho Beach with my best friend, Sunggyu.", ko: "가장 친한 친구 성규랑 속초 해변에 갔었어요." },
+          { en: "After a while, he went to the restroom, and I was just relaxing with a beer, waiting for him.", ko: "잠시 후에 그가 화장실에 가서, 저는 맥주 마시면서 그를 기다리고 있었어요." },
+          { en: "Suddenly, a woman bumped into me while walking by and spilled her coffee all over my shirt.", ko: "그런데 갑자기 지나가던 여자분이 저랑 부딪히면서 셔츠에 커피를 쏟았어요." },
+          { en: "My shirt got completely soaked, and I got really upset.", ko: "셔츠가 완전히 젖어서 정말 속상했어요." },
+          { en: "Even though she apologized, I kept complaining to her.", ko: "그분이 사과했는데도 저는 계속 뭐라고 했어요." },
+          { en: "Then, when my friend came back, I was totally shocked — she was his wife!", ko: "그러다 친구가 돌아왔는데, 완전 충격이었어요 — 그 여자분이 친구 아내였던 거예요!" },
+          { en: "I was so embarrassed. I kept apologizing to her over and over.", ko: "너무 당황해서 계속 사과했어요." },
+          { en: "Ever since then, whenever I think of that trip, I remember that whole incident.", ko: "그날 이후로 그 여행을 떠올릴 때마다 그 일이 생각나요." }
+        ],
+        pronunciation: [
+          { en: "It was about two months ago", ko: "잇 워즈 어바웃 투 먼쓰어고" },
+          { en: "when I had a really memorable time at the beach.", ko: "웨나이 해더 릴리 메머러블 타임 앳더 비치" },
+          { en: "I went to Sokcho Beach with my best friend, Sunggyu.", ko: "아이 웬트 투 속초 비치 윗마이 베스트 프렌드, 성규" },
+          { en: "After a while, he went to the restroom,", ko: "애프터러 와일, 히 웬트투더 레스트룸" },
+          { en: "and I was just relaxing with a beer, waiting for him.", ko: "앤 아이 워즈 저스트 릴렉싱 위더 비어, 웨이팅 퍼힘" },
+          { en: "Suddenly, a woman bumped into me while walking by", ko: "서든리, 어 우먼 범트인투미 와일 워킹바이" },
+          { en: "and spilled her coffee all over my shirt.", ko: "앤 스필드 허 커피 올오버 마이 셔츠" },
+          { en: "My shirt got completely soaked, and I got really upset.", ko: "마이 셔츠 갓 컴플리틀리 소우크트, 앤 아이 갓 릴리 업셋" },
+          { en: "Even though she apologized, I kept complaining to her.", ko: "이븐도우 쉬 어팔러자이즈드, 아이 켑트 컴플레이닝투허" },
+          { en: "Then, when my friend came back, I was totally shocked —", ko: "덴, 웬마이 프렌드 케임백, 아이 워즈 토탈리 샥트" },
+          { en: "she was his wife!", ko: "쉬 워즈 히즈 와이프" },
+          { en: "I was so embarrassed.", ko: "아이 워즈 소우 임배러스트" },
+          { en: "I kept apologizing to her over and over.", ko: "아이 켑트 어팔러자이징투허 오버앤오버" },
+          { en: "Ever since then, whenever I think of that trip,", ko: "에버 신스 덴, 웨네버 아이 씽커브 댓 트립" },
+          { en: "I remember that whole incident.", ko: "아이 리멤버 댓 홀 인시던트" }
+        ],
+        warnings: [
+          { word: "apologized", guide: "어팔러자이즈드" },
+          { word: "embarrassed", guide: "임배러스트" },
+          { word: "incident", guide: "인시던트" },
+          { word: "complaining", guide: "컴플레이닝" }
+        ]
+      }
+    ]
+  },
+  {
+    id: 31, emoji: "🏡", nameKo: "집에서 보내는 휴가",
+    questions: [
+      {
+        id: 102,
+        question: "Tell me about a person or people you like to spend time with at home during your vacation.",
+        translation: "휴가 때 집에서 함께 시간을 보내고 싶은 사람에 대해 말해 주세요.",
+        type: "사람묘사",
+        structure: ["옆집 사는 친구 성규 소개", "이사왔을때 만남, 20년지기라 편함", "공통점 많아서 휴가 함께 보냄", "공통관심사1: 건강식 요리해서 나눠먹음", "공통관심사2: 둘다 영화광, 취향비슷", "좋은 친구가 있어 행운이라는 마무리"],
+        script: [
+          { en: "I'd like to talk about my best friend, Sunggyu, who lives right next door to me.", ko: "옆집에 사는 제 가장 친한 친구 성규에 대해 말씀드릴게요." },
+          { en: "I first met him when he moved into my neighborhood, and we've known each other for about twenty years now, so I feel really comfortable around him.", ko: "그가 저희 동네로 이사 왔을 때 처음 만났는데, 이제 알고 지낸 지 한 20년 정도 돼서 정말 편해요." },
+          { en: "I like spending my vacations with him because we have a lot in common.", ko: "저는 그와 휴가를 함께 보내는 걸 좋아하는데, 공통점이 많거든요." },
+          { en: "For one, we're both into staying fit and eating healthy, so we like cooking healthy meals together at home.", ko: "우선 둘 다 건강 관리랑 건강한 식습관에 관심이 많아서, 집에서 같이 건강한 음식을 요리해서 나눠 먹어요." },
+          { en: "Also, we're both huge movie buffs — we have similar taste and usually agree on the story and characters.", ko: "또 둘 다 영화광이라서, 취향도 비슷하고 보통 스토리나 등장인물에 대한 의견도 비슷해요." },
+          { en: "Overall, I feel really lucky to have such a great friend to spend time with at home.", ko: "전반적으로, 집에서 이렇게 시간을 보낼 수 있는 좋은 친구가 있다는 게 정말 행운이라고 생각해요." }
+        ],
+        pronunciation: [
+          { en: "I'd like to talk about my best friend, Sunggyu,", ko: "아이드 라익투 톡 어바웃 마이 베스트 프렌드, 성규" },
+          { en: "who lives right next door to me.", ko: "후 리브즈 라잇 넥스트 도어투미" },
+          { en: "I first met him when he moved into my neighborhood,", ko: "아이 퍼스트 멧힘 웬히 무브드 인투마이 네이버후드" },
+          { en: "and we've known each other for about twenty years now,", ko: "앤 위브 노운 이치아더 퍼러바웃 트웨니 이어즈 나우" },
+          { en: "so I feel really comfortable around him.", ko: "소 아이 필 릴리 컴퍼러블 어라운드힘" },
+          { en: "I like spending my vacations with him because we have a lot in common.", ko: "아이 라익 스펜딩 마이 베케이션즈 윗힘 비커즈 위 해버 랏인 커먼" },
+          { en: "For one, we're both into staying fit and eating healthy,", ko: "퍼원, 위어 보쓰 인투 스테잉 핏 앤 이팅 헬씨" },
+          { en: "so we like cooking healthy meals together at home.", ko: "소 위 라익 쿠킹 헬씨 밀즈 투게더 앳홈" },
+          { en: "Also, we're both huge movie buffs —", ko: "얼소, 위어 보쓰 휴지 무비 버프스" },
+          { en: "we have similar taste and usually agree on the story and characters.", ko: "위 해브 시밀러 테이스트 앤 유주얼리 어그리 온더 스토리 앤 캐릭터즈" },
+          { en: "Overall, I feel really lucky to have such a great friend to spend time with at home.", ko: "오버롤, 아이 필 릴리 럭키투 해브 서치어 그레잇 프렌드 투 스펜타임 위댓 홈" }
+        ],
+        warnings: [
+          { word: "neighborhood", guide: "네이버후드" },
+          { word: "comfortable", guide: "컴퍼러블" },
+          { word: "buffs", guide: "버프스" },
+          { word: "characters", guide: "캐릭터즈" }
+        ]
+      },
+      {
+        id: 103,
+        question: "Tell me about the things you like to do with that person during your vacation at home.",
+        translation: "그 사람과 집에서 휴가를 보낼 때 주로 뭘 하는지 말해 주세요.",
+        type: "활동묘사",
+        structure: ["성규와 휴가보냄, 오라고 하면 기꺼이 옴", "같이 요리(건강식 레시피 찾음, 성규가 주 요리사)", "요리 후 최신 영화 고름", "밥 먹으면서 영화 같이 봄(가끔 몇시간씩)", "특별친않지만 항상 즐김"],
+        script: [
+          { en: "Like I said, I usually spend my vacations with my friend, Sunggyu.", ko: "말씀드렸듯이 저는 보통 친구 성규와 휴가를 보내요." },
+          { en: "On my days off, I usually ask him to come over, and he's always happy to.", ko: "쉬는 날엔 보통 그한테 놀러 오라고 하는데, 항상 흔쾌히 와줘요." },
+          { en: "When he comes, we usually cook something first — we look up healthy recipes and make them together.", ko: "그가 오면 보통 먼저 뭔가를 요리하는데, 건강한 레시피를 찾아서 같이 만들어요." },
+          { en: "He's actually the main cook since he's really good at it, so I just help out.", ko: "사실 요리는 그가 잘해서 주로 그가 하고, 저는 그냥 거들어요." },
+          { en: "After we finish cooking, we pick out one of the latest movies.", ko: "요리가 끝나면 최신 영화 중 하나를 골라요." },
+          { en: "Then we enjoy the meal and the movie together — sometimes we end up watching several movies for hours.", ko: "그러고 나서 밥이랑 영화를 같이 즐기는데, 가끔은 몇 시간씩 여러 편을 보기도 해요." },
+          { en: "Even though it's nothing too special, we always have a good time.", ko: "그렇게 특별한 건 아니지만 항상 즐거운 시간이에요." }
+        ],
+        pronunciation: [
+          { en: "Like I said, I usually spend my vacations with my friend, Sunggyu.", ko: "라이카이 세드, 아이 유주얼리 스펜드 마이 베케이션즈 윗마이 프렌드, 성규" },
+          { en: "On my days off, I usually ask him to come over,", ko: "온마이 데이즈오프, 아이 유주얼리 애스크힘투 컴오버" },
+          { en: "and he's always happy to.", ko: "앤 히즈 올웨이즈 해피투" },
+          { en: "When he comes, we usually cook something first —", ko: "웬히 컴즈, 위 유주얼리 쿡 썸씽 퍼스트" },
+          { en: "we look up healthy recipes and make them together.", ko: "위 룩업 헬씨 레서피즈 앤 메익뎀 투게더" },
+          { en: "He's actually the main cook since he's really good at it,", ko: "히즈 액츄얼리 더 메인 쿡 신스 히즈 릴리 굿앳잇" },
+          { en: "so I just help out.", ko: "소 아이 저스트 헬프아웃" },
+          { en: "After we finish cooking, we pick out one of the latest movies.", ko: "애프터위 피니쉬 쿠킹, 위 픽아웃 원어브더 레이티스트 무비즈" },
+          { en: "Then we enjoy the meal and the movie together —", ko: "덴 위 인조이더 밀 앤더 무비 투게더" },
+          { en: "sometimes we end up watching several movies for hours.", ko: "썸타임즈 위 엔덥 워칭 세버럴 무비즈 퍼 아워즈" },
+          { en: "Even though it's nothing too special, we always have a good time.", ko: "이븐도우 잇츠 낫씽 투 스페셜, 위 올웨이즈 해버 굿 타임" }
+        ],
+        warnings: [
+          { word: "recipes", guide: "레서피즈" },
+          { word: "actually", guide: "액츄얼리" },
+          { word: "latest", guide: "레이티스트" },
+          { word: "several", guide: "세버럴" }
+        ]
+      },
+      {
+        id: 104,
+        question: "Describe your last vacation at home from the first day to the last day.",
+        translation: "가장 최근 집에서 보낸 휴가를 처음부터 끝까지 설명해 주세요.",
+        type: "최근 경험",
+        structure: ["2주전, 가족과 보냄", "아들 감기걸려서 못나감", "삼계탕 해주기로 결심", "장보기: 닭/쌀/인삼", "집와서 재료 헹구고 손질", "닭에 쌀+인삼 채움", "2시간 끓임", "아들이 맛+정성에 감동, 몸 나아짐", "멋진 저녁이었음"],
+        script: [
+          { en: "The last time I had a vacation at home was about two weeks ago, and I spent it with my family.", ko: "마지막으로 집에서 휴가를 보낸 건 2주 전쯤이었고, 가족이랑 같이 보냈어요." },
+          { en: "At the time, my son had a really bad cold, so we couldn't go out for our vacation.", ko: "그때 아들이 감기가 심하게 걸려서 밖으로 휴가를 나갈 수가 없었어요." },
+          { en: "Instead, I decided to make Korean-style chicken soup to help him get his strength back.", ko: "대신 아들 기력 회복에 도움이 되게 삼계탕을 해주기로 했어요." },
+          { en: "I went to the grocery store and bought some ingredients — chicken, rice, and ginseng.", ko: "마트에 가서 닭, 쌀, 인삼 같은 재료를 샀어요." },
+          { en: "As soon as I got home, I rinsed and prepped everything.", ko: "집에 도착하자마자 재료들을 씻고 손질했어요." },
+          { en: "Then I stuffed the chicken with the rice and ginseng.", ko: "그러고 나서 닭 안에 쌀이랑 인삼을 채워 넣었어요." },
+          { en: "After that, I boiled and simmered it for about two hours.", ko: "그 후에 두 시간 정도 끓이고 졸였어요." },
+          { en: "It turned out amazing! My son was really touched by how good it tasted and how much effort I put in — and he said he was already feeling better.", ko: "결과가 정말 좋았어요! 아들이 맛이랑 제 정성에 정말 감동받았고, 벌써 몸이 좀 나아진 것 같다고 했어요." },
+          { en: "Well, it was such a great dinner!", ko: "정말 뿌듯한 저녁이었어요!" }
+        ],
+        pronunciation: [
+          { en: "The last time I had a vacation at home was about two weeks ago,", ko: "더 래스트 타임 아이 해더 베케이션 앳홈 워즈 어바웃 투 윅스어고" },
+          { en: "and I spent it with my family.", ko: "앤 아이 스펜팃 윗마이 패밀리" },
+          { en: "At the time, my son had a really bad cold,", ko: "앳더 타임, 마이 선 해더 릴리 배드 콜드" },
+          { en: "so we couldn't go out for our vacation.", ko: "소 위 쿠든트 고아웃 퍼 아워 베케이션" },
+          { en: "Instead, I decided to make Korean-style chicken soup", ko: "인스테드, 아이 디사이디드 투 메익 코리안스타일 치킨 수프" },
+          { en: "to help him get his strength back.", ko: "투 헬프힘 겟히즈 스트렝스 백" },
+          { en: "I went to the grocery store and bought some ingredients —", ko: "아이 웬투더 그로서리 스토어 앤 보웃 썸 인그리디언츠" },
+          { en: "chicken, rice, and ginseng.", ko: "치킨, 라이스, 앤 진생" },
+          { en: "As soon as I got home, I rinsed and prepped everything.", ko: "애즈 순애즈 아이 갓홈, 아이 린스드 앤 프렙트 에브리씽" },
+          { en: "Then I stuffed the chicken with the rice and ginseng.", ko: "덴 아이 스터프트 더 치킨 위더 라이스 앤 진생" },
+          { en: "After that, I boiled and simmered it for about two hours.", ko: "애프터댓, 아이 보일드 앤 시머드 잇 퍼러바웃 투 아워즈" },
+          { en: "It turned out amazing!", ko: "잇 턴드아웃 어메이징" },
+          { en: "My son was really touched by how good it tasted and how much effort I put in —", ko: "마이 선 워즈 릴리 터치트 바이 하우 굿잇 테이스티드 앤 하우 머치 에펏 아이 풋인" },
+          { en: "and he said he was already feeling better.", ko: "앤 히 세드 히 워즈 올레디 필링 베러" },
+          { en: "Well, it was such a great dinner!", ko: "웰, 잇 워즈 서치어 그레잇 디너" }
+        ],
+        warnings: [
+          { word: "ingredients", guide: "인그리디언츠" },
+          { word: "simmered", guide: "시머드" },
+          { word: "strength", guide: "스트렝스" },
+          { word: "touched", guide: "터치트" }
+        ]
+      },
+      {
+        id: 105,
+        question: "Tell me about an interesting or unexpected memory you had at home during a vacation. What happened, and why was it so memorable?",
+        translation: "휴가 중 집에서 있었던 재미있거나 예상치 못한 기억에 대해 말해 주세요. 무슨 일이 있었고, 왜 그렇게 기억에 남나요?",
+        type: "기억에 남는 경험",
+        structure: ["작년 크리스마스 이브 추억", "휴가 기간", "집에서 파티 계획 + 가족·친구 초대", "닭곰탕 요리 결심", "처음 요리라 순조로웠음", "마지막에 설탕/소금 실수", "수습 실패", "결국 피자+치킨 배달", "아쉬운 크리스마스"],
+        script: [
+          { en: "Let me tell you about a memory from last Christmas Eve.", ko: "지난 크리스마스 이브의 추억에 대해 말씀드릴게요." },
+          { en: "It was during my vacation.", ko: "휴가 기간이었어요." },
+          { en: "At that time, I wanted to have a Christmas party at home, so I invited all of my family and friends.", ko: "그때 집에서 크리스마스 파티를 하고 싶어서, 가족이랑 친구들을 다 초대했어요." },
+          { en: "I decided to cook hot chicken soup for the party, since it was cold and the food would make everybody warm.", ko: "파티를 위해 얼큰한 닭곰탕 같은 걸 요리하기로 했어요, 날씨가 추워서 그 음식이 다들 몸을 따뜻하게 해줄 것 같았거든요." },
+          { en: "It was my first time cooking hot chicken soup, but everything was okay at first.", ko: "그 음식을 요리하는 게 처음이었는데, 처음엔 다 괜찮았어요." },
+          { en: "However, at the last stage, I put in a lot of sugar instead of salt.", ko: "그런데 마지막 단계에서, 소금 대신 설탕을 많이 넣어버렸어요." },
+          { en: "So, I tried to add salt to the soup, but it didn't work.", ko: "그래서 소금을 넣어서 수습해보려고 했는데, 안 되더라고요." },
+          { en: "The dish was a disaster, and as a result, we had to get pizza and fried chicken delivered.", ko: "결국 요리를 완전히 망쳐서, 결국 피자랑 치킨을 배달시켜야 했어요." },
+          { en: "It was a disappointing Christmas dinner.", ko: "정말 아쉬운 크리스마스 저녁이었죠." }
+        ],
+        pronunciation: [
+          { en: "Let me tell you about a memory from last Christmas Eve.", ko: "렛미 텔유 어바웃 어 메머리 프럼 래스트 크리스마스 이브" },
+          { en: "It was during my vacation.", ko: "잇 워즈 듀링 마이 베케이션" },
+          { en: "At that time, I wanted to have a Christmas party at home,", ko: "앳 댓 타임, 아이 원티드 투 해브어 크리스마스 파리 앳홈" },
+          { en: "so I invited all of my family and friends.", ko: "소 아이 인바이티드 올어브 마이 패밀리 앤 프렌즈" },
+          { en: "I decided to cook hot chicken soup for the party,", ko: "아이 디사이디드 투 쿡 핫 치킨 수프 퍼더 파리" },
+          { en: "since it was cold and the food would make everybody warm.", ko: "신스 잇 워즈 콜드 앤 더 푸드 우드 메이크 에브리바디 웜" },
+          { en: "It was my first time cooking hot chicken soup,", ko: "잇 워즈 마이 퍼스트 타임 쿠킹 핫 치킨 수프" },
+          { en: "but everything was okay at first.", ko: "벗 에브리씽 워즈 오케이 앳 퍼스트" },
+          { en: "However, at the last stage,", ko: "하우에버, 앳더 래스트 스테이지" },
+          { en: "I put in a lot of sugar instead of salt.", ko: "아이 풋인 얼라러브 슈거 인스테더브 솔트" },
+          { en: "So, I tried to add salt to the soup,", ko: "소, 아이 트라이드 투 애드 솔트 투더 수프" },
+          { en: "but it didn't work.", ko: "벗 잇 디든 워크" },
+          { en: "The dish was a disaster,", ko: "더 디쉬 워저 디재스터" },
+          { en: "and as a result, we had to get pizza and fried chicken delivered.", ko: "앤 애저 리절트, 위 해드투 겟 피자 앤 프라이드 치킨 딜리버드" },
+          { en: "It was a disappointing Christmas dinner.", ko: "잇 워저 디서포인팅 크리스마스 디너" }
+        ],
+        warnings: [
+          { word: "disaster", guide: "디재스터" },
+          { word: "instead of", guide: "인스테더브" },
+          { word: "delivered", guide: "딜리버드" },
+          { word: "disappointing", guide: "디서포인팅" }
+        ]
+      }
+    ]
+  },
 ];
 
 // 만능 패턴 72문장 (출처: 강지완오픽 「오픽 만능패턴 72문장」)
