@@ -4202,3 +4202,38 @@ const SURVIVAL_PHRASES = [
     ]
   }
 ];
+
+const COMBO_TEMPLATES = [
+  {
+    emoji: "⚖️", title: "비교형",
+    desc: "두 대상(장르·시대·유형 등)을 비교하는 유형이에요. 도입 → 공통점 → 차이점 → 마무리 순서로 답하세요.",
+    skeleton: [
+      { label: "도입", en: "I'd like to compare [A] to(=with) [B]." },
+      { label: "공통점", en: "They have something in common in that [공통점]." },
+      { label: "차이점", en: "As for differences, first, [차이점 1]. For example, [A]는 ~하지만 [B]는 ~해요." },
+      { label: "차이점 대조", en: "Also, / On the other hand, [차이점 2]." },
+      { label: "마무리", en: "I like [A] better because [이유]." }
+    ]
+  },
+  {
+    emoji: "📰", title: "이슈/트렌드형",
+    desc: "사회적 이슈나 요즘 트렌드에 대한 의견을 묻는 유형이에요. 이슈 → 현상 설명 → 예시 → 결론 순서로 답하세요.",
+    skeleton: [
+      { label: "이슈", en: "We have some issues of [주제] due to [원인]. / [주제] play(s) many roles these days." },
+      { label: "현상 설명", en: "[왜/어떻게 이런 일이 생기는지 1~2문장]" },
+      { label: "예시(객관)", en: "According to a survey, about 70% of people who [관련 행동] report that [관련 결과]." },
+      { label: "예시(주관, 선택)", en: "In my case, [개인 경험 1~2문장]." },
+      { label: "결론", en: "To handle the issues, [해결책/전망]. / That's why [결론]." }
+    ]
+  },
+  {
+    emoji: "🔄", title: "변화형",
+    desc: "예전과 지금을 비교하며 변화를 설명하는 유형이에요. 과거 → 전환 → 현재 순서로 답하세요.",
+    skeleton: [
+      { label: "도입", en: "[As far as I remember / In the past], [주제]는 [과거 상태]." },
+      { label: "과거 세부", en: "[과거 세부사항 1~2개]" },
+      { label: "전환", en: "Now, / However, [전환]." },
+      { label: "현재", en: "[현재 상태 + 과거 대비 개선점]" }
+    ]
+  }
+];
