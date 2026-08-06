@@ -1098,7 +1098,7 @@ const TOPICS = [
           { en: "Even though she apologized, I kept complaining to her.", ko: "그녀가 사과했는데도, 저는 계속 그녀에게 불평했어요." },
           { en: "Then, when my friend came back, I was totally shocked — she was his wife!", ko: "그런데 친구가 돌아왔을 때, 저는 완전 충격받았어요 — 그녀가 그의 아내였던 거예요!" },
           { en: "I was so embarrassed. I kept apologizing to her over and over.", ko: "저는 너무 창피했어요. 계속 그녀에게 사과하고 또 사과했어요." },
-          { en: "Ever since then, whenever I go to that cafe, I remember that whole incident.", ko: "그 이후로, 그 카페에 갈 때마다 그 사건 전체가 생각나요." }
+          { en: "Since then, I always remember it when I go to that cafe.", ko: "그 이후로, 저는 그 카페에 갈 때마다 항상 그 일이 생각나요." }
         ],
         pronunciation: [
           { en: "About two months ago, I had a really memorable time at a cafe.", ko: "어바웃 투 먼쓰어고, 아이 해더 릴리 메머러블 타임 앳어 카페" },
@@ -1109,7 +1109,7 @@ const TOPICS = [
           { en: "Even though she apologized, I kept complaining to her.", ko: "이븐도우 쉬 어팔러자이즈드, 아이켑트 컴플레이닝투허" },
           { en: "Then, when my friend came back, I was totally shocked — she was his wife!", ko: "덴, 웬마이프렌드 케임백, 아이워즈 토탈리 샥트, 쉬워즈 히즈와이프" },
           { en: "I was so embarrassed. I kept apologizing to her over and over.", ko: "아이워즈 소우 임배러스트. 아이켑트 어팔러자이징투허 오버앤오버" },
-          { en: "Ever since then, whenever I go to that cafe, I remember that whole incident.", ko: "에버신스덴, 웨네버아이 고투댓 카페, 아이리멤버 댓홀 인시던트" }
+          { en: "Since then, I always remember it when I go to that cafe.", ko: "신스덴, 아이 올웨이즈 리멤버릿 웬아이 고투댓 카페" }
         ],
         warnings: [
           { word: "apologized", guide: "어팔러자이즈드" },
@@ -1741,7 +1741,7 @@ const TOPICS = [
           { en: "Even though she apologized, I kept complaining to her.", ko: "그분이 사과했는데도 저는 계속 뭐라고 했어요." },
           { en: "Then, when my friend came back, I was totally shocked — she was his wife!", ko: "그러다 친구가 돌아왔는데, 완전 충격이었어요 — 그 여자분이 친구 아내였던 거예요!" },
           { en: "I was so embarrassed. I kept apologizing to her over and over.", ko: "너무 당황해서 계속 사과했어요." },
-          { en: "Ever since then, whenever I go to that beach, I remember that whole incident.", ko: "그날 이후로 그 해변에 갈 때마다 그 일이 생각나요." }
+          { en: "Since then, I always remember it when I go to that beach.", ko: "그 이후로, 저는 그 해변에 갈 때마다 항상 그 일이 생각나요." }
         ],
         pronunciation: [
           { en: "About two months ago, I had a really memorable time at the beach.", ko: "어바웃 투 먼쓰어고, 아이 해더 릴리 메머러블 타임 앳더 비치" },
@@ -1756,8 +1756,7 @@ const TOPICS = [
           { en: "she was his wife!", ko: "쉬 워즈 히즈 와이프" },
           { en: "I was so embarrassed.", ko: "아이 워즈 소우 임배러스트" },
           { en: "I kept apologizing to her over and over.", ko: "아이 켑트 어팔러자이징투허 오버앤오버" },
-          { en: "Ever since then, whenever I go to that beach,", ko: "에버 신스 덴, 웨네버 아이 고투댓 비치" },
-          { en: "I remember that whole incident.", ko: "아이 리멤버 댓 홀 인시던트" }
+          { en: "Since then, I always remember it when I go to that beach.", ko: "신스덴, 아이 올웨이즈 리멤버릿 웬아이 고투댓 비치" }
         ],
         warnings: [
           { word: "apologized", guide: "어팔러자이즈드" },
@@ -1894,7 +1893,7 @@ const TOPICS = [
           { en: "Even though she apologized, I kept complaining to her.", ko: "그분이 사과했는데도 저는 계속 뭐라고 했어요." },
           { en: "Then, when my friend came back, I was totally shocked — she was his wife!", ko: "그러다 친구가 돌아왔는데, 완전 충격이었어요 — 그 여자분이 친구 아내였던 거예요!" },
           { en: "I was so embarrassed. I kept apologizing to her over and over.", ko: "너무 당황해서 계속 사과했어요." },
-          { en: "Ever since then, whenever I think of that trip, I remember that whole incident.", ko: "그날 이후로 그 여행을 떠올릴 때마다 그 일이 생각나요." }
+          { en: "Since then, I always remember it when I think of that trip.", ko: "그 이후로, 저는 그 여행을 떠올릴 때마다 항상 그 일이 생각나요." }
         ],
         pronunciation: [
           { en: "About two months ago, I had a really memorable time at the beach.", ko: "어바웃 투 먼쓰어고, 아이 해더 릴리 메머러블 타임 앳더 비치" },
@@ -1909,8 +1908,7 @@ const TOPICS = [
           { en: "she was his wife!", ko: "쉬 워즈 히즈 와이프" },
           { en: "I was so embarrassed.", ko: "아이 워즈 소우 임배러스트" },
           { en: "I kept apologizing to her over and over.", ko: "아이 켑트 어팔러자이징투허 오버앤오버" },
-          { en: "Ever since then, whenever I think of that trip,", ko: "에버 신스 덴, 웨네버 아이 씽커브 댓 트립" },
-          { en: "I remember that whole incident.", ko: "아이 리멤버 댓 홀 인시던트" }
+          { en: "Since then, I always remember it when I think of that trip.", ko: "신스덴, 아이 올웨이즈 리멤버릿 웬아이 씽커브댓 트립" }
         ],
         warnings: [
           { word: "apologized", guide: "어팔러자이즈드" },
