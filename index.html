@@ -255,6 +255,24 @@
       border-radius: 3px;
       cursor: pointer;
     }
+    .sel-popup {
+      position: fixed;
+      display: none;
+      z-index: 500;
+      background: #1F2937;
+      border-radius: 999px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      overflow: hidden;
+    }
+    .sel-popup.visible { display: flex; }
+    .sel-popup button {
+      border: none; background: none; color: white;
+      font-size: 13px; font-weight: 600;
+      padding: 9px 14px;
+      cursor: pointer; white-space: nowrap;
+    }
+    .sel-popup button:active { background: rgba(255,255,255,0.15); }
+    .sel-popup .sel-popup-divider { width: 1px; background: rgba(255,255,255,0.2); }
     .sentence-top, .pron-top {
       display: flex; align-items: flex-start; gap: 4px;
     }
@@ -424,6 +442,12 @@
 </head>
 <body>
 
+  <div class="sel-popup" id="sel-popup">
+    <button id="sel-popup-highlight" type="button">🖍 형광펜</button>
+    <div class="sel-popup-divider"></div>
+    <button id="sel-popup-copy" type="button">📋 복사</button>
+  </div>
+
   <!-- ── HOME ── -->
   <div id="screen-home" class="screen active">
     <div class="header">
@@ -573,6 +597,7 @@
       document.getElementById('screen-' + id).classList.add('active');
       window.scrollTo(0, 0);
       if (ttsPlaying) { ttsCancel(); ttsPlaying = false; }
+      hideSelectionPopup();
     }
 
     function goBack() {
@@ -875,30 +900,71 @@
       }
       return total;
     }
-    function applyPendingSelectionHighlight() {
+    // ── 선택 팝업 (형광펜 / 복사) ──
+    // 텍스트를 선택해도 곧바로 형광펜이 적용되진 않는다 — 선택을 유지한 채
+    // 작은 팝업으로 "형광펜"이냐 "복사"냐를 직접 고르게 해서, 복사하려고 선택한
+    // 텍스트가 의도치 않게 형광펜으로 바뀌어버리는 걸 막는다.
+    let pendingSelection = null;
+    const selPopup = document.getElementById('sel-popup');
+
+    function hideSelectionPopup() {
+      selPopup.classList.remove('visible');
+      pendingSelection = null;
+    }
+    function showSelectionPopup(rect) {
+      selPopup.classList.add('visible');
+      const popupWidth = selPopup.offsetWidth || 160;
+      let left = rect.left + rect.width / 2 - popupWidth / 2;
+      left = Math.max(8, Math.min(left, window.innerWidth - popupWidth - 8));
+      let top = rect.top - selPopup.offsetHeight - 8;
+      if (top < 8) top = rect.bottom + 8;
+      selPopup.style.left = `${left}px`;
+      selPopup.style.top = `${top}px`;
+    }
+    function computePendingSelection() {
       const sel = window.getSelection();
-      if (!sel || sel.isCollapsed || sel.rangeCount === 0) return;
+      if (!sel || sel.isCollapsed || sel.rangeCount === 0) { hideSelectionPopup(); return; }
       const range = sel.getRangeAt(0);
       const startNode = range.startContainer.nodeType === 1 ? range.startContainer : range.startContainer.parentElement;
       const el = startNode && startNode.closest('.hl-target');
-      if (!el || !el.contains(range.startContainer) || !el.contains(range.endContainer)) return;
+      if (!el || !el.contains(range.startContainer) || !el.contains(range.endContainer)) { hideSelectionPopup(); return; }
 
       const start = getOffsetWithin(el, range.startContainer, range.startOffset);
       const end = getOffsetWithin(el, range.endContainer, range.endOffset);
-      if (end <= start) return;
+      if (end <= start) { hideSelectionPopup(); return; }
 
-      const qId = el.dataset.q, tab = el.dataset.tab, idx = +el.dataset.idx;
-      const hl = getHL(qId, tab, idx);
-      hl.ranges.push([start, end]);
-      saveHighlights();
-      sel.removeAllRanges();
-      rerenderHLTarget(qId, tab, idx);
-      ensureClearBtn(qId, tab, idx);
+      pendingSelection = { el, start, end };
+      showSelectionPopup(range.getBoundingClientRect());
     }
     let hlSelectionTimer = null;
     document.addEventListener('selectionchange', () => {
       clearTimeout(hlSelectionTimer);
-      hlSelectionTimer = setTimeout(applyPendingSelectionHighlight, 500);
+      hlSelectionTimer = setTimeout(computePendingSelection, 150);
+    });
+    // mousedown(=touchstart 포함)에서 기본 동작을 막아, 팝업 버튼을 누를 때
+    // 브라우저가 먼저 선택을 해제해버리는 걸 방지한다 (선택이 살아있어야
+    // execCommand('copy')와 형광펜 적용 둘 다 동작함).
+    selPopup.addEventListener('mousedown', (e) => e.preventDefault());
+    document.getElementById('sel-popup-highlight').addEventListener('click', () => {
+      if (!pendingSelection) return;
+      const { el, start, end } = pendingSelection;
+      const qId = el.dataset.q, tab = el.dataset.tab, idx = +el.dataset.idx;
+      const hl = getHL(qId, tab, idx);
+      hl.ranges.push([start, end]);
+      saveHighlights();
+      window.getSelection().removeAllRanges();
+      rerenderHLTarget(qId, tab, idx);
+      ensureClearBtn(qId, tab, idx);
+      hideSelectionPopup();
+    });
+    document.getElementById('sel-popup-copy').addEventListener('click', () => {
+      try { document.execCommand('copy'); } catch {}
+      const btn = document.getElementById('sel-popup-copy');
+      const original = btn.textContent;
+      btn.textContent = '✅ 복사됨';
+      setTimeout(() => { btn.textContent = original; }, 900);
+      window.getSelection().removeAllRanges();
+      hideSelectionPopup();
     });
     document.addEventListener('click', (e) => {
       if (window.getSelection().toString().length > 0) return;
