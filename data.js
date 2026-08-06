@@ -1056,31 +1056,29 @@ const TOPICS = [
         structure: ["대학생 때 처음 감", "그전엔 카페·커피 잘 몰랐음", "친구 루다가 데려가서 제안", "처음엔 지루+주문도 어려웠음", "커피 맛도 씀", "나중엔 재밌고 스트레스 풀림", "그날 이후 즐겨감 (주1회 이상)"],
         script: [
           { en: "I first went to a café when I was in college.", ko: "저는 대학생 때 카페를 처음 갔어요." },
-          { en: "Before that, I didn't know much about cafés or coffee, and I never felt the need to learn.", ko: "그 전까지는 카페나 커피에 대해 잘 몰랐고, 알아야 할 필요성도 못 느꼈어요." },
+          { en: "Before that, I didn't feel like I needed to learn about it.", ko: "그 전에는 딱히 배워야겠다는 생각이 없었어요." },
           { en: "One day, my best friend Looda took me to a café and suggested we get some coffee.", ko: "어느 날 가장 친한 친구 루다가 저를 카페에 데려가서 커피를 마시자고 제안했어요." },
           { en: "At first, I thought sitting at a café was boring, and even ordering felt difficult.", ko: "처음엔 카페에 앉아 있는 게 지루하다고 생각했고, 주문하는 것조차 어렵게 느껴졌어요." },
-          { en: "On top of that, the coffee I drank tasted really bitter.", ko: "게다가 마신 커피도 정말 썼어요." },
-          { en: "But later on, I ended up having fun and relieving stress while chatting with my friend.", ko: "하지만 나중에는 친구와 이야기하면서 재미있고 스트레스도 풀리더라고요." },
+          { en: "Plus, the coffee tasted really bitter.", ko: "게다가 커피도 정말 썼어요." },
+          { en: "But after a while, I was able to have fun and relieve stress.", ko: "하지만 시간이 좀 지나니까 재밌기도 하고 스트레스도 풀리더라고요." },
           { en: "Since that day, I've enjoyed going to cafés, and now I visit at least once a week.", ko: "그날 이후로 카페 가는 걸 즐기게 됐고, 지금은 적어도 일주일에 한 번은 가요." }
         ],
         pronunciation: [
           { en: "I first went to a café when I was in college.", ko: "아이 퍼스트 웬투어 카페 웬 아이 워즈 인 칼리지" },
-          { en: "Before that, I didn't know much about cafés or coffee,", ko: "비포댓, 아이 디든 노우 머치 어바웃 카페즈 오어 커피" },
-          { en: "and I never felt the need to learn.", ko: "앤 아이 네버 펠트 더 니투런" },
+          { en: "Before that, I didn't feel like I needed to learn about it.", ko: "비포댓, 아이 디든 필 라이크 아이 니딧투 런 어바웃잇" },
           { en: "One day, my best friend Looda took me to a café", ko: "원 데이, 마이 베스트 프렌드 루다 툭미 투어 카페" },
           { en: "and suggested we get some coffee.", ko: "앤 서제스티드 위 겟 썸 커피" },
           { en: "At first, I thought sitting at a café was boring,", ko: "앳 퍼스트, 아이 쏫 시딩 앳어 카페 워즈 보링" },
           { en: "and even ordering felt difficult.", ko: "앤 이븐 오더링 펠트 디피컬트" },
-          { en: "On top of that, the coffee I drank tasted really bitter.", ko: "온탑 어브 댓, 더 커피 아이 드랭크 테이스티드 릴리 비터" },
-          { en: "But later on, I ended up having fun and relieving stress", ko: "벗 레이러 온, 아이 엔디덥 해빙 펀 앤 릴리빙 스트레스" },
-          { en: "while chatting with my friend.", ko: "와일 채링 윗마이 프렌드" },
+          { en: "Plus, the coffee tasted really bitter.", ko: "플러스, 더 커피 테이스티드 릴리 비터" },
+          { en: "But after a while, I was able to have fun and relieve stress.", ko: "벗 애프터러 와일, 아이 워즈 에이블투 해브 펀 앤 릴리브 스트레스" },
           { en: "Since that day, I've enjoyed going to cafés,", ko: "신스 댓 데이, 아이브 인조이드 고잉 투 카페즈" },
           { en: "and now I visit at least once a week.", ko: "앤 나우 아이 비짓 앳리스트 원스어 윅" }
         ],
         warnings: [
           { word: "college", guide: "칼리지" },
           { word: "bitter", guide: "비터" },
-          { word: "relieving", guide: "릴리빙" },
+          { word: "relieve", guide: "릴리브" },
           { word: "since", guide: "신스" }
         ]
       },
