@@ -120,11 +120,6 @@
       display: inline-block; margin-bottom: 4px;
     }
     .q-tag.roleplay { color: #B45309; background: #FEF3C7; }
-    .q-tag.updated { color: #047857; background: #D1FAE5; margin-left: 4px; }
-    .q-detail-updated {
-      font-size: 10px; font-weight: 700; color: #047857; background: #D1FAE5;
-      padding: 2px 7px; border-radius: 4px; margin-left: 6px;
-    }
     .q-preview {
       font-size: 13px; color: var(--muted);
       display: -webkit-box; -webkit-line-clamp: 2;
@@ -550,17 +545,26 @@
     let currentCategory = '선택주제';
 
     // ── Storage ──
+    function isPlainObject(v) {
+      return typeof v === 'object' && v !== null && !Array.isArray(v);
+    }
     function loadProgress() {
-      try { progress = JSON.parse(localStorage.getItem('opic-progress') || '{}'); } catch { progress = {}; }
+      try {
+        const parsed = JSON.parse(localStorage.getItem('opic-progress') || '{}');
+        progress = isPlainObject(parsed) ? parsed : {};
+      } catch { progress = {}; }
     }
     function saveProgress() {
-      localStorage.setItem('opic-progress', JSON.stringify(progress));
+      try { localStorage.setItem('opic-progress', JSON.stringify(progress)); } catch {}
     }
     function loadHighlights() {
-      try { highlights = JSON.parse(localStorage.getItem('opic-highlights') || '{}'); } catch { highlights = {}; }
+      try {
+        const parsed = JSON.parse(localStorage.getItem('opic-highlights') || '{}');
+        highlights = isPlainObject(parsed) ? parsed : {};
+      } catch { highlights = {}; }
     }
     function saveHighlights() {
-      localStorage.setItem('opic-highlights', JSON.stringify(highlights));
+      try { localStorage.setItem('opic-highlights', JSON.stringify(highlights)); } catch {}
     }
 
     // ── Navigation ──
@@ -670,7 +674,7 @@
       const done = topic.questions.filter(q => progress[String(q.id)]).length;
       const total = topic.questions.length;
       document.getElementById('topic-count-text').textContent = `${done} / ${total} 완료`;
-      document.getElementById('topic-progress-fill').style.width = `${(done / total) * 100}%`;
+      document.getElementById('topic-progress-fill').style.width = `${total > 0 ? (done / total) * 100 : 0}%`;
 
       document.getElementById('q-list').innerHTML = topic.questions.map(q => {
         const isDone = !!progress[String(q.id)];
@@ -680,7 +684,6 @@
             <div class="q-check">${isDone ? '✓' : ''}</div>
             <div class="q-body">
               <span class="q-tag ${isRoleplay ? 'roleplay' : ''}">Q${q.id} · ${q.type}</span>
-              ${q.updated ? '<span class="q-tag updated">✓ 새 원고</span>' : ''}
               <div class="q-preview">${q.translation}</div>
             </div>
             <div class="q-arrow">›</div>
@@ -694,7 +697,7 @@
       const q = topic.questions.find(q => String(q.id) === String(questionId));
 
       document.getElementById('q-detail-type').textContent = `${topic.nameKo} · ${q.type}`;
-      document.getElementById('q-detail-num').innerHTML = `Q${q.id}${q.updated ? '<span class="q-detail-updated">✓ 새 원고</span>' : ''}`;
+      document.getElementById('q-detail-num').textContent = `Q${q.id}`;
 
       // 문제 탭
       document.getElementById('tab-problem').innerHTML = `
@@ -779,10 +782,10 @@
     // ── Tabs ──
     function switchTab(name) {
       const tabMap = { problem: 0, script: 1, pronunciation: 2 };
-      document.querySelectorAll('.tab-btn').forEach((btn, i) => {
+      document.querySelectorAll('#screen-question .tabs .tab-btn').forEach((btn, i) => {
         btn.classList.toggle('active', i === tabMap[name]);
       });
-      document.querySelectorAll('.tab-pane').forEach((pane, i) => {
+      document.querySelectorAll('#screen-question .tab-pane').forEach((pane, i) => {
         pane.classList.toggle('active', i === tabMap[name]);
       });
     }
@@ -958,9 +961,16 @@
       }
       if (!window._ttsText) return;
 
+      // Set state synchronously (not inside onStart) so a screen change or a
+      // second click during the async gap before playback actually starts
+      // still sees ttsPlaying=true instead of racing past it.
+      ttsPlaying = true;
+      btn.textContent = '⏹ 중지';
+      btn.classList.add('playing');
+
       ttsSpeak(
         window._ttsText,
-        () => { ttsPlaying = true; btn.textContent = '⏹ 중지'; btn.classList.add('playing'); },
+        () => {},
         () => { ttsPlaying = false; btn.textContent = '🔊 전체 듣기'; btn.classList.remove('playing'); }
       );
     }

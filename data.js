@@ -5,7 +5,6 @@ const TOPICS = [
     questions: [
       {
         id: 1,
-        updated: true,
         question: "I'd like to know where you live. Tell me about your home and different rooms in your home. What do they look like? What is your favorite room? Describe it in detail.",
         translation: "어디에 살고 있는지 말해 주세요. 집과 각 방을 설명해 주세요. 가장 좋아하는 방은 무엇인가요?",
         type: "장소묘사",
@@ -74,7 +73,6 @@ const TOPICS = [
       },
       {
         id: "1b",
-        updated: true,
         question: "Tell me about the house or the apartment where you grew up. What did the home or surrounding area look like when you were a child? How has it changed?",
         translation: "어릴 때 자란 집이나 아파트에 대해 말해 주세요. 어릴 때 그 집이나 주변 지역은 어떤 모습이었나요? 지금은 어떻게 변했나요?",
         type: "과거 비교",
@@ -500,7 +498,6 @@ const TOPICS = [
     questions: [
       {
         id: 43,
-        updated: true,
         question: "Which theater do you go to most often? Where is it located? What does it look like inside and outside? What kinds of movies are usually shown there?",
         translation: "가장 자주 가는 영화관은 어디인가요? 위치는 어디고, 안팎은 어떻게 생겼나요? 어떤 영화들이 주로 상영되나요?",
         type: "장소묘사",
@@ -538,7 +535,6 @@ const TOPICS = [
       },
       {
         id: 46,
-        updated: true,
         question: "What do you usually do before you go to the movies? What do you do after watching a movie?",
         translation: "영화 보러 가기 전에 보통 무엇을 하나요? 영화를 본 후에는 무엇을 하나요?",
         type: "활동패턴",
@@ -587,7 +583,6 @@ const TOPICS = [
       },
       {
         id: 47,
-        updated: true,
         question: "Tell me about the last time you went to a movie. What movie did you see, and who were you with? Tell me everything that happened before, during, and after the movie.",
         translation: "최근에 영화를 본 것에 대해 말해 주세요. 무슨 영화를 봤고 누구와 함께였나요? 영화 전후로 있었던 일을 자세히 말해 주세요.",
         type: "최근 경험",
@@ -2938,25 +2933,25 @@ const TOPICS = [
         question: "You want to buy a piece of furniture for your room. Visit the furniture store and ask three or four questions about the furniture you'd like to buy.",
         translation: "방에 놓을 가구를 사고 싶어요. 가구점을 방문해서 사고 싶은 가구에 대해 3~4가지 질문을 해보세요.",
         type: "롤플레이 · 질문하기",
-        structure: ["인사", "목적: 새 의자 필요, 책상 질문", "질문1: 요즘 인기 책상+추천", "질문2: 새기능(리클라이너 여부)", "질문3: 가격($200예산)+할인", "마무리"],
+        structure: ["인사", "목적: 새 책상 필요", "질문1: 요즘 인기 책상+추천", "질문2: 새기능(높이조절 여부)", "질문3: 가격($200예산)+할인", "마무리"],
         script: [
           { en: "Hi there, is this the furniture shop? — Oh good.", ko: "안녕하세요, 가구점 맞나요? — 오, 좋아요." },
-          { en: "Well, my chair is too old, so I want a new one. I have some questions about desks.", ko: "제 의자가 너무 오래돼서 새로 하나 사려고요. 책상에 대해 몇 가지 여쭤볼게요." },
+          { en: "Well, my desk is too old, so I want a new one. I have some questions about it.", ko: "제 책상이 너무 오래돼서 새로 하나 사려고요. 몇 가지 여쭤볼게요." },
           { en: "What kinds of desks are popular these days? Can you give me any recommendations? — Oh, good.", ko: "요즘 어떤 책상이 인기 있나요? 추천해주실 수 있어요? — 오, 좋네요." },
-          { en: "What new features do they have? I need a reclining function — do you think they have that? The lighter, the better. — Oh, that's great.", ko: "어떤 새로운 기능이 있나요? 저는 리클라이너 기능이 필요한데, 그런 게 있을까요? 가벼울수록 좋고요. — 오, 좋네요." },
+          { en: "What new features do they have? I need a height-adjustable function — do you think they have that? The lighter, the better. — Oh, that's great.", ko: "어떤 새로운 기능이 있나요? 저는 높이 조절 기능이 필요한데, 그런 게 있을까요? 가벼울수록 좋고요. — 오, 좋네요." },
           { en: "What's the price? I have a budget of $200 — can I get a discount? — Awesome, that's the answer I wanted.", ko: "가격이 어떻게 되나요? 예산이 200달러인데 할인받을 수 있을까요? — 좋네요, 원하던 답이에요." },
           { en: "Thank you for the information. Bye.", ko: "정보 감사합니다. 안녕히 계세요." }
         ],
         pronunciation: [
           { en: "Hi there, is this the furniture shop?", ko: "하이데어, 이즈디스더 퍼니처샵?" },
-          { en: "Well, my chair is too old, so I want a new one. I have some questions about desks.", ko: "웰, 마이체어이즈 투올드, 소아이원어 뉴원. 아이해브 썸 퀘스천즈 어바웃 데스크스" },
+          { en: "Well, my desk is too old, so I want a new one. I have some questions about it.", ko: "웰, 마이데스크이즈 투올드, 소아이원어 뉴원. 아이해브 썸 퀘스천즈 어바웃잇" },
           { en: "What kinds of desks are popular these days? Can you give me any recommendations?", ko: "왓카인즈어브 데스크스알 파퓰러 디즈데이즈? 캔유기브미 애니 레커멘데이션즈?" },
-          { en: "What new features do they have? I need a reclining function — do you think they have that?", ko: "왓뉴 피처즈두데이해브? 아이니더 리클라이닝 펑션, 두유씽크데이해브댓?" },
+          { en: "What new features do they have? I need a height-adjustable function — do you think they have that?", ko: "왓뉴 피처즈두데이해브? 아이니더 하이트어저스터블 펑션, 두유씽크데이해브댓?" },
           { en: "What's the price? I have a budget of $200 — can I get a discount?", ko: "왓츠더프라이스? 아이해버버짓어브 투헌드레드달러즈, 캔아이게러 디스카운트?" },
           { en: "Thank you for the information. Bye.", ko: "땡큐퍼디 인포메이션. 바이" }
         ],
         warnings: [
-          { word: "reclining", guide: "리클라이닝" },
+          { word: "height-adjustable", guide: "하이트어저스터블" },
           { word: "recommendations", guide: "레커멘데이션즈" },
           { word: "budget", guide: "버짓" },
           { word: "features", guide: "피처즈" }
