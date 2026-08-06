@@ -918,7 +918,7 @@ const TOPICS = [
         script: [
           { en: "Cafes in Korea are usually located in commercial areas.", ko: "한국 카페는 주로 상업 지역에 위치해 있어요." },
           { en: "We have many major coffee chains like Starbucks, Coffee Bean, and Tom N Toms.", ko: "스타벅스, 커피빈, 탐앤탐스 같은 대형 커피 체인점이 많아요." },
-          { en: "These cafes usually have a lot of seating, so you'll be surprised at how spacious Korean cafes are.", ko: "이런 카페들은 좌석이 많아서 얼마나 넓은지 보면 놀랄 거예요." },
+          { en: "These cafes usually have a lot of seating, so you'll be surprised at how spacious they are.", ko: "이런 카페들은 좌석이 많아서 얼마나 넓은지 보면 놀랄 거예요." },
           { en: "When you enter a typical cafe, you'll first see the counter where you can order and pick up your coffee.", ko: "일반적인 카페에 들어가면 먼저 주문하고 픽업할 수 있는 카운터가 보여요." },
           { en: "Behind the counter, there are menu boards on the wall.", ko: "카운터 뒤에는 메뉴판이 벽에 걸려 있어요." },
           { en: "Next to the counter, you can find some desserts and snacks.", ko: "카운터 옆에는 디저트와 스낵도 있어요." },
@@ -928,7 +928,7 @@ const TOPICS = [
           { en: "Cafes in Korea are usually located in commercial areas.", ko: "카페즈 인 코리아 아 유주얼리 로케이티드 인 커머셜 에리어즈" },
           { en: "We have many major coffee chains like Starbucks, Coffee Bean, and Tom N Toms.", ko: "위 해브 메니 메이저 커피 체인즈 라이크 스타벅스, 커피빈, 앤 탐앤탐스" },
           { en: "These cafes usually have a lot of seating,", ko: "디즈 카페즈 유주얼리 해버 라러브 시팅" },
-          { en: "so you'll be surprised at how spacious Korean cafes are.", ko: "소 유일비 서프라이즈드 앳 하우 스페이셔스 코리안 카페즈 아" },
+          { en: "so you'll be surprised at how spacious they are.", ko: "소 유일비 서프라이즈드 앳 하우 스페이셔스 데이 아" },
           { en: "When you enter a typical cafe,", ko: "웬유 엔터러 티피컬 카페" },
           { en: "you'll first see the counter where you can order and pick up your coffee.", ko: "유일 퍼스트 씨 더 카운터 웨어 유캔 오더 앤 픽업 유어 커피" },
           { en: "Behind the counter, there are menu boards on the wall.", ko: "비하인드 더 카운터, 데어라 메뉴 보즈 온더 월" },
