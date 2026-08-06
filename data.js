@@ -1056,7 +1056,7 @@ const TOPICS = [
         structure: ["대학생 때 처음 감", "그전엔 카페·커피 잘 몰랐음", "친구 루다가 데려가서 제안", "처음엔 지루+주문도 어려웠음", "커피 맛도 씀", "나중엔 재밌고 스트레스 풀림", "그날 이후 즐겨감 (주1회 이상)"],
         script: [
           { en: "I first went to a café when I was in college.", ko: "저는 대학생 때 카페를 처음 갔어요." },
-          { en: "Before that, I didn't feel like I needed to learn about it.", ko: "그 전에는 딱히 배워야겠다는 생각이 없었어요." },
+          { en: "Before that, I didn't know much about cafés or coffee, and I didn't feel like I needed to learn about it.", ko: "그 전까지는 카페나 커피에 대해 잘 몰랐고, 딱히 배워야겠다는 생각도 없었어요." },
           { en: "One day, my best friend Looda took me to a café and suggested we get some coffee.", ko: "어느 날 가장 친한 친구 루다가 저를 카페에 데려가서 커피를 마시자고 제안했어요." },
           { en: "At first, I thought sitting at a café was boring, and even ordering felt difficult.", ko: "처음엔 카페에 앉아 있는 게 지루하다고 생각했고, 주문하는 것조차 어렵게 느껴졌어요." },
           { en: "Plus, the coffee tasted really bitter.", ko: "게다가 커피도 정말 썼어요." },
@@ -1065,7 +1065,8 @@ const TOPICS = [
         ],
         pronunciation: [
           { en: "I first went to a café when I was in college.", ko: "아이 퍼스트 웬투어 카페 웬 아이 워즈 인 칼리지" },
-          { en: "Before that, I didn't feel like I needed to learn about it.", ko: "비포댓, 아이 디든 필 라이크 아이 니딧투 런 어바웃잇" },
+          { en: "Before that, I didn't know much about cafés or coffee,", ko: "비포댓, 아이 디든 노우 머치 어바웃 카페즈 오어 커피" },
+          { en: "and I didn't feel like I needed to learn about it.", ko: "앤 아이 디든 필 라이크 아이 니딧투 런 어바웃잇" },
           { en: "One day, my best friend Looda took me to a café", ko: "원 데이, 마이 베스트 프렌드 루다 툭미 투어 카페" },
           { en: "and suggested we get some coffee.", ko: "앤 서제스티드 위 겟 썸 커피" },
           { en: "At first, I thought sitting at a café was boring,", ko: "앳 퍼스트, 아이 쏫 시딩 앳어 카페 워즈 보링" },
