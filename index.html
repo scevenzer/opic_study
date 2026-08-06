@@ -548,7 +548,6 @@
     let ttsPlaying = false;
     let screenStack = [];
     let currentCategory = '선택주제';
-    const IMPROMPTU_TOPIC_IDS = [23, 25, 26]; // 동네, 은행, 호텔 → 돌발주제
 
     // ── Storage ──
     function loadProgress() {
@@ -635,12 +634,9 @@
       });
 
       const grid = document.getElementById('topic-grid');
-      if (currentCategory === '선택주제') {
-        grid.innerHTML = TOPICS.filter(t => !IMPROMPTU_TOPIC_IDS.includes(t.id)).map(topicCardHtml).join('');
-      } else if (currentCategory === '돌발주제') {
-        grid.innerHTML = TOPICS.filter(t => IMPROMPTU_TOPIC_IDS.includes(t.id)).map(topicCardHtml).join('');
-      } else if (currentCategory === '롤플레이' || currentCategory === '2Combo') {
-        grid.innerHTML = emptyCategoryHtml(currentCategory);
+      if (currentCategory === '선택주제' || currentCategory === '돌발주제' || currentCategory === '롤플레이' || currentCategory === '2Combo') {
+        const list = TOPICS.filter(t => t.category === currentCategory);
+        grid.innerHTML = list.length ? list.map(topicCardHtml).join('') : emptyCategoryHtml(currentCategory);
       } else if (currentCategory === '만능답변') {
         grid.innerHTML = `
           <div class="topic-card" onclick="goPhrases()">
