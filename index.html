@@ -499,6 +499,7 @@
       <button class="tab-btn" data-cat="2Combo" onclick="switchHomeCategory('2Combo')">2Combo</button>
       <button class="tab-btn" data-cat="만능답변" onclick="switchHomeCategory('만능답변')">만능답변</button>
     </div>
+    <div id="combo-templates-box"></div>
     <div class="topic-grid" id="topic-grid"></div>
   </div>
 
@@ -585,18 +586,6 @@
     </div>
     <p class="phrases-intro">빈칸(뭐뭐 / ...)에 내 이야기를 채워 넣는 답변 틀이에요. 패턴을 외우고, 예제처럼 소재만 바꿔서 연습해 보세요.</p>
     <div id="patterns-list"></div>
-    <div style="height:24px;"></div>
-  </div>
-
-  <!-- ── 2COMBO TEMPLATES ── -->
-  <div id="screen-combo" class="screen">
-    <div class="header">
-      <button class="btn-back" onclick="goBack()">←</button>
-      <h2>🎯 2Combo 템플릿</h2>
-    </div>
-    <p class="phrases-intro">14-15번은 주제를 예측하기 어려우니, 아래 3개 뼈대 문형을 외워두고 소재만 바꿔 끼우세요. 그 아래는 뼈대를 실제로 채운 2Combo 원고들이에요.</p>
-    <div id="combo-template-list"></div>
-    <div id="combo-script-list"></div>
     <div style="height:24px;"></div>
   </div>
 
@@ -693,6 +682,20 @@
           </div>
         </div>`;
     }
+    function comboTemplatesHtml() {
+      return `
+        <p class="phrases-intro" style="margin:12px 16px;">14-15번은 주제를 예측하기 어려우니, 아래 뼈대 문형을 외워두고 소재만 바꿔 끼우세요. 아래 토픽 카드를 열면 뼈대를 실제로 채운 원고를 볼 수 있어요.</p>
+        ${COMBO_TEMPLATES.map(t => `
+          <div class="combo-template-card">
+            <div class="combo-template-title"><span>${t.emoji}</span> ${t.title}</div>
+            <div class="combo-template-desc">${t.desc}</div>
+            ${t.skeleton.map(s => `
+              <div class="combo-skeleton-row">
+                <span class="combo-skeleton-label">${s.label}</span>
+                <span class="combo-skeleton-en">${s.en}</span>
+              </div>`).join('')}
+          </div>`).join('')}`;
+    }
     function emptyCategoryHtml(label) {
       return `
         <div class="no-content" style="grid-column:1/-1;">
@@ -712,6 +715,9 @@
       document.querySelectorAll('.category-tabs .tab-btn').forEach(b => {
         b.classList.toggle('active', b.dataset.cat === currentCategory);
       });
+
+      const comboBox = document.getElementById('combo-templates-box');
+      comboBox.innerHTML = currentCategory === '2Combo' ? comboTemplatesHtml() : '';
 
       const grid = document.getElementById('topic-grid');
       if (currentCategory === '선택주제' || currentCategory === '돌발주제' || currentCategory === '롤플레이' || currentCategory === '2Combo') {
@@ -738,11 +744,6 @@
             <span class="topic-emoji">🆘</span>
             <div class="topic-name">위기 대응 표현</div>
             <div class="topic-count">4개 상황별 대처법</div>
-          </div>
-          <div class="topic-card" onclick="goCombo()">
-            <span class="topic-emoji">🎯</span>
-            <div class="topic-name">2Combo 템플릿</div>
-            <div class="topic-count">14-15번 대비</div>
           </div>`;
       }
     }
@@ -1333,43 +1334,6 @@
                     <div class="pattern-example-en">${p.example.en}</div>
                     <div class="pattern-example-ko">${p.example.ko}</div>
                   </div>` : ''}
-              </div>`).join('')}
-          </div>
-        </details>`).join('');
-    }
-
-    // ── 2Combo Templates ──
-    function goCombo() {
-      screenStack.push('home');
-      renderCombo();
-      showScreen('combo');
-    }
-
-    function renderCombo() {
-      document.getElementById('combo-template-list').innerHTML = COMBO_TEMPLATES.map(t => `
-        <div class="combo-template-card">
-          <div class="combo-template-title"><span>${t.emoji}</span> ${t.title}</div>
-          <div class="combo-template-desc">${t.desc}</div>
-          ${t.skeleton.map(s => `
-            <div class="combo-skeleton-row">
-              <span class="combo-skeleton-label">${s.label}</span>
-              <span class="combo-skeleton-en">${s.en}</span>
-            </div>`).join('')}
-        </div>`).join('');
-
-      const comboTopics = TOPICS.filter(t => t.category === '2Combo');
-      document.getElementById('combo-script-list').innerHTML = comboTopics.map((t, ti) => `
-        <details class="phrase-section" ${ti === 0 ? 'open' : ''}>
-          <summary>
-            <span>${t.emoji}</span>
-            <span>${t.nameKo}</span>
-          </summary>
-          <div class="phrase-items">
-            ${t.questions.map(q => `
-              <div class="phrase-item">
-                <div class="phrase-tag">${q.type}</div>
-                <div class="phrase-en">${(q.script || []).map(s => s.en).join(' ')}</div>
-                <div class="phrase-ko">${(q.script || []).map(s => s.ko).join(' ')}</div>
               </div>`).join('')}
           </div>
         </details>`).join('');
