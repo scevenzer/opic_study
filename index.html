@@ -267,15 +267,15 @@
       font-size: 14px; padding: 8px 10px 8px 4px;
       color: var(--muted); opacity: 0.5;
     }
-    .flag-btn.flagged { opacity: 1; }
+    .flag-btn.flagged { opacity: 1; color: #DC2626; }
     .clear-hl-btn { opacity: 0.6; }
     .sentence-card.flagged .sentence-en,
     .pron-card.flagged .pron-en,
     .pron-card.flagged .pron-ko {
-      background: #FFFBEB;
+      background: #FEF2F2;
     }
     .sentence-card.flagged, .pron-card.flagged {
-      border-color: #FBBF24;
+      border-color: #F87171;
     }
     .warnings-box {
       margin-top: 16px;
@@ -431,8 +431,8 @@
     </div>
     <div class="progress-card">
       <div class="progress-row">
-        <span>전체 진행률</span>
-        <strong id="total-count-text">0 / 42 완료</strong>
+        <span>선택주제 진행률</span>
+        <strong id="total-count-text">0 / 0 완료</strong>
       </div>
       <div class="progress-bar">
         <div class="progress-fill" id="total-progress-fill" style="width:0%"></div>
@@ -628,10 +628,13 @@
         </div>`;
     }
     function renderHome() {
-      const total = TOPICS.reduce((a, t) => a + t.questions.length, 0);
-      const done = Object.keys(progress).length;
+      // 진행률 카드는 핵심 학습 대상인 선택주제만 집계한다.
+      // 돌발주제/2Combo/롤플레이는 보충 자료라 이 숫자에서 제외 (각 토픽 타일 자체의 진행률은 그대로 표시됨).
+      const coreTopics = TOPICS.filter(t => t.category === '선택주제');
+      const total = coreTopics.reduce((a, t) => a + t.questions.length, 0);
+      const done = coreTopics.reduce((a, t) => a + t.questions.filter(q => progress[String(q.id)]).length, 0);
       document.getElementById('total-count-text').textContent = `${done} / ${total} 완료`;
-      document.getElementById('total-progress-fill').style.width = `${(done / total) * 100}%`;
+      document.getElementById('total-progress-fill').style.width = `${total > 0 ? (done / total) * 100 : 0}%`;
 
       document.querySelectorAll('.category-tabs .tab-btn').forEach(b => {
         b.classList.toggle('active', b.dataset.cat === currentCategory);
