@@ -278,15 +278,22 @@
     }
     .sentence-top .sentence-en { flex: 1; }
     .pron-top .pron-en, .pron-top .pron-ko { flex: 1; }
-    .flag-btn, .clear-hl-btn {
+    .sentence-actions {
+      flex-shrink: 0;
+      display: flex; flex-direction: column; align-items: center;
+    }
+    .flag-btn, .clear-hl-btn, .sentence-tts-btn {
       flex-shrink: 0;
       border: none; background: none;
       cursor: pointer;
-      font-size: 14px; padding: 8px 10px 8px 4px;
+      font-size: 14px; padding: 5px 8px;
       color: var(--muted); opacity: 0.5;
     }
     .flag-btn.flagged { opacity: 1; color: #DC2626; }
     .clear-hl-btn { opacity: 0.6; }
+    .sentence-tts-btn.playing { opacity: 1; color: var(--primary); }
+    /* 전체 듣기 재생 중에는 문장별 재생 버튼을 완전히 숨긴다 (동시 재생 방지) */
+    body.tts-playing .sentence-tts-btn { display: none; }
     .sentence-card.flagged .sentence-en,
     .pron-card.flagged .pron-en,
     .pron-card.flagged .pron-ko {
@@ -565,6 +572,7 @@
     let progress = {};
     let highlights = {};
     let ttsPlaying = false;
+    let activeSentenceBtn = null;
     let screenStack = [];
     let currentCategory = '선택주제';
 
@@ -596,7 +604,12 @@
       document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
       document.getElementById('screen-' + id).classList.add('active');
       window.scrollTo(0, 0);
-      if (ttsPlaying) { ttsCancel(); ttsPlaying = false; }
+      if (ttsPlaying || activeSentenceBtn) {
+        ttsCancel();
+        ttsPlaying = false;
+        document.body.classList.remove('tts-playing');
+        resetSentenceBtn();
+      }
       hideSelectionPopup();
     }
 
@@ -750,8 +763,11 @@
             <div class="sentence-card ${hl.flagged ? 'flagged' : ''}">
               <div class="sentence-top">
                 <div class="sentence-en hl-target" data-q="${q.id}" data-tab="script" data-idx="${i}">${renderMarked(s.en, hl.ranges)}</div>
-                ${hl.ranges.length ? `<button class="clear-hl-btn" onclick="clearHL(this,'${q.id}','script',${i})" title="형광펜 지우기">🧹</button>` : ''}
-                <button class="flag-btn ${hl.flagged ? 'flagged' : ''}" onclick="toggleFlag(this,'${q.id}','script',${i})" title="이 문장 체크">🖍</button>
+                <div class="sentence-actions">
+                  <button class="flag-btn ${hl.flagged ? 'flagged' : ''}" onclick="toggleFlag(this,'${q.id}','script',${i})" title="이 문장 체크">🖍</button>
+                  ${hl.ranges.length ? `<button class="clear-hl-btn" onclick="clearHL(this,'${q.id}','script',${i})" title="형광펜 지우기">🧹</button>` : ''}
+                  <button class="sentence-tts-btn" onclick="toggleSentenceTTS(this,'${q.id}','script',${i})" title="이 문장 듣기">🔊</button>
+                </div>
               </div>
               <div class="sentence-ko" id="ko-${q.id}-${i}">${s.ko}</div>
               <button class="btn-show-ko" onclick="toggleKo('${q.id}', ${i})">한국어 보기 ▾</button>
@@ -778,8 +794,11 @@
             <div class="pron-card ${hlPron.flagged ? 'flagged' : ''}">
               <div class="pron-top">
                 <div class="pron-en hl-target" data-q="${q.id}" data-tab="pron-en" data-idx="${i}">${renderMarked(p.en, hlEn.ranges)}</div>
-                ${hlEn.ranges.length ? `<button class="clear-hl-btn" onclick="clearHL(this,'${q.id}','pron-en',${i})" title="형광펜 지우기">🧹</button>` : ''}
-                <button class="flag-btn ${hlPron.flagged ? 'flagged' : ''}" onclick="toggleFlag(this,'${q.id}','pron',${i})" title="이 문장 체크">🖍</button>
+                <div class="sentence-actions">
+                  <button class="flag-btn ${hlPron.flagged ? 'flagged' : ''}" onclick="toggleFlag(this,'${q.id}','pron',${i})" title="이 문장 체크">🖍</button>
+                  ${hlEn.ranges.length ? `<button class="clear-hl-btn" onclick="clearHL(this,'${q.id}','pron-en',${i})" title="형광펜 지우기">🧹</button>` : ''}
+                  <button class="sentence-tts-btn" onclick="toggleSentenceTTS(this,'${q.id}','pron-en',${i})" title="이 문장 듣기">🔊</button>
+                </div>
               </div>
               <div class="pron-top">
                 <div class="pron-ko hl-target" data-q="${q.id}" data-tab="pron-ko" data-idx="${i}">${renderMarked(p.ko, hlKo.ranges)}</div>
@@ -875,8 +894,11 @@
       const el = document.querySelector(`.hl-target[data-q="${qId}"][data-tab="${tab}"][data-idx="${idx}"]`);
       if (!el) return;
       const row = el.parentElement;
+      // script/pron-en 줄은 🖍🧹🔊가 .sentence-actions 안에 세로로 쌓여 있고,
+      // pron-ko 줄은 그 래퍼 없이 지우개 버튼만 행에 바로 붙는다.
+      const actions = row.querySelector('.sentence-actions') || row;
       const hl = getHL(qId, tab, idx);
-      let btn = row.querySelector('.clear-hl-btn');
+      let btn = actions.querySelector('.clear-hl-btn');
       if (hl.ranges.length > 0) {
         if (!btn) {
           btn = document.createElement('button');
@@ -884,7 +906,9 @@
           btn.title = '형광펜 지우기';
           btn.textContent = '🧹';
           btn.onclick = () => clearHL(btn, qId, tab, idx);
-          el.insertAdjacentElement('afterend', btn);
+          const flagBtn = actions.querySelector('.flag-btn');
+          if (flagBtn) flagBtn.insertAdjacentElement('afterend', btn);
+          else actions.insertAdjacentElement('afterbegin', btn);
         }
       } else if (btn) {
         btn.remove();
@@ -1026,9 +1050,13 @@
         ttsPlaying = false;
         btn.textContent = '🔊 전체 듣기';
         btn.classList.remove('playing');
+        document.body.classList.remove('tts-playing');
         return;
       }
       if (!window._ttsText) return;
+
+      ttsCancel();
+      resetSentenceBtn();
 
       // Set state synchronously (not inside onStart) so a screen change or a
       // second click during the async gap before playback actually starts
@@ -1036,12 +1064,35 @@
       ttsPlaying = true;
       btn.textContent = '⏹ 중지';
       btn.classList.add('playing');
+      document.body.classList.add('tts-playing');
 
       ttsSpeak(
         window._ttsText,
         () => {},
-        () => { ttsPlaying = false; btn.textContent = '🔊 전체 듣기'; btn.classList.remove('playing'); }
+        () => { ttsPlaying = false; btn.textContent = '🔊 전체 듣기'; btn.classList.remove('playing'); document.body.classList.remove('tts-playing'); }
       );
+    }
+
+    function resetSentenceBtn() {
+      if (!activeSentenceBtn) return;
+      activeSentenceBtn.textContent = '🔊';
+      activeSentenceBtn.classList.remove('playing');
+      activeSentenceBtn = null;
+    }
+    function toggleSentenceTTS(btn, qId, tab, idx) {
+      if (activeSentenceBtn === btn) {
+        ttsCancel();
+        resetSentenceBtn();
+        return;
+      }
+      ttsCancel();
+      resetSentenceBtn();
+      const text = getSourceText(qId, tab, idx);
+      if (!text) return;
+      activeSentenceBtn = btn;
+      btn.textContent = '⏹';
+      btn.classList.add('playing');
+      ttsSpeak(text, () => {}, () => { if (activeSentenceBtn === btn) resetSentenceBtn(); });
     }
 
     // ── Complete ──
