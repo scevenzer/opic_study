@@ -950,22 +950,21 @@ const TOPICS = [
         type: "장소묘사",
         structure: ["집 근처 스타벅스", "100명 수용 가능한 큰 규모", "자주 가는 이유 몇 가지", "도보 10분 거리", "시설 좋음: 화장실·주차장·와이파이·인테리어", "가기 좋은 곳"],
         script: [
-          { en: "The café I often go to is Starbucks, located near my house.", ko: "제가 자주 가는 카페는 집 근처 스타벅스예요." },
-          { en: "It's big enough to accommodate about 100 people.", ko: "100명 정도 수용할 수 있을 만큼 커요." },
-          { en: "There are a few reasons I keep going there.", ko: "자주 가는 이유가 몇 가지 있어요." },
-          { en: "First, it's only about a 10-minute walk from my house.", ko: "첫째, 집에서 걸어서 10분밖에 안 걸려요." },
-          { en: "Also, the facilities are better than other cafes — clean restrooms, a big parking lot, free Wi-Fi, and a nice interior.", ko: "다른 카페보다 시설도 좋아요. 깨끗한 화장실, 넓은 주차장, 무료 와이파이, 예쁜 인테리어가 있어요." },
-          { en: "Overall, it's a great place to visit.", ko: "전반적으로 가기 좋은 곳이에요." }
+          { en: "The café I often go to is Starbucks, located near my house.", ko: "제가 자주 가는 카페는 집 근처에 있는 스타벅스예요." },
+          { en: "It's big enough to accommodate about 100 people.", ko: "100명 정도는 수용할 수 있을 만큼 커요." },
+          { en: "There are a few reasons I keep going there.", ko: "제가 계속 그곳에 가는 데는 몇 가지 이유가 있어요." },
+          { en: "First, it takes about 10 minutes on foot from my place.", ko: "우선, 저희 집에서 걸어서 10분 정도밖에 안 걸려요." },
+          { en: "Also, the facilities are better than at other cafes — clean restrooms, a big parking lot, free Wi-Fi, and a nice interior.", ko: "또, 다른 카페보다 시설도 좋아요 — 깨끗한 화장실, 넓은 주차장, 무료 와이파이, 예쁜 인테리어까지요." },
+          { en: "Overall, it's a great place to visit.", ko: "전반적으로 방문하기 정말 좋은 곳이에요." }
         ],
         pronunciation: [
-          { en: "The café I often go to is Starbucks,", ko: "더 카페 아이 오픈 고투 이즈 스타벅스" },
-          { en: "located near my house.", ko: "로케이티드 니어 마이 하우스" },
+          { en: "The café I often go to is Starbucks, located near my house.", ko: "더 카페 아이 오픈 고투 이즈 스타벅스, 로케이티드 니어 마이 하우스" },
           { en: "It's big enough to accommodate about 100 people.", ko: "잇츠 빅 이너프 투 어카머데이트 어바웃 원헌드레드 피플" },
-          { en: "There are a few reasons I keep going there.", ko: "데어라 퓨 리즌즈 아이 킵 고잉 데어" },
-          { en: "First, it's only about a 10-minute walk from my house.", ko: "퍼스트, 잇츠 온리 어바웃어 텐미닛 웍 프럼 마이 하우스" },
-          { en: "Also, the facilities are better than other cafes —", ko: "얼소, 더 퍼실러티즈 아 베러 댄 아더 카페즈" },
+          { en: "There are a few reasons I keep going there.", ko: "데어라러 퓨 리즌즈 아이 킵 고잉 데어" },
+          { en: "First, it takes about 10 minutes on foot from my place.", ko: "퍼스트, 잇 테익스 어바웃 텐미닛츠 온풋 프럼 마이 플레이스" },
+          { en: "Also, the facilities are better than at other cafes —", ko: "얼소, 더 퍼실러티즈 아 베러 댄 앳 아더 카페이즈" },
           { en: "clean restrooms, a big parking lot, free Wi-Fi, and a nice interior.", ko: "클린 레스트룸즈, 어 빅 파킹랏, 프리 와이파이, 앤어 나이스 인테리어" },
-          { en: "Overall, it's a great place to visit.", ko: "오버롤, 잇츠어 그레잇 플레이스 투 비짓" }
+          { en: "Overall, it's a great place to visit.", ko: "오버롤, 잇처 그레잇 플레이스 투 비짓" }
         ],
         warnings: [
           { word: "accommodate", guide: "어카머데이트" },
@@ -1217,32 +1216,27 @@ const TOPICS = [
         type: "장소묘사 – 개인",
         structure: ["Star Bar, 서울 변두리", "100명 수용 가능", "도보 5분 거리", "교통비 거의 안듦", "시설 좋음(주차장/화장실/와이파이/인테리어)", "전반적으로 좋은 곳"],
         script: [
-          { en: "The pub I go to most often is Star Bar, which is on the outskirts of Seoul.", ko: "Star Bar가 서울 변두리에 있는데, 제가 가장 자주 가는 술집이에요." },
-          { en: "It's big enough to fit about a hundred people.", ko: "100명 정도 수용할 수 있을 만큼 넓어요." },
-          { en: "There are a few reasons I like going there.", ko: "자주 가는 데는 몇 가지 이유가 있어요." },
-          { en: "First, it's really close to my place — it's only about a five-minute walk.", ko: "일단 집에서 진짜 가까워요 — 걸어서 5분 정도밖에 안 걸려요." },
-          { en: "So I don't have to spend much on transportation.", ko: "그래서 교통비도 거의 안 들어요." },
-          { en: "Also, the facilities are better than at other bars.", ko: "그리고 다른 술집보다 시설이 좋아요." },
-          { en: "Like, it's got a big parking lot, clean restrooms, free Wi-Fi, a nice interior, stuff like that.", ko: "큰 주차장도 있고, 화장실도 깨끗하고, 와이파이도 무료고, 인테리어도 예쁘고, 뭐 그런 것들이요." },
-          { en: "Overall, it's a great place to go.", ko: "전반적으로 가기 좋은 곳이에요." }
+          { en: "My go-to bar is Star Bar, out on the outskirts of Seoul.", ko: "제가 자주 가는 술집은 서울 변두리에 있는 Star Bar예요." },
+          { en: "It can easily hold around a hundred people.", ko: "백 명 정도는 거뜬히 수용할 수 있어요." },
+          { en: "I like going there for a few reasons.", ko: "제가 그곳에 가는 데는 몇 가지 이유가 있어요." },
+          { en: "It's just a five-minute walk from my place, so I barely spend anything on transportation.", ko: "저희 집에서 걸어서 5분밖에 안 걸려서, 교통비가 거의 안 들어요." },
+          { en: "Plus, the facilities beat most other bars — a big parking lot, clean restrooms, free Wi-Fi, a nice interior, you name it.", ko: "게다가 시설도 다른 술집보다 훨씬 좋아요 — 넓은 주차장, 깨끗한 화장실, 무료 와이파이, 예쁜 인테리어까지 다 있어요." },
+          { en: "Overall, it's a great spot to hang out.", ko: "전반적으로 놀러 가기 정말 좋은 곳이에요." }
         ],
         pronunciation: [
-          { en: "The pub I go to most often is Star Bar,", ko: "더 펍 아이 고투 모스트 오픈 이즈 스타바" },
-          { en: "which is on the outskirts of Seoul.", ko: "위치즈 온 디 아웃스커츠 어브 서울" },
-          { en: "It's big enough to fit about a hundred people.", ko: "잇츠 빅 이너프 투 핏 어바웃어 헌드레드 피플" },
-          { en: "There are a few reasons I like going there.", ko: "데어라 퓨 리즌즈 아이 라익 고잉 데어" },
-          { en: "First, it's really close to my place —", ko: "퍼스트, 잇츠 릴리 클로스 투 마이 플레이스" },
-          { en: "it's only about a five-minute walk.", ko: "잇츠 온리 어바웃어 파이브미닛 웍" },
-          { en: "So I don't have to spend much on transportation.", ko: "소 아이 돈 해브투 스펜드 머치 온 트랜스포테이션" },
-          { en: "Also, the facilities are better than at other bars.", ko: "얼소, 더 퍼실러티즈 아 베러 댄 앳 아더 바즈" },
-          { en: "Like, it's got a big parking lot, clean restrooms, free Wi-Fi, a nice interior, stuff like that.", ko: "라이크, 잇츠 가러 빅 파킹랏, 클린 레스트룸즈, 프리 와이파이, 어 나이스 인테리어, 스터프 라이크댓" },
-          { en: "Overall, it's a great place to go.", ko: "오버롤, 잇츠어 그레잇 플레이스 투고" }
+          { en: "My go-to bar is Star Bar, out on the outskirts of Seoul.", ko: "마이 고투 바 이즈 스타바, 아웃온디 아웃스커츠 어브 서울" },
+          { en: "It can easily hold around a hundred people.", ko: "잇 캔 이질리 홀드 어라운더 헌드레드 피플" },
+          { en: "I like going there for a few reasons.", ko: "아이 라익 고잉 데어 퍼러 퓨 리즌즈" },
+          { en: "It's just a five-minute walk from my place, so I barely spend anything on transportation.", ko: "잇츠 저스터 파이브미닛 웍 프럼 마이 플레이스, 소 아이 베얼리 스펜드 애니씽 온 트랜스포테이션" },
+          { en: "Plus, the facilities beat most other bars —", ko: "플러스, 더 퍼실리티즈 빗 모스트 아더 바즈" },
+          { en: "a big parking lot, clean restrooms, free Wi-Fi, a nice interior, you name it.", ko: "어 빅 파킹랏, 클린 레스트룸즈, 프리 와이파이, 어 나이스 인테리어, 유 네임잇" },
+          { en: "Overall, it's a great spot to hang out.", ko: "오버롤, 잇처 그레잇 스팟 투 행아웃" }
         ],
         warnings: [
           { word: "outskirts", guide: "아웃스커츠" },
           { word: "transportation", guide: "트랜스포테이션" },
-          { word: "facilities", guide: "퍼실러티즈" },
-          { word: "interior", guide: "인테리어" }
+          { word: "facilities", guide: "퍼실리티즈" },
+          { word: "hang out", guide: "행아웃" }
         ]
       },
       {
@@ -1254,35 +1248,30 @@ const TOPICS = [
         script: [
           { en: "Honestly, in Korea most bars don't really have a special area for making drinks, so I don't know much about that.", ko: "솔직히 한국은 대부분 술집에 음료 만드는 특별한 공간이 따로 없어서 잘 몰라요." },
           { en: "So let me just tell you about my favorite bar instead.", ko: "그래서 그냥 제가 좋아하는 술집에 대해 말씀드릴게요." },
-          { en: "The pub I go to most often is Star Bar, which is on the outskirts of Seoul.", ko: "Star Bar가 서울 변두리에 있는데, 제가 가장 자주 가는 술집이에요." },
-          { en: "It's big enough to fit about a hundred people.", ko: "100명 정도 수용할 수 있을 만큼 넓어요." },
-          { en: "There are a few reasons I like going there.", ko: "자주 가는 데는 몇 가지 이유가 있어요." },
-          { en: "First, it's really close to my place — it's only about a five-minute walk.", ko: "일단 집에서 진짜 가까워요 — 걸어서 5분 정도밖에 안 걸려요." },
-          { en: "So I don't have to spend much on transportation.", ko: "그래서 교통비도 거의 안 들어요." },
-          { en: "Also, the facilities are better than at other bars.", ko: "그리고 다른 술집보다 시설이 좋아요." },
-          { en: "Like, it's got a big parking lot, clean restrooms, free Wi-Fi, a nice interior, stuff like that.", ko: "큰 주차장도 있고, 화장실도 깨끗하고, 와이파이도 무료고, 인테리어도 예쁘고, 뭐 그런 것들이요." },
-          { en: "Overall, it's a great place to go.", ko: "전반적으로 가기 좋은 곳이에요." }
+          { en: "My go-to bar is Star Bar, out on the outskirts of Seoul.", ko: "제가 자주 가는 술집은 서울 변두리에 있는 Star Bar예요." },
+          { en: "It can easily hold around a hundred people.", ko: "백 명 정도는 거뜬히 수용할 수 있어요." },
+          { en: "I like going there for a few reasons.", ko: "제가 그곳에 가는 데는 몇 가지 이유가 있어요." },
+          { en: "It's just a five-minute walk from my place, so I barely spend anything on transportation.", ko: "저희 집에서 걸어서 5분밖에 안 걸려서, 교통비가 거의 안 들어요." },
+          { en: "Plus, the facilities beat most other bars — a big parking lot, clean restrooms, free Wi-Fi, a nice interior, you name it.", ko: "게다가 시설도 다른 술집보다 훨씬 좋아요 — 넓은 주차장, 깨끗한 화장실, 무료 와이파이, 예쁜 인테리어까지 다 있어요." },
+          { en: "Overall, it's a great spot to hang out.", ko: "전반적으로 놀러 가기 정말 좋은 곳이에요." }
         ],
         pronunciation: [
           { en: "Honestly, in Korea most bars don't really have a special area for making drinks,", ko: "아너슬리, 인 코리아 모스트 바즈 돈 릴리 해버 스페셜 에리아 퍼 메이킹 드링크스" },
           { en: "so I don't know much about that.", ko: "소 아이 돈 노우 머치 어바웃 댓" },
           { en: "So let me just tell you about my favorite bar instead.", ko: "소 렛미 저스트 텔유 어바웃 마이 페이버릿 바 인스테드" },
-          { en: "The pub I go to most often is Star Bar,", ko: "더 펍 아이 고투 모스트 오픈 이즈 스타바" },
-          { en: "which is on the outskirts of Seoul.", ko: "위치즈 온 디 아웃스커츠 어브 서울" },
-          { en: "It's big enough to fit about a hundred people.", ko: "잇츠 빅 이너프 투 핏 어바웃어 헌드레드 피플" },
-          { en: "There are a few reasons I like going there.", ko: "데어라 퓨 리즌즈 아이 라익 고잉 데어" },
-          { en: "First, it's really close to my place —", ko: "퍼스트, 잇츠 릴리 클로스 투 마이 플레이스" },
-          { en: "it's only about a five-minute walk.", ko: "잇츠 온리 어바웃어 파이브미닛 웍" },
-          { en: "So I don't have to spend much on transportation.", ko: "소 아이 돈 해브투 스펜드 머치 온 트랜스포테이션" },
-          { en: "Also, the facilities are better than at other bars.", ko: "얼소, 더 퍼실러티즈 아 베러 댄 앳 아더 바즈" },
-          { en: "Like, it's got a big parking lot, clean restrooms, free Wi-Fi, a nice interior, stuff like that.", ko: "라이크, 잇츠 가러 빅 파킹랏, 클린 레스트룸즈, 프리 와이파이, 어 나이스 인테리어, 스터프 라이크댓" },
-          { en: "Overall, it's a great place to go.", ko: "오버롤, 잇츠어 그레잇 플레이스 투고" }
+          { en: "My go-to bar is Star Bar, out on the outskirts of Seoul.", ko: "마이 고투 바 이즈 스타바, 아웃온디 아웃스커츠 어브 서울" },
+          { en: "It can easily hold around a hundred people.", ko: "잇 캔 이질리 홀드 어라운더 헌드레드 피플" },
+          { en: "I like going there for a few reasons.", ko: "아이 라익 고잉 데어 퍼러 퓨 리즌즈" },
+          { en: "It's just a five-minute walk from my place, so I barely spend anything on transportation.", ko: "잇츠 저스터 파이브미닛 웍 프럼 마이 플레이스, 소 아이 베얼리 스펜드 애니씽 온 트랜스포테이션" },
+          { en: "Plus, the facilities beat most other bars —", ko: "플러스, 더 퍼실리티즈 빗 모스트 아더 바즈" },
+          { en: "a big parking lot, clean restrooms, free Wi-Fi, a nice interior, you name it.", ko: "어 빅 파킹랏, 클린 레스트룸즈, 프리 와이파이, 어 나이스 인테리어, 유 네임잇" },
+          { en: "Overall, it's a great spot to hang out.", ko: "오버롤, 잇처 그레잇 스팟 투 행아웃" }
         ],
         warnings: [
           { word: "honestly", guide: "아너슬리" },
           { word: "instead", guide: "인스테드" },
           { word: "outskirts", guide: "아웃스커츠" },
-          { word: "facilities", guide: "퍼실러티즈" }
+          { word: "facilities", guide: "퍼실리티즈" }
         ]
       },
       {
@@ -1449,33 +1438,27 @@ const TOPICS = [
         type: "장소묘사",
         structure: ["자주 가는 곳: 스타파크 (서울 변두리)", "약 1,000명 수용 가능한 규모", "집에서 도보 10분 거리", "교통비 안 들어 좋음", "다른 공원보다 시설 좋음: 주차장/화장실/와이파이/조깅코스", "전반적으로 방문하기 좋은 곳"],
         script: [
-          { en: "The park I often go to is Star Park, which is located on the outskirts of Seoul.", ko: "제가 자주 가는 공원은 서울 변두리에 있는 스타파크예요." },
-          { en: "It's big enough to hold about a thousand people.", ko: "한 천 명 정도는 거뜬히 수용할 수 있을 만큼 커요." },
-          { en: "There are a few reasons I like going there.", ko: "제가 자주 가는 데는 몇 가지 이유가 있어요." },
-          { en: "First, it's really close to my house — it only takes about ten minutes on foot.", ko: "우선, 집에서 정말 가까워요 — 걸어서 10분 정도밖에 안 걸려요." },
-          { en: "So I don't have to spend much on transportation.", ko: "그래서 교통비를 많이 쓸 필요가 없어요." },
-          { en: "Also, it has better facilities than other parks.", ko: "또, 다른 공원보다 시설이 좋아요." },
-          { en: "For example, there's a big parking lot, clean restrooms, free Wi-Fi, and a beautiful jogging trail.", ko: "예를 들면, 넓은 주차장, 깨끗한 화장실, 무료 와이파이, 그리고 예쁜 조깅 코스가 있어요." },
-          { en: "Overall, it's a great place to visit.", ko: "전반적으로 방문하기 정말 좋은 곳이에요." }
+          { en: "Star Park, out on the outskirts of Seoul, is the park I visit most.", ko: "제가 가장 자주 가는 공원은 서울 변두리에 있는 스타파크예요." },
+          { en: "It's spacious enough for about a thousand people.", ko: "천 명 정도는 넉넉히 수용할 수 있을 만큼 넓어요." },
+          { en: "A few things keep me coming back.", ko: "제가 계속 그곳을 찾는 데는 몇 가지 이유가 있어요." },
+          { en: "For one, it's about a ten-minute walk from home, so getting there barely costs me anything.", ko: "우선, 집에서 걸어서 10분 정도라 가는 데 돈이 거의 안 들어요." },
+          { en: "It's also better equipped than most parks — a big parking lot, clean restrooms, free Wi-Fi, and a lovely jogging trail.", ko: "다른 공원보다 시설도 잘 갖춰져 있어요 — 넓은 주차장, 깨끗한 화장실, 무료 와이파이, 예쁜 조깅 코스까지요." },
+          { en: "All in all, it's a wonderful place to spend time.", ko: "전반적으로 시간 보내기 정말 좋은 곳이에요." }
         ],
         pronunciation: [
-          { en: "The park I often go to is Star Park,", ko: "더 파크 아이 오픈 고투 이즈 스타파크" },
-          { en: "which is located on the outskirts of Seoul.", ko: "위치즈 로케이티드 온디 아웃스커츠 어브 서울" },
-          { en: "It's big enough to hold about a thousand people.", ko: "잇츠 빅 이너프 투 홀드 어바웃어 싸우전드 피플" },
-          { en: "There are a few reasons I like going there.", ko: "데어라러 퓨 리즌즈 아이 라익 고잉데어" },
-          { en: "First, it's really close to my house —", ko: "퍼스트, 잇츠 릴리 클로스투 마이 하우스" },
-          { en: "it only takes about ten minutes on foot.", ko: "잇 온리 테익스 어바웃 텐 미닛츠 온풋" },
-          { en: "So I don't have to spend much on transportation.", ko: "소 아이 돈트 해브투 스펜드 머치 온 트랜스포테이션" },
-          { en: "Also, it has better facilities than other parks.", ko: "얼소, 잇 해즈 베러 퍼실리티즈 댄 아더 파크스" },
-          { en: "there's a big parking lot, clean restrooms,", ko: "데어저 빅 파킹랏, 클린 레스트룸즈" },
-          { en: "free Wi-Fi, and a beautiful jogging trail.", ko: "프리 와이파이, 앤어 뷰티풀 조깅 트레일" },
-          { en: "Overall, it's a great place to visit.", ko: "오버롤, 잇처 그레잇 플레이스 투 비짓" }
+          { en: "Star Park, out on the outskirts of Seoul, is the park I visit most.", ko: "스타파크, 아웃온디 아웃스커츠 어브 서울, 이즈더 파크 아이 비짓 모스트" },
+          { en: "It's spacious enough for about a thousand people.", ko: "잇츠 스페이셔스 이너프 퍼러바웃어 싸우전드 피플" },
+          { en: "A few things keep me coming back.", ko: "어 퓨 씽즈 킵미 커밍백" },
+          { en: "For one, it's about a ten-minute walk from home, so getting there barely costs me anything.", ko: "포원, 잇츠 어바웃어 텐미닛 웍 프럼홈, 소 게딩데어 베얼리 코스츠미 애니씽" },
+          { en: "It's also better equipped than most parks —", ko: "잇츠 얼소 베러 이큅트 댄 모스트 파크스" },
+          { en: "a big parking lot, clean restrooms, free Wi-Fi, and a lovely jogging trail.", ko: "어 빅 파킹랏, 클린 레스트룸즈, 프리 와이파이, 앤어 러블리 조깅 트레일" },
+          { en: "All in all, it's a wonderful place to spend time.", ko: "올인올, 잇처 원더풀 플레이스 투 스펜타임" }
         ],
         warnings: [
-          { word: "outskirts", guide: "아웃스커츠" },
-          { word: "transportation", guide: "트랜스포테이션" },
-          { word: "facilities", guide: "퍼실리티즈" },
-          { word: "restrooms", guide: "레스트룸즈" }
+          { word: "spacious", guide: "스페이셔스" },
+          { word: "equipped", guide: "이큅트" },
+          { word: "restrooms", guide: "레스트룸즈" },
+          { word: "jogging", guide: "조깅" }
         ]
       },
       {
@@ -1621,33 +1604,27 @@ const TOPICS = [
         type: "장소묘사",
         structure: ["자주 가는 곳: 만리포 해변(서해안)", "약 만 명 수용 가능한 규모", "집에서 차로 2시간 거리", "교통비 부담 적음", "다른 해변보다 시설 좋음: 주차장/화장실/와이파이/샤워시설", "전반적으로 방문하기 좋은 곳"],
         script: [
-          { en: "The beach I often go to is Manripo Beach, which is located on the west coast of Korea.", ko: "제가 자주 가는 해변은 한국 서해안에 있는 만리포 해변이에요." },
-          { en: "It's big enough to hold about ten thousand people.", ko: "만 명 정도는 거뜬히 수용할 수 있을 만큼 커요." },
-          { en: "There are a few reasons I like going there.", ko: "제가 자주 가는 데는 몇 가지 이유가 있어요." },
-          { en: "First, it's pretty close to my house — it only takes about two hours by car.", ko: "우선, 집에서 꽤 가까워요 — 차로 두 시간 정도밖에 안 걸려요." },
-          { en: "So I don't have to spend that much on transportation.", ko: "그래서 교통비를 많이 쓸 필요가 없어요." },
-          { en: "Also, it has better facilities than other beaches.", ko: "또, 다른 해변보다 시설이 좋아요." },
-          { en: "For example, there's a big parking lot, clean restrooms, free Wi-Fi, and good shower facilities.", ko: "예를 들면, 넓은 주차장, 깨끗한 화장실, 무료 와이파이, 그리고 좋은 샤워 시설이 있어요." },
-          { en: "Overall, it's a great place to visit.", ko: "전반적으로 방문하기 정말 좋은 곳이에요." }
+          { en: "Manripo Beach, on Korea's west coast, is where I usually head for the beach.", ko: "제가 보통 해변으로 가는 곳은 한국 서해안에 있는 만리포 해변이에요." },
+          { en: "It's huge — big enough for around ten thousand people.", ko: "정말 넓어요 — 만 명 정도는 수용할 수 있어요." },
+          { en: "There are a couple of reasons I keep going back.", ko: "제가 계속 그곳에 가는 데는 몇 가지 이유가 있어요." },
+          { en: "It's about a two-hour drive from home, so it doesn't cost too much to get there.", ko: "집에서 차로 두 시간 정도 걸려서 가는 데 돈이 그렇게 많이 들진 않아요." },
+          { en: "The facilities are also a step up from other beaches — a large parking lot, clean restrooms, free Wi-Fi, and good showers.", ko: "다른 해변보다 시설도 한 단계 더 좋아요 — 넓은 주차장, 깨끗한 화장실, 무료 와이파이, 좋은 샤워 시설까지요." },
+          { en: "Overall, it's a fantastic place to spend the day.", ko: "전반적으로 하루 보내기 정말 좋은 곳이에요." }
         ],
         pronunciation: [
-          { en: "The beach I often go to is Manripo Beach,", ko: "더 비치 아이 오픈 고투 이즈 만리포 비치" },
-          { en: "which is located on the west coast of Korea.", ko: "위치즈 로케이티드 온더 웨스트 코스트 어브 코리아" },
-          { en: "It's big enough to hold about ten thousand people.", ko: "잇츠 빅 이너프 투 홀드 어바웃 텐 싸우전드 피플" },
-          { en: "There are a few reasons I like going there.", ko: "데어라러 퓨 리즌즈 아이 라익 고잉데어" },
-          { en: "First, it's pretty close to my house —", ko: "퍼스트, 잇츠 프리티 클로스투 마이 하우스" },
-          { en: "it only takes about two hours by car.", ko: "잇 온리 테익스 어바웃 투 아워즈 바이 카" },
-          { en: "So I don't have to spend that much on transportation.", ko: "소 아이 돈트 해브투 스펜드 댓 머치 온 트랜스포테이션" },
-          { en: "Also, it has better facilities than other beaches.", ko: "얼소, 잇 해즈 베러 퍼실리티즈 댄 아더 비치스" },
-          { en: "there's a big parking lot, clean restrooms,", ko: "데어저 빅 파킹랏, 클린 레스트룸즈" },
-          { en: "free Wi-Fi, and good shower facilities.", ko: "프리 와이파이, 앤 굿 샤워 퍼실리티즈" },
-          { en: "Overall, it's a great place to visit.", ko: "오버롤, 잇처 그레잇 플레이스 투 비짓" }
+          { en: "Manripo Beach, on Korea's west coast, is where I usually head for the beach.", ko: "만리포 비치, 온 코리아스 웨스트 코스트, 이즈웨어 아이 유주얼리 헤드 퍼더 비치" },
+          { en: "It's huge — big enough for around ten thousand people.", ko: "잇츠 휴지, 빅 이너프 퍼러라운드 텐 싸우전드 피플" },
+          { en: "There are a couple of reasons I keep going back.", ko: "데어라러 커펄어브 리즌즈 아이 킵 고잉백" },
+          { en: "It's about a two-hour drive from home, so it doesn't cost too much to get there.", ko: "잇츠 어바웃어 투아워 드라이브 프럼홈, 소 잇 더즌트 코스트 투머치 투 겟데어" },
+          { en: "The facilities are also a step up from other beaches —", ko: "더 퍼실리티즈 아 얼소어 스텝업 프럼 아더 비치스" },
+          { en: "a large parking lot, clean restrooms, free Wi-Fi, and good showers.", ko: "어 라지 파킹랏, 클린 레스트룸즈, 프리 와이파이, 앤 굿 샤워즈" },
+          { en: "Overall, it's a fantastic place to spend the day.", ko: "오버롤, 잇처 팬태스틱 플레이스 투 스펜더데이" }
         ],
         warnings: [
           { word: "facilities", guide: "퍼실리티즈" },
-          { word: "transportation", guide: "트랜스포테이션" },
           { word: "restrooms", guide: "레스트룸즈" },
-          { word: "located", guide: "로케이티드" }
+          { word: "showers", guide: "샤워즈" },
+          { word: "fantastic", guide: "팬태스틱" }
         ]
       },
       {
@@ -1782,32 +1759,26 @@ const TOPICS = [
         type: "장소묘사",
         structure: ["자주 가는 곳: 만리포 해변(서해안)", "약 만 명 수용 가능한 규모", "집에서 차로 2시간 거리", "교통비 부담 적음", "다른 곳보다 시설 좋음: 호텔/식당/관광지/카페", "전반적으로 방문하기 좋은 곳"],
         script: [
-          { en: "The place I often travel to domestically is Manripo Beach, on the west coast of Korea.", ko: "제가 국내 여행으로 자주 가는 곳은 한국 서해안에 있는 만리포 해변이에요." },
-          { en: "It's big enough to hold about ten thousand people.", ko: "만 명 정도는 거뜬히 수용할 수 있을 만큼 커요." },
-          { en: "There are a few reasons I like going there.", ko: "제가 자주 가는 데는 몇 가지 이유가 있어요." },
-          { en: "First, it's pretty close to my house — only about two hours by car.", ko: "우선, 집에서 꽤 가까워요 — 차로 두 시간 정도밖에 안 걸려요." },
-          { en: "So I don't need to spend much on transportation.", ko: "그래서 교통비를 많이 쓸 필요가 없어요." },
-          { en: "Also, it has better facilities than other places.", ko: "또, 다른 곳보다 시설이 좋아요." },
-          { en: "For example, there are nice hotels, good restaurants, famous attractions, and beautiful cafes.", ko: "예를 들면, 좋은 호텔, 맛있는 식당, 유명한 관광지, 예쁜 카페들이 있어요." },
+          { en: "For domestic trips, I usually head to Manripo Beach on the west coast.", ko: "국내 여행으로는 보통 서해안에 있는 만리포 해변으로 가요." },
+          { en: "It's spacious enough to hold around ten thousand visitors.", ko: "만 명 정도의 방문객을 수용할 수 있을 만큼 넓어요." },
+          { en: "I keep going back for a couple of reasons.", ko: "제가 계속 그곳에 가는 데는 몇 가지 이유가 있어요." },
+          { en: "It's roughly a two-hour drive from my place, so the trip itself doesn't cost much.", ko: "저희 집에서 차로 두 시간 정도라 여행 자체에 돈이 많이 들지 않아요." },
+          { en: "Plus, it has better facilities than a lot of other spots — nice hotels, good restaurants, famous attractions, and lovely cafes.", ko: "게다가 다른 곳들보다 시설도 좋아요 — 좋은 호텔, 맛있는 식당, 유명한 관광지, 예쁜 카페까지요." },
           { en: "Overall, it's a great place to visit.", ko: "전반적으로 방문하기 정말 좋은 곳이에요." }
         ],
         pronunciation: [
-          { en: "The place I often travel to domestically", ko: "더 플레이스 아이 오픈 트래블 투 더메스티컬리" },
-          { en: "is Manripo Beach, on the west coast of Korea.", ko: "이즈 만리포 비치, 온더 웨스트 코스트 어브 코리아" },
-          { en: "It's big enough to hold about ten thousand people.", ko: "잇츠 빅 이너프 투 홀드 어바웃 텐 싸우전드 피플" },
-          { en: "There are a few reasons I like going there.", ko: "데어라러 퓨 리즌즈 아이 라익 고잉데어" },
-          { en: "First, it's pretty close to my house —", ko: "퍼스트, 잇츠 프리티 클로스투 마이 하우스" },
-          { en: "only about two hours by car.", ko: "온리 어바웃 투 아워즈 바이 카" },
-          { en: "So I don't need to spend much on transportation.", ko: "소 아이 돈 니투 스펜드 머치 온 트랜스포테이션" },
-          { en: "Also, it has better facilities than other places.", ko: "얼소, 잇 해즈 베러 퍼실리티즈 댄 아더 플레이시즈" },
-          { en: "there are nice hotels, good restaurants,", ko: "데어라 나이스 호텔즈, 굿 레스토랑츠" },
-          { en: "famous attractions, and beautiful cafes.", ko: "페이머스 어트랙션즈, 앤 뷰티풀 카페이즈" },
+          { en: "For domestic trips, I usually head to Manripo Beach on the west coast.", ko: "포 더메스틱 트립스, 아이 유주얼리 헤드투 만리포 비치 온더 웨스트 코스트" },
+          { en: "It's spacious enough to hold around ten thousand visitors.", ko: "잇츠 스페이셔스 이너프투 홀드 어라운드 텐 싸우전드 비지터즈" },
+          { en: "I keep going back for a couple of reasons.", ko: "아이 킵 고잉백 퍼러 커펄어브 리즌즈" },
+          { en: "It's roughly a two-hour drive from my place, so the trip itself doesn't cost much.", ko: "잇츠 러플리어 투아워 드라이브 프럼 마이플레이스, 소 더 트립 잇셀프 더즌트 코스트머치" },
+          { en: "Plus, it has better facilities than a lot of other spots —", ko: "플러스, 잇 해즈 베러 퍼실리티즈 댄 어랏어브 아더 스팟츠" },
+          { en: "nice hotels, good restaurants, famous attractions, and lovely cafes.", ko: "나이스 호텔즈, 굿 레스토랑츠, 페이머스 어트랙션즈, 앤 러블리 카페이즈" },
           { en: "Overall, it's a great place to visit.", ko: "오버롤, 잇처 그레잇 플레이스 투 비짓" }
         ],
         warnings: [
-          { word: "domestically", guide: "더메스티컬리" },
+          { word: "domestic", guide: "더메스틱" },
+          { word: "spacious", guide: "스페이셔스" },
           { word: "attractions", guide: "어트랙션즈" },
-          { word: "transportation", guide: "트랜스포테이션" },
           { word: "facilities", guide: "퍼실리티즈" }
         ]
       },
