@@ -1090,7 +1090,7 @@ const TOPICS = [
         type: "기억에 남는 경험",
         structure: ["두 달 전, 집 근처 카페", "친구 성규와 감", "성규가 화장실 간 사이 혼자 커피 마심", "지나가던 여자가 테이블 쳐서 셔츠에 커피 쏟음", "화가 나서 계속 불평함", "친구 돌아옴 → 그 여자가 친구의 아내였음", "엄청 창피해서 계속 사과함", "그 후로 카페 갈 때마다 생각남"],
         script: [
-          { en: "It was about two months ago when I had a really memorable time at a cafe.", ko: "저는 두 달 전쯤 카페에서 정말 기억에 남는 일이 있었어요." },
+          { en: "About two months ago, I had a really memorable time at a cafe.", ko: "저는 두 달 전쯤 카페에서 정말 기억에 남는 일이 있었어요." },
           { en: "I went to a cafe near my apartment with my best friend, Sunggyu.", ko: "저는 저희 집 근처 카페에 제일 친한 친구 성규랑 갔어요." },
           { en: "After a while, he went to the restroom, and I was just relaxing with my coffee, waiting for him.", ko: "잠시 후에 그가 화장실에 갔고, 저는 커피 마시면서 그를 기다리고 있었어요." },
           { en: "Suddenly, a woman walking by hit my table and spilled her coffee all over my shirt.", ko: "갑자기 지나가던 어떤 여자분이 제 테이블을 쳐서 커피를 제 셔츠에 다 쏟았어요." },
@@ -1101,7 +1101,7 @@ const TOPICS = [
           { en: "Ever since then, whenever I go to that cafe, I remember that whole incident.", ko: "그 이후로, 그 카페에 갈 때마다 그 사건 전체가 생각나요." }
         ],
         pronunciation: [
-          { en: "It was about two months ago when I had a really memorable time at a cafe.", ko: "잇워즈 어바웃 투먼쓰어고 웨나이 해더 릴리 메머러블 타임 앳어 카페" },
+          { en: "About two months ago, I had a really memorable time at a cafe.", ko: "어바웃 투 먼쓰어고, 아이 해더 릴리 메머러블 타임 앳어 카페" },
           { en: "I went to a cafe near my apartment with my best friend, Sunggyu.", ko: "아이웬투어 카페 니어마이 어파트먼트 윗마이 베스트프렌드, 성규" },
           { en: "After a while, he went to the restroom, and I was just relaxing with my coffee, waiting for him.", ko: "애프터러 와일, 히웬투더 레스트룸, 앤아이워즈 저스트 릴렉싱 윗마이 커피, 웨이팅퍼힘" },
           { en: "Suddenly, a woman walking by hit my table and spilled her coffee all over my shirt.", ko: "서든리, 어우먼 워킹바이 힛마이 테이블 앤 스필드허 커피 올오버 마이셔츠" },
@@ -1733,7 +1733,7 @@ const TOPICS = [
         type: "기억에 남는 경험",
         structure: ["두 달 전, 속초 해변", "친구 성규와 감", "성규가 화장실 간 사이 혼자 맥주 마심", "지나가던 여자가 부딪혀 셔츠에 커피 쏟음", "화가 나서 계속 뭐라 함", "친구 돌아옴 → 그 여자가 친구의 아내였음", "엄청 당황+계속 사과함", "그 후로 해변 갈 때마다 생각남"],
         script: [
-          { en: "It was about two months ago when I had a really memorable time at the beach.", ko: "두 달쯤 전에 해변에서 정말 기억에 남는 일이 있었어요." },
+          { en: "About two months ago, I had a really memorable time at the beach.", ko: "두 달쯤 전에 해변에서 정말 기억에 남는 일이 있었어요." },
           { en: "I went to Sokcho Beach with my best friend, Sunggyu.", ko: "가장 친한 친구 성규랑 속초 해변에 갔었어요." },
           { en: "After a while, he went to the restroom, and I was just relaxing with a beer, waiting for him.", ko: "잠시 후에 그가 화장실에 가서, 저는 맥주 마시면서 그를 기다리고 있었어요." },
           { en: "Suddenly, a woman bumped into me while walking by and spilled her coffee all over my shirt.", ko: "그런데 갑자기 지나가던 여자분이 저랑 부딪히면서 셔츠에 커피를 쏟았어요." },
@@ -1744,8 +1744,7 @@ const TOPICS = [
           { en: "Ever since then, whenever I go to that beach, I remember that whole incident.", ko: "그날 이후로 그 해변에 갈 때마다 그 일이 생각나요." }
         ],
         pronunciation: [
-          { en: "It was about two months ago", ko: "잇 워즈 어바웃 투 먼쓰어고" },
-          { en: "when I had a really memorable time at the beach.", ko: "웨나이 해더 릴리 메머러블 타임 앳더 비치" },
+          { en: "About two months ago, I had a really memorable time at the beach.", ko: "어바웃 투 먼쓰어고, 아이 해더 릴리 메머러블 타임 앳더 비치" },
           { en: "I went to Sokcho Beach with my best friend, Sunggyu.", ko: "아이 웬트 투 속초 비치 윗마이 베스트 프렌드, 성규" },
           { en: "After a while, he went to the restroom,", ko: "애프터러 와일, 히 웬트투더 레스트룸" },
           { en: "and I was just relaxing with a beer, waiting for him.", ko: "앤 아이 워즈 저스트 릴렉싱 위더 비어, 웨이팅 퍼힘" },
@@ -1887,7 +1886,7 @@ const TOPICS = [
         type: "기억에 남는 경험",
         structure: ["두 달 전, 속초 해변으로 간 여행", "친구 성규와 감", "성규가 화장실 간 사이 혼자 맥주 마심", "지나가던 여자가 부딪혀 셔츠에 커피 쏟음", "화가 나서 계속 뭐라 함", "친구 돌아옴 → 그 여자가 친구의 아내였음", "엄청 당황+계속 사과함", "그 후로 그 해변 생각날 때마다 떠오름"],
         script: [
-          { en: "It was about two months ago when I had a really memorable time at the beach.", ko: "두 달쯤 전에 해변에서 정말 기억에 남는 일이 있었어요." },
+          { en: "About two months ago, I had a really memorable time at the beach.", ko: "두 달쯤 전에 해변에서 정말 기억에 남는 일이 있었어요." },
           { en: "I went to Sokcho Beach with my best friend, Sunggyu.", ko: "가장 친한 친구 성규랑 속초 해변에 갔었어요." },
           { en: "After a while, he went to the restroom, and I was just relaxing with a beer, waiting for him.", ko: "잠시 후에 그가 화장실에 가서, 저는 맥주 마시면서 그를 기다리고 있었어요." },
           { en: "Suddenly, a woman bumped into me while walking by and spilled her coffee all over my shirt.", ko: "그런데 갑자기 지나가던 여자분이 저랑 부딪히면서 셔츠에 커피를 쏟았어요." },
@@ -1898,8 +1897,7 @@ const TOPICS = [
           { en: "Ever since then, whenever I think of that trip, I remember that whole incident.", ko: "그날 이후로 그 여행을 떠올릴 때마다 그 일이 생각나요." }
         ],
         pronunciation: [
-          { en: "It was about two months ago", ko: "잇 워즈 어바웃 투 먼쓰어고" },
-          { en: "when I had a really memorable time at the beach.", ko: "웨나이 해더 릴리 메머러블 타임 앳더 비치" },
+          { en: "About two months ago, I had a really memorable time at the beach.", ko: "어바웃 투 먼쓰어고, 아이 해더 릴리 메머러블 타임 앳더 비치" },
           { en: "I went to Sokcho Beach with my best friend, Sunggyu.", ko: "아이 웬트 투 속초 비치 윗마이 베스트 프렌드, 성규" },
           { en: "After a while, he went to the restroom,", ko: "애프터러 와일, 히 웬트투더 레스트룸" },
           { en: "and I was just relaxing with a beer, waiting for him.", ko: "앤 아이 워즈 저스트 릴렉싱 위더 비어, 웨이팅 퍼힘" },
