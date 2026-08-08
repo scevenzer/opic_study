@@ -1763,6 +1763,40 @@ const TOPICS = [
           { word: "incident", guide: "인시던트" },
           { word: "complaining", guide: "컴플레이닝" }
         ]
+      },
+      {
+        id: 163,
+        question: "Tell me what beaches typically look like in your country. What do they look like?",
+        translation: "당신 나라의 해변이 일반적으로 어떤 모습인지 말해 주세요.",
+        type: "일반 설명",
+        structure: ["한국 해변은 해안가 위치", "해운대·광안리·경포대 등 유명 해변", "백사장 넓음", "파라솔·비치의자 대여소", "편의점·매점", "해변 근처 카페", "안전요원 + 안전한 분위기"],
+        script: [
+          { en: "Beaches in Korea are usually located along the coast, close to the sea.", ko: "한국의 해변은 보통 바다와 가까운 해안가를 따라 위치해 있어요." },
+          { en: "We have many famous beaches like Haeundae, Gwangalli, and Gyeongpo Beach.", ko: "해운대, 광안리, 경포대 같은 유명한 해변들이 많아요." },
+          { en: "These beaches usually have really wide, sandy shores, so you'll be surprised at how spacious they are.", ko: "이런 해변들은 보통 백사장이 정말 넓어서, 얼마나 넓은지 보면 놀랄 거예요." },
+          { en: "When you arrive at a typical beach, you'll first see rental shops where you can rent parasols and beach chairs.", ko: "일반적인 해변에 도착하면 먼저 파라솔이랑 비치 의자를 빌릴 수 있는 대여소가 보여요." },
+          { en: "Near the rental shops, there are convenience stores and small stands selling snacks.", ko: "대여소 근처에는 편의점이랑 간식을 파는 작은 매점들이 있어요." },
+          { en: "You can also find cafes along the beach.", ko: "해변을 따라 카페들도 찾을 수 있어요." },
+          { en: "Lifeguards are always watching the water and helping people, so the overall atmosphere feels very safe and friendly.", ko: "안전요원들이 항상 물을 지켜보면서 사람들을 도와줘서 전체적인 분위기가 안전하고 친근하게 느껴져요." }
+        ],
+        pronunciation: [
+          { en: "Beaches in Korea are usually located along the coast, close to the sea.", ko: "비치즈 인 코리아 아 유주얼리 로케이티드 얼롱더 코스트, 클로스투더 씨" },
+          { en: "We have many famous beaches like Haeundae, Gwangalli, and Gyeongpo Beach.", ko: "위 해브 메니 페이머스 비치즈 라이크 해운대, 광안리, 앤 경포 비치" },
+          { en: "These beaches usually have really wide, sandy shores,", ko: "디즈 비치즈 유주얼리 해브 릴리 와이드, 샌디 쇼어즈" },
+          { en: "so you'll be surprised at how spacious they are.", ko: "소 유일비 서프라이즈드 앳 하우 스페이셔스 데이 아" },
+          { en: "When you arrive at a typical beach,", ko: "웬유 어라이브 앳어 티피컬 비치" },
+          { en: "you'll first see rental shops where you can rent parasols and beach chairs.", ko: "유일 퍼스트 씨 렌탈 샵스 웨어 유캔 렌트 패러솔즈 앤 비치 체어즈" },
+          { en: "Near the rental shops, there are convenience stores and small stands selling snacks.", ko: "니어더 렌탈 샵스, 데어라 컨비니언스 스토어즈 앤 스몰 스탠즈 셀링 스낵스" },
+          { en: "You can also find cafes along the beach.", ko: "유캔 얼소 파인 카페이즈 얼롱더 비치" },
+          { en: "Lifeguards are always watching the water and helping people,", ko: "라이프가즈 아 올웨이즈 워칭더 워러 앤 헬핑 피플" },
+          { en: "so the overall atmosphere feels very safe and friendly.", ko: "소 디 오버롤 앳모스피어 필즈 베리 세이프 앤 프렌들리" }
+        ],
+        warnings: [
+          { word: "located", guide: "로케이티드" },
+          { word: "spacious", guide: "스페이셔스" },
+          { word: "convenience", guide: "컨비니언스" },
+          { word: "lifeguards", guide: "라이프가즈" }
+        ]
       }
     ]
   },
