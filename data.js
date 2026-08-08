@@ -47,12 +47,12 @@ const TOPICS = [
         type: "활동묘사",
         structure: ["도입: 가족 중심 생활", "평일 활동 (바쁨 + 저녁 루틴)", "주말 변화", "아들과 게임", "감정 마무리"],
         script: [
-          { en: "Well, my family really enjoys spending time together at home.", ko: "우리 가족은 집에서 함께 시간을 보내는 것을 정말 좋아합니다." },
-          { en: "On weekdays, we're usually busy with work and school, so we don't get to spend much time together.", ko: "평일에는 일과 학교 때문에 보통 바빠서 함께 많은 시간을 보내지는 못합니다." },
-          { en: "After dinner, we sometimes watch TV or talk about our day, which is kind of our small routine.", ko: "저녁 식사 후에는 TV를 보거나 하루 동안 있었던 일을 이야기하는데, 그것이 우리만의 작은 일상입니다." },
-          { en: "But on weekends, things are a bit different because we have more free time.", ko: "하지만 주말에는 시간이 조금 더 여유로워서 분위기가 다릅니다." },
-          { en: "I usually play Pokémon on the Nintendo Switch or Minecraft with my son, and honestly, those moments feel really special to me.", ko: "저는 보통 아들과 닌텐도 스위치로 포켓몬이나 마인크래프트를 하는데, 그 순간들이 저에게 정말 특별하게 느껴집니다." },
-          { en: "So yeah, spending time with my family at home is probably the happiest part of my week.", ko: "그래서 집에서 가족과 함께 보내는 시간이 제 일주일 중 가장 행복한 시간이라고 생각합니다." }
+          { en: "Well, my family really enjoys spending time together at home.", ko: "저희 가족은 집에서 함께 시간 보내는 걸 정말 좋아해요." },
+          { en: "On weekdays, we're usually busy with work and school, so we don't get to spend much time together.", ko: "평일에는 보통 일과 학교 때문에 바빠서, 함께 시간을 많이 못 보내요." },
+          { en: "After dinner, we sometimes watch TV or talk about our day, which is kind of our small routine.", ko: "저녁 먹고 나서 가끔 TV를 보거나 하루 얘기를 나누는데, 그게 저희만의 작은 루틴 같은 거예요." },
+          { en: "But on weekends, things are a bit different because we have more free time.", ko: "근데 주말에는 좀 다른데, 자유 시간이 더 많거든요." },
+          { en: "I usually play Pokémon on the Nintendo Switch or Minecraft with my son, and honestly, those moments feel really special to me.", ko: "저는 보통 닌텐도 스위치로 포켓몬이나 마인크래프트를 아들이랑 하는데, 솔직히 그 순간들이 저한테는 정말 특별하게 느껴져요." },
+          { en: "Anyway, I think that's the happiest time of my week.", ko: "아무튼, 그게 제 한 주 중 가장 행복한 시간인 것 같아요." }
         ],
         pronunciation: [
           { en: "Well, my family really enjoys spending time together at home.", ko: "웰, 마이 패밀리 릴리 인조이즈 스펜딩 타임 투게더 앳홈" },
@@ -63,12 +63,11 @@ const TOPICS = [
           { en: "But on weekends, things are a bit different because we have more free time.", ko: "벗 온 위켄즈, 씽즈어러 빗 디퍼런트 비커즈 위 해브 모어 프리타임" },
           { en: "I usually play Pokémon on the Nintendo Switch or Minecraft with my son,", ko: "아이 유주얼리 플레이 포켓몬 온더 닌텐도 스위치 오어 마인크래프트 윗마이 선" },
           { en: "and honestly, those moments feel really special to me.", ko: "앤 아너슬리, 도즈 모먼츠 필 릴리 스페셜러미" },
-          { en: "So yeah, spending time with my family at home is probably the happiest part of my week.", ko: "소 예, 스펜딩 타임 윗마이 패밀리 앳홈 이즈 프라벌리 더 해피어스트 파러브 마이 윅" }
+          { en: "Anyway, I think that's the happiest time of my week.", ko: "애니웨이, 아이 씽크 댓츠 더 해피어스트 타임어브 마이 윅" }
         ],
         warnings: [
           { word: "usually", guide: "유주얼리" }, { word: "get to", guide: "겟투" },
-          { word: "kind of", guide: "카인더브" }, { word: "probably", guide: "프라벌리" },
-          { word: "happiest", guide: "해피어스트" }
+          { word: "kind of", guide: "카인더브" }, { word: "happiest", guide: "해피어스트" }
         ]
       },
       {
