@@ -136,3 +136,20 @@ When I get ready for a trip, I usually follow a certain routine. First, I decide
 > ✅ 검토 결과: 질문(여행 준비 순서)에 정확히 대응 — 목적지/계획 결정 → 정보 검색 → 예약 → 짐 싸기 → 마무리. 그대로 사용하기 적합해서 data.js(국내여행 2번, id 99) 원고도 이 버전으로 업데이트했습니다.
 
 ---
+
+## 10. 국내여행 - 어릴 때 여행 (속초 해변)
+
+**문제**: Tell me about some of the trips you took in your youth. Where did you go, who with, and what did you do?
+
+**최종 원고**
+When I was in middle school, I had a memorable experience with a trip. At the time, my family wanted to do something fun, so we decided to go to the beach. We went to Sokcho Beach, on the east coast of Korea. It was really crowded, especially with couples, so I was a bit annoyed. As soon as we got there, we found a spot to rest and unpacked. Then we went swimming, rode a boat, and got some ice cream. The scenery was amazing — I was especially impressed by the beautiful ocean view. After that, we grabbed some food and talked about our day. Well, it was such a great time!
+
+**핵심 표현**
+- had a memorable experience with a trip — 기억에 남는 여행 경험이 있었다는 도입 표현
+- especially with couples, so I was a bit annoyed — 붐빈 이유를 구체적으로 짚어주는 디테일
+- as soon as we got there — 도착하자마자
+- talked about our day — 그날 하루 얘기를 하다 (vacation보다 그 순간에 초점)
+
+> ✅ 검토 결과: 질문(어릴 때 여행 — 어디로/누구와/무엇을)에 정확히 대응 — 계기 → 장소 → 도착 후 활동 → 감상 → 마무리. 그대로 사용하기 적합해서 data.js(국내여행 3번, id 100) 원고도 이 버전으로 업데이트했습니다.
+
+---

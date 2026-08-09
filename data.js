@@ -1877,37 +1877,38 @@ const TOPICS = [
         question: "Tell me about some of the trips you took in your youth. Where did you go, who with, and what did you do?",
         translation: "어릴 때 갔던 여행에 대해 말해 주세요. 어디로, 누구와 갔고, 뭘 했나요?",
         type: "과거 경험",
-        structure: ["중학교 때 여행", "가족과 재밌는거 하려고", "속초 해변(동해안)", "커플들로 붐벼서 짜증", "도착 후 자리+짐정리", "수영/보트/모래성", "풍경+바다뷰에 감명", "먹으며 휴가 얘기", "좋은 시간이었음"],
+        structure: ["중학교 때 여행", "가족과 재밌는거 하려고", "속초 해변(동해안)", "커플들로 붐벼서 짜증", "도착 후 자리+짐정리", "수영/보트/아이스크림", "풍경+바다뷰에 감명", "먹으며 하루 얘기", "좋은 시간이었음"],
         script: [
-          { en: "I remember a trip I took back in middle school.", ko: "중학교 때 갔던 여행이 생각나요." },
-          { en: "At the time, my family wanted to do something fun, so we decided to go to the beach.", ko: "그때 가족이 재미있는 걸 하고 싶어 해서 해변에 가기로 했어요." },
-          { en: "We went to Sokcho Beach, on the east coast of Korea.", ko: "한국 동해안에 있는 속초 해변에 갔어요." },
-          { en: "It was really crowded, especially with couples, so I was a bit annoyed.", ko: "특히 커플들이 많아서 꽤 붐볐는데, 그래서 좀 짜증났어요." },
+          { en: "When I was in middle school, I had a memorable experience with a trip.", ko: "중학교 때, 여행에서 기억에 남는 경험이 있었어요." },
+          { en: "At the time, my family wanted to do something fun, so we decided to go to the beach.", ko: "그때 가족이 뭔가 재밌는 걸 하고 싶어서 해변에 가기로 했어요." },
+          { en: "We went to Sokcho Beach, on the east coast of Korea.", ko: "한국 동해안에 있는 속초 해수욕장에 갔어요." },
+          { en: "It was really crowded, especially with couples, so I was a bit annoyed.", ko: "정말 붐볐는데, 특히 커플들이 많아서 좀 짜증났어요." },
           { en: "As soon as we got there, we found a spot to rest and unpacked.", ko: "도착하자마자 쉴 자리를 찾고 짐을 풀었어요." },
-          { en: "Then we went swimming, rode a boat, and built some sandcastles.", ko: "그러고 나서 수영도 하고, 보트도 타고, 모래성도 쌓았어요." },
-          { en: "The scenery was amazing — I was especially impressed by the beautiful ocean view.", ko: "풍경이 정말 멋있었는데, 특히 아름다운 바다 전망에 감명받았어요." },
-          { en: "After that, we grabbed some food and talked about our vacation.", ko: "그 후에는 뭐 좀 먹으면서 휴가 얘기를 했어요." },
+          { en: "Then we went swimming, rode a boat, and got some ice cream.", ko: "그다음엔 수영하고, 보트도 타고, 아이스크림도 먹었어요." },
+          { en: "The scenery was amazing — I was especially impressed by the beautiful ocean view.", ko: "경치가 정말 좋았어요 — 특히 아름다운 바다 풍경에 감명받았어요." },
+          { en: "After that, we grabbed some food and talked about our day.", ko: "그다음엔 뭔가 먹으면서 그날 하루에 대해 얘기했어요." },
           { en: "Well, it was such a great time!", ko: "정말 좋은 시간이었어요!" }
         ],
         pronunciation: [
-          { en: "I remember a trip I took back in middle school.", ko: "아이 리멤버러 트립 아이 툭 백인 미들 스쿨" },
+          { en: "When I was in middle school,", ko: "웬 아이 워즈 인 미들 스쿨" },
+          { en: "I had a memorable experience with a trip.", ko: "아이 해더 메모러블 익스피리언스 위더 트립" },
           { en: "At the time, my family wanted to do something fun,", ko: "앳더 타임, 마이 패밀리 원티드투두 썸씽 펀" },
           { en: "so we decided to go to the beach.", ko: "소 위 디사이디드 투고투더 비치" },
           { en: "We went to Sokcho Beach, on the east coast of Korea.", ko: "위 웬투 속초 비치, 온디 이스트 코스트 어브 코리아" },
           { en: "It was really crowded, especially with couples,", ko: "잇 워즈 릴리 크라우디드, 이스페셜리 윗 커플즈" },
           { en: "so I was a bit annoyed.", ko: "소 아이 워저 빗 어노이드" },
           { en: "As soon as we got there, we found a spot to rest and unpacked.", ko: "애즈 순애즈 위 갓데어, 위 파운더 스팟 투 레스트 앤 언팩트" },
-          { en: "Then we went swimming, rode a boat, and built some sandcastles.", ko: "덴 위 웬트 스위밍, 로더 보트, 앤 빌트 썸 샌드캐슬즈" },
+          { en: "Then we went swimming, rode a boat, and got some ice cream.", ko: "덴 위 웬트 스위밍, 로더 보트, 앤 갓 썸 아이스크림" },
           { en: "The scenery was amazing —", ko: "더 씨너리 워저 메이징" },
           { en: "I was especially impressed by the beautiful ocean view.", ko: "아이 워즈 이스페셜리 임프레스트 바이더 뷰티풀 오션 뷰" },
-          { en: "After that, we grabbed some food and talked about our vacation.", ko: "애프터댓, 위 그랩드 썸 푸드 앤 톡트 어바웃 아워 베케이션" },
+          { en: "After that, we grabbed some food and talked about our day.", ko: "애프터댓, 위 그랩드 썸 푸드 앤 톡트 어바웃 아워 데이" },
           { en: "Well, it was such a great time!", ko: "웰, 잇 워즈 서치어 그레잇 타임" }
         ],
         warnings: [
           { word: "crowded", guide: "크라우디드" },
+          { word: "memorable", guide: "메모러블" },
           { word: "scenery", guide: "씨너리" },
-          { word: "impressed", guide: "임프레스트" },
-          { word: "sandcastles", guide: "샌드캐슬즈" }
+          { word: "impressed", guide: "임프레스트" }
         ]
       },
       {
