@@ -1845,32 +1845,31 @@ const TOPICS = [
         question: "Can you tell me all the things you do in order to prepare for a trip?",
         translation: "여행을 준비할 때 순서대로 어떤 걸 하는지 말해 주세요.",
         type: "활동묘사",
-        structure: ["여러 단계로 순서대로 준비", "1단계: 목적지+계획 결정", "2단계: 인터넷으로 정보 검색(호텔/식당/관광지/교통)", "3단계: 호텔+교통편 예약(인터넷이 빠르고 편리함)", "4단계: 전날 짐 싸기(옷/속옷/재킷/우산/간식)", "마무리"],
+        structure: ["정해진 루틴을 따름", "1단계: 목적지+계획 결정", "2단계: 인터넷으로 정보 검색(호텔/식당/관광지/교통)", "3단계: 호텔+교통편 예약(인터넷이 빠르고 편리함)", "4단계: 출발 전 짐 싸기(옷/속옷/재킷/간식)", "마무리"],
         script: [
-          { en: "When I get ready for a trip, I go through a few steps in order.", ko: "여행 준비를 할 때, 저는 순서대로 몇 가지 단계를 거쳐요." },
+          { en: "When I get ready for a trip, I usually follow a certain routine.", ko: "여행 준비를 할 때, 저는 보통 정해진 루틴을 따라요." },
           { en: "First, I decide on the destination and the plan.", ko: "첫째, 목적지와 계획을 정해요." },
           { en: "After that, I search online for information about the place — nice hotels, good restaurants, famous attractions, and transportation.", ko: "그다음엔, 온라인으로 그 장소에 대한 정보를 찾아봐요 — 좋은 호텔, 맛있는 식당, 유명한 관광지, 교통편이요." },
           { en: "Then I book a hotel and transportation, usually online, because it's fast and convenient.", ko: "그다음엔 호텔이랑 교통편을 예약해요, 보통 온라인으로요. 빠르고 편리하니까요." },
-          { en: "The day before the trip, I pack my things — clothes, underwear, a light jacket, an umbrella, some snacks, and so on.", ko: "여행 전날엔 짐을 싸요 — 옷, 속옷, 가벼운 자켓, 우산, 간식 등등이요." },
+          { en: "Before I leave, I pack my things — clothes, underwear, a light jacket, and some snacks.", ko: "떠나기 전에, 짐을 싸요 — 옷, 속옷, 가벼운 자켓, 간식 등등이요." },
           { en: "And that's basically my routine before a trip.", ko: "그게 기본적으로 제 여행 준비 루틴이에요." }
         ],
         pronunciation: [
           { en: "When I get ready for a trip,", ko: "웬아이 겟 레디 퍼러 트립" },
-          { en: "I go through a few steps in order.", ko: "아이 고 쓰루어 퓨 스텝스 인 오더" },
+          { en: "I usually follow a certain routine.", ko: "아이 유주얼리 팔로우 어 서튼 루틴" },
           { en: "First, I decide on the destination and the plan.", ko: "퍼스트, 아이 디사이드 온더 데스티네이션 앤더 플랜" },
           { en: "After that, I search online for information about the place —", ko: "애프터댓, 아이 서치 온라인 퍼 인포메이션 어바웃더 플레이스" },
           { en: "nice hotels, good restaurants, famous attractions, and transportation.", ko: "나이스 호텔즈, 굿 레스토랑츠, 페이머스 어트랙션즈, 앤 트랜스포테이션" },
           { en: "Then I book a hotel and transportation, usually online,", ko: "덴 아이 북어 호텔 앤 트랜스포테이션, 유주얼리 온라인" },
           { en: "because it's fast and convenient.", ko: "비커즈 잇츠 패스트 앤 컨비니언트" },
-          { en: "The day before the trip, I pack my things —", ko: "더 데이 비포더 트립, 아이 팩 마이 씽즈" },
-          { en: "clothes, underwear, a light jacket, an umbrella, some snacks, and so on.", ko: "클로즈, 언더웨어, 어 라잇 재킷, 언 엄브렐라, 썸 스낵스, 앤 소온" },
+          { en: "Before I leave, I pack my things —", ko: "비포 아이 리브, 아이 팩 마이 씽즈" },
+          { en: "clothes, underwear, a light jacket, and some snacks.", ko: "클로즈, 언더웨어, 어 라잇 재킷, 앤 썸 스낵스" },
           { en: "And that's basically my routine before a trip.", ko: "앤 댓츠 베이시컬리 마이 루틴 비포러 트립" }
         ],
         warnings: [
           { word: "destination", guide: "데스티네이션" },
           { word: "transportation", guide: "트랜스포테이션" },
-          { word: "convenient", guide: "컨비니언트" },
-          { word: "umbrella", guide: "엄브렐라" }
+          { word: "convenient", guide: "컨비니언트" }
         ]
       },
       {
