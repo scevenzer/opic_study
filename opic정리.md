@@ -153,3 +153,36 @@ When I was in middle school, I had a memorable experience with a trip. At the ti
 > ✅ 검토 결과: 질문(어릴 때 여행 — 어디로/누구와/무엇을)에 정확히 대응 — 계기 → 장소 → 도착 후 활동 → 감상 → 마무리. 그대로 사용하기 적합해서 data.js(국내여행 3번, id 100) 원고도 이 버전으로 업데이트했습니다.
 
 ---
+
+## 11. 롤플레이(11-12-13번) 필수 표현/패턴 정리
+
+data.js에 있는 롤플레이 12세트(MP3 구매/가구 구매/휴대폰 구매/옷 구매/저녁 초대/공원 약속/공연 티켓/여행 예약/병원 예약/식당/지리·친구방문/날씨와 옷차림)를 전부 훑어서, 공통으로 반복되는 뼈대만 뽑았습니다. 실전에서는 이 틀에 그날의 상황(물건/장소/이유)만 바꿔 끼우면 됩니다.
+
+### 11번 — 질문하기 (전화로 정보 요청, 질문 3~4개)
+1. **전화+인사**: `Hello, is this [상대]? This is [내 이름]. How are you?` / 가게 상대일 땐 `Hi there, is this the [가게]?`
+2. **용건**: `Well, I'd like to / I want to ~ because ~. I have some questions about it.`
+3. **질문① 추천**: `What kinds of ~ are popular these days? Can you give me any recommendations?`
+4. **질문② 특징/기능**: `What [features/functions] do they have? I [개인적인 필요] — do you think they have that?`
+5. **질문③ 가격**: `What's the price(range)? I have a budget of $[X] — can I get a discount?`
+6. **마무리**: `Awesome, that's the answer I wanted. Thank you for the information. Bye.`
+
+### 12번 — 문제 해결하기 (상황 설명 + 대안 2~3개 제시)
+1. **전화+용건**: `Hello, is this [상대]? I'm calling about ~.`
+2. **사과+상황 설명**: `I'm sorry, but ~ — [이유/증상].`
+3. **대안① 일정 조정**: `So, I wonder if we could reschedule ~. How about [다른 날짜/시간]?`
+4. **대안②**: `Or, can we/I just ~?`
+5. **마무리**: `Please call me back when you get this message. / Thank you for understanding. Bye.`
+
+### 13번 — 관련 경험 말하기
+1. **도입**: `Let me tell you about my experience from about two years ago.`
+2. **기대**: `At first, everything seemed fine. I was excited to ~.`
+3. **전환(문제 발생)**: `However, ~.`
+4. **심화**: `To make matters worse, ~.`
+5. **시도**: `So I tried to ~, but it wasn't easy.`
+6. **결과**: `As a result, I had to ~.`
+7. **마무리**: `Nevertheless, ~. / It was such a disappointing experience.`
+
+### 참고 — 아직 13번이 없는 세트
+식당(id52) / 지리·친구방문(id53) / 날씨와 옷차림(id54)은 11-12번만 있고 13번(관련경험) 원고가 아직 없음. 나중에 채울 때 위 13번 패턴 그대로 활용하면 됨.
+
+---
