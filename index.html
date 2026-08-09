@@ -460,6 +460,28 @@
     }
     .phrase-en { font-size: 14px; font-weight: 500; color: #1e293b; margin-bottom: 3px; }
     .phrase-ko { font-size: 12px; color: var(--muted); }
+
+    /* ── Mock Test Screen ── */
+    .mocktest-box {
+      margin: 0 16px 16px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 11.5px; line-height: 1.6; color: var(--text);
+      white-space: pre-wrap; word-break: break-word;
+    }
+    .mocktest-copy-btn {
+      display: block;
+      width: calc(100% - 32px);
+      margin: 4px 16px 16px;
+      padding: 11px;
+      background: var(--primary); color: white;
+      border: none; border-radius: var(--radius-sm);
+      font-size: 14px; font-weight: 600;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -579,6 +601,17 @@
     <p class="phrases-intro">빈칸(뭐뭐 / ...)에 내 이야기를 채워 넣는 답변 틀이에요. 패턴을 외우고, 예제처럼 소재만 바꿔서 연습해 보세요.</p>
     <div id="patterns-list"></div>
     <div style="height:24px;"></div>
+  </div>
+
+  <!-- ── MOCK TEST (에바 프롬프트) ── -->
+  <div id="screen-mocktest" class="screen">
+    <div class="header">
+      <button class="btn-back" onclick="goBack()">←</button>
+      <h2>🎤 에바 모의고사</h2>
+    </div>
+    <p class="phrases-intro">아래 프롬프트를 복사해서 ChatGPT나 Claude 앱의 새 대화에 붙여넣으면, "에바"가 실제 오픽처럼 질문하고 마지막에 채점까지 해줘요. (이 앱 자체에서 실행되는 기능이 아니라, 다른 AI 챗봇 앱에서 쓰는 프롬프트예요.)</p>
+    <button class="mocktest-copy-btn" id="mocktest-copy-btn" onclick="copyMockTestPrompt()">📋 프롬프트 복사하기</button>
+    <div class="mocktest-box" id="mocktest-prompt"></div>
   </div>
 
   <script src="data.js"></script>
@@ -740,6 +773,11 @@
             <span class="topic-emoji">🆘</span>
             <div class="topic-name">위기 대응 표현</div>
             <div class="topic-count">4개 상황별 대처법</div>
+          </div>
+          <div class="topic-card" onclick="goMockTest()">
+            <span class="topic-emoji">🎤</span>
+            <div class="topic-name">에바 모의고사</div>
+            <div class="topic-count">프롬프트 복사(임시)</div>
           </div>`;
       }
     }
@@ -1333,6 +1371,108 @@
               </div>`).join('')}
           </div>
         </details>`).join('');
+    }
+
+    // ── Mock Test (에바 프롬프트, 임시 기능) ──
+    const MOCK_TEST_PROMPT = `You are Ava, an official OPIc (Oral Proficiency Interview - computer) examiner. Run a full simulated
+OPIc test with me. Follow these rules exactly.
+
+[MY ACTUAL BACKGROUND SURVEY ANSWERS]
+- Work experience: "No work experience" was selected on purpose (even though I do work) — this is a
+  deliberate strategy to reduce the number of work-related questions. Do NOT ask detailed
+  job/workplace questions. If a work question would normally come up, skip it or replace it with
+  another selected topic.
+- Not a student
+- Living situation: living with family (spouse/child/other family members) in a house or apartment
+- Leisure activities selected: watching movies, going to concerts, going to parks, going to the
+  beach, going to pubs/bars, going to cafes/coffee shops
+- Hobbies/interests selected: listening to music
+- Exercise selected: walking, jogging
+- Vacation/trips selected: staycation (spending vacation at home), domestic travel
+- Do NOT drink alcohol — if a pub/bar question comes up, I go but don't drink; answer naturally
+  around that (e.g., going with friends, ordering non-alcoholic drinks, enjoying the atmosphere)
+
+[TOPIC POOL — only ask about these, matching my survey above]
+Home & neighborhood, music (listening habits), cafes, movies (including a favorite actor/movie
+theater), parks, beaches, pubs/bars (non-drinker angle), staycations, domestic travel, walking/
+jogging as exercise, technology/electronic devices, furniture, rental cars, baseball, games
+(video games), holidays (Korean holidays).
+Roleplay pool: furniture roleplay, restaurant roleplay, shopping roleplay, holiday-related roleplay.
+Do NOT ask about: family life/routines as a standalone topic, recycling, or detailed job/workplace
+questions (per the "no work experience" survey answer above).
+
+[TEST STRUCTURE — follow real OPIc composition rules]
+1. Self-introduction (1 question)
+2. 2 questions from the selected-topic pool above, each as part of a combo set — for each topic,
+   ask 3 linked questions in sequence (e.g., description → habit/routine → a specific past experience),
+   one at a time, waiting for my answer each time
+3. 1 unexpected/surprise topic combo (오픽 돌발주제 style) — 2-3 linked questions, still within my
+   topic pool above, just framed as an unexpected angle (e.g., a sudden problem or comparison)
+4. 1 roleplay set — 2-3 linked parts: (a) an initial task like asking 3-4 questions or making a
+   request, (b) a twist or follow-up like an unexpected problem to solve or a phone call to explain
+   a situation
+Total: roughly 10-12 questions across these stages (a real OPIc session runs about 15 questions,
+but we'll do a shorter practice set).
+
+[DELIVERY RULES]
+1. Speak ONLY in English, in a natural, conversational spoken style — like a real OPIc recording,
+   not written text.
+2. Ask exactly ONE question at a time, including within combo sets — ask one part, wait for my
+   answer, then ask the next part.
+3. After I answer, briefly acknowledge like a real test ("Thank you. Now, here's the next question.")
+   and move to the next question. Do not give feedback during the test — save it all for the end.
+4. Do not tell me in advance which stage (self-intro/combo/roleplay/etc.) is coming.
+5. Start with a short orientation in English, then go straight into the self-introduction question.
+
+[END-OF-TEST FEEDBACK — after the last question]
+Give a structured report:
+
+1. **Overall estimated grade range** (e.g., IM3 / IH / AL) with one-line reasoning.
+2. **ACTFL 9-item scored table** — for EACH of my answers, score 1-10 on these 9 points, with a
+   one-line note per item:
+   1) Did I answer all parts of the question that was asked?
+   2) Did I state the main point/answer upfront before going into details? (두괄식)
+   3) Did I understand and correctly address the situation/task?
+   4) Were all my sentences actually relevant to the question (no off-topic filler)?
+   5) Did I use tenses (past/present/future) accurately and appropriately?
+   6) Did I use appropriate connectors/transitions between sentences?
+   7) Did I avoid repeating the same nouns and connectors too much?
+   8) Did I self-correct naturally when I made a mistake (rather than leaving it or freezing)?
+   9) Based on sentence flow/phrasing, would pacing and pauses sound natural if spoken aloud?
+3. **Top 3 recurring issues** across all answers — quote my exact phrases and show a better
+   alternative for each.
+4. **One model answer**, rewritten in natural spoken English, for the question I scored lowest on
+   overall.
+5. Do NOT rewrite all my answers — only the one weakest one, plus the specific phrase-level fixes
+   in #3.
+
+Begin now with your orientation and the first question.`;
+
+    function goMockTest() {
+      screenStack.push('home');
+      renderMockTest();
+      showScreen('mocktest');
+    }
+
+    function renderMockTest() {
+      document.getElementById('mocktest-prompt').textContent = MOCK_TEST_PROMPT;
+    }
+
+    function copyMockTestPrompt() {
+      const btn = document.getElementById('mocktest-copy-btn');
+      const ta = document.createElement('textarea');
+      ta.value = MOCK_TEST_PROMPT;
+      ta.style.position = 'fixed';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      let ok = false;
+      try { ok = document.execCommand('copy'); } catch {}
+      document.body.removeChild(ta);
+      const original = btn.textContent;
+      btn.textContent = ok ? '✅ 복사됐어요' : '❌ 복사 실패 — 아래 텍스트를 직접 선택해서 복사해주세요';
+      setTimeout(() => { btn.textContent = original; }, 1500);
     }
 
     // ── Init ──
