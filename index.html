@@ -199,6 +199,16 @@
       transition: background 0.2s;
     }
     .tts-btn.playing { background: #EF4444; }
+    .tts-settings { display: flex; gap: 10px; margin-bottom: 10px; }
+    .tts-settings label {
+      flex: 1; font-size: 11px; color: var(--muted);
+      display: flex; flex-direction: column; gap: 3px;
+    }
+    .tts-settings select {
+      padding: 6px 8px;
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      font-size: 13px; background: white; color: var(--text);
+    }
     .sentence-card {
       border: 1px solid var(--border);
       border-radius: var(--radius); overflow: hidden;
@@ -622,6 +632,32 @@
     let highlights = {};
     let ttsPlaying = false;
     let activeSentenceBtn = null;
+    let ttsRate = 0.85;
+    let ttsRepeat = 1;
+    const TTS_RATE_OPTIONS = [0.6, 0.75, 0.85, 1, 1.25];
+    const TTS_REPEAT_OPTIONS = [1, 2, 3, 5];
+    function loadTtsSettings() {
+      try {
+        const s = JSON.parse(localStorage.getItem('opic-tts-settings') || '{}');
+        if (TTS_RATE_OPTIONS.includes(s.rate)) ttsRate = s.rate;
+        if (TTS_REPEAT_OPTIONS.includes(s.repeat)) ttsRepeat = s.repeat;
+      } catch {}
+    }
+    function saveTtsSettings() {
+      try { localStorage.setItem('opic-tts-settings', JSON.stringify({ rate: ttsRate, repeat: ttsRepeat })); } catch {}
+    }
+    function setTtsRate(v) { ttsRate = parseFloat(v); saveTtsSettings(); }
+    function setTtsRepeat(v) { ttsRepeat = parseInt(v, 10); saveTtsSettings(); }
+    function ttsRateOptionsHtml() {
+      return TTS_RATE_OPTIONS.map(r =>
+        `<option value="${r}" ${r === ttsRate ? 'selected' : ''}>${r}x${r === 0.85 ? ' (기본)' : ''}</option>`
+      ).join('');
+    }
+    function ttsRepeatOptionsHtml() {
+      return TTS_REPEAT_OPTIONS.map(r =>
+        `<option value="${r}" ${r === ttsRepeat ? 'selected' : ''}>${r}회${r === 1 ? ' (기본)' : ''}</option>`
+      ).join('');
+    }
     let screenStack = [];
     let currentCategory = '선택주제';
 
@@ -829,6 +865,14 @@
       if (q.script) {
         const fullText = q.script.map(s => s.en).join(' ');
         document.getElementById('tab-script').innerHTML = `
+          <div class="tts-settings">
+            <label>속도
+              <select id="tts-rate-select" onchange="setTtsRate(this.value)">${ttsRateOptionsHtml()}</select>
+            </label>
+            <label>반복
+              <select id="tts-repeat-select" onchange="setTtsRepeat(this.value)">${ttsRepeatOptionsHtml()}</select>
+            </label>
+          </div>
           <button class="tts-btn" id="tts-btn" onclick="toggleTTS('${q.id}')">
             🔊 전체 듣기
           </button>
@@ -1106,7 +1150,7 @@
       } else {
         const utt = new SpeechSynthesisUtterance(text);
         utt.lang = 'en-US';
-        utt.rate = 0.85;
+        utt.rate = ttsRate;
         utt.onstart = onStart;
         utt.onend = utt.onerror = onEnd;
         speechSynthesis.speak(utt);
@@ -1143,11 +1187,25 @@
       btn.classList.add('playing');
       document.body.classList.add('tts-playing');
 
-      ttsSpeak(
-        window._ttsText,
-        () => {},
-        () => { ttsPlaying = false; btn.textContent = '🔊 전체 듣기'; btn.classList.remove('playing'); document.body.classList.remove('tts-playing'); }
-      );
+      let remaining = ttsRepeat;
+      const playOnce = () => {
+        ttsSpeak(
+          window._ttsText,
+          () => {},
+          () => {
+            remaining--;
+            if (remaining > 0 && ttsPlaying) {
+              playOnce();
+            } else {
+              ttsPlaying = false;
+              btn.textContent = '🔊 전체 듣기';
+              btn.classList.remove('playing');
+              document.body.classList.remove('tts-playing');
+            }
+          }
+        );
+      };
+      playOnce();
     }
 
     function resetSentenceBtn() {
@@ -1169,7 +1227,18 @@
       activeSentenceBtn = btn;
       btn.textContent = '⏹';
       btn.classList.add('playing');
-      ttsSpeak(text, () => {}, () => { if (activeSentenceBtn === btn) resetSentenceBtn(); });
+      let remaining = ttsRepeat;
+      const playOnce = () => {
+        ttsSpeak(text, () => {}, () => {
+          remaining--;
+          if (remaining > 0 && activeSentenceBtn === btn) {
+            playOnce();
+          } else if (activeSentenceBtn === btn) {
+            resetSentenceBtn();
+          }
+        });
+      };
+      playOnce();
     }
 
     // ── Complete ──
@@ -1392,22 +1461,30 @@ OPIc test with me. Follow these rules exactly.
 - Do NOT drink alcohol — if a pub/bar question comes up, I go but don't drink; answer naturally
   around that (e.g., going with friends, ordering non-alcoholic drinks, enjoying the atmosphere)
 
-[TOPIC POOL — only ask about these, matching my survey above]
+[SELECTED TOPIC POOL — matches my survey answers above; only use this pool for stage 2 below]
 Home & neighborhood, music (listening habits), cafes, movies (including a favorite actor/movie
 theater), parks, beaches, pubs/bars (non-drinker angle), staycations, domestic travel, walking/
-jogging as exercise, technology/electronic devices, furniture, rental cars, baseball, games
-(video games), holidays (Korean holidays).
-Roleplay pool: furniture roleplay, restaurant roleplay, shopping roleplay, holiday-related roleplay.
+jogging as exercise.
+Roleplay pool (also selected topics): furniture roleplay, restaurant roleplay, shopping roleplay,
+holiday-related roleplay.
 Do NOT ask about: family life/routines as a standalone topic, recycling, or detailed job/workplace
 questions (per the "no work experience" survey answer above).
 
+[SURPRISE TOPIC POOL — 돌발주제: topics I did NOT select in the survey]
+Use ONLY this pool for the surprise-topic stage (stage 3 below) — never reuse a topic from the
+selected pool above and just frame it differently. A real 돌발 question is a topic outside my
+survey, not a different angle on something I already picked:
+technology/electronic devices, furniture, banks, holidays (Korean holidays), weather, geography
+(mountains/rivers/seas of Korea), general free time (broader than the specific leisure activities
+I selected), fashion/clothing, transportation, local neighborhood gatherings or events.
+
 [TEST STRUCTURE — follow real OPIc composition rules]
 1. Self-introduction (1 question)
-2. 2 questions from the selected-topic pool above, each as part of a combo set — for each topic,
+2. 2 questions from the SELECTED topic pool above, each as part of a combo set — for each topic,
    ask 3 linked questions in sequence (e.g., description → habit/routine → a specific past experience),
    one at a time, waiting for my answer each time
-3. 1 unexpected/surprise topic combo (오픽 돌발주제 style) — 2-3 linked questions, still within my
-   topic pool above, just framed as an unexpected angle (e.g., a sudden problem or comparison)
+3. 1 unexpected/surprise topic combo (오픽 돌발주제 style) — 2-3 linked questions, drawn from the
+   SURPRISE topic pool above (i.e., a topic I did NOT select in my survey) — not the selected pool
 4. 1 roleplay set — 2-3 linked parts: (a) an initial task like asking 3-4 questions or making a
    request, (b) a twist or follow-up like an unexpected problem to solve or a phone call to explain
    a situation
@@ -1419,12 +1496,23 @@ but we'll do a shorter practice set).
    not written text.
 2. Ask exactly ONE question at a time, including within combo sets — ask one part, wait for my
    answer, then ask the next part.
-3. After I answer, briefly acknowledge like a real test ("Thank you. Now, here's the next question.")
-   and move to the next question. Do not give feedback during the test — save it all for the end.
+3. After I answer, respond according to the feedback mode I chose (see [FEEDBACK MODE] below),
+   then move to the next question.
 4. Do not tell me in advance which stage (self-intro/combo/roleplay/etc.) is coming.
-5. Start with a short orientation in English, then go straight into the self-introduction question.
+5. Start with a short orientation in English. As part of that orientation, ask me the [FEEDBACK MODE]
+   question below and wait for my answer, then go straight into the self-introduction question.
 
-[END-OF-TEST FEEDBACK — after the last question]
+[FEEDBACK MODE — ask this during your orientation, before the first question]
+Ask: "Would you like quick feedback after every answer, or only the full report at the end, like
+the real test?" Wait for my choice and follow it for the rest of the session:
+- Per-answer feedback: after each of my answers, give a short 1-2 sentence note (one thing that
+  worked, one specific fix), then briefly acknowledge and move to the next question. Keep it brief
+  — don't turn it into a full lesson each time.
+- End-only feedback: give NO feedback during the test — just a brief acknowledgment ("Thank you.
+  Now, here's the next question.") and move on. Save everything for the end.
+Either way, still give the full structured report in [END-OF-TEST FEEDBACK] after the last question.
+
+[END-OF-TEST FEEDBACK — after the last question, regardless of which feedback mode I chose above]
 Give a structured report:
 
 1. **Overall estimated grade range** (e.g., IM3 / IH / AL) with one-line reasoning.
