@@ -120,3 +120,19 @@ The place I often travel to domestically is Manripo Beach, on the west coast of 
 > ✅ 검토 결과: 질문(좋아하는 국내 여행지 + 이유)에 정확히 대응하는 구조 — 장소 소개 → 이유 두 가지(거리/시설) → 구체 예시 → 마무리. 그대로 사용하기 적합해서 data.js(국내여행 1번, id 98) 원고도 이 버전으로 업데이트했습니다.
 
 ---
+
+## 9. 국내여행 - 여행 준비 과정
+
+**문제**: Can you tell me all the things you do in order to prepare for a trip?
+
+**최종 원고**
+When I get ready for a trip, I go through a few steps in order. First, I decide on the destination and the plan. After that, I search online for information about the place — nice hotels, good restaurants, famous attractions, and transportation. Then I book a hotel and transportation, usually online, because it's fast and convenient. The day before the trip, I pack my things — clothes, underwear, a light jacket, an umbrella, some snacks, and so on. And that's basically my routine before a trip.
+
+**핵심 표현**
+- go through a few steps in order — 순서대로 몇 단계를 거치다
+- After that / Then / The day before — 준비 과정을 시간 순서로 이어주는 연결어
+- because it's fast and convenient — 온라인 예약을 선호하는 이유를 간단히 설명
+
+> ✅ 검토 결과: 질문(여행 준비 순서)에 정확히 대응 — 목적지/계획 결정 → 정보 검색 → 예약 → 짐 싸기 → 마무리. 그대로 사용하기 적합해서 data.js(국내여행 2번, id 99) 원고도 이 버전으로 업데이트했습니다.
+
+---
