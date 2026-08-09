@@ -103,3 +103,20 @@ Also, recycling days depend on where you live. In the past, you could throw out 
 > ⚠️ 전략 메모: 콤보 문제 대비, 첫 답변은 사실 위주로 두고 개인 경험/디테일은 후속 질문에 대비해 아껴두기
 
 ---
+
+## 8. 국내여행 - 좋아하는 여행지 (만리포 해변)
+
+**문제**: You indicated that you take vacations domestically. Tell me some places you like to travel to and why.
+
+**최종 원고**
+The place I often travel to domestically is Manripo Beach, on the west coast of Korea. It's big enough to hold about ten thousand people. There are a few reasons I like going there. First, it's pretty close to my place. It takes about two hours by car, so I don't need to spend much money on transportation. Also, it has better facilities than other beaches. For example, there are nice hotels, good restaurants, famous attractions, and beautiful cafes. Overall, it's a great place to visit.
+
+**핵심 표현**
+- big enough to hold about X people — 규모를 사람 수로 설명하는 표현
+- pretty close to my place — 집에서 가깝다 (자연스러운 구어체)
+- spend much money on transportation — 교통비를 많이 쓰다
+- better facilities than other beaches — 비교 대상을 구체적으로 지정(다른 "장소"가 아니라 다른 "해변")해야 자연스러움
+
+> ✅ 검토 결과: 질문(좋아하는 국내 여행지 + 이유)에 정확히 대응하는 구조 — 장소 소개 → 이유 두 가지(거리/시설) → 구체 예시 → 마무리. 그대로 사용하기 적합해서 data.js(국내여행 1번, id 98) 원고도 이 버전으로 업데이트했습니다.
+
+---
