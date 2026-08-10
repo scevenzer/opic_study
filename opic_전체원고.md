@@ -501,9 +501,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 여행 중 겪었던 예상치 못한 경험이 있을 거예요. 언제, 어디서, 누구와 있었는지부터 잊지 못할 에피소드 하나를 말해 주세요.
 
-**원고**: About two months ago, I had a really memorable time at the beach. I went to Sokcho Beach with my best friend, Sunggyu. After a while, he went to the restroom, and I was just relaxing with a beer, waiting for him. Suddenly, a woman bumped into me while walking by and spilled her coffee all over my shirt. My shirt got completely soaked, and I got really upset. Even though she apologized, I kept complaining to her. Then, when my friend came back, I was totally shocked — she was his wife! I was so embarrassed. I kept apologizing to her over and over. Since then, I always remember it when I think of that trip.
+**원고**: Let me tell you about something that happened at a mall while I was on a trip a while ago. I went there with my wife, and while we were looking around, she went to the restroom. A few minutes later, when she came back, she looked really upset — the door was broken and had hit her on the head. So I got upset too, and I went straight to the staff and complained. Since her head really hurt, we had to see a doctor. Luckily, it wasn't too serious. After that, the manager paid the hospital bill and gave us a gift as an apology. Still, it just wasn't a good day after that.
 
-**한글 해석**: 두 달쯤 전에 해변에서 정말 기억에 남는 일이 있었어요. 가장 친한 친구 성규랑 속초 해변에 갔었어요. 잠시 후에 그가 화장실에 가서, 저는 맥주 마시면서 그를 기다리고 있었어요. 그런데 갑자기 지나가던 여자분이 저랑 부딪히면서 셔츠에 커피를 쏟았어요. 셔츠가 완전히 젖어서 정말 속상했어요. 그분이 사과했는데도 저는 계속 뭐라고 했어요. 그러다 친구가 돌아왔는데, 완전 충격이었어요 — 그 여자분이 친구 아내였던 거예요! 너무 당황해서 계속 사과했어요. 그 이후로, 저는 그 여행을 떠올릴 때마다 항상 그 일이 생각나요.
+**한글 해석**: 얼마 전 여행 갔을 때 쇼핑몰에서 있었던 일을 말씀드릴게요. 아내랑 같이 갔는데, 둘러보다가 아내가 화장실에 갔어요. 몇 분 후 아내가 돌아왔을 때 얼굴이 울상이었어요 — 문이 고장 나서 머리를 맞았대요. 그래서 저도 화가 나서 바로 직원한테 항의했어요. 아내 머리가 많이 아파서 병원에 가봐야 했어요. 다행히 심각하진 않았어요. 그 후에 지점장님이 병원비도 내주고 미안하다고 선물도 줬어요. 그래도 그 이후로 그날 하루가 별로였어요.
 
 ---
 

@@ -1979,38 +1979,36 @@ const TOPICS = [
         question: "You might have had an unexpected experience while traveling. Tell me about one unforgettable episode — when it happened, where you were, and who you were with.",
         translation: "여행 중 겪었던 예상치 못한 경험이 있을 거예요. 언제, 어디서, 누구와 있었는지부터 잊지 못할 에피소드 하나를 말해 주세요.",
         type: "기억에 남는 경험",
-        structure: ["두 달 전, 속초 해변으로 간 여행", "친구 성규와 감", "성규가 화장실 간 사이 혼자 맥주 마심", "지나가던 여자가 부딪혀 셔츠에 커피 쏟음", "화가 나서 계속 뭐라 함", "친구 돌아옴 → 그 여자가 친구의 아내였음", "엄청 당황+계속 사과함", "그 후로 그 해변 생각날 때마다 떠오름"],
+        structure: ["얼마 전 여행중 쇼핑몰서 있었던 일", "아내와 방문, 아내 화장실감", "문이 고장나서 머리 부딪힘", "화나서 직원에게 항의", "머리 아파서 병원감", "다행히 심각하지 않음", "지점장이 병원비+사과선물", "그날 하루 별로였음"],
         script: [
-          { en: "About two months ago, I had a really memorable time at the beach.", ko: "두 달쯤 전에 해변에서 정말 기억에 남는 일이 있었어요." },
-          { en: "I went to Sokcho Beach with my best friend, Sunggyu.", ko: "가장 친한 친구 성규랑 속초 해변에 갔었어요." },
-          { en: "After a while, he went to the restroom, and I was just relaxing with a beer, waiting for him.", ko: "잠시 후에 그가 화장실에 가서, 저는 맥주 마시면서 그를 기다리고 있었어요." },
-          { en: "Suddenly, a woman bumped into me while walking by and spilled her coffee all over my shirt.", ko: "그런데 갑자기 지나가던 여자분이 저랑 부딪히면서 셔츠에 커피를 쏟았어요." },
-          { en: "My shirt got completely soaked, and I got really upset.", ko: "셔츠가 완전히 젖어서 정말 속상했어요." },
-          { en: "Even though she apologized, I kept complaining to her.", ko: "그분이 사과했는데도 저는 계속 뭐라고 했어요." },
-          { en: "Then, when my friend came back, I was totally shocked — she was his wife!", ko: "그러다 친구가 돌아왔는데, 완전 충격이었어요 — 그 여자분이 친구 아내였던 거예요!" },
-          { en: "I was so embarrassed. I kept apologizing to her over and over.", ko: "너무 당황해서 계속 사과했어요." },
-          { en: "Since then, I always remember it when I think of that trip.", ko: "그 이후로, 저는 그 여행을 떠올릴 때마다 항상 그 일이 생각나요." }
+          { en: "Let me tell you about something that happened at a mall while I was on a trip a while ago.", ko: "얼마 전 여행 갔을 때 쇼핑몰에서 있었던 일을 말씀드릴게요." },
+          { en: "I went there with my wife, and while we were looking around, she went to the restroom.", ko: "아내랑 같이 갔는데, 둘러보다가 아내가 화장실에 갔어요." },
+          { en: "A few minutes later, when she came back, she looked really upset — the door was broken and had hit her on the head.", ko: "몇 분 후 아내가 돌아왔을 때 얼굴이 울상이었어요 — 문이 고장 나서 머리를 맞았대요." },
+          { en: "So I got upset too, and I went straight to the staff and complained.", ko: "그래서 저도 화가 나서 바로 직원한테 항의했어요." },
+          { en: "Since her head really hurt, we had to see a doctor.", ko: "아내 머리가 많이 아파서 병원에 가봐야 했어요." },
+          { en: "Luckily, it wasn't too serious.", ko: "다행히 심각하진 않았어요." },
+          { en: "After that, the manager paid the hospital bill and gave us a gift as an apology.", ko: "그 후에 지점장님이 병원비도 내주고 미안하다고 선물도 줬어요." },
+          { en: "Still, it just wasn't a good day after that.", ko: "그래도 그 이후로 그날 하루가 별로였어요." }
         ],
         pronunciation: [
-          { en: "About two months ago, I had a really memorable time at the beach.", ko: "어바웃 투 먼쓰어고, 아이 해더 릴리 메머러블 타임 앳더 비치" },
-          { en: "I went to Sokcho Beach with my best friend, Sunggyu.", ko: "아이 웬트 투 속초 비치 윗마이 베스트 프렌드, 성규" },
-          { en: "After a while, he went to the restroom,", ko: "애프터러 와일, 히 웬트투더 레스트룸" },
-          { en: "and I was just relaxing with a beer, waiting for him.", ko: "앤 아이 워즈 저스트 릴렉싱 위더 비어, 웨이팅 퍼힘" },
-          { en: "Suddenly, a woman bumped into me while walking by", ko: "서든리, 어 우먼 범트인투미 와일 워킹바이" },
-          { en: "and spilled her coffee all over my shirt.", ko: "앤 스필드 허 커피 올오버 마이 셔츠" },
-          { en: "My shirt got completely soaked, and I got really upset.", ko: "마이 셔츠 갓 컴플리틀리 소우크트, 앤 아이 갓 릴리 업셋" },
-          { en: "Even though she apologized, I kept complaining to her.", ko: "이븐도우 쉬 어팔러자이즈드, 아이 켑트 컴플레이닝투허" },
-          { en: "Then, when my friend came back, I was totally shocked —", ko: "덴, 웬마이 프렌드 케임백, 아이 워즈 토탈리 샥트" },
-          { en: "she was his wife!", ko: "쉬 워즈 히즈 와이프" },
-          { en: "I was so embarrassed.", ko: "아이 워즈 소우 임배러스트" },
-          { en: "I kept apologizing to her over and over.", ko: "아이 켑트 어팔러자이징투허 오버앤오버" },
-          { en: "Since then, I always remember it when I think of that trip.", ko: "신스덴, 아이 올웨이즈 리멤버릿 웬아이 씽커브댓 트립" }
+          { en: "Let me tell you about something that happened at a mall", ko: "렛미 텔유 어바웃 썸씽 댓 해펀드 애러 몰" },
+          { en: "while I was on a trip a while ago.", ko: "와일 아이워즈 온어 트립 어와일어고" },
+          { en: "I went there with my wife, and while we were looking around,", ko: "아이 웬트 데어 윗마이 와이프, 앤 와일위워 룩킹어라운드" },
+          { en: "she went to the restroom.", ko: "쉬 웬트투더 레스트룸" },
+          { en: "A few minutes later, when she came back, she looked really upset —", ko: "어퓨 미닛츠 레이터, 웬쉬 케임백, 쉬 룩트 릴리 업셋" },
+          { en: "the door was broken and had hit her on the head.", ko: "더 도어 워즈 브로큰 앤 해드 힛허 온더 헤드" },
+          { en: "So I got upset too, and I went straight to the staff and complained.", ko: "소 아이 갓 업셋 투, 앤 아이 웬트 스트레이트 투더 스태프 앤 컴플레인드" },
+          { en: "Since her head really hurt, we had to see a doctor.", ko: "신스 허 헤드 릴리 헛, 위 해드투 씨어 닥터" },
+          { en: "Luckily, it wasn't too serious.", ko: "럭킬리, 잇 워즌트 투 시리어스" },
+          { en: "After that, the manager paid the hospital bill", ko: "애프터댓, 더 매니저 페이드 더 하스피틀 빌" },
+          { en: "and gave us a gift as an apology.", ko: "앤 게이버스 어 기프트 애즈언 어팔러지" },
+          { en: "Still, it just wasn't a good day after that.", ko: "스틸, 잇 저스트 워즌트어 굿데이 애프터댓" }
         ],
         warnings: [
-          { word: "apologized", guide: "어팔러자이즈드" },
-          { word: "embarrassed", guide: "임배러스트" },
-          { word: "incident", guide: "인시던트" },
-          { word: "complaining", guide: "컴플레이닝" }
+          { word: "broken", guide: "브로큰" },
+          { word: "complained", guide: "컴플레인드" },
+          { word: "hospital", guide: "하스피틀" },
+          { word: "apology", guide: "어팔러지" }
         ]
       }
     ]
