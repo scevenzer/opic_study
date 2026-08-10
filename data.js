@@ -2026,8 +2026,8 @@ const TOPICS = [
         script: [
           { en: "I'd like to talk about my best friend, Heo Jong, who lives right next door to me.", ko: "옆집에 사는 제 가장 친한 친구 허종에 대해 말씀드릴게요." },
           { en: "I first met him when he moved into my neighborhood, and we've known each other for about twenty years now, so I feel really comfortable around him.", ko: "그가 저희 동네로 이사 왔을 때 처음 만났는데, 이제 알고 지낸 지 한 20년 정도 돼서 정말 편해요." },
-          { en: "I like spending my vacations with him because we have a lot in common.", ko: "저는 그와 휴가를 함께 보내는 걸 좋아하는데, 공통점이 많거든요." },
-          { en: "For one, we both like staying fit, so we like cooking together at home.", ko: "우선 둘 다 건강 관리를 좋아해서, 집에서 같이 요리하는 걸 좋아해요." },
+          { en: "I really enjoy spending my vacations with him since we have a lot in common.", ko: "저는 그와 휴가를 함께 보내는 게 정말 좋은데, 공통점이 많거든요." },
+          { en: "For one, we're both into staying fit, so we enjoy cooking together at home.", ko: "우선 둘 다 건강 관리에 관심이 많아서, 같이 요리하는 걸 즐겨요." },
           { en: "Also, we both really love movies, and we have similar taste in movies.", ko: "또 둘 다 영화를 정말 좋아하고, 영화 취향도 비슷해요." },
           { en: "Overall, I feel really lucky to have such a great friend to spend time with at home.", ko: "전반적으로, 집에서 이렇게 시간을 보낼 수 있는 좋은 친구가 있다는 게 정말 행운이라고 생각해요." }
         ],
@@ -2037,9 +2037,9 @@ const TOPICS = [
           { en: "I first met him when he moved into my neighborhood,", ko: "아이 퍼스트 멧힘 웬히 무브드 인투마이 네이버후드" },
           { en: "and we've known each other for about twenty years now,", ko: "앤 위브 노운 이치아더 퍼러바웃 트웨니 이어즈 나우" },
           { en: "so I feel really comfortable around him.", ko: "소 아이 필 릴리 컴퍼러블 어라운드힘" },
-          { en: "I like spending my vacations with him because we have a lot in common.", ko: "아이 라익 스펜딩 마이 베케이션즈 윗힘 비커즈 위 해버 랏인 커먼" },
-          { en: "For one, we both like staying fit,", ko: "퍼원, 위 보쓰 라익 스테잉 핏" },
-          { en: "so we like cooking together at home.", ko: "소 위 라익 쿠킹 투게더 앳홈" },
+          { en: "I really enjoy spending my vacations with him since we have a lot in common.", ko: "아이 릴리 인조이 스펜딩 마이 베케이션즈 윗힘 신스 위 해버 랏인 커먼" },
+          { en: "For one, we're both into staying fit,", ko: "퍼원, 위어 보쓰 인투 스테잉 핏" },
+          { en: "so we enjoy cooking together at home.", ko: "소 위 인조이 쿠킹 투게더 앳홈" },
           { en: "Also, we both really love movies,", ko: "얼소, 위 보쓰 릴리 러브 무비즈" },
           { en: "and we have similar taste in movies.", ko: "앤 위 해브 시밀러 테이스트 인 무비즈" },
           { en: "Overall, I feel really lucky to have such a great friend to spend time with at home.", ko: "오버롤, 아이 필 릴리 럭키투 해브 서치어 그레잇 프렌드 투 스펜타임 위댓 홈" }
