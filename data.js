@@ -2058,25 +2058,25 @@ const TOPICS = [
         question: "Tell me about the things you like to do with that person during your vacation at home.",
         translation: "그 사람과 집에서 휴가를 보낼 때 주로 뭘 하는지 말해 주세요.",
         type: "활동묘사",
-        structure: ["성규와 휴가보냄, 오라고 하면 기꺼이 옴", "같이 요리(건강식 레시피 찾음, 성규가 주 요리사)", "요리 후 최신 영화 고름", "밥 먹으면서 영화 같이 봄(가끔 몇시간씩)", "특별친않지만 항상 즐김"],
+        structure: ["허종과 휴가보냄, 오라고 하면 기꺼이 옴", "같이 요리(건강식 레시피 찾음, 허종이 주 요리사)", "요리 후 볼 영화 고름", "밥 먹으면서 영화 같이 봄(가끔 몇시간씩)", "특별친않지만 항상 즐김"],
         script: [
-          { en: "Like I said, I usually spend my vacations with my friend, Sunggyu.", ko: "말씀드렸듯이 저는 보통 친구 성규와 휴가를 보내요." },
+          { en: "Like I said, I usually spend my vacations with my friend, Heo Jong.", ko: "말씀드렸듯이 저는 보통 친구 허종과 휴가를 보내요." },
           { en: "On my days off, I usually ask him to come over, and he's always happy to.", ko: "쉬는 날엔 보통 그한테 놀러 오라고 하는데, 항상 흔쾌히 와줘요." },
           { en: "When he comes, we usually cook something first — we look up healthy recipes and make them together.", ko: "그가 오면 보통 먼저 뭔가를 요리하는데, 건강한 레시피를 찾아서 같이 만들어요." },
           { en: "He's actually the main cook since he's really good at it, so I just help out.", ko: "사실 요리는 그가 잘해서 주로 그가 하고, 저는 그냥 거들어요." },
-          { en: "After we finish cooking, we pick out one of the latest movies.", ko: "요리가 끝나면 최신 영화 중 하나를 골라요." },
+          { en: "After we finish cooking, we pick a movie to watch.", ko: "요리가 끝나면 같이 볼 영화를 골라요." },
           { en: "Then we enjoy the meal and the movie together — sometimes we end up watching several movies for hours.", ko: "그러고 나서 밥이랑 영화를 같이 즐기는데, 가끔은 몇 시간씩 여러 편을 보기도 해요." },
           { en: "Even though it's nothing too special, we always have a good time.", ko: "그렇게 특별한 건 아니지만 항상 즐거운 시간이에요." }
         ],
         pronunciation: [
-          { en: "Like I said, I usually spend my vacations with my friend, Sunggyu.", ko: "라이카이 세드, 아이 유주얼리 스펜드 마이 베케이션즈 윗마이 프렌드, 성규" },
+          { en: "Like I said, I usually spend my vacations with my friend, Heo Jong.", ko: "라이카이 세드, 아이 유주얼리 스펜드 마이 베케이션즈 윗마이 프렌드, 허종" },
           { en: "On my days off, I usually ask him to come over,", ko: "온마이 데이즈오프, 아이 유주얼리 애스크힘투 컴오버" },
           { en: "and he's always happy to.", ko: "앤 히즈 올웨이즈 해피투" },
           { en: "When he comes, we usually cook something first —", ko: "웬히 컴즈, 위 유주얼리 쿡 썸씽 퍼스트" },
           { en: "we look up healthy recipes and make them together.", ko: "위 룩업 헬씨 레서피즈 앤 메익뎀 투게더" },
           { en: "He's actually the main cook since he's really good at it,", ko: "히즈 액츄얼리 더 메인 쿡 신스 히즈 릴리 굿앳잇" },
           { en: "so I just help out.", ko: "소 아이 저스트 헬프아웃" },
-          { en: "After we finish cooking, we pick out one of the latest movies.", ko: "애프터위 피니쉬 쿠킹, 위 픽아웃 원어브더 레이티스트 무비즈" },
+          { en: "After we finish cooking, we pick a movie to watch.", ko: "애프터위 피니쉬 쿠킹, 위 픽어 무비 투 왓치" },
           { en: "Then we enjoy the meal and the movie together —", ko: "덴 위 인조이더 밀 앤더 무비 투게더" },
           { en: "sometimes we end up watching several movies for hours.", ko: "썸타임즈 위 엔덥 워칭 세버럴 무비즈 퍼 아워즈" },
           { en: "Even though it's nothing too special, we always have a good time.", ko: "이븐도우 잇츠 낫씽 투 스페셜, 위 올웨이즈 해버 굿 타임" }
@@ -2084,7 +2084,7 @@ const TOPICS = [
         warnings: [
           { word: "recipes", guide: "레서피즈" },
           { word: "actually", guide: "액츄얼리" },
-          { word: "latest", guide: "레이티스트" },
+          { word: "vacations", guide: "베케이션즈" },
           { word: "several", guide: "세버럴" }
         ]
       },
