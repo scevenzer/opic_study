@@ -492,6 +492,45 @@
       font-size: 14px; font-weight: 600;
       cursor: pointer;
     }
+
+    /* ── Corrections Screen ── */
+    .correction-add-form {
+      display: flex; flex-direction: column; gap: 8px;
+      margin: 0 16px 16px;
+      padding: 14px;
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+    }
+    .correction-add-form input {
+      padding: 10px 12px;
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      font-size: 14px; color: var(--text);
+      background: white;
+    }
+    .correction-add-form input:focus { outline: 2px solid var(--primary); outline-offset: -1px; }
+    .btn-add-correction {
+      padding: 10px;
+      background: var(--primary); color: white;
+      border: none; border-radius: var(--radius-sm);
+      font-size: 14px; font-weight: 600;
+      cursor: pointer;
+    }
+    .correction-item {
+      display: flex; align-items: flex-start; gap: 10px;
+      margin: 0 16px 10px;
+      padding: 12px 14px;
+      background: white; border: 1px solid var(--border); border-radius: var(--radius);
+    }
+    .correction-text { flex: 1; min-width: 0; }
+    .correction-wrong { font-size: 13px; color: #dc2626; text-decoration: line-through; margin-bottom: 4px; word-break: break-word; }
+    .correction-correct { font-size: 14px; font-weight: 600; color: #16a34a; word-break: break-word; }
+    .btn-delete-correction {
+      flex-shrink: 0;
+      padding: 6px 10px;
+      background: var(--surface2); color: var(--muted);
+      border: 1px solid var(--border); border-radius: var(--radius-sm);
+      font-size: 12px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -613,6 +652,22 @@
     <div style="height:24px;"></div>
   </div>
 
+  <!-- ── CORRECTIONS (교정 노트) ── -->
+  <div id="screen-corrections" class="screen">
+    <div class="header">
+      <button class="btn-back" onclick="goBack()">←</button>
+      <h2>🩹 교정 노트</h2>
+    </div>
+    <p class="phrases-intro">말하다가 틀렸거나 어색했던 표현을 직접 적어두고 관리하세요. 이 기기에만 저장돼요.</p>
+    <div class="correction-add-form">
+      <input type="text" id="corr-wrong-input" placeholder="틀린 표현" onkeydown="if(event.key==='Enter')document.getElementById('corr-correct-input').focus()" />
+      <input type="text" id="corr-correct-input" placeholder="맞는 표현" onkeydown="if(event.key==='Enter')addCorrection()" />
+      <button class="btn-add-correction" onclick="addCorrection()">+ 추가</button>
+    </div>
+    <div id="corrections-list"></div>
+    <div style="height:24px;"></div>
+  </div>
+
   <!-- ── MOCK TEST (에바 프롬프트) ── -->
   <div id="screen-mocktest" class="screen">
     <div class="header">
@@ -682,6 +737,31 @@
     }
     function saveHighlights() {
       try { localStorage.setItem('opic-highlights', JSON.stringify(highlights)); } catch {}
+    }
+    let corrections = [];
+    const DEFAULT_CORRECTIONS = [
+      { wrong: "I got spending time there", correct: "I get to spend time there / I spend time there" },
+      { wrong: "It means means to run me", correct: "It means a lot to me" },
+      { wrong: "climb or dodge stairs", correct: "climb all the stairs" },
+      { wrong: "touch the dishes", correct: "wash the dishes" },
+      { wrong: "she always peer tired", correct: "she always seems tired" },
+      { wrong: "I think I of my wife I'm happy to them", correct: "I think of my wife, so I'm happy to do them" },
+      { wrong: "the disease was degested", correct: "the dish was disgusting" },
+      { wrong: "this all pointing holiday", correct: "it turned into a memorable holiday" }
+    ];
+    function loadCorrections() {
+      try {
+        if (localStorage.getItem('opic-corrections') === null) {
+          corrections = DEFAULT_CORRECTIONS.slice();
+          saveCorrections();
+          return;
+        }
+        const parsed = JSON.parse(localStorage.getItem('opic-corrections') || '[]');
+        corrections = Array.isArray(parsed) ? parsed : [];
+      } catch { corrections = []; }
+    }
+    function saveCorrections() {
+      try { localStorage.setItem('opic-corrections', JSON.stringify(corrections)); } catch {}
     }
 
     // ── Navigation ──
@@ -793,7 +873,7 @@
           <div class="topic-card" onclick="goPhrases()">
             <span class="topic-emoji">📌</span>
             <div class="topic-name">공통 구문</div>
-            <div class="topic-count">7개 카테고리</div>
+            <div class="topic-count">8개 카테고리</div>
           </div>
           <div class="topic-card" onclick="goPatterns()">
             <span class="topic-emoji">🧩</span>
@@ -809,6 +889,11 @@
             <span class="topic-emoji">🆘</span>
             <div class="topic-name">위기 대응 표현</div>
             <div class="topic-count">4개 상황별 대처법</div>
+          </div>
+          <div class="topic-card" onclick="goCorrections()">
+            <span class="topic-emoji">🩹</span>
+            <div class="topic-name">교정 노트</div>
+            <div class="topic-count">${corrections.length}개 항목</div>
           </div>
           <div class="topic-card" onclick="goMockTest()">
             <span class="topic-emoji">🎤</span>
@@ -1392,6 +1477,41 @@
         </details>`).join('');
     }
 
+    // ── Corrections (교정 노트) ──
+    function goCorrections() {
+      screenStack.push('home');
+      renderCorrections();
+      showScreen('corrections');
+    }
+    function renderCorrections() {
+      document.getElementById('corrections-list').innerHTML = corrections.length ? corrections.map((c, i) => `
+        <div class="correction-item">
+          <div class="correction-text">
+            <div class="correction-wrong">${escapeHtml(c.wrong)}</div>
+            <div class="correction-correct">${escapeHtml(c.correct)}</div>
+          </div>
+          <button class="btn-delete-correction" onclick="deleteCorrection(${i})">삭제</button>
+        </div>`).join('') : `<p class="phrases-intro">아직 등록된 항목이 없어요. 위에서 추가해보세요.</p>`;
+    }
+    function addCorrection() {
+      const wrongInput = document.getElementById('corr-wrong-input');
+      const correctInput = document.getElementById('corr-correct-input');
+      const wrong = wrongInput.value.trim();
+      const correct = correctInput.value.trim();
+      if (!wrong || !correct) return;
+      corrections.push({ wrong, correct });
+      saveCorrections();
+      wrongInput.value = '';
+      correctInput.value = '';
+      wrongInput.focus();
+      renderCorrections();
+    }
+    function deleteCorrection(idx) {
+      corrections.splice(idx, 1);
+      saveCorrections();
+      renderCorrections();
+    }
+
     // ── Survival Phrases ──
     function goSurvival() {
       screenStack.push('home');
@@ -1597,6 +1717,7 @@ Begin now with your orientation and the first question.`;
     // ── Init ──
     loadProgress();
     loadHighlights();
+    loadCorrections();
     renderHome();
   </script>
 </body>
