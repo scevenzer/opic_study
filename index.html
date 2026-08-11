@@ -1376,7 +1376,7 @@
 
     function renderPhrases() {
       document.getElementById('phrases-list').innerHTML = PHRASES.map((cat, ci) => `
-        <details class="phrase-section" ${ci === 0 ? 'open' : ''}>
+        <details class="phrase-section" open>
           <summary>
             <span>${cat.emoji}</span>
             <span>${cat.title}<span class="phrase-section-desc">${cat.desc}</span></span>
