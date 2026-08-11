@@ -4890,6 +4890,25 @@ const EXPRESSIONS = [
     expression: "필러(시간 끌기) 표현: you know, I mean, well, actually",
     description: "문장 시작이나 전환할 때 한 번씩만 자연스럽게 사용",
     nuance: "추천 조합: Well(시작) + you know(중간) + so(전환)"
+  },
+  {
+    expression: "corner store",
+    meaning: "동네 골목 어귀에 있는 작은 편의점/구멍가게 (미국식 표현)",
+    description: "영국식은 corner shop, 좀 더 일반적/공식적인 표현은 convenience store",
+    example: "There's a small corner store near my house where I sometimes grab snacks."
+  },
+  {
+    expression: "너무 좋고 만족스럽다",
+    description: "기본형 → 구어체 → 완성형 순으로 강도/격식을 조절해서 쓸 수 있음",
+    example: [
+      "I really love it and I'm very satisfied with it.",
+      "I'm extremely happy with it.",
+      "It makes me really satisfied.",
+      "I'm super happy with it.",
+      "I couldn't be happier with it.",
+      "It really hits the spot.",
+      "I really love it, and honestly, it makes me feel very satisfied every time I use it."
+    ]
   }
 ];
 
