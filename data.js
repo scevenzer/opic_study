@@ -2022,32 +2022,31 @@ const TOPICS = [
         question: "Tell me about a person or people you like to spend time with at home during your vacation.",
         translation: "휴가 때 집에서 함께 시간을 보내고 싶은 사람에 대해 말해 주세요.",
         type: "사람묘사",
-        structure: ["옆집 사는 친구 허종 소개", "이사왔을때 만남, 20년지기라 편함", "공통점 많아서 휴가 함께 보냄", "공통관심사1: 건강 관리, 같이 요리", "공통관심사2: 둘다 영화 좋아함, 취향비슷", "좋은 친구가 있어 행운이라는 마무리"],
+        structure: ["옆집 사는 친구 허종 소개", "20년지기라 편함", "공통점 많아서 휴가 함께 보냄", "공통관심사: 야구 좋아함, 같은 팀에서 뜀(1루수/3루수)", "집에서 야구 경기 같이 봄", "좋은 친구가 있어 행운이라는 마무리"],
         script: [
           { en: "I'd like to talk about my best friend, Heo Jong, who lives right next door to me.", ko: "옆집에 사는 제 가장 친한 친구 허종에 대해 말씀드릴게요." },
-          { en: "I first met him when he moved into my neighborhood, and we've known each other for about twenty years now, so I feel really comfortable around him.", ko: "그가 저희 동네로 이사 왔을 때 처음 만났는데, 이제 알고 지낸 지 한 20년 정도 돼서 정말 편해요." },
+          { en: "We've known each other for about twenty years now, ever since he moved into my neighborhood, so I feel really comfortable around him.", ko: "그가 저희 동네로 이사 왔을 때부터 알고 지낸 지 이제 한 20년 정도 됐는데, 그래서 정말 편해요." },
           { en: "I really enjoy spending my vacations with him since we have a lot in common.", ko: "저는 그와 휴가를 함께 보내는 게 정말 좋은데, 공통점이 많거든요." },
-          { en: "For one, we're both into staying fit, so we enjoy cooking together at home.", ko: "우선 둘 다 건강 관리에 관심이 많아서, 같이 요리하는 걸 즐겨요." },
-          { en: "Also, we both really love movies, and we have similar taste in movies.", ko: "또 둘 다 영화를 정말 좋아하고, 영화 취향도 비슷해요." },
-          { en: "Overall, I feel really lucky to have such a great friend to spend time with at home.", ko: "전반적으로, 집에서 이렇게 시간을 보낼 수 있는 좋은 친구가 있다는 게 정말 행운이라고 생각해요." }
+          { en: "For one, we both love baseball, so we actually play on the same team — I play first base, and he plays third base.", ko: "우선 둘 다 야구를 정말 좋아해서, 실제로 같은 팀에서 뛰어요 — 저는 1루수고, 그는 3루수예요." },
+          { en: "We also love watching baseball games together at home, so overall I feel really lucky to have such a great friend.", ko: "또 집에서 같이 야구 경기 보는 것도 좋아하는데, 전반적으로 이런 좋은 친구가 있다는 게 정말 행운이라고 생각해요." }
         ],
         pronunciation: [
           { en: "I'd like to talk about my best friend, Heo Jong,", ko: "아이드 라익투 톡 어바웃 마이 베스트 프렌드, 허종" },
           { en: "who lives right next door to me.", ko: "후 리브즈 라잇 넥스트 도어투미" },
-          { en: "I first met him when he moved into my neighborhood,", ko: "아이 퍼스트 멧힘 웬히 무브드 인투마이 네이버후드" },
-          { en: "and we've known each other for about twenty years now,", ko: "앤 위브 노운 이치아더 퍼러바웃 트웨니 이어즈 나우" },
+          { en: "We've known each other for about twenty years now,", ko: "위브 노운 이치아더 퍼러바웃 트웨니 이어즈 나우" },
+          { en: "ever since he moved into my neighborhood,", ko: "에버 신스 히 무브드 인투마이 네이버후드" },
           { en: "so I feel really comfortable around him.", ko: "소 아이 필 릴리 컴퍼러블 어라운드힘" },
           { en: "I really enjoy spending my vacations with him since we have a lot in common.", ko: "아이 릴리 인조이 스펜딩 마이 베케이션즈 윗힘 신스 위 해버 랏인 커먼" },
-          { en: "For one, we're both into staying fit,", ko: "퍼원, 위어 보쓰 인투 스테잉 핏" },
-          { en: "so we enjoy cooking together at home.", ko: "소 위 인조이 쿠킹 투게더 앳홈" },
-          { en: "Also, we both really love movies,", ko: "얼소, 위 보쓰 릴리 러브 무비즈" },
-          { en: "and we have similar taste in movies.", ko: "앤 위 해브 시밀러 테이스트 인 무비즈" },
-          { en: "Overall, I feel really lucky to have such a great friend to spend time with at home.", ko: "오버롤, 아이 필 릴리 럭키투 해브 서치어 그레잇 프렌드 투 스펜타임 위댓 홈" }
+          { en: "For one, we both love baseball,", ko: "퍼원, 위 보쓰 러브 베이스볼" },
+          { en: "so we actually play on the same team —", ko: "소 위 액츄얼리 플레이 온더 세임 팀" },
+          { en: "I play first base, and he plays third base.", ko: "아이 플레이 퍼스트 베이스, 앤히 플레이즈 써드 베이스" },
+          { en: "We also love watching baseball games together at home,", ko: "위 얼소 러브 워칭 베이스볼 게임즈 투게더 앳홈" },
+          { en: "so overall I feel really lucky to have such a great friend.", ko: "소 오버롤 아이 필 릴리 럭키투 해브 서치어 그레잇 프렌드" }
         ],
         warnings: [
           { word: "neighborhood", guide: "네이버후드" },
           { word: "comfortable", guide: "컴퍼러블" },
-          { word: "similar", guide: "시밀러" },
+          { word: "actually", guide: "액츄얼리" },
           { word: "vacations", guide: "베케이션즈" }
         ]
       },

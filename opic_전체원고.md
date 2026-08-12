@@ -515,9 +515,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 휴가 때 집에서 함께 시간을 보내고 싶은 사람에 대해 말해 주세요.
 
-**원고**: I'd like to talk about my best friend, Heo Jong, who lives right next door to me. I first met him when he moved into my neighborhood, and we've known each other for about twenty years now, so I feel really comfortable around him. I really enjoy spending my vacations with him since we have a lot in common. For one, we're both into staying fit, so we enjoy cooking together at home. Also, we both really love movies, and we have similar taste in movies. Overall, I feel really lucky to have such a great friend to spend time with at home.
+**원고**: I'd like to talk about my best friend, Heo Jong, who lives right next door to me. We've known each other for about twenty years now, ever since he moved into my neighborhood, so I feel really comfortable around him. I really enjoy spending my vacations with him since we have a lot in common. For one, we both love baseball, so we actually play on the same team — I play first base, and he plays third base. We also love watching baseball games together at home, so overall I feel really lucky to have such a great friend.
 
-**한글 해석**: 옆집에 사는 제 가장 친한 친구 허종에 대해 말씀드릴게요. 그가 저희 동네로 이사 왔을 때 처음 만났는데, 이제 알고 지낸 지 한 20년 정도 돼서 정말 편해요. 저는 그와 휴가를 함께 보내는 게 정말 좋은데, 공통점이 많거든요. 우선 둘 다 건강 관리에 관심이 많아서, 같이 요리하는 걸 즐겨요. 또 둘 다 영화를 정말 좋아하고, 영화 취향도 비슷해요. 전반적으로, 집에서 이렇게 시간을 보낼 수 있는 좋은 친구가 있다는 게 정말 행운이라고 생각해요.
+**한글 해석**: 옆집에 사는 제 가장 친한 친구 허종에 대해 말씀드릴게요. 그가 저희 동네로 이사 왔을 때부터 알고 지낸 지 이제 한 20년 정도 됐는데, 그래서 정말 편해요. 저는 그와 휴가를 함께 보내는 게 정말 좋은데, 공통점이 많거든요. 우선 둘 다 야구를 정말 좋아해서, 실제로 같은 팀에서 뛰어요 — 저는 1루수고, 그는 3루수예요. 또 집에서 같이 야구 경기 보는 것도 좋아하는데, 전반적으로 이런 좋은 친구가 있다는 게 정말 행운이라고 생각해요.
 
 ### 2. [활동묘사] (question id: 103)
 
