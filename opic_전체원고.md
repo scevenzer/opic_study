@@ -1271,9 +1271,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 친구 부부를 집으로 초대해서 저녁을 대접하고 싶어요. 가족 중 한 명에게 가장 좋은 날짜와 시간을 알아보기 위해 3~4가지 질문을 해보세요.
 
-**원고**: Hey, honey? Do you have time to talk? Well, if you're okay with it, I'd like to invite Sunggyu's couple to our home for dinner. Last time he invited me and treated me really well, so I want to return the favor. — Oh, great. When do you think is good for the dinner? How about this Saturday? I heard they're free that day too. What time should we start? — Oh, that's late. I think around 7 is good. — Okay, that's good. What kind of food should we prepare? I heard Sunggyu really likes healthy dishes, so how about making hot chicken soup for his stamina? Thank you, you're the best!
+**원고**: Hey, honey. Do you have time to talk? I'd like to invite my friend's couple for dinner. What day is good for you? — Sunday sounds good. What time is good? — About 7 is fine. What should we prepare for dinner? — I think adding some salad is fantastic. You're the best!
 
-**한글 해석**: 자기야, 얘기할 시간 있어? 괜찮으면 성규 부부를 저녁 식사에 초대하고 싶어. 지난번에 걔가 나 초대해서 잘 대접해줬거든, 이번엔 내가 갚고 싶어. — 오, 좋아. 저녁 식사는 언제가 좋을까? 이번 주 토요일 어때? 그날 걔네도 한가하다고 들었어. 몇 시에 시작할까? — 아, 늦다. 7시쯤이 좋을 것 같아. — 좋아, 그러자. 무슨 음식을 준비할까? 성규가 건강식을 정말 좋아한다고 들었는데, 체력을 위해서 얼큰한 닭곰탕 만드는 건 어때? 고마워, 넌 최고야!
+**한글 해석**: 자기야, 얘기할 시간 있어? 친구 부부를 저녁 식사에 초대하고 싶어. 무슨 날이 좋을까? — 일요일 좋아. 몇 시가 좋을까? — 7시쯤이 좋겠다. 저녁에 뭘 준비할까? — 샐러드 좀 추가하면 딱일 것 같아. 자기가 최고야!
 
 ### 2. [롤플레이 · 해결하기] (question id: 142)
 
@@ -1281,9 +1281,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 저녁 파티 당일에 가족 중 한 명이 아파요. 친구에게 전화해서 무슨 일이 있었는지 설명하는 메시지를 남기고, 가까운 시일 내에 다시 저녁을 함께할 계획을 제안하세요.
 
-**원고**: Hello, is this Sunggyu? This is Dongjun. How are you? — What's up. I'm calling about our dinner party tonight. I'm sorry, but we can't have dinner tonight because my wife is very sick — she has a bad headache and a high fever, so I took her to the doctor, and he said it's a bad cold and she needs rest. She's still in bed. So, I wonder if we could reschedule the dinner. How about next weekend? She'll be better by then. Or, can we just eat out tonight? I know a good restaurant, and I can make a reservation if you're okay with that. Well, please call me back when you get this message. Bye.
+**원고**: Hey, Sunggyu, it's me, DJ. I'm calling about our dinner party tonight. I'm sorry, we can't make it because my wife isn't feeling well — she has a bad cold and needs to rest. So, I wonder if we could reschedule. Or, if you're up for it, we could just eat out tonight? I know a good place, and I can make a reservation. Please call me back. Thanks.
 
-**한글 해석**: 안녕, 성규니? 나 동준이야. 잘 지내? — 무슨 일이야. 오늘 저녁 파티 때문에 전화했어. 미안한데, 오늘 저녁을 못 할 것 같아, 아내가 많이 아파서 — 심한 두통이랑 고열이 있어서 병원에 데려갔는데, 의사가 심한 감기라 쉬어야 한다고 했어. 아직 침대에 누워 있어. 그래서 말인데, 저녁 약속을 다시 잡을 수 있을까? 다음 주말은 어때? 그때쯤이면 아내도 나아질 거야. 아니면 오늘 밤은 그냥 외식할까? 좋은 식당을 아는데, 괜찮으면 예약할게. 그럼, 이 메시지 받으면 다시 전화 줘. 안녕.
+**한글 해석**: 안녕 성규야, 나 DJ야. 오늘 저녁 파티 때문에 전화했어. 미안한데, 우리 못 갈 것 같아 — 아내가 심한 감기에 걸려서 쉬어야 해. 그래서 말인데, 일정을 다시 잡을 수 있을까 해서. 아니면, 괜찮으면 오늘 밤은 그냥 외식할까? 좋은 곳을 아는데, 예약할 수 있어. 다시 전화 줘. 고마워.
 
 ### 3. [기억에 남는 경험] (question id: 143)
 
@@ -1291,9 +1291,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 그런 일이 당신에게도 있었나요? 가족이 도움이 필요해서 계획을 바꿔야 했던 적이 있나요? 왜 계획을 바꿔야 했는지, 무슨 일이 있었는지 자세히 말해 주세요.
 
-**원고**: Let me tell you about my experience from about two years ago. I was supposed to take a trip to Haeundae Beach with my friends. At first, everything seemed fine. I was excited to go to the beach and have fun. However, my wife suddenly got sick that day — she had a bad headache and a high fever, so I took her to the doctor, and he said it was a bad cold. To make matters worse, I was the only one who could take care of her at the time. So I tried to reschedule the trip, but it wasn't easy. As a result, I had to cancel the trip and stay with my wife instead. Nevertheless, I was happy to help my wife and be with her when she needed me.
+**원고**: Let me tell you about my experience from about three years ago. At the time, we were supposed to go on a vacation with my friend, but my son wasn't feeling well, so he had to see a doctor. Because of that, we couldn't go on a trip and had to stay home instead. So, I decided to cook Korean chicken soup for my son, because I thought it would be good for him. It was my first time making it, but it was really good. Although we couldn't go on a trip, we had a really good time at home.
 
-**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 친구들이랑 해운대 해변으로 여행 가기로 되어 있었어요. 처음엔 다 괜찮아 보였어요. 해변 가서 재밌게 놀 생각에 신났었죠. 그런데 그날 갑자기 아내가 아팠어요 — 심한 두통이랑 고열이 있어서 병원에 데려갔는데, 의사가 심한 감기라고 했어요. 엎친 데 덮친 격으로, 그때 그녀를 돌볼 수 있는 사람이 저밖에 없었어요. 그래서 여행 날짜를 다시 잡으려고 했는데 쉽지 않았어요. 결국 여행을 취소하고 대신 아내와 함께 있어야 했어요. 그래도, 아내가 필요할 때 도와주고 곁에 있어줄 수 있어서 행복했어요.
+**한글 해석**: 약 3년 전에 있었던 일을 말씀드릴게요. 그때 친구랑 휴가를 가기로 되어 있었는데, 아들이 몸이 안 좋아서 병원에 가야 했어요. 그것 때문에 여행을 못 가고 대신 집에 있어야 했어요. 그래서 아들을 위해 삼계탕을 만들기로 했어요, 아들한테 좋을 것 같아서요. 처음 만들어보는 거였는데, 정말 맛있었어요. 여행은 못 갔지만, 집에서 정말 좋은 시간을 보냈어요.
 
 ---
 
@@ -1305,9 +1305,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 동네 공원에 친구랑 같이 가고 싶다고 상상해보세요. 친구에게 전화해서 함께 가는 것에 대해 3~4가지 질문을 해보세요.
 
-**원고**: Hello, is this Sunggyu? This is Dongjun. How are you? — Pretty good. Well, if you're okay, I'd like to go to a park with you. — That's great. When do you think is good to go to the park? How about this Saturday? — Good. What time should we start? — Oh, that's late. I think around 7 is good. — Okay, good. Which park is best for you? Star Park? I'm good with that — it's very close to my home. Thank you, see you Saturday.
+**원고**: Hey, Ruda? It's me, Dongjun. Do you have time to talk? I'd like to go to the park with you this weekend. Are you free? — Great, Sunday sounds good. What time is good for you? — Two o'clock is fine. Where do you want to go? — Central Park sounds good. Please call me back if there's any changes. Thank you.
 
-**한글 해석**: 안녕, 성규니? 나 동준이야. 잘 지내? — 꽤 좋아. 괜찮으면 너랑 공원에 가고 싶은데. — 좋아. 공원에 언제 가는 게 좋을까? 이번 주 토요일 어때? — 좋아. 몇 시에 시작할까? — 아, 늦다. 7시쯤이 좋을 것 같아. — 좋아, 그러자. 어느 공원이 좋아? 스타파크? 나도 좋아 — 우리 집에서 아주 가깝거든. 고마워, 토요일에 보자.
+**한글 해석**: 안녕, 루다? 나 동준이야. 얘기할 시간 있어? 이번 주말에 너랑 공원에 가고 싶은데. 시간 돼? — 좋아, 일요일 괜찮아. 몇 시가 좋아? — 2시가 좋아. 어디로 갈까? — 센트럴 파크 좋아. 혹시 변동 있으면 다시 전화 줘. 고마워.
 
 ### 2. [롤플레이 · 해결하기] (question id: 145)
 
@@ -1315,9 +1315,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 친구랑 공원에 가기로 했는데, 오늘 공원이 보수공사로 문을 닫았다는 걸 방금 알게 됐어요. 친구에게 전화해서 상황을 설명하고 해결책을 제안하세요.
 
-**원고**: Hello, is this Sunggyu? This is Dongjun. How are you? — What's up. I'm calling about our schedule for the park. I'm sorry, but we can't go to Star Park — I didn't check it, but it's closed today for renovation. My wife told me. So, I wonder if we could reschedule our plan. How about next weekend? — Oh, that's too bad. Or, can we just go to another park? I'll look for information online and call you back. Thank you for understanding. Bye.
+**원고**: Hey, Ruda? It's me, Dongjun. I'm calling about our plan to go to the park today. I'm sorry, but I heard the park is closed for renovation. So, I wonder if we could reschedule, or can we just go to another park? I know a good place — West Park. Sounds good? Great, see you there soon!
 
-**한글 해석**: 안녕, 성규니? 나 동준이야. 잘 지내? — 무슨 일이야. 공원 일정 때문에 전화했어. 미안한데, 스타파크에 못 갈 것 같아 — 확인을 못 했는데, 오늘 보수공사로 문을 닫았대. 아내한테 들었어. 그래서 말인데, 우리 계획을 다시 잡을 수 있을까? 다음 주말은 어때? — 아, 아쉽네. 아니면 그냥 다른 공원에 갈까? 인터넷으로 찾아보고 다시 전화할게. 이해해줘서 고마워. 안녕.
+**한글 해석**: 안녕, 루다? 나 동준이야. 오늘 공원 가기로 한 계획 때문에 전화했어. 미안한데, 공원이 보수공사로 문 닫았다고 들었어. 그래서 말인데, 일정을 다시 잡을 수 있을까, 아니면 그냥 다른 공원으로 갈까? 좋은 곳을 아는데 — 웨스트 파크. 괜찮아? 좋아, 거기서 곧 보자!
 
 ### 3. [기억에 남는 경험] (question id: 146)
 
@@ -1325,9 +1325,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 무슨 일이 생겨서 공원에 못 갔던 경우가 있을 거예요. 공원에 가려고 했는데 못 갔던 경험을 말해 주세요. 날씨 때문이었나요, 아니면 다른 문제가 있었나요?
 
-**원고**: Let me tell you about my experience from about two years ago. I was supposed to go to Star Park with my friends. At first, everything seemed fine. I was excited to go to the park and work out. However, my wife suddenly got sick that day — she had a bad headache and a high fever, so I took her to the doctor, and he said it was a bad cold. To make matters worse, I was the only one who could take care of her at the time. So I tried to reschedule the plan, but it wasn't easy. As a result, I had to cancel the plan and stay with my wife instead. Nevertheless, I was happy to help my wife and be with her when she needed me.
+**원고**: Let me tell you about my experience from about two years ago. At the time, we were supposed to go to the park with my friend, but my son wasn't feeling well, so he had to see a doctor. Because of that, we couldn't go to the park and had to stay home instead. So, I decided to cook Korean chicken soup for my son, because I thought it would be good for him. It was my first time making it, but it was really good. Although we couldn't go to the park, we had a really good time at home.
 
-**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 친구들이랑 스타파크에 가기로 되어 있었어요. 처음엔 다 괜찮아 보였어요. 공원 가서 운동할 생각에 신났었죠. 그런데 그날 갑자기 아내가 아팠어요 — 심한 두통이랑 고열이 있어서 병원에 데려갔는데, 의사가 심한 감기라고 했어요. 엎친 데 덮친 격으로, 그때 그녀를 돌볼 수 있는 사람이 저밖에 없었어요. 그래서 계획을 다시 잡으려고 했는데 쉽지 않았어요. 결국 계획을 취소하고 대신 아내와 함께 있어야 했어요. 그래도, 아내가 필요할 때 도와주고 곁에 있어줄 수 있어서 행복했어요.
+**한글 해석**: 약 2년 전에 있었던 일을 말씀드릴게요. 그때 친구랑 공원에 가기로 되어 있었는데, 아들이 몸이 안 좋아서 병원에 가야 했어요. 그것 때문에 공원에 못 가고 대신 집에 있어야 했어요. 그래서 아들을 위해 삼계탕을 만들기로 했어요, 아들한테 좋을 것 같아서요. 처음 만들어보는 거였는데, 정말 맛있었어요. 공원은 못 갔지만, 집에서 정말 좋은 시간을 보냈어요.
 
 ---
 
@@ -1339,9 +1339,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 휴가 중에 공연을 보려고 티켓 두 장을 구하고 싶어요. 매표소에 전화해서 티켓을 구하기 위한 질문을 3~4개 해보세요.
 
-**원고**: Hello. Well, I'd like to watch a performance sometime this week, since it's during my vacation. I have some questions about it. What kinds of performances are popular these days? Can you give me any recommendations? — Lion King, good. What times are available? — Oh, I think 2 P.M. is good. Do you have any available seats for two? — Oh, that's good. What's the price for these tickets, and can I get a discount? Thank you for the information. Bye.
+**원고**: Hi there. I'd like to get two tickets to a performance. What times are available? — 7 PM or 9 PM? I'll take 7 PM. How much are the tickets? Do you have any discounts or coupons? Do you have parking? — Oh, sounds good. Thank you for the information. Bye.
 
-**한글 해석**: 여보세요. 휴가 중이라 이번 주에 공연을 보고 싶은데, 몇 가지 여쭤볼게요. 요즘 어떤 공연이 인기 있나요? 추천해주실 수 있어요? — 라이온킹이요, 좋네요. 어떤 시간대가 가능한가요? — 아, 오후 2시가 좋을 것 같아요. 두 명 자리가 있을까요? — 오, 좋네요. 티켓 가격은 어떻게 되고, 할인도 받을 수 있을까요? 정보 감사합니다. 안녕히 계세요.
+**한글 해석**: 안녕하세요. 공연 티켓 두 장을 구하고 싶은데요. 몇 시가 가능한가요? — 7시나 9시요? 7시로 할게요. 티켓은 얼마인가요? 할인이나 쿠폰 있나요? 주차장 있나요? — 오, 좋네요. 정보 감사합니다. 안녕히 계세요.
 
 ### 2. [롤플레이 · 해결하기] (question id: 148)
 
@@ -1349,9 +1349,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 공연 당일에 몸이 아파요. 친구에게 전화해서 상황을 설명하고, 해결을 위한 두 가지 다른 옵션을 제안하세요.
 
-**원고**: Hello, is this Sunggyu? This is Dongjun. How are you? — What's up. I'm calling about our performance today. I'm sorry, but I can't watch the performance because I'm very sick — I have a bad headache and a high fever, so I went to the doctor, and he said it's a bad cold and I need to rest. I'm still in bed. So, I wonder if we could reschedule the performance. How about next weekend? I'll be better by then. Or, can we just watch a DVD at my place tonight? I picked up a DVD called Avengers yesterday. Thank you for understanding. See you tonight, bye.
+**원고**: Hey, Sunggyu, I'm DJ. I'm calling about our performance today. I'm sorry, I'm not feeling well, so I had to see a doctor. So, I wonder if we could reschedule. How about next weekend? Or, can we just stay home and watch a baseball game? Please call me back. Thanks.
 
-**한글 해석**: 안녕, 성규니? 나 동준이야. 잘 지내? — 무슨 일이야. 오늘 공연 때문에 전화했어. 미안한데, 오늘 공연을 못 볼 것 같아, 내가 많이 아파서 — 심한 두통이랑 고열이 있어서 병원에 갔는데, 의사가 심한 감기라 쉬어야 한다고 했어. 아직 침대에 누워 있어. 그래서 말인데, 공연 일정을 다시 잡을 수 있을까? 다음 주말은 어때? 그때쯤이면 나도 나아질 거야. 아니면 오늘 밤 우리 집에서 그냥 DVD 볼까? 어제 어벤져스 DVD를 빌려왔거든. 이해해줘서 고마워. 오늘 밤에 봐, 안녕.
+**한글 해석**: 안녕 성규야, 나 DJ야. 오늘 공연 때문에 전화했어. 미안한데, 몸이 안 좋아서 병원에 가야 했어. 그래서 말인데, 일정을 다시 잡을 수 있을까? 다음 주말은 어때? 아니면 그냥 집에서 야구 경기 볼까? 다시 전화 줘. 고마워.
 
 ### 3. [기억에 남는 경험] (question id: 149)
 
@@ -1359,9 +1359,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 계획이나 티켓이 있었는데 공연에 못 가게 된 적이 있나요? 언제였나요? 무슨 일이 있었나요? 그 상황과 해결 방법을 자세히 말해 주세요.
 
-**원고**: Let me tell you about my experience from about two years ago. I was supposed to watch a performance called Lion King with my friends. At first, everything seemed fine. I was excited to watch the performance. However, my wife suddenly got sick that day — she had a bad headache and a high fever, so I took her to the doctor, and he said it was a bad cold. To make matters worse, I was the only one who could take care of her at the time. So I tried to reschedule the performance, but it wasn't easy. As a result, I had to cancel the performance and stay with my wife instead. Nevertheless, I was happy to help my wife and be with her when she needed me.
+**원고**: Let me tell you about my experience from about two years ago. I went to Dongtan Central Park, and I was jogging alone along the park trail. Suddenly, I heard a terrible sound like music. It was so terrible I couldn't stand it. I was curious, so I followed the sound. In the middle of the park, someone was singing a song to his girlfriend. And you know what? He was my colleague! He was proposing to her by singing. She looked embarrassed, and I was ashamed too. Some people around him were even laughing, but he got a yes in the end. Since that day, whenever I visit the park, I remember that funny moment.
 
-**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 친구들이랑 라이온킹이라는 공연을 보기로 되어 있었어요. 처음엔 다 괜찮아 보였어요. 공연 보러 갈 생각에 신났었죠. 그런데 그날 갑자기 아내가 아팠어요 — 심한 두통이랑 고열이 있어서 병원에 데려갔는데, 의사가 심한 감기라고 했어요. 엎친 데 덮친 격으로, 그때 그녀를 돌볼 수 있는 사람이 저밖에 없었어요. 그래서 공연 날짜를 다시 잡으려고 했는데 쉽지 않았어요. 결국 공연을 취소하고 대신 아내와 함께 있어야 했어요. 그래도, 아내가 필요할 때 도와주고 곁에 있어줄 수 있어서 행복했어요.
+**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 동탄 센트럴 파크에 가서 혼자 산책로를 따라 조깅하고 있었어요. 그런데 갑자기 음악 같은 끔찍한 소리가 들렸어요. 너무 끔찍해서 참을 수가 없었어요. 궁금해서 그 소리를 따라가 봤어요. 공원 한가운데서, 누군가 여자친구한테 노래를 불러주고 있었어요. 근데 있잖아요? 그 사람이 제 회사 동료였어요! 노래로 프러포즈를 하고 있었던 거예요. 여자친구는 당황한 표정이었고, 저도 민망했어요. 주변 사람들 중에는 웃는 사람도 있었지만, 결국 그는 예스를 받아냈어요. 그날 이후로, 공원에 갈 때마다 그 재밌었던 순간이 떠올라요.
 
 ---
 
@@ -1465,9 +1465,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 다른 나라에 사는 친구를 방문할 계획이에요. 친구에게 전화해서 친구 나라의 지리에 대해 3~4가지 질문을 해보세요.
 
-**원고**: Hello, is this Looda? It's me, Dongjun. What's up? Well, I'm going to your country, and I have some questions about the geography. What does the country look like? — Oh, looks like Korea, good. Are there many mountains, rivers, and beaches? — Oh, many beaches? I like swimming in the sea, that's good. What's the most unique or special area I could visit? Can you give me any recommendations? — Awesome, the Great Wall, that sounds good. Thank you for the information. Bye.
+**원고**: Hey, Ruda? I'm Dongjun. Do you have time to talk? I'd like to visit your country soon. Do you recommend any landmarks? — Great, sounds good. Is there a good hotel nearby? — Sounds good. Where's a good shopping mall? — Awesome, okay. Thank you for the information.
 
-**한글 해석**: 안녕, 루다니? 나 동준이야. 잘 지내? 네 나라에 가려고 하는데, 지리에 대해 몇 가지 물어볼게. 그 나라는 어떻게 생겼어? — 오, 한국이랑 비슷하구나, 좋네. 산이나 강, 해변이 많아? — 오, 해변이 많다고? 나 바다수영 좋아하는데 잘됐다. 가장 독특하거나 특별한 곳이 있을까? 추천해줄 수 있어? — 좋다, 만리장성이라니, 괜찮은데. 정보 고마워, 안녕.
+**한글 해석**: 안녕, 루다? 나 동준이야. 얘기할 시간 있어? 곧 네 나라에 방문하고 싶어. 추천할 만한 명소 있어? — 좋아, 괜찮네. 근처에 괜찮은 호텔 있어? — 좋아. 쇼핑몰은 어디가 좋아? — 좋다, 알겠어. 정보 고마워.
 
 ### 2. [롤플레이 · 해결하기] (question id: 159)
 
@@ -1475,9 +1475,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 여행 전날, 친구를 방문할 수 없다는 걸 알게 됐어요. 친구에게 전화해서 이유를 설명하고, 가까운 시일 내에 방문할 수 있는 두세 가지 대안을 제시하세요.
 
-**원고**: Hello. I'm calling about the trip I was going to take tomorrow. I'm sorry, I can't go on the trip because my wife got sick — she has a bad headache and a high fever, so I took her to the doctor, and he said it's a bad cold. So, I wonder if you could reschedule my visit. How about next month? — Oh, that's bad, you're busy. Or, would you let me know when you're available after checking your schedule? — Okay, I'll wait for your call again. Thank you for understanding.
+**원고**: Hey, Ruda? I'm Dongjun. I'm calling about my trip tomorrow. I'm sorry, I can't make it because I'm not feeling well, so I had to see a doctor. I wonder if we could reschedule. How about next weekend? Or, can you let me know when you're available? Please call me back. Thanks.
 
-**한글 해석**: 여보세요. 내일 가려던 여행 때문에 전화했어. 미안한데, 아내가 아파서 여행을 못 갈 것 같아 — 심한 두통이랑 고열이 있어서 병원에 데려갔는데, 의사가 심한 감기라고 했어. 그래서 말인데, 방문 일정을 다시 잡아줄 수 있을까? 다음 달은 어때? — 아, 안됐네, 너 바쁘구나. 아니면 스케줄 확인해보고 언제 괜찮은지 알려줄래? — 알겠어, 다시 연락 기다릴게. 이해해줘서 고마워.
+**한글 해석**: 안녕, 루다? 나 동준이야. 내일 가려던 여행 때문에 전화했어. 미안한데, 몸이 안 좋아서 병원에 가야 해서 못 갈 것 같아. 일정을 다시 잡을 수 있을까 해서. 다음 주말은 어때? 아니면 언제 괜찮은지 알려줄래? 다시 전화 줘. 고마워.
 
 ---
 
