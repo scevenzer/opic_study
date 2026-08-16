@@ -3213,28 +3213,30 @@ const TOPICS = [
         question: "You want to buy a new cell phone. Call the store and ask three or four questions to get information about new cellphones you're interested in.",
         translation: "새 휴대폰을 사고 싶어요. 가게에 전화해서 관심 있는 새 휴대폰에 대한 정보를 얻기 위해 3~4가지 질문을 해보세요.",
         type: "롤플레이 · 질문하기",
-        structure: ["인사", "목적: 스마트폰 오래돼서 새로 사려함", "질문1: 인기모델+추천", "질문2: 블루투스기능여부, 가벼울수록좋음", "질문3: 가격($200)+할인", "마무리"],
+        structure: ["인사", "목적: 폰 오래돼서 새로 사려함", "질문1: 인기모델+추천", "질문2: 기능", "질문3: 가격+할인", "마무리"],
         script: [
-          { en: "Hi there, is this the cell phone shop? — Oh good.", ko: "안녕하세요, 휴대폰 가게 맞나요? — 오, 좋아요." },
-          { en: "Well, I want to buy a smartphone because mine is too old. I have some questions about it.", ko: "제 폰이 너무 오래돼서 스마트폰을 새로 사려고요. 몇 가지 여쭤볼게요." },
-          { en: "What kinds of smartphones are popular these days? Can you give me any recommendations? — Oh, good.", ko: "요즘 어떤 스마트폰이 인기 있나요? 추천해주실 수 있어요? — 오, 좋네요." },
-          { en: "What new functions do they have? I sometimes use Bluetooth headphones — do you think they have Bluetooth? The lighter, the better. — Oh, that's great.", ko: "새로운 기능은 뭐가 있나요? 가끔 블루투스 헤드폰을 쓰는데, 블루투스 기능이 있을까요? 가벼울수록 좋고요. — 오, 좋네요." },
-          { en: "What's the price? I have a budget of $200 — can I get a discount? — Awesome, that's the answer I wanted.", ko: "가격이 어떻게 되나요? 예산이 200달러인데 할인받을 수 있을까요? — 좋네요, 원하던 답이에요." },
-          { en: "Thank you for the information. Bye.", ko: "정보 감사합니다. 안녕히 계세요." }
+          { en: "Hey, Sunggyu? It's me, DJ.", ko: "안녕 성규야? 나 DJ야." },
+          { en: "Do you have time to talk?", ko: "얘기할 시간 있어?" },
+          { en: "I want to buy a new phone because my phone is too old.", ko: "내 폰이 너무 오래돼서 새 폰을 사고 싶어." },
+          { en: "What kinds of phones are popular these days? Can you give me any recommendations? — Oh, good.", ko: "요즘 어떤 폰이 인기 있어? 추천해줄 수 있어? — 오, 좋다." },
+          { en: "What features does it have? — Oh, awesome.", ko: "어떤 기능이 있어? — 오, 멋지다." },
+          { en: "What's the price? Do you have any discounts? — Sounds good.", ko: "가격은 얼마야? 할인 있어? — 좋다." },
+          { en: "Thank you for the information. Bye.", ko: "정보 고마워. 안녕." }
         ],
         pronunciation: [
-          { en: "Hi there, is this the cell phone shop?", ko: "하이데어, 이즈디스더 셀폰샵?" },
-          { en: "Well, I want to buy a smartphone because mine is too old. I have some questions about it.", ko: "웰, 아이원투바이어 스마트폰 비커즈 마인이즈투올드. 아이해브 썸퀘스천즈 어바웃잇" },
-          { en: "What kinds of smartphones are popular these days? Can you give me any recommendations?", ko: "왓카인즈어브 스마트폰즈알 파퓰러 디즈데이즈? 캔유기브미 애니 레커멘데이션즈?" },
-          { en: "What new functions do they have? I sometimes use Bluetooth headphones — do you think they have Bluetooth?", ko: "왓뉴 펑션즈두데이해브? 아이썸타임즈 유즈 블루투스 헤드폰즈, 두유씽크데이해브 블루투스?" },
-          { en: "What's the price? I have a budget of $200 — can I get a discount?", ko: "왓츠더프라이스? 아이해버버짓어브 투헌드레드달러즈, 캔아이게러 디스카운트?" },
+          { en: "Hey, Sunggyu? It's me, DJ.", ko: "헤이, 성규? 잇츠미, 디제이" },
+          { en: "Do you have time to talk?", ko: "두유 해브 타임투톡?" },
+          { en: "I want to buy a new phone because my phone is too old.", ko: "아이원투바이어 뉴폰 비커즈 마이폰이즈 투올드" },
+          { en: "What kinds of phones are popular these days? Can you give me any recommendations? Oh, good.", ko: "왓카인즈어브 폰즈알 파퓰러 디즈데이즈? 캔유기브미 애니 레커멘데이션즈? 오, 굿" },
+          { en: "What features does it have? Oh, awesome.", ko: "왓 피처스 더짓해브? 오, 어썸" },
+          { en: "What's the price? Do you have any discounts? Sounds good.", ko: "왓츠더 프라이스? 두유해브 애니 디스카운츠? 사운즈굿" },
           { en: "Thank you for the information. Bye.", ko: "땡큐퍼디 인포메이션. 바이" }
         ],
         warnings: [
           { word: "recommendations", guide: "레커멘데이션즈" },
-          { word: "Bluetooth", guide: "블루투스" },
-          { word: "budget", guide: "버짓" },
-          { word: "discount", guide: "디스카운트" }
+          { word: "features", guide: "피처스" },
+          { word: "discounts", guide: "디스카운츠" },
+          { word: "price", guide: "프라이스" }
         ]
       },
       {
@@ -3242,29 +3244,28 @@ const TOPICS = [
         question: "You bought a new cell phone, but you've found out that it's not working. Call the after-service center, explain the situation, and discuss what you can do.",
         translation: "새 휴대폰을 샀는데 작동이 안 되는 걸 알게 됐어요. AS센터에 전화해서 상황을 설명하고 어떻게 할 수 있는지 논의하세요.",
         type: "롤플레이 · 해결하기",
-        structure: ["인사: AS센터 확인", "목적: 지난주 산 스마트폰 때문에 전화", "상황설명: 처음엔 잘됐는데 지금은 저절로 켜졌다꺼짐", "대안1: 센터서 고치기(이번주말까지 필요)", "대안2: 환불받기+반품방법", "마무리: 연락기다림"],
+        structure: ["인사", "목적: 지난주 산 휴대폰 문제로 전화", "상황설명: 저절로 켜졌다꺼짐", "대안1: 다른걸로 교환", "대안2: 환불(선택함)", "마무리: 연락요청"],
         script: [
-          { en: "Hi there, is this the cell phone service center? — Okay.", ko: "안녕하세요, 휴대폰 서비스 센터 맞나요? — 네." },
-          { en: "I'm calling about the smartphone I bought last week, your company's product.", ko: "지난주에 그 회사 제품으로 산 스마트폰 때문에 전화드렸어요." },
-          { en: "I think there's something wrong with it — at first it worked well, but now it's not working. It turns on and off by itself.", ko: "뭔가 문제가 있는 것 같아요 — 처음엔 잘 됐는데 지금은 안 돼요. 저절로 켜졌다 꺼졌다 해요." },
-          { en: "So, I wonder if I could get it fixed at your center. I need it by this weekend. — Oh, that's too bad.", ko: "그래서 말인데, 그쪽 센터에서 고칠 수 있을까요? 이번 주말까지 필요한데요. — 아, 아쉽네요." },
-          { en: "Or, can I get a refund? Oh, that's great. How can I return this product? — Okay, please check and call me back.", ko: "아니면 환불받을 수 있을까요? 오, 잘됐네요. 이 제품을 어떻게 반품하면 될까요? — 네, 확인하고 다시 전화드릴게요." },
-          { en: "Okay, thank you for the information. I'll wait for your call.", ko: "네, 정보 감사합니다. 연락 기다릴게요." }
+          { en: "Hello.", ko: "여보세요." },
+          { en: "I'm calling about the mobile phone I bought last week.", ko: "지난주에 산 휴대폰 때문에 전화드렸어요." },
+          { en: "I think there's something wrong with it — it turns on and off by itself.", ko: "뭔가 문제가 있는 것 같아요 — 저절로 켜졌다 꺼졌다 해요." },
+          { en: "So, I wonder if I could exchange it for another one.", ko: "그래서 말인데, 다른 걸로 교환할 수 있을까요?" },
+          { en: "Or, can I get a refund? — Okay, I'll take a refund.", ko: "아니면 환불받을 수 있을까요? — 네, 환불로 할게요." },
+          { en: "Please call me back. Thank you.", ko: "다시 전화 주세요. 감사합니다." }
         ],
         pronunciation: [
-          { en: "Hi there, is this the cell phone service center?", ko: "하이데어, 이즈디스더 셀폰 서비스센터?" },
-          { en: "I'm calling about the smartphone I bought last week, your company's product.", ko: "아임 콜링어바웃더 스마트폰 아이보웃 라스트윅, 유어 컴퍼니스 프로덕트" },
-          { en: "I think there's something wrong with it — at first it worked well, but now it's not working.", ko: "아이씽크 데어즈 썸씽롱 위딧, 앳퍼스트 잇웍트웰, 벗나우 잇츠낫 워킹" },
-          { en: "It turns on and off by itself.", ko: "잇턴즈 온앤오프 바이잇셀프" },
-          { en: "So, I wonder if I could get it fixed at your center. I need it by this weekend.", ko: "소, 아이원더이프 아이쿠드 게릿 픽스트앳유어센터. 아이니딧 바이디스위켄드" },
-          { en: "Or, can I get a refund? How can I return this product?", ko: "오어, 캔아이 게러 리펀드? 하우캔아이 리턴디스 프로덕트?" },
-          { en: "Okay, thank you for the information. I'll wait for your call.", ko: "오케이, 땡큐퍼디 인포메이션. 아일 웨잇퍼 유어콜" }
+          { en: "Hello.", ko: "헬로" },
+          { en: "I'm calling about the mobile phone I bought last week.", ko: "아임 콜링어바웃더 모바일폰 아이보웃 라스트윅" },
+          { en: "I think there's something wrong with it — it turns on and off by itself.", ko: "아이씽크 데어즈 썸씽롱 위딧, 잇턴즈 온앤오프 바이잇셀프" },
+          { en: "So, I wonder if I could exchange it for another one.", ko: "소, 아이원더이프아이쿠드 익스체인지잇 퍼어나더원" },
+          { en: "Or, can I get a refund? Okay, I'll take a refund.", ko: "오어, 캔아이 게러 리펀드? 오케이, 아일 테이커 리펀드" },
+          { en: "Please call me back. Thank you.", ko: "플리즈 콜미백. 땡큐" }
         ],
         warnings: [
+          { word: "exchange", guide: "익스체인지" },
           { word: "refund", guide: "리펀드" },
-          { word: "product", guide: "프로덕트" },
-          { word: "service center", guide: "서비스센터" },
-          { word: "itself", guide: "잇셀프" }
+          { word: "itself", guide: "잇셀프" },
+          { word: "mobile", guide: "모바일" }
         ]
       },
       {
@@ -3272,28 +3273,27 @@ const TOPICS = [
         question: "That's the end of the situation. Have you ever been unhappy with something you bought or some service you received? What was the problem? How did you handle it? Tell me everything in detail.",
         translation: "상황극은 여기까지예요. 구매한 물건이나 받은 서비스가 마음에 안 들었던 적이 있나요? 문제가 뭐였고 어떻게 해결했나요? 자세히 말해 주세요.",
         type: "기억에 남는 경험",
-        structure: ["2년 전 경험", "새 스마트폰 온라인 주문", "처음엔 기대감", "받아보니 저절로 켜졌다꺼짐", "중고품처럼 모서리에 긁힌자국까지", "교환 시도했지만 쉽지않음", "결국 환불받고 반품", "실망스러운 경험이었음"],
+        structure: ["2년전 경험", "새 책상 온라인 주문", "처음엔 기대감", "배송받아보니 상판에 얼룩", "다리에 긁힌자국까지, 중고품 같음", "교환 시도했지만 한달 더 걸린다함", "결국 환불받고 반품", "실망스러운 경험이었음"],
         script: [
           { en: "Let me tell you about my experience from about two years ago.", ko: "약 2년 전 있었던 일을 말씀드릴게요." },
-          { en: "At the time, I needed a new smartphone, so I ordered one online.", ko: "그때 스마트폰이 새로 필요해서 온라인으로 하나 주문했어요." },
-          { en: "At first, everything seemed fine. I was excited to get my new smartphone.", ko: "처음엔 다 괜찮아 보였어요. 새 스마트폰 받는 게 기대됐죠." },
-          { en: "However, when it was delivered, I found something wrong with it — it turned on and off by itself.", ko: "그런데 배송받아보니 문제가 있었어요 — 저절로 켜졌다 꺼졌다 하는 거예요." },
-          { en: "To make matters worse, it looked like a used one — it had some scratches on the corner.", ko: "엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 모서리에 긁힌 자국도 있었고요." },
-          { en: "So I tried to get an exchange, but it wasn't easy.", ko: "그래서 교환해보려고 했는데 쉽지 않았어요." },
-          { en: "As a result, I had to get a refund and return it. It was such a disappointing experience.", ko: "결국 환불받고 반품해야 했어요. 정말 실망스러운 경험이었죠." }
+          { en: "At the time, I needed a new desk, so I ordered one online.", ko: "그때 새 책상이 필요해서 온라인으로 하나 주문했어요." },
+          { en: "At first, everything seemed fine. I was excited to get the new desk.", ko: "처음엔 다 괜찮아 보였어요. 새 책상 받는 게 기대됐죠." },
+          { en: "However, when it was delivered, I found something wrong with it — the wooden board had some stains.", ko: "그런데 배송받아보니 문제가 있었어요 — 나무 상판에 얼룩이 있었어요." },
+          { en: "To make matters worse, it looked like a used one — two of the legs had scratches too.", ko: "엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 다리 두 개에도 긁힌 자국이 있었고요." },
+          { en: "So I tried to get an exchange, but they said it would take another month.", ko: "그래서 교환해보려고 했는데, 한 달이 더 걸린다고 했어요." },
+          { en: "As a result, I had to get a refund and return the desk. It was really disappointing.", ko: "결국 환불받고 책상을 반품해야 했어요. 정말 실망스러웠어요." }
         ],
         pronunciation: [
           { en: "Let me tell you about my experience from about two years ago.", ko: "렛미 텔유 어바웃 마이 익스피어리언스 프럼 어바웃 투이어즈어고" },
-          { en: "At the time, I needed a new smartphone, so I ordered one online.", ko: "앳더타임, 아이니디더 뉴 스마트폰, 소아이 오더드원 온라인" },
-          { en: "At first, everything seemed fine. I was excited to get my new smartphone.", ko: "앳퍼스트, 에브리씽 씸드파인. 아이워즈 익사이티드 투겟마이 뉴스마트폰" },
-          { en: "However, when it was delivered, I found something wrong with it — it turned on and off by itself.", ko: "하우에버, 웬잇워즈 딜리버드, 아이파운드 썸씽롱 위딧, 잇턴드 온앤오프 바이잇셀프" },
-          { en: "To make matters worse, it looked like a used one — it had some scratches on the corner.", ko: "투메익 매터즈워스, 잇룩트 라이커 유즈드원, 잇해드 썸 스크래치즈 온더 코너" },
-          { en: "So I tried to get an exchange, but it wasn't easy.", ko: "소아이 트라이투 게런 익스체인지, 벗잇 워즌트 이지" },
-          { en: "As a result, I had to get a refund and return it.", ko: "애저 리절트, 아이해드투 게러 리펀드 앤 리턴잇" },
-          { en: "It was such a disappointing experience.", ko: "잇워즈 서치어 디서포인팅 익스피어리언스" }
+          { en: "At the time, I needed a new desk, so I ordered one online.", ko: "앳더타임, 아이니디더 뉴 데스크, 소아이 오더드원 온라인" },
+          { en: "At first, everything seemed fine. I was excited to get the new desk.", ko: "앳퍼스트, 에브리씽 씸드파인. 아이워즈 익사이티드 투겟더 뉴데스크" },
+          { en: "However, when it was delivered, I found something wrong with it — the wooden board had some stains.", ko: "하우에버, 웬잇워즈 딜리버드, 아이파운드 썸씽롱 위딧, 더 우든보드 해드 썸 스테인즈" },
+          { en: "To make matters worse, it looked like a used one — two of the legs had scratches too.", ko: "투메익 매터즈워스, 잇룩트 라이커 유즈드원, 투어브더 렉스 해드 스크래치즈 투" },
+          { en: "So I tried to get an exchange, but they said it would take another month.", ko: "소아이 트라이투 게런 익스체인지, 벗데이세드 잇우드테익 어나더먼쓰" },
+          { en: "As a result, I had to get a refund and return the desk. It was really disappointing.", ko: "애저 리절트, 아이해드투 게러 리펀드 앤 리턴더 데스크. 잇워즈 릴리 디서포인팅" }
         ],
         warnings: [
-          { word: "delivered", guide: "딜리버드" },
+          { word: "stains", guide: "스테인즈" },
           { word: "scratches", guide: "스크래치즈" },
           { word: "exchange", guide: "익스체인지" },
           { word: "disappointing", guide: "디서포인팅" }

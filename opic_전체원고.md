@@ -1203,9 +1203,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 새 휴대폰을 사고 싶어요. 가게에 전화해서 관심 있는 새 휴대폰에 대한 정보를 얻기 위해 3~4가지 질문을 해보세요.
 
-**원고**: Hi there, is this the cell phone shop? — Oh good. Well, I want to buy a smartphone because mine is too old. I have some questions about it. What kinds of smartphones are popular these days? Can you give me any recommendations? — Oh, good. What new functions do they have? I sometimes use Bluetooth headphones — do you think they have Bluetooth? The lighter, the better. — Oh, that's great. What's the price? I have a budget of $200 — can I get a discount? — Awesome, that's the answer I wanted. Thank you for the information. Bye.
+**원고**: Hey, Sunggyu? It's me, DJ. Do you have time to talk? I want to buy a new phone because my phone is too old. What kinds of phones are popular these days? Can you give me any recommendations? — Oh, good. What features does it have? — Oh, awesome. What's the price? Do you have any discounts? — Sounds good. Thank you for the information. Bye.
 
-**한글 해석**: 안녕하세요, 휴대폰 가게 맞나요? — 오, 좋아요. 제 폰이 너무 오래돼서 스마트폰을 새로 사려고요. 몇 가지 여쭤볼게요. 요즘 어떤 스마트폰이 인기 있나요? 추천해주실 수 있어요? — 오, 좋네요. 새로운 기능은 뭐가 있나요? 가끔 블루투스 헤드폰을 쓰는데, 블루투스 기능이 있을까요? 가벼울수록 좋고요. — 오, 좋네요. 가격이 어떻게 되나요? 예산이 200달러인데 할인받을 수 있을까요? — 좋네요, 원하던 답이에요. 정보 감사합니다. 안녕히 계세요.
+**한글 해석**: 안녕 성규야? 나 DJ야. 얘기할 시간 있어? 내 폰이 너무 오래돼서 새 폰을 사고 싶어. 요즘 어떤 폰이 인기 있어? 추천해줄 수 있어? — 오, 좋다. 어떤 기능이 있어? — 오, 멋지다. 가격은 얼마야? 할인 있어? — 좋다. 정보 고마워. 안녕.
 
 ### 2. [롤플레이 · 해결하기] (question id: 136)
 
@@ -1213,9 +1213,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 새 휴대폰을 샀는데 작동이 안 되는 걸 알게 됐어요. AS센터에 전화해서 상황을 설명하고 어떻게 할 수 있는지 논의하세요.
 
-**원고**: Hi there, is this the cell phone service center? — Okay. I'm calling about the smartphone I bought last week, your company's product. I think there's something wrong with it — at first it worked well, but now it's not working. It turns on and off by itself. So, I wonder if I could get it fixed at your center. I need it by this weekend. — Oh, that's too bad. Or, can I get a refund? Oh, that's great. How can I return this product? — Okay, please check and call me back. Okay, thank you for the information. I'll wait for your call.
+**원고**: Hello. I'm calling about the mobile phone I bought last week. I think there's something wrong with it — it turns on and off by itself. So, I wonder if I could exchange it for another one. Or, can I get a refund? — Okay, I'll take a refund. Please call me back. Thank you.
 
-**한글 해석**: 안녕하세요, 휴대폰 서비스 센터 맞나요? — 네. 지난주에 그 회사 제품으로 산 스마트폰 때문에 전화드렸어요. 뭔가 문제가 있는 것 같아요 — 처음엔 잘 됐는데 지금은 안 돼요. 저절로 켜졌다 꺼졌다 해요. 그래서 말인데, 그쪽 센터에서 고칠 수 있을까요? 이번 주말까지 필요한데요. — 아, 아쉽네요. 아니면 환불받을 수 있을까요? 오, 잘됐네요. 이 제품을 어떻게 반품하면 될까요? — 네, 확인하고 다시 전화드릴게요. 네, 정보 감사합니다. 연락 기다릴게요.
+**한글 해석**: 여보세요. 지난주에 산 휴대폰 때문에 전화드렸어요. 뭔가 문제가 있는 것 같아요 — 저절로 켜졌다 꺼졌다 해요. 그래서 말인데, 다른 걸로 교환할 수 있을까요? 아니면 환불받을 수 있을까요? — 네, 환불로 할게요. 다시 전화 주세요. 감사합니다.
 
 ### 3. [기억에 남는 경험] (question id: 137)
 
@@ -1223,9 +1223,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 상황극은 여기까지예요. 구매한 물건이나 받은 서비스가 마음에 안 들었던 적이 있나요? 문제가 뭐였고 어떻게 해결했나요? 자세히 말해 주세요.
 
-**원고**: Let me tell you about my experience from about two years ago. At the time, I needed a new smartphone, so I ordered one online. At first, everything seemed fine. I was excited to get my new smartphone. However, when it was delivered, I found something wrong with it — it turned on and off by itself. To make matters worse, it looked like a used one — it had some scratches on the corner. So I tried to get an exchange, but it wasn't easy. As a result, I had to get a refund and return it. It was such a disappointing experience.
+**원고**: Let me tell you about my experience from about two years ago. At the time, I needed a new desk, so I ordered one online. At first, everything seemed fine. I was excited to get the new desk. However, when it was delivered, I found something wrong with it — the wooden board had some stains. To make matters worse, it looked like a used one — two of the legs had scratches too. So I tried to get an exchange, but they said it would take another month. As a result, I had to get a refund and return the desk. It was really disappointing.
 
-**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 그때 스마트폰이 새로 필요해서 온라인으로 하나 주문했어요. 처음엔 다 괜찮아 보였어요. 새 스마트폰 받는 게 기대됐죠. 그런데 배송받아보니 문제가 있었어요 — 저절로 켜졌다 꺼졌다 하는 거예요. 엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 모서리에 긁힌 자국도 있었고요. 그래서 교환해보려고 했는데 쉽지 않았어요. 결국 환불받고 반품해야 했어요. 정말 실망스러운 경험이었죠.
+**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 그때 새 책상이 필요해서 온라인으로 하나 주문했어요. 처음엔 다 괜찮아 보였어요. 새 책상 받는 게 기대됐죠. 그런데 배송받아보니 문제가 있었어요 — 나무 상판에 얼룩이 있었어요. 엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 다리 두 개에도 긁힌 자국이 있었고요. 그래서 교환해보려고 했는데, 한 달이 더 걸린다고 했어요. 결국 환불받고 책상을 반품해야 했어요. 정말 실망스러웠어요.
 
 ---
 
