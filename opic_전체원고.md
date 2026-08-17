@@ -803,9 +803,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 당신 나라의 날씨에 대해 말해 주세요. 계절은 어떤가요? 각 계절의 날씨는 어떤가요?
 
-**원고**: Korea has four distinct seasons: spring, summer, fall, and winter. In spring, the weather is warm and mild, and flowers bloom everywhere, so a lot of people go on picnics or visit flower festivals. Summer is hot and humid, with temperatures often going above 35 degrees Celsius, and there's also a rainy season that lasts about a month. Fall is similar to spring, but a bit cooler and drier, and it's my favorite season because of all the colorful leaves. Winter is freezing cold and windy, and the temperature can drop below zero. Even though it's cold, winter is actually pretty popular among people who enjoy skiing or snowboarding.
+**원고**: Most people in Korea experience four clear seasons. Honestly, spring and fall are pretty nice and comfortable. About summer, it gets really hot, sometimes above 35 degrees. Winter is freezing cold. Some people like skiing or snowboarding then. I personally like fall the most, because of the colorful leaves. Overall, I like all kinds of seasons.
 
-**한글 해석**: 한국은 봄, 여름, 가을, 겨울 사계절이 뚜렷해요. 봄에는 날씨가 따뜻하고 온화하고, 곳곳에 꽃이 피어서 많은 사람들이 소풍을 가거나 꽃 축제를 보러 가요. 여름은 덥고 습한데, 기온이 섭씨 35도를 넘는 경우도 많고 한 달 정도 장마철도 있어요. 가을은 봄이랑 비슷한데 좀 더 선선하고 건조해요, 단풍이 예뻐서 제가 제일 좋아하는 계절이에요. 겨울은 매섭게 춥고 바람도 부는데, 기온이 영하로 떨어지기도 해요. 춥긴 해도 스키나 스노보드를 즐기는 사람들 사이에서는 겨울이 꽤 인기 있는 계절이에요.
+**한글 해석**: 한국 사람들 대부분이 뚜렷한 네 계절을 경험해요. 솔직히, 봄이랑 가을은 꽤 좋고 지내기 좋아요. 여름은, 정말 더운데, 가끔 35도를 넘기도 해요. 겨울은 매섭게 추워요. 그때 스키나 스노보드 좋아하는 사람들도 있어요. 저는 개인적으로 단풍 때문에 가을을 제일 좋아해요. 전반적으로, 저는 모든 계절이 다 좋아요.
 
 ### 2. [과거 비교] (question id: 175)
 
@@ -813,9 +813,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 당신 나라의 날씨는 시간이 지나면서 어떻게 변했나요? 예전과 지금 날씨가 다른가요?
 
-**원고**: I think there have been some noticeable changes in the weather here, especially in summer and winter. For example, summers seem to be getting longer and hotter every year. In the past, summer used to run from mid-June to early September, but now it feels like it starts in late May and lasts until mid-September. It's the same story in winter — it's gotten colder, and we get more snow than we used to. The temperature can drop to around minus 10 degrees Celsius now, and winter also seems to last about a month longer. So overall, I'd say the seasons have become more extreme than they used to be.
+**원고**: The seasons have changed a lot, especially summer and winter. Honestly, summer is getting longer and hotter. About winter, it's the same story — it's colder now. It gets really cold, like minus 10. I personally think the seasons feel more extreme than before. Overall, I really feel the change.
 
-**한글 해석**: 특히 여름이랑 겨울을 보면 날씨가 눈에 띄게 변한 것 같아요. 예를 들면, 여름이 해마다 더 길어지고 더 더워지는 것 같아요. 예전엔 여름이 6월 중순부터 9월 초까지였는데, 지금은 5월 말부터 9월 중순까지인 것 같아요. 겨울도 마찬가지예요 — 더 추워졌고 눈도 예전보다 많이 와요. 지금은 기온이 영하 10도 정도까지 떨어지고, 겨울도 한 달 정도 더 길어진 것 같아요. 그래서 전반적으로 예전보다 계절이 더 극단적으로 변한 것 같아요.
+**한글 해석**: 계절들이 많이 변했어요, 특히 여름이랑 겨울이요. 솔직히, 여름이 더 길어지고 더 더워지고 있어요. 겨울도, 마찬가지예요 — 지금은 더 추워요. 정말 추워져요, 영하 10도쯤이요. 저는 개인적으로 계절이 예전보다 더 극단적으로 느껴지는 것 같아요. 전반적으로, 변화가 정말 느껴져요.
 
 ### 3. [기억에 남는 경험] (question id: 176)
 
@@ -823,9 +823,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 심한 날씨와 관련해서 기억에 남는 경험에 대해 말해 주세요. 폭염이나 폭풍이었을 수도 있어요. 그 경험이 왜 잊을 수 없었나요?
 
-**원고**: This question reminds me of last summer here in Korea. We had a record-breaking heatwave that lasted for over 20 days straight. The temperature stayed above 35 degrees almost every single day, and even nights weren't much cooler. Honestly, it was hard to survive without the air conditioner running constantly. Because of that, my electricity bill was way higher than usual that month. I also had trouble sleeping well because it was so hot and humid even at night. I really hope we don't have a summer like that again anytime soon.
+**원고**: Let me tell you about my experience from last summer. It was really hot. At the time, we were supposed to go on a vacation with my friend, but my son wasn't feeling well, so he had to see a doctor. Because of that, we couldn't go on a trip and had to stay home instead. So, I decided to cook Korean chicken soup for my son, because I thought it would be good for him. It was my first time making it, but it was really good. Although we couldn't go on a trip, we had a really good time at home.
 
-**한글 해석**: 이 질문을 들으니 작년 여름이 생각나요. 한국에서 20일 넘게 이어진 역대급 폭염이 있었어요. 거의 매일 기온이 35도를 넘었고, 밤에도 별로 시원해지지 않았어요. 솔직히 에어컨을 계속 틀지 않고는 버티기 힘들었어요. 그래서 그 달 전기요금이 평소보다 훨씬 많이 나왔어요. 밤에도 덥고 습해서 잠을 잘 자기도 힘들었어요. 그런 여름이 다시는 빨리 오지 않았으면 좋겠어요.
+**한글 해석**: 작년 여름에 있었던 일을 말씀드릴게요. 정말 더웠어요. 그때 친구랑 여행을 가기로 되어 있었는데, 아들이 몸이 안 좋아서 병원에 가야 했어요. 그래서 여행을 못 가고 대신 집에 있어야 했어요. 그래서 아들한테 좋을 것 같아서 삼계탕을 해주기로 했어요. 처음 만들어보는 거였는데, 정말 맛있었어요. 여행은 못 갔지만, 집에서 정말 좋은 시간을 보냈어요.
 
 ---
 
@@ -837,9 +837,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 당신 나라의 지형을 설명해 주세요. 산, 호수, 강이 많나요? 나라가 어떤 모습인가요?
 
-**원고**: Korea has a lot of mountains, rivers, and beaches, so the geography is really varied. If you go to the eastern part of the country, you'll find many famous mountains. Most of the major rivers flow toward the western side. Also, since Korea is surrounded by the ocean on three sides, we have plenty of beautiful beaches. The East Sea is known for its clear water and white sandy beaches. The West Sea is popular for watching the sunset and mud flat beaches. And the South Sea has tons of small, beautiful islands scattered around.
+**원고**: Most of Korea's geography is really varied — mountains, rivers, and beaches. Honestly, in Seoul, there's a famous mountain called Namsan. About rivers, the Han River has a really nice view. You can also visit Jeju Island, which is a famous tourist spot. I personally love the beach in my hometown. Overall, Korea has all kinds of geography.
 
-**한글 해석**: 한국은 산, 강, 해변이 많아서 지형이 정말 다양해요. 동쪽 지역으로 가면 유명한 산들이 많아요. 주요 강들은 대부분 서쪽으로 흘러요. 그리고 한국은 삼면이 바다로 둘러싸여 있어서 아름다운 해변도 많아요. 동해는 맑은 물이랑 하얀 모래사장으로 유명해요. 서해는 노을 감상이랑 갯벌 해변으로 인기가 많아요. 남해는 작고 예쁜 섬들이 곳곳에 흩어져 있어요.
+**한글 해석**: 한국 지형은 정말 다양해요 — 산, 강, 해변까지요. 솔직히, 서울에는 남산이라는 유명한 산이 있어요. 강은, 한강이 정말 좋은 뷰를 가지고 있어요. 유명한 관광지인 제주도도 갈 수 있어요. 저는 개인적으로 제 고향에 있는 해변을 제일 좋아해요. 전반적으로, 한국은 온갖 종류의 지형이 다 있어요.
 
 ### 2. [과거 경험] (question id: 178)
 
@@ -847,9 +847,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 당신 나라의 지형과 관련해서 어릴 때 기억을 설명해 주세요. 특별한 장소나 중요한 자연 명소를 방문했었나요?
 
-**원고**: About 10 years ago, I visited Jeju Island with my family. Jeju is the biggest island in Korea, and it's famous for Hallasan Mountain, which is actually a volcano. At the time, we hiked up Hallasan to see the crater lake at the top. When we finally reached the top, we were amazed by how beautiful the scenery was. It was spring, but the lake was still partly covered in snow, which surprised us. It was my first time seeing a crater lake, so it really stuck with me. We took a lot of pictures up there, and it's still one of my favorite travel memories.
+**원고**: When I was in middle school, I had a memorable experience with a trip. At the time, my family wanted to do something fun, so we decided to go to the beach. We went to Sokcho Beach, on the east coast of Korea. It was really crowded, especially with couples, so I was a bit annoyed. As soon as we got there, we found a spot to rest and unpacked. Then we went swimming, rode a boat, and got some ice cream. The scenery was amazing — I was especially impressed by the beautiful ocean view. After that, we grabbed some food and talked about our day. Well, it was such a great time!
 
-**한글 해석**: 약 10년 전에 가족이랑 제주도에 갔었어요. 제주도는 한국에서 제일 큰 섬인데, 사실 화산인 한라산으로 유명해요. 그때 정상에 있는 화산 호수를 보려고 한라산을 등산했어요. 드디어 정상에 도착했을 때, 경치가 너무 아름다워서 감탄했어요. 봄이었는데도 호수가 아직 눈으로 일부 덮여 있어서 놀랐어요. 화산 호수를 본 건 그때가 처음이라 정말 인상 깊게 남았어요. 그 위에서 사진도 많이 찍었고, 지금도 제가 가장 좋아하는 여행 추억 중 하나예요.
+**한글 해석**: 중학교 때, 여행에서 기억에 남는 경험이 있었어요. 그때 가족이 뭔가 재밌는 걸 하고 싶어서 해변에 가기로 했어요. 한국 동해안에 있는 속초 해수욕장에 갔어요. 정말 붐볐는데, 특히 커플들이 많아서 좀 짜증났어요. 도착하자마자 쉴 자리를 찾고 짐을 풀었어요. 그다음엔 수영하고, 보트도 타고, 아이스크림도 먹었어요. 경치가 정말 좋았어요 — 특히 아름다운 바다 풍경에 감명받았어요. 그다음엔 뭔가 먹으면서 그날 하루에 대해 얘기했어요. 정말 좋은 시간이었어요!
 
 ### 3. [기억에 남는 경험] (question id: 179)
 
@@ -857,9 +857,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 당신 나라의 자연 명소를 방문했던 기억에 남는 경험에 대해 말해 주세요. 유명한 산을 등산했거나 아름다운 해변에서 수영했을 수도 있어요.
 
-**원고**: About two years ago, I went to Daecheon Beach with my friend 진수. We wanted to join the mud festival that's held there every year. As soon as we arrived, I was surprised to see how many young people and foreigners were there. Everyone looked like they were having a blast. We rode down mud slides and covered ourselves in mud packs — apparently it's supposed to be good for your skin. After that, we even caught some crabs and shellfish in the mud near the shore. It was such a fun and memorable day, unlike any beach trip I'd had before.
+**원고**: Let me tell you about something that happened at the beach a while ago. I went there with my wife, and while we were looking around, she went to the restroom. A few minutes later, when she came back, she looked really upset — the door was broken and had hit her on the head. So I got upset too, and I went straight to the staff and complained. Since her head really hurt, we had to see a doctor. Luckily, it wasn't too serious. After that, the manager paid the hospital bill and gave us a gift as an apology. Still, it just wasn't a good day after that.
 
-**한글 해석**: 약 2년 전에 친구 진수랑 대천해수욕장에 갔어요. 매년 열리는 머드축제에 참가하고 싶어서 갔어요. 도착하자마자 젊은 사람들이랑 외국인들이 정말 많아서 놀랐어요. 다들 신나게 즐기고 있는 것처럼 보였어요. 머드슬라이드도 타고 온몸에 머드팩도 했어요 — 피부에 좋다고 하더라고요. 그러고 나서는 해변 근처 갯벌에서 게랑 조개도 잡았어요. 이전에 갔던 어떤 해변 여행이랑도 달리 정말 재밌고 기억에 남는 하루였어요.
+**한글 해석**: 얼마 전 해변에 갔을 때 있었던 일을 말씀드릴게요. 아내랑 같이 갔는데, 둘러보다가 아내가 화장실에 갔어요. 몇 분 후 아내가 돌아왔을 때 얼굴이 울상이었어요 — 문이 고장 나서 머리를 맞았대요. 그래서 저도 화가 나서 바로 직원한테 항의했어요. 아내 머리가 많이 아파서 병원에 가봐야 했어요. 다행히 심각하진 않았어요. 그 후에 지점장님이 병원비도 내주고 미안하다고 선물도 줬어요. 그래도 그 이후로 그날 하루가 별로였어요.
 
 ---
 
@@ -905,9 +905,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 당신 나라 사람들은 보통 어떤 옷을 입나요? 일할 때랑 놀 때 입는 옷이 다른가요?
 
-**원고**: What people wear really depends on personal taste, but many companies in Korea still expect employees to dress formally. For men, that usually means a dress shirt and slacks, and sometimes a tie, along with dress shoes instead of sneakers. Women are generally expected to avoid overly short skirts or flip-flops at work. Outside of work, though, people love wearing casual clothes. A lot of people just wear jeans or comfy outfits when they're relaxing. Some people even prefer wearing full sweatsuits when they're doing outdoor activities or exercising.
+**원고**: Most companies in Korea still expect employees to dress formally. Honestly, for men, that usually means a dress shirt and slacks. About women, they're expected to avoid short skirts or flip-flops. You can wear whatever you want outside of work. For example, jeans, comfy clothes, anything. I personally like wearing t-shirts and shorts in summer. Overall, work clothes and casual clothes are pretty different here.
 
-**한글 해석**: 옷차림은 사실 개인 취향에 따라 다르지만, 한국의 많은 회사들은 여전히 직원들이 정장을 입기를 기대해요. 남자는 보통 셔츠에 정장 바지를 입고, 가끔 넥타이도 매고, 운동화 대신 구두를 신어요. 여자는 보통 회사에서 너무 짧은 치마나 슬리퍼는 피하는 게 좋다고 여겨져요. 하지만 회사 밖에서는 사람들이 편한 옷 입는 걸 좋아해요. 쉴 때는 청바지나 편한 옷을 입는 사람들이 많아요. 야외 활동을 하거나 운동할 때는 트레이닝복 한 벌을 그대로 입는 사람들도 있어요.
+**한글 해석**: 한국 회사들 대부분이 여전히 직원들이 정장 입기를 기대해요. 솔직히, 남자는 보통 셔츠에 정장 바지를 입어야 해요. 여자는, 짧은 치마나 슬리퍼는 피해야 해요. 회사 밖에서는 뭐든 원하는 대로 입을 수 있어요. 예를 들면, 청바지, 편한 옷, 뭐든지요. 저는 개인적으로 여름엔 반팔이랑 반바지 입는 걸 좋아해요. 전반적으로, 여기는 근무복이랑 평상복이 꽤 달라요.
 
 ### 2. [과거 비교] (question id: 184)
 
@@ -915,9 +915,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 패션 트렌드는 항상 변하죠. 어릴 때는 어떤 패션이 유행했나요? 지금은 뭐가 인기 있나요?
 
-**원고**: Yes, there have definitely been some changes in fashion trends in Korea. In the past, let's say in the 80s or 90s, people used to closely follow whatever trend was on TV. Since there wasn't much fashion information available, people just copied what their favorite TV stars wore. However, as the internet developed, people started getting way more information about fashion on their own. Now, people don't just imitate celebrities anymore — they figure out what actually suits them and try all sorts of styles. So honestly, I'd say there isn't really one specific trend right now, since everyone dresses so differently.
+**원고**: When I was young, fashion was different. At that time, people's fashion was similar. They didn't have much fashion information — they only got it from TV. Now, people can find all kinds of fashion online. Now, everyone's fashion style is so different. So there's no one big trend anymore.
 
-**한글 해석**: 네, 한국 패션 트렌드도 분명 많이 바뀌었어요. 예전에는, 그러니까 80년대나 90년대에는 사람들이 TV에 나오는 유행을 그대로 따라 했어요. 패션 정보가 많지 않아서 좋아하는 TV 스타가 입는 옷을 그대로 따라 입었죠. 그런데 인터넷이 발달하면서 사람들이 직접 패션 정보를 훨씬 많이 접할 수 있게 됐어요. 이제는 사람들이 그냥 연예인을 따라 하는 게 아니라, 자기한테 어울리는 걸 찾아서 다양한 스타일을 시도해요. 그래서 솔직히 지금은 다들 워낙 다르게 입다 보니 딱히 하나의 트렌드가 있는 것 같지는 않아요.
+**한글 해석**: 제가 어릴 때는, 패션이 달랐어요. 그때는, 사람들 패션이 다 비슷했어요. 사람들은 패션 정보가 별로 없었어요 — TV에서만 얻었어요. 지금은, 사람들이 온라인에서 온갖 패션을 다 찾을 수 있어요. 지금은, 다들 패션 스타일이 완전히 달라요. 그래서 이제 하나의 큰 트렌드는 없어요.
 
 ### 3. [기억에 남는 경험] (question id: 185)
 
@@ -925,9 +925,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 중요한 옷을 급하게 준비해야 했던 경험에 대해 말해 주세요. 무슨 일이 있었고, 어떻게 해결했나요?
 
-**원고**: About a year ago, I almost had a fashion disaster right before my friend's wedding. The night before the wedding, I tried on my suit and realized it was way too big — I'd lost some weight without noticing. I panicked and rushed to find a tailor shop that could alter it in time. Luckily, I found one, but they told me it might not be ready until the morning of the wedding. I spent the whole next morning anxiously waiting for a call from the shop. Fortunately, they finished it just in time, and I picked it up an hour before the ceremony. It was such a stressful morning, but I made it to the wedding looking sharp after all.
+**원고**: About two months ago, I had a really memorable time at a cafe. I went there with my best friend, Jinwoo. After a while, he went to the restroom, and I was just relaxing, waiting for him. Suddenly, a woman bumped into me while walking by and spilled her coffee all over my shirt. My shirt got completely soaked, and I got really upset. Even though she apologized, I kept complaining to her. Then, when my friend came back, I was totally shocked — she was his wife! I was so embarrassed. I kept apologizing to her over and over. Since then, I always remember it when I go to that cafe.
 
-**한글 해석**: 약 1년 전에 친구 결혼식 직전에 하마터면 큰일 날 뻔한 옷 문제가 있었어요. 결혼식 전날 밤에 정장을 입어봤는데 너무 헐렁해진 걸 알았어요 — 저도 모르게 살이 빠졌더라고요. 당황해서 그때 바로 수선해줄 수 있는 수선집을 급하게 찾아다녔어요. 다행히 한 곳을 찾긴 했는데, 결혼식 당일 아침에나 끝날 수도 있다고 하더라고요. 다음 날 아침 내내 수선집에서 연락 오기만을 초조하게 기다렸어요. 다행히 시간에 딱 맞춰 끝났고, 예식 한 시간 전에 찾으러 갔어요. 정말 스트레스 받는 아침이었지만, 결국 멀쩡한 모습으로 결혼식에 갈 수 있었어요.
+**한글 해석**: 두 달쯤 전에 카페에서 정말 기억에 남는 일이 있었어요. 가장 친한 친구 진우랑 카페에 갔었어요. 잠시 후에 그가 화장실에 가서, 저는 그냥 쉬면서 그를 기다리고 있었어요. 그런데 갑자기 지나가던 여자분이 저랑 부딪히면서 셔츠에 커피를 쏟았어요. 셔츠가 완전히 젖어서 정말 속상했어요. 그분이 사과했는데도 저는 계속 뭐라고 했어요. 그러다 친구가 돌아왔는데, 완전 충격이었어요 — 그 여자분이 친구 아내였던 거예요! 너무 당황해서 계속 사과했어요. 그 이후로, 저는 그 카페에 갈 때마다 항상 그 일이 생각나요.
 
 ---
 

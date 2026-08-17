@@ -4278,28 +4278,28 @@ const TOPICS = [
         question: "Tell me about the weather in your country. How are the seasons? What is the weather like in each season?",
         translation: "당신 나라의 날씨에 대해 말해 주세요. 계절은 어떤가요? 각 계절의 날씨는 어떤가요?",
         type: "일반 설명",
-        structure: ["사계절 뚜렷함", "봄: 따뜻함, 꽃", "여름: 덥고 습함, 장마", "가을: 선선함", "겨울: 매섭게 추움"],
+        structure: ["뚜렷한 4계절", "봄가을 지내기 좋음", "여름은 35도 넘기도함", "겨울은 매섭게 추움(스키/스노보드)", "개인적으로 단풍때문에 가을 좋아함", "모든 계절 다 좋음"],
         script: [
-          { en: "Korea has four distinct seasons: spring, summer, fall, and winter.", ko: "한국은 봄, 여름, 가을, 겨울 사계절이 뚜렷해요." },
-          { en: "In spring, the weather is warm and mild, and flowers bloom everywhere, so a lot of people go on picnics or visit flower festivals.", ko: "봄에는 날씨가 따뜻하고 온화하고, 곳곳에 꽃이 피어서 많은 사람들이 소풍을 가거나 꽃 축제를 보러 가요." },
-          { en: "Summer is hot and humid, with temperatures often going above 35 degrees Celsius, and there's also a rainy season that lasts about a month.", ko: "여름은 덥고 습한데, 기온이 섭씨 35도를 넘는 경우도 많고 한 달 정도 장마철도 있어요." },
-          { en: "Fall is similar to spring, but a bit cooler and drier, and it's my favorite season because of all the colorful leaves.", ko: "가을은 봄이랑 비슷한데 좀 더 선선하고 건조해요, 단풍이 예뻐서 제가 제일 좋아하는 계절이에요." },
-          { en: "Winter is freezing cold and windy, and the temperature can drop below zero.", ko: "겨울은 매섭게 춥고 바람도 부는데, 기온이 영하로 떨어지기도 해요." },
-          { en: "Even though it's cold, winter is actually pretty popular among people who enjoy skiing or snowboarding.", ko: "춥긴 해도 스키나 스노보드를 즐기는 사람들 사이에서는 겨울이 꽤 인기 있는 계절이에요." }
+          { en: "Most people in Korea experience four clear seasons.", ko: "한국 사람들 대부분이 뚜렷한 네 계절을 경험해요." },
+          { en: "Honestly, spring and fall are pretty nice and comfortable.", ko: "솔직히, 봄이랑 가을은 꽤 좋고 지내기 좋아요." },
+          { en: "About summer, it gets really hot, sometimes above 35 degrees.", ko: "여름은, 정말 더운데, 가끔 35도를 넘기도 해요." },
+          { en: "Winter is freezing cold. Some people like skiing or snowboarding then.", ko: "겨울은 매섭게 추워요. 그때 스키나 스노보드 좋아하는 사람들도 있어요." },
+          { en: "I personally like fall the most, because of the colorful leaves.", ko: "저는 개인적으로 단풍 때문에 가을을 제일 좋아해요." },
+          { en: "Overall, I like all kinds of seasons.", ko: "전반적으로, 저는 모든 계절이 다 좋아요." }
         ],
         pronunciation: [
-          { en: "Korea has four distinct seasons: spring, summer, fall, and winter.", ko: "코리아해즈 포디스팅트 시즌즈: 스프링, 서머, 폴, 앤윈터" },
-          { en: "In spring, the weather is warm and mild, and flowers bloom everywhere, so a lot of people go on picnics or visit flower festivals.", ko: "인스프링, 더웨더이즈 웜앤마일드, 앤플라워즈 블룸 에브리웨어, 소어랏어브피플 고온 피크닉스 오어비짓 플라워페스티벌즈" },
-          { en: "Summer is hot and humid, with temperatures often going above 35 degrees Celsius, and there's also a rainy season that lasts about a month.", ko: "서머이즈 핫앤휴미드, 위드템퍼러쳐즈 오픈고잉 어보브 써리파이브 디그리즈 셀시어스, 앤데얼즈올소어 레이니시즌 댓라스츠 어바우러먼쓰" },
-          { en: "Fall is similar to spring, but a bit cooler and drier, and it's my favorite season because of all the colorful leaves.", ko: "폴이즈 시밀러투스프링, 벗어빗쿨러앤드라이어, 앤잇츠마이 페이버릿시즌 비커즈어브올더 컬러풀리브즈" },
-          { en: "Winter is freezing cold and windy, and the temperature can drop below zero.", ko: "윈터이즈 프리징콜드앤윈디, 앤더템퍼러쳐캔 드랍빌로우 지로" },
-          { en: "Even though it's cold, winter is actually pretty popular among people who enjoy skiing or snowboarding.", ko: "이븐도우 잇츠콜드, 윈터이즈 액추얼리 프리티파퓰러 어멍피플후 인조이 스키잉오어 스노보딩" }
+          { en: "Most people in Korea experience four clear seasons.", ko: "모스트 피플 인코리아 익스피어리언스 포 클리어 시즌즈" },
+          { en: "Honestly, spring and fall are pretty nice and comfortable.", ko: "아너슬리, 스프링앤폴알 프리티 나이스앤 컴퍼러블" },
+          { en: "About summer, it gets really hot, sometimes above 35 degrees.", ko: "어바웃 서머, 잇겟츠 릴리핫, 썸타임즈 어보브 써리파이브 디그리즈" },
+          { en: "Winter is freezing cold. Some people like skiing or snowboarding then.", ko: "윈터이즈 프리징콜드. 썸피플 라익 스킹오어 스노보딩 덴" },
+          { en: "I personally like fall the most, because of the colorful leaves.", ko: "아이 퍼스널리 라익 폴더모스트, 비커즈어브더 컬러풀 리브즈" },
+          { en: "Overall, I like all kinds of seasons.", ko: "오버롤, 아이라익 올카인즈어브 시즌즈" }
         ],
         warnings: [
-          { word: "distinct", guide: "디스팅트" },
-          { word: "temperature", guide: "템퍼러쳐" },
-          { word: "humid", guide: "휴미드" },
-          { word: "favorite", guide: "페이버릿" }
+          { word: "honestly", guide: "아너슬리" },
+          { word: "personally", guide: "퍼스널리" },
+          { word: "degrees", guide: "디그리즈" },
+          { word: "freezing", guide: "프리징" }
         ]
       },
       {
@@ -4307,28 +4307,28 @@ const TOPICS = [
         question: "How has the weather in your country changed over time? Is the weather different from what it used to be?",
         translation: "당신 나라의 날씨는 시간이 지나면서 어떻게 변했나요? 예전과 지금 날씨가 다른가요?",
         type: "과거 비교",
-        structure: ["여름/겨울에 특히 변화 큼", "여름: 예전보다 더 길고 더워짐", "겨울: 더 추워지고 눈도 많아짐", "마무리"],
+        structure: ["계절 많이 변함(특히 여름/겨울)", "여름 더 길고 더워짐", "겨울도 더 추워짐(영하10도)", "계절이 더 극단적으로 느껴짐", "변화가 확실히 느껴짐"],
         script: [
-          { en: "I think there have been some noticeable changes in the weather here, especially in summer and winter.", ko: "특히 여름이랑 겨울을 보면 날씨가 눈에 띄게 변한 것 같아요." },
-          { en: "For example, summers seem to be getting longer and hotter every year.", ko: "예를 들면, 여름이 해마다 더 길어지고 더 더워지는 것 같아요." },
-          { en: "In the past, summer used to run from mid-June to early September, but now it feels like it starts in late May and lasts until mid-September.", ko: "예전엔 여름이 6월 중순부터 9월 초까지였는데, 지금은 5월 말부터 9월 중순까지인 것 같아요." },
-          { en: "It's the same story in winter — it's gotten colder, and we get more snow than we used to.", ko: "겨울도 마찬가지예요 — 더 추워졌고 눈도 예전보다 많이 와요." },
-          { en: "The temperature can drop to around minus 10 degrees Celsius now, and winter also seems to last about a month longer.", ko: "지금은 기온이 영하 10도 정도까지 떨어지고, 겨울도 한 달 정도 더 길어진 것 같아요." },
-          { en: "So overall, I'd say the seasons have become more extreme than they used to be.", ko: "그래서 전반적으로 예전보다 계절이 더 극단적으로 변한 것 같아요." }
+          { en: "The seasons have changed a lot, especially summer and winter.", ko: "계절들이 많이 변했어요, 특히 여름이랑 겨울이요." },
+          { en: "Honestly, summer is getting longer and hotter.", ko: "솔직히, 여름이 더 길어지고 더 더워지고 있어요." },
+          { en: "About winter, it's the same story — it's colder now.", ko: "겨울도, 마찬가지예요 — 지금은 더 추워요." },
+          { en: "It gets really cold, like minus 10.", ko: "정말 추워져요, 영하 10도쯤이요." },
+          { en: "I personally think the seasons feel more extreme than before.", ko: "저는 개인적으로 계절이 예전보다 더 극단적으로 느껴지는 것 같아요." },
+          { en: "Overall, I really feel the change.", ko: "전반적으로, 변화가 정말 느껴져요." }
         ],
         pronunciation: [
-          { en: "I think there have been some noticeable changes in the weather here, especially in summer and winter.", ko: "아이씽크 데어브빈 썸노티서블 체인지즈인더 웨더히어, 이스페셜리 인서머앤윈터" },
-          { en: "For example, summers seem to be getting longer and hotter every year.", ko: "포어그잼플, 서머즈 씸투비 게링롱거앤하러 에브리이어" },
-          { en: "In the past, summer used to run from mid-June to early September, but now it feels like it starts in late May and lasts until mid-September.", ko: "인더패스트, 서머 유즈투런 프럼미드준투얼리셉템버, 벗나우잇필즈라익 잇스타츠인 레이트메이 앤라스츠언틸 미드셉템버" },
-          { en: "It's the same story in winter — it's gotten colder, and we get more snow than we used to.", ko: "잇츠더세임스토리 인윈터, 잇츠가튼콜더, 앤위겟모어스노우 댄위유즈투" },
-          { en: "The temperature can drop to around minus 10 degrees Celsius now, and winter also seems to last about a month longer.", ko: "더템퍼러쳐캔 드랍투어라운드 마이너스텐 디그리즈셀시어스나우, 앤윈터올소 씸투라스트 어바우러먼쓰롱거" },
-          { en: "So overall, I'd say the seasons have become more extreme than they used to be.", ko: "소오버롤, 아이드세이더 시즌즈해브비컴 모어익스트림 댄데이유즈투비" }
+          { en: "The seasons have changed a lot, especially summer and winter.", ko: "더 시즌즈해브 체인지드 어랏, 이스페셜리 서머앤윈터" },
+          { en: "Honestly, summer is getting longer and hotter.", ko: "아너슬리, 서머이즈 게링 롱거앤 하러" },
+          { en: "About winter, it's the same story — it's colder now.", ko: "어바웃 윈터, 잇츠더 세임스토리, 잇츠 콜더나우" },
+          { en: "It gets really cold, like minus 10.", ko: "잇겟츠 릴리콜드, 라익 마이너스텐" },
+          { en: "I personally think the seasons feel more extreme than before.", ko: "아이퍼스널리 씽크더 시즌즈 필모어 익스트림 댄비포" },
+          { en: "Overall, I really feel the change.", ko: "오버롤, 아이릴리 필더체인지" }
         ],
         warnings: [
-          { word: "noticeable", guide: "노티서블" },
-          { word: "temperature", guide: "템퍼러쳐" },
           { word: "extreme", guide: "익스트림" },
-          { word: "degrees", guide: "디그리즈" }
+          { word: "honestly", guide: "아너슬리" },
+          { word: "personally", guide: "퍼스널리" },
+          { word: "minus", guide: "마이너스" }
         ]
       },
       {
@@ -4336,30 +4336,30 @@ const TOPICS = [
         question: "Tell me about a memorable experience related to severe weather. Maybe there was a heatwave or a storm. What made that experience unforgettable?",
         translation: "심한 날씨와 관련해서 기억에 남는 경험에 대해 말해 주세요. 폭염이나 폭풍이었을 수도 있어요. 그 경험이 왜 잊을 수 없었나요?",
         type: "기억에 남는 경험",
-        structure: ["작년 여름 얘기", "역대급 폭염, 20일 넘게 지속", "에어컨 없인 버티기 힘들었음", "전기요금 많이 나옴", "잠도 잘 못 잠", "마무리"],
+        structure: ["작년 여름, 정말 더웠음", "친구와 휴가 예정이었으나 아들이 아파서 병원감", "그것 때문에 여행 못가고 집에 있음", "아들 위해 삼계탕 요리 결심", "처음 만들었지만 맛있었음", "여행 못갔지만 집에서 좋은 시간 보냄"],
         script: [
-          { en: "This question reminds me of last summer here in Korea.", ko: "이 질문을 들으니 작년 여름이 생각나요." },
-          { en: "We had a record-breaking heatwave that lasted for over 20 days straight.", ko: "한국에서 20일 넘게 이어진 역대급 폭염이 있었어요." },
-          { en: "The temperature stayed above 35 degrees almost every single day, and even nights weren't much cooler.", ko: "거의 매일 기온이 35도를 넘었고, 밤에도 별로 시원해지지 않았어요." },
-          { en: "Honestly, it was hard to survive without the air conditioner running constantly.", ko: "솔직히 에어컨을 계속 틀지 않고는 버티기 힘들었어요." },
-          { en: "Because of that, my electricity bill was way higher than usual that month.", ko: "그래서 그 달 전기요금이 평소보다 훨씬 많이 나왔어요." },
-          { en: "I also had trouble sleeping well because it was so hot and humid even at night.", ko: "밤에도 덥고 습해서 잠을 잘 자기도 힘들었어요." },
-          { en: "I really hope we don't have a summer like that again anytime soon.", ko: "그런 여름이 다시는 빨리 오지 않았으면 좋겠어요." }
+          { en: "Let me tell you about my experience from last summer.", ko: "작년 여름에 있었던 일을 말씀드릴게요." },
+          { en: "It was really hot.", ko: "정말 더웠어요." },
+          { en: "At the time, we were supposed to go on a vacation with my friend, but my son wasn't feeling well, so he had to see a doctor.", ko: "그때 친구랑 여행을 가기로 되어 있었는데, 아들이 몸이 안 좋아서 병원에 가야 했어요." },
+          { en: "Because of that, we couldn't go on a trip and had to stay home instead.", ko: "그래서 여행을 못 가고 대신 집에 있어야 했어요." },
+          { en: "So, I decided to cook Korean chicken soup for my son, because I thought it would be good for him.", ko: "그래서 아들한테 좋을 것 같아서 삼계탕을 해주기로 했어요." },
+          { en: "It was my first time making it, but it was really good.", ko: "처음 만들어보는 거였는데, 정말 맛있었어요." },
+          { en: "Although we couldn't go on a trip, we had a really good time at home.", ko: "여행은 못 갔지만, 집에서 정말 좋은 시간을 보냈어요." }
         ],
         pronunciation: [
-          { en: "This question reminds me of last summer here in Korea.", ko: "디스퀘스천 리마인즈미어브 라스트서머 히어인코리아" },
-          { en: "We had a record-breaking heatwave that lasted for over 20 days straight.", ko: "위해더 레코드브레이킹 히트웨이브 댓라스티드퍼 오버트웨니데이즈 스트레잇" },
-          { en: "The temperature stayed above 35 degrees almost every single day, and even nights weren't much cooler.", ko: "더템퍼러쳐 스테이드어보브 써리파이브 디그리즈 올모스트에브리싱글데이, 앤이븐나잇츠 원트머치쿨러" },
-          { en: "Honestly, it was hard to survive without the air conditioner running constantly.", ko: "아너스틀리, 잇워즈하드투서바이브 위다웃디 에어컨디셔너 러닝컨스탄틀리" },
-          { en: "Because of that, my electricity bill was way higher than usual that month.", ko: "비커즈어브댓, 마이일렉트리서티빌 워즈웨이하이어댄 유주얼댓먼쓰" },
-          { en: "I also had trouble sleeping well because it was so hot and humid even at night.", ko: "아이올소해드 트러블슬리핑웰 비커즈잇워즈 소핫앤휴미드 이븐앳나잇" },
-          { en: "I really hope we don't have a summer like that again anytime soon.", ko: "아이릴리호프 위돈해버서머 라익댓어겐 애니타임순" }
+          { en: "Let me tell you about my experience from last summer.", ko: "렛미 텔유 어바웃 마이 익스피어리언스 프럼 라스트 서머" },
+          { en: "It was really hot.", ko: "잇워즈 릴리 핫" },
+          { en: "At the time, we were supposed to go on a vacation with my friend, but my son wasn't feeling well, so he had to see a doctor.", ko: "앳더타임, 위워 서포즈드투 고온어 베케이션 위드마이 프렌드, 벗마이썬 워즌트 필링웰, 소히 해드투 씨어닥터" },
+          { en: "Because of that, we couldn't go on a trip and had to stay home instead.", ko: "비커즈어브댓, 위쿠든 고온어 트립 앤 해드투 스테이홈 인스테드" },
+          { en: "So, I decided to cook Korean chicken soup for my son, because I thought it would be good for him.", ko: "소, 아이디사이디드투 쿡 코리안 치킨수프 퍼마이썬, 비커즈 아이쏫잇 우드비 굿퍼힘" },
+          { en: "It was my first time making it, but it was really good.", ko: "잇워즈 마이퍼스트타임 메이킹잇, 벗잇워즈 릴리굿" },
+          { en: "Although we couldn't go on a trip, we had a really good time at home.", ko: "얼도우 위쿠든 고온어 트립, 위해더 릴리 굿타임 앳홈" }
         ],
         warnings: [
-          { word: "heatwave", guide: "히트웨이브" },
-          { word: "electricity", guide: "일렉트리서티" },
-          { word: "constantly", guide: "컨스탄틀리" },
-          { word: "humid", guide: "휴미드" }
+          { word: "vacation", guide: "베케이션" },
+          { word: "decided", guide: "디사이디드" },
+          { word: "instead", guide: "인스테드" },
+          { word: "although", guide: "얼도우" }
         ]
       }
     ]
@@ -4373,30 +4373,28 @@ const TOPICS = [
         question: "Describe your country's geography. Are there many mountains, lakes, or rivers? What is your country like?",
         translation: "당신 나라의 지형을 설명해 주세요. 산, 호수, 강이 많나요? 나라가 어떤 모습인가요?",
         type: "일반 설명",
-        structure: ["큰그림: 산+강+바다", "산은 주로 동쪽", "강은 주로 서쪽으로 흐름", "삼면이 바다: 동해/서해/남해"],
+        structure: ["한국 지형 다양(산/강/해변)", "서울엔 남산", "한강 뷰 좋음", "제주도 유명 관광지", "개인적으로 고향 해변 좋아함", "온갖 지형 다 있음"],
         script: [
-          { en: "Korea has a lot of mountains, rivers, and beaches, so the geography is really varied.", ko: "한국은 산, 강, 해변이 많아서 지형이 정말 다양해요." },
-          { en: "If you go to the eastern part of the country, you'll find many famous mountains.", ko: "동쪽 지역으로 가면 유명한 산들이 많아요." },
-          { en: "Most of the major rivers flow toward the western side.", ko: "주요 강들은 대부분 서쪽으로 흘러요." },
-          { en: "Also, since Korea is surrounded by the ocean on three sides, we have plenty of beautiful beaches.", ko: "그리고 한국은 삼면이 바다로 둘러싸여 있어서 아름다운 해변도 많아요." },
-          { en: "The East Sea is known for its clear water and white sandy beaches.", ko: "동해는 맑은 물이랑 하얀 모래사장으로 유명해요." },
-          { en: "The West Sea is popular for watching the sunset and mud flat beaches.", ko: "서해는 노을 감상이랑 갯벌 해변으로 인기가 많아요." },
-          { en: "And the South Sea has tons of small, beautiful islands scattered around.", ko: "남해는 작고 예쁜 섬들이 곳곳에 흩어져 있어요." }
+          { en: "Most of Korea's geography is really varied — mountains, rivers, and beaches.", ko: "한국 지형은 정말 다양해요 — 산, 강, 해변까지요." },
+          { en: "Honestly, in Seoul, there's a famous mountain called Namsan.", ko: "솔직히, 서울에는 남산이라는 유명한 산이 있어요." },
+          { en: "About rivers, the Han River has a really nice view.", ko: "강은, 한강이 정말 좋은 뷰를 가지고 있어요." },
+          { en: "You can also visit Jeju Island, which is a famous tourist spot.", ko: "유명한 관광지인 제주도도 갈 수 있어요." },
+          { en: "I personally love the beach in my hometown.", ko: "저는 개인적으로 제 고향에 있는 해변을 제일 좋아해요." },
+          { en: "Overall, Korea has all kinds of geography.", ko: "전반적으로, 한국은 온갖 종류의 지형이 다 있어요." }
         ],
         pronunciation: [
-          { en: "Korea has a lot of mountains, rivers, and beaches, so the geography is really varied.", ko: "코리아해저 라러브 마운튼즈, 리버즈, 앤비치즈, 소더지아그러피 이즈릴리 베어리드" },
-          { en: "If you go to the eastern part of the country, you'll find many famous mountains.", ko: "이퓨고투디 이스턴파트어브더컨트리, 유일파인드 메니페이머스 마운튼즈" },
-          { en: "Most of the major rivers flow toward the western side.", ko: "모스트어브더 메이저리버즈 플로우토워드 더웨스턴사이드" },
-          { en: "Also, since Korea is surrounded by the ocean on three sides, we have plenty of beautiful beaches.", ko: "얼소, 신스코리아이즈 서라운디드바이디오션 온쓰리사이즈, 위해브 플렌티어브 뷰티풀비치즈" },
-          { en: "The East Sea is known for its clear water and white sandy beaches.", ko: "디이스트씨이즈 노운퍼 잇츠클리어워터 앤화이트 샌디비치즈" },
-          { en: "The West Sea is popular for watching the sunset and mud flat beaches.", ko: "더웨스트씨이즈 파퓰러퍼 왓칭더선셋 앤머드플랫비치즈" },
-          { en: "And the South Sea has tons of small, beautiful islands scattered around.", ko: "앤더사우스씨해즈 턴즈어브 스몰, 뷰티풀아일런즈 스캐터드어라운드" }
+          { en: "Most of Korea's geography is really varied — mountains, rivers, and beaches.", ko: "모스트 어브 코리아즈 지오그래피이즈 릴리 베리드, 마운튼즈, 리버즈, 앤비치즈" },
+          { en: "Honestly, in Seoul, there's a famous mountain called Namsan.", ko: "아너슬리, 인서울, 데얼저 페이머스 마운튼콜드 남산" },
+          { en: "About rivers, the Han River has a really nice view.", ko: "어바웃 리버즈, 더 한리버해저 릴리 나이스뷰" },
+          { en: "You can also visit Jeju Island, which is a famous tourist spot.", ko: "유캔올소 비짓 제주아일랜드, 위치이저 페이머스 투어리스트스팟" },
+          { en: "I personally love the beach in my hometown.", ko: "아이퍼스널리 러브더 비치 인마이 홈타운" },
+          { en: "Overall, Korea has all kinds of geography.", ko: "오버롤, 코리아 해즈 올카인즈어브 지오그래피" }
         ],
         warnings: [
-          { word: "geography", guide: "지아그러피" },
-          { word: "surrounded", guide: "서라운디드" },
-          { word: "scattered", guide: "스캐터드" },
-          { word: "islands", guide: "아일런즈" }
+          { word: "geography", guide: "지오그래피" },
+          { word: "honestly", guide: "아너슬리" },
+          { word: "personally", guide: "퍼스널리" },
+          { word: "tourist", guide: "투어리스트" }
         ]
       },
       {
@@ -4404,30 +4402,38 @@ const TOPICS = [
         question: "Describe an early memory you have of your country's geography. Did you visit a special place or an important natural landmark?",
         translation: "당신 나라의 지형과 관련해서 어릴 때 기억을 설명해 주세요. 특별한 장소나 중요한 자연 명소를 방문했었나요?",
         type: "과거 경험",
-        structure: ["약 10년 전, 가족과 제주도", "제주도: 한라산 유명", "한라산 등산해서 정상 호수 봄", "화산호수 처음 봄, 신기했음", "마무리"],
+        structure: ["중학교 때 여행", "가족과 재밌는거 하려고", "속초 해변(동해안)", "커플들로 붐벼서 짜증", "도착 후 자리+짐정리", "수영/보트/아이스크림", "풍경+바다뷰에 감명", "먹으며 하루 얘기", "좋은 시간이었음"],
         script: [
-          { en: "About 10 years ago, I visited Jeju Island with my family.", ko: "약 10년 전에 가족이랑 제주도에 갔었어요." },
-          { en: "Jeju is the biggest island in Korea, and it's famous for Hallasan Mountain, which is actually a volcano.", ko: "제주도는 한국에서 제일 큰 섬인데, 사실 화산인 한라산으로 유명해요." },
-          { en: "At the time, we hiked up Hallasan to see the crater lake at the top.", ko: "그때 정상에 있는 화산 호수를 보려고 한라산을 등산했어요." },
-          { en: "When we finally reached the top, we were amazed by how beautiful the scenery was.", ko: "드디어 정상에 도착했을 때, 경치가 너무 아름다워서 감탄했어요." },
-          { en: "It was spring, but the lake was still partly covered in snow, which surprised us.", ko: "봄이었는데도 호수가 아직 눈으로 일부 덮여 있어서 놀랐어요." },
-          { en: "It was my first time seeing a crater lake, so it really stuck with me.", ko: "화산 호수를 본 건 그때가 처음이라 정말 인상 깊게 남았어요." },
-          { en: "We took a lot of pictures up there, and it's still one of my favorite travel memories.", ko: "그 위에서 사진도 많이 찍었고, 지금도 제가 가장 좋아하는 여행 추억 중 하나예요." }
+          { en: "When I was in middle school, I had a memorable experience with a trip.", ko: "중학교 때, 여행에서 기억에 남는 경험이 있었어요." },
+          { en: "At the time, my family wanted to do something fun, so we decided to go to the beach.", ko: "그때 가족이 뭔가 재밌는 걸 하고 싶어서 해변에 가기로 했어요." },
+          { en: "We went to Sokcho Beach, on the east coast of Korea.", ko: "한국 동해안에 있는 속초 해수욕장에 갔어요." },
+          { en: "It was really crowded, especially with couples, so I was a bit annoyed.", ko: "정말 붐볐는데, 특히 커플들이 많아서 좀 짜증났어요." },
+          { en: "As soon as we got there, we found a spot to rest and unpacked.", ko: "도착하자마자 쉴 자리를 찾고 짐을 풀었어요." },
+          { en: "Then we went swimming, rode a boat, and got some ice cream.", ko: "그다음엔 수영하고, 보트도 타고, 아이스크림도 먹었어요." },
+          { en: "The scenery was amazing — I was especially impressed by the beautiful ocean view.", ko: "경치가 정말 좋았어요 — 특히 아름다운 바다 풍경에 감명받았어요." },
+          { en: "After that, we grabbed some food and talked about our day.", ko: "그다음엔 뭔가 먹으면서 그날 하루에 대해 얘기했어요." },
+          { en: "Well, it was such a great time!", ko: "정말 좋은 시간이었어요!" }
         ],
         pronunciation: [
-          { en: "About 10 years ago, I visited Jeju Island with my family.", ko: "어바웃텐이어즈어고, 아이비지티드 제주아일런드 위드마이패밀리" },
-          { en: "Jeju is the biggest island in Korea, and it's famous for Hallasan Mountain, which is actually a volcano.", ko: "제주이즈더 비기스트아일런드 인코리아, 앤잇츠페이머스퍼 한라산마운튼, 위치이즈액추얼리어 볼케이노" },
-          { en: "At the time, we hiked up Hallasan to see the crater lake at the top.", ko: "앳더타임, 위하익트업 한라산 투씨더 크레이터레이크 앳더탑" },
-          { en: "When we finally reached the top, we were amazed by how beautiful the scenery was.", ko: "웬위파이널리 리치트더탑, 위워어메이즈드바이 하우뷰티풀더 씨너리워즈" },
-          { en: "It was spring, but the lake was still partly covered in snow, which surprised us.", ko: "잇워즈스프링, 벗더레이크워즈 스틸파틀리커버드인스노우, 위치서프라이즈드어스" },
-          { en: "It was my first time seeing a crater lake, so it really stuck with me.", ko: "잇워즈마이 퍼스트타임 씨잉어크레이터레이크, 소잇릴리 스턱위드미" },
-          { en: "We took a lot of pictures up there, and it's still one of my favorite travel memories.", ko: "위툭어랏어브픽쳐스 업데어, 앤잇츠스틸 원어브마이 페이버릿 트래블메모리즈" }
+          { en: "When I was in middle school,", ko: "웬 아이 워즈 인 미들 스쿨" },
+          { en: "I had a memorable experience with a trip.", ko: "아이 해더 메모러블 익스피리언스 위더 트립" },
+          { en: "At the time, my family wanted to do something fun,", ko: "앳더 타임, 마이 패밀리 원티드투두 썸씽 펀" },
+          { en: "so we decided to go to the beach.", ko: "소 위 디사이디드 투고투더 비치" },
+          { en: "We went to Sokcho Beach, on the east coast of Korea.", ko: "위 웬투 속초 비치, 온디 이스트 코스트 어브 코리아" },
+          { en: "It was really crowded, especially with couples,", ko: "잇 워즈 릴리 크라우디드, 이스페셜리 윗 커플즈" },
+          { en: "so I was a bit annoyed.", ko: "소 아이 워저 빗 어노이드" },
+          { en: "As soon as we got there, we found a spot to rest and unpacked.", ko: "애즈 순애즈 위 갓데어, 위 파운더 스팟 투 레스트 앤 언팩트" },
+          { en: "Then we went swimming, rode a boat, and got some ice cream.", ko: "덴 위 웬트 스위밍, 로더 보트, 앤 갓 썸 아이스크림" },
+          { en: "The scenery was amazing —", ko: "더 씨너리 워저 메이징" },
+          { en: "I was especially impressed by the beautiful ocean view.", ko: "아이 워즈 이스페셜리 임프레스트 바이더 뷰티풀 오션 뷰" },
+          { en: "After that, we grabbed some food and talked about our day.", ko: "애프터댓, 위 그랩드 썸 푸드 앤 톡트 어바웃 아워 데이" },
+          { en: "Well, it was such a great time!", ko: "웰, 잇 워즈 서치어 그레잇 타임" }
         ],
         warnings: [
-          { word: "volcano", guide: "볼케이노" },
+          { word: "crowded", guide: "크라우디드" },
+          { word: "memorable", guide: "메모러블" },
           { word: "scenery", guide: "씨너리" },
-          { word: "crater", guide: "크레이터" },
-          { word: "surprised", guide: "서프라이즈드" }
+          { word: "impressed", guide: "임프레스트" }
         ]
       },
       {
@@ -4435,30 +4441,35 @@ const TOPICS = [
         question: "Tell me about a memorable time you visited a natural place in your country. You might have climbed a mountain or swum at a beautiful beach.",
         translation: "당신 나라의 자연 명소를 방문했던 기억에 남는 경험에 대해 말해 주세요. 유명한 산을 등산했거나 아름다운 해변에서 수영했을 수도 있어요.",
         type: "기억에 남는 경험",
-        structure: ["약 2년 전, 대천해수욕장", "친구 진수와 함께 감", "머드축제 참여하려고 감", "도착 즉시 인파에 놀람", "머드슬라이드+머드팩", "조개잡이", "마무리"],
+        structure: ["얼마 전 해변 갔을 때 있었던 일", "아내와 방문, 아내 화장실감", "문이 고장나서 머리 부딪힘", "화나서 직원에게 항의", "머리 아파서 병원감", "다행히 심각하지 않음", "지점장이 병원비+사과선물", "그날 하루 별로였음"],
         script: [
-          { en: "About two years ago, I went to Daecheon Beach with my friend 진수.", ko: "약 2년 전에 친구 진수랑 대천해수욕장에 갔어요." },
-          { en: "We wanted to join the mud festival that's held there every year.", ko: "매년 열리는 머드축제에 참가하고 싶어서 갔어요." },
-          { en: "As soon as we arrived, I was surprised to see how many young people and foreigners were there.", ko: "도착하자마자 젊은 사람들이랑 외국인들이 정말 많아서 놀랐어요." },
-          { en: "Everyone looked like they were having a blast.", ko: "다들 신나게 즐기고 있는 것처럼 보였어요." },
-          { en: "We rode down mud slides and covered ourselves in mud packs — apparently it's supposed to be good for your skin.", ko: "머드슬라이드도 타고 온몸에 머드팩도 했어요 — 피부에 좋다고 하더라고요." },
-          { en: "After that, we even caught some crabs and shellfish in the mud near the shore.", ko: "그러고 나서는 해변 근처 갯벌에서 게랑 조개도 잡았어요." },
-          { en: "It was such a fun and memorable day, unlike any beach trip I'd had before.", ko: "이전에 갔던 어떤 해변 여행이랑도 달리 정말 재밌고 기억에 남는 하루였어요." }
+          { en: "Let me tell you about something that happened at the beach a while ago.", ko: "얼마 전 해변에 갔을 때 있었던 일을 말씀드릴게요." },
+          { en: "I went there with my wife, and while we were looking around, she went to the restroom.", ko: "아내랑 같이 갔는데, 둘러보다가 아내가 화장실에 갔어요." },
+          { en: "A few minutes later, when she came back, she looked really upset — the door was broken and had hit her on the head.", ko: "몇 분 후 아내가 돌아왔을 때 얼굴이 울상이었어요 — 문이 고장 나서 머리를 맞았대요." },
+          { en: "So I got upset too, and I went straight to the staff and complained.", ko: "그래서 저도 화가 나서 바로 직원한테 항의했어요." },
+          { en: "Since her head really hurt, we had to see a doctor.", ko: "아내 머리가 많이 아파서 병원에 가봐야 했어요." },
+          { en: "Luckily, it wasn't too serious.", ko: "다행히 심각하진 않았어요." },
+          { en: "After that, the manager paid the hospital bill and gave us a gift as an apology.", ko: "그 후에 지점장님이 병원비도 내주고 미안하다고 선물도 줬어요." },
+          { en: "Still, it just wasn't a good day after that.", ko: "그래도 그 이후로 그날 하루가 별로였어요." }
         ],
         pronunciation: [
-          { en: "About two years ago, I went to Daecheon Beach with my friend 진수.", ko: "어바웃투이어즈어고, 아이웬투 대천비치 위드마이프렌드 진수" },
-          { en: "We wanted to join the mud festival that's held there every year.", ko: "위원티드투조인 더머드페스티벌 댓츠헬드데어 에브리이어" },
-          { en: "As soon as we arrived, I was surprised to see how many young people and foreigners were there.", ko: "애즈순애즈위어라이브드, 아이워즈서프라이즈드투씨 하우매니영피플앤 포리너즈워데어" },
-          { en: "Everyone looked like they were having a blast.", ko: "에브리원룩트라익 데이워헤빙어블래스트" },
-          { en: "We rode down mud slides and covered ourselves in mud packs — apparently it's supposed to be good for your skin.", ko: "위로드다운 머드슬라이즈 앤커버드아월브즈인 머드팩스, 어패런틀리 잇츠서포즈투비 굿퍼유어스킨" },
-          { en: "After that, we even caught some crabs and shellfish in the mud near the shore.", ko: "애프터댓, 위이븐콧썸 크랩스앤셸피쉬 인더머드니어더쇼어" },
-          { en: "It was such a fun and memorable day, unlike any beach trip I'd had before.", ko: "잇워즈서치어펀앤 메모러블데이, 언라익애니비치트립 아이드해드비포" }
+          { en: "Let me tell you about something that happened at the beach a while ago.", ko: "렛미 텔유 어바웃 썸씽 댓 해펀드 앳더 비치 어와일어고" },
+          { en: "I went there with my wife, and while we were looking around,", ko: "아이 웬트 데어 윗마이 와이프, 앤 와일위워 룩킹어라운드" },
+          { en: "she went to the restroom.", ko: "쉬 웬트투더 레스트룸" },
+          { en: "A few minutes later, when she came back, she looked really upset —", ko: "어퓨 미닛츠 레이터, 웬쉬 케임백, 쉬 룩트 릴리 업셋" },
+          { en: "the door was broken and had hit her on the head.", ko: "더 도어 워즈 브로큰 앤 해드 힛허 온더 헤드" },
+          { en: "So I got upset too, and I went straight to the staff and complained.", ko: "소 아이 갓 업셋 투, 앤 아이 웬트 스트레이트 투더 스태프 앤 컴플레인드" },
+          { en: "Since her head really hurt, we had to see a doctor.", ko: "신스 허 헤드 릴리 헛, 위 해드투 씨어 닥터" },
+          { en: "Luckily, it wasn't too serious.", ko: "럭킬리, 잇 워즌트 투 시리어스" },
+          { en: "After that, the manager paid the hospital bill", ko: "애프터댓, 더 매니저 페이드 더 하스피틀 빌" },
+          { en: "and gave us a gift as an apology.", ko: "앤 게이버스 어 기프트 애즈언 어팔러지" },
+          { en: "Still, it just wasn't a good day after that.", ko: "스틸, 잇 저스트 워즌트어 굿데이 애프터댓" }
         ],
         warnings: [
-          { word: "memorable", guide: "메모러블" },
-          { word: "apparently", guide: "어패런틀리" },
-          { word: "shellfish", guide: "셸피쉬" },
-          { word: "foreigners", guide: "포리너즈" }
+          { word: "broken", guide: "브로큰" },
+          { word: "complained", guide: "컴플레인드" },
+          { word: "hospital", guide: "하스피틀" },
+          { word: "apology", guide: "어팔러지" }
         ]
       }
     ]
@@ -4567,27 +4578,27 @@ const TOPICS = [
         question: "What kinds of clothes do people in your country typically wear? Are there different kinds of clothes for work or for play?",
         translation: "당신 나라 사람들은 보통 어떤 옷을 입나요? 일할 때랑 놀 때 입는 옷이 다른가요?",
         type: "일반 설명",
-        structure: ["직장 복장: 정장", "남자: 셔츠+정장바지", "여자: 짧은치마/슬리퍼 지양", "평상시: 편한 옷"],
+        structure: ["회사는 정장 기대", "남자는 셔츠+정장바지", "여자는 짧은치마/슬리퍼 피함", "회사밖에선 자유(청바지등)", "개인적으로 여름엔 반팔반바지", "근무복/평상복 차이 큼"],
         script: [
-          { en: "What people wear really depends on personal taste, but many companies in Korea still expect employees to dress formally.", ko: "옷차림은 사실 개인 취향에 따라 다르지만, 한국의 많은 회사들은 여전히 직원들이 정장을 입기를 기대해요." },
-          { en: "For men, that usually means a dress shirt and slacks, and sometimes a tie, along with dress shoes instead of sneakers.", ko: "남자는 보통 셔츠에 정장 바지를 입고, 가끔 넥타이도 매고, 운동화 대신 구두를 신어요." },
-          { en: "Women are generally expected to avoid overly short skirts or flip-flops at work.", ko: "여자는 보통 회사에서 너무 짧은 치마나 슬리퍼는 피하는 게 좋다고 여겨져요." },
-          { en: "Outside of work, though, people love wearing casual clothes.", ko: "하지만 회사 밖에서는 사람들이 편한 옷 입는 걸 좋아해요." },
-          { en: "A lot of people just wear jeans or comfy outfits when they're relaxing.", ko: "쉴 때는 청바지나 편한 옷을 입는 사람들이 많아요." },
-          { en: "Some people even prefer wearing full sweatsuits when they're doing outdoor activities or exercising.", ko: "야외 활동을 하거나 운동할 때는 트레이닝복 한 벌을 그대로 입는 사람들도 있어요." }
+          { en: "Most companies in Korea still expect employees to dress formally.", ko: "한국 회사들 대부분이 여전히 직원들이 정장 입기를 기대해요." },
+          { en: "Honestly, for men, that usually means a dress shirt and slacks.", ko: "솔직히, 남자는 보통 셔츠에 정장 바지를 입어야 해요." },
+          { en: "About women, they're expected to avoid short skirts or flip-flops.", ko: "여자는, 짧은 치마나 슬리퍼는 피해야 해요." },
+          { en: "You can wear whatever you want outside of work. For example, jeans, comfy clothes, anything.", ko: "회사 밖에서는 뭐든 원하는 대로 입을 수 있어요. 예를 들면, 청바지, 편한 옷, 뭐든지요." },
+          { en: "I personally like wearing t-shirts and shorts in summer.", ko: "저는 개인적으로 여름엔 반팔이랑 반바지 입는 걸 좋아해요." },
+          { en: "Overall, work clothes and casual clothes are pretty different here.", ko: "전반적으로, 여기는 근무복이랑 평상복이 꽤 달라요." }
         ],
         pronunciation: [
-          { en: "What people wear really depends on personal taste, but many companies in Korea still expect employees to dress formally.", ko: "왓피플웨어 릴리디펜즈온 퍼스널테이스트, 벗메니컴퍼니즈 인코리아 스틸익스펙트 임플로이즈투 드레스포멀리" },
-          { en: "For men, that usually means a dress shirt and slacks, and sometimes a tie, along with dress shoes instead of sneakers.", ko: "포멘, 댓유주얼리민즈어 드레스셔츠앤슬랙스, 앤썸타임즈어타이, 얼롱위드드레스슈즈 인스테드어브스니커즈" },
-          { en: "Women are generally expected to avoid overly short skirts or flip-flops at work.", ko: "위민아 제너럴리익스펙티드 투어보이드 오벌리숏스커츠 오어플립플랍스 앳워크" },
-          { en: "Outside of work, though, people love wearing casual clothes.", ko: "아웃사이드어브워크, 도우, 피플러브웨어링 캐주얼클로즈" },
-          { en: "A lot of people just wear jeans or comfy outfits when they're relaxing.", ko: "어랏어브피플 저스트웨어진즈 오어컴피아웃핏츠 웬데얼릴랙싱" },
-          { en: "Some people even prefer wearing full sweatsuits when they're doing outdoor activities or exercising.", ko: "썸피플이븐 프리퍼웨어링 풀스웻수츠 웬데얼두잉 아웃도어액티비티즈 오어엑서사이징" }
+          { en: "Most companies in Korea still expect employees to dress formally.", ko: "모스트 컴퍼니즈 인코리아 스틸 익스펙트 임플로이즈투 드레스 포멀리" },
+          { en: "Honestly, for men, that usually means a dress shirt and slacks.", ko: "아너슬리, 퍼멘, 댓 유주얼리 민즈어 드레스셔츠 앤슬랙스" },
+          { en: "About women, they're expected to avoid short skirts or flip-flops.", ko: "어바웃 위민, 데이알 익스펙티드투 어보이드 숏스커츠 오어 플립플랍스" },
+          { en: "You can wear whatever you want outside of work. For example, jeans, comfy clothes, anything.", ko: "유캔웨어 왓에버유원트 아웃사이드어브 워크. 포어그잼플, 진즈, 컴피클로즈, 애니씽" },
+          { en: "I personally like wearing t-shirts and shorts in summer.", ko: "아이퍼스널리 라익 웨어링 티셔츠앤 숏츠인 서머" },
+          { en: "Overall, work clothes and casual clothes are pretty different here.", ko: "오버롤, 워크클로즈앤 캐주얼클로즈알 프리티 디퍼런트 히어" }
         ],
         warnings: [
-          { word: "employees", guide: "임플로이즈" },
-          { word: "avoid", guide: "어보이드" },
-          { word: "outdoor", guide: "아웃도어" },
+          { word: "formally", guide: "포멀리" },
+          { word: "honestly", guide: "아너슬리" },
+          { word: "personally", guide: "퍼스널리" },
           { word: "casual", guide: "캐주얼" }
         ]
       },
@@ -4596,28 +4607,28 @@ const TOPICS = [
         question: "Fashion trends are always changing. What kinds of fashions were popular when you were younger? What's popular now?",
         translation: "패션 트렌드는 항상 변하죠. 어릴 때는 어떤 패션이 유행했나요? 지금은 뭐가 인기 있나요?",
         type: "과거 비교",
-        structure: ["과거: 7080 디스코룩, 9020 힙합룩 유행", "이유: 정보부족, TV 따라함", "전환: 인터넷 발달", "현재: 자기한테 어울리는 옷 찾음, 특정 트렌드 없음"],
+        structure: ["어릴 땐 패션 다 비슷했음", "정보가 TV뿐이었음", "지금은 온라인에서 다양하게 찾음", "다들 스타일 다름", "하나의 큰 트렌드 없음"],
         script: [
-          { en: "Yes, there have definitely been some changes in fashion trends in Korea.", ko: "네, 한국 패션 트렌드도 분명 많이 바뀌었어요." },
-          { en: "In the past, let's say in the 80s or 90s, people used to closely follow whatever trend was on TV.", ko: "예전에는, 그러니까 80년대나 90년대에는 사람들이 TV에 나오는 유행을 그대로 따라 했어요." },
-          { en: "Since there wasn't much fashion information available, people just copied what their favorite TV stars wore.", ko: "패션 정보가 많지 않아서 좋아하는 TV 스타가 입는 옷을 그대로 따라 입었죠." },
-          { en: "However, as the internet developed, people started getting way more information about fashion on their own.", ko: "그런데 인터넷이 발달하면서 사람들이 직접 패션 정보를 훨씬 많이 접할 수 있게 됐어요." },
-          { en: "Now, people don't just imitate celebrities anymore — they figure out what actually suits them and try all sorts of styles.", ko: "이제는 사람들이 그냥 연예인을 따라 하는 게 아니라, 자기한테 어울리는 걸 찾아서 다양한 스타일을 시도해요." },
-          { en: "So honestly, I'd say there isn't really one specific trend right now, since everyone dresses so differently.", ko: "그래서 솔직히 지금은 다들 워낙 다르게 입다 보니 딱히 하나의 트렌드가 있는 것 같지는 않아요." }
+          { en: "When I was young, fashion was different.", ko: "제가 어릴 때는, 패션이 달랐어요." },
+          { en: "At that time, people's fashion was similar.", ko: "그때는, 사람들 패션이 다 비슷했어요." },
+          { en: "They didn't have much fashion information — they only got it from TV.", ko: "사람들은 패션 정보가 별로 없었어요 — TV에서만 얻었어요." },
+          { en: "Now, people can find all kinds of fashion online.", ko: "지금은, 사람들이 온라인에서 온갖 패션을 다 찾을 수 있어요." },
+          { en: "Now, everyone's fashion style is so different.", ko: "지금은, 다들 패션 스타일이 완전히 달라요." },
+          { en: "So there's no one big trend anymore.", ko: "그래서 이제 하나의 큰 트렌드는 없어요." }
         ],
         pronunciation: [
-          { en: "Yes, there have definitely been some changes in fashion trends in Korea.", ko: "예스, 데어브 데피니틀리빈 썸체인지즈 인패션트렌즈 인코리아" },
-          { en: "In the past, let's say in the 80s or 90s, people used to closely follow whatever trend was on TV.", ko: "인더패스트, 렛츠세이인더 에이티즈오어 나인티즈, 피플유즈투 클로슬리팔로우 왓에버트렌드워즈온티비" },
-          { en: "Since there wasn't much fashion information available, people just copied what their favorite TV stars wore.", ko: "신스데어원트머치 패션인포메이션 어베일러블, 피플저스트카피드 왓데어페이버릿 티비스타즈워" },
-          { en: "However, as the internet developed, people started getting way more information about fashion on their own.", ko: "하우에버, 애즈디인터넷디벨롭트, 피플스타티드 게링웨이모어 인포메이션어바웃패션 온데어온" },
-          { en: "Now, people don't just imitate celebrities anymore — they figure out what actually suits them and try all sorts of styles.", ko: "나우, 피플돈저스트 이미테이트 셀러브리티즈 애니모어, 데이피겨아웃 왓액추얼리수츠뎀 앤트라이올소츠어브스타일즈" },
-          { en: "So honestly, I'd say there isn't really one specific trend right now, since everyone dresses so differently.", ko: "소아너스틀리, 아이드세이 데어이즌트 릴리원스퍼시픽트렌드 라잇나우, 신스에브리원드레시즈 소디퍼런틀리" }
+          { en: "When I was young, fashion was different.", ko: "웬아이워즈 영, 패션워즈 디퍼런트" },
+          { en: "At that time, people's fashion was similar.", ko: "앳댓타임, 피플즈 패션워즈 시밀러" },
+          { en: "They didn't have much fashion information — they only got it from TV.", ko: "데이디든 해브머치 패션 인포메이션, 데이온리 갓잇 프럼티비" },
+          { en: "Now, people can find all kinds of fashion online.", ko: "나우, 피플캔 파인드 올카인즈어브 패션 온라인" },
+          { en: "Now, everyone's fashion style is so different.", ko: "나우, 에브리원즈 패션스타일이즈 소 디퍼런트" },
+          { en: "So there's no one big trend anymore.", ko: "소데얼즈 노원빅 트렌드 애니모어" }
         ],
         warnings: [
-          { word: "available", guide: "어베일러블" },
-          { word: "imitate", guide: "이미테이트" },
-          { word: "celebrities", guide: "셀러브리티즈" },
-          { word: "specific", guide: "스퍼시픽" }
+          { word: "similar", guide: "시밀러" },
+          { word: "information", guide: "인포메이션" },
+          { word: "trend", guide: "트렌드" },
+          { word: "fashion", guide: "패션" }
         ]
       },
       {
@@ -4625,30 +4636,34 @@ const TOPICS = [
         question: "Tell me about a time you had to get an important piece of clothing ready in a hurry. What happened, and how did you handle it?",
         translation: "중요한 옷을 급하게 준비해야 했던 경험에 대해 말해 주세요. 무슨 일이 있었고, 어떻게 해결했나요?",
         type: "기억에 남는 경험",
-        structure: ["약 1년 전, 친구 결혼식", "그 전날 정장이 너무 커진 걸 발견(다이어트로)", "급히 수선집 찾음", "당일 아침까지 수선 안 끝날 뻔함", "다행히 예식 직전 찾음", "마무리"],
+        structure: ["두달전, 카페서 있었던 일", "친구 진우와 감", "진우 화장실간사이 혼자 기다림", "지나가던 여자가 부딪혀 셔츠에 커피 쏟음", "화가 나서 계속 뭐라 함", "친구 돌아옴→그 여자가 친구 아내였음", "엄청 당황+계속 사과함", "그 후로 카페 갈 때마다 생각남"],
         script: [
-          { en: "About a year ago, I almost had a fashion disaster right before my friend's wedding.", ko: "약 1년 전에 친구 결혼식 직전에 하마터면 큰일 날 뻔한 옷 문제가 있었어요." },
-          { en: "The night before the wedding, I tried on my suit and realized it was way too big — I'd lost some weight without noticing.", ko: "결혼식 전날 밤에 정장을 입어봤는데 너무 헐렁해진 걸 알았어요 — 저도 모르게 살이 빠졌더라고요." },
-          { en: "I panicked and rushed to find a tailor shop that could alter it in time.", ko: "당황해서 그때 바로 수선해줄 수 있는 수선집을 급하게 찾아다녔어요." },
-          { en: "Luckily, I found one, but they told me it might not be ready until the morning of the wedding.", ko: "다행히 한 곳을 찾긴 했는데, 결혼식 당일 아침에나 끝날 수도 있다고 하더라고요." },
-          { en: "I spent the whole next morning anxiously waiting for a call from the shop.", ko: "다음 날 아침 내내 수선집에서 연락 오기만을 초조하게 기다렸어요." },
-          { en: "Fortunately, they finished it just in time, and I picked it up an hour before the ceremony.", ko: "다행히 시간에 딱 맞춰 끝났고, 예식 한 시간 전에 찾으러 갔어요." },
-          { en: "It was such a stressful morning, but I made it to the wedding looking sharp after all.", ko: "정말 스트레스 받는 아침이었지만, 결국 멀쩡한 모습으로 결혼식에 갈 수 있었어요." }
+          { en: "About two months ago, I had a really memorable time at a cafe.", ko: "두 달쯤 전에 카페에서 정말 기억에 남는 일이 있었어요." },
+          { en: "I went there with my best friend, Jinwoo.", ko: "가장 친한 친구 진우랑 카페에 갔었어요." },
+          { en: "After a while, he went to the restroom, and I was just relaxing, waiting for him.", ko: "잠시 후에 그가 화장실에 가서, 저는 그냥 쉬면서 그를 기다리고 있었어요." },
+          { en: "Suddenly, a woman bumped into me while walking by and spilled her coffee all over my shirt.", ko: "그런데 갑자기 지나가던 여자분이 저랑 부딪히면서 셔츠에 커피를 쏟았어요." },
+          { en: "My shirt got completely soaked, and I got really upset.", ko: "셔츠가 완전히 젖어서 정말 속상했어요." },
+          { en: "Even though she apologized, I kept complaining to her.", ko: "그분이 사과했는데도 저는 계속 뭐라고 했어요." },
+          { en: "Then, when my friend came back, I was totally shocked — she was his wife!", ko: "그러다 친구가 돌아왔는데, 완전 충격이었어요 — 그 여자분이 친구 아내였던 거예요!" },
+          { en: "I was so embarrassed. I kept apologizing to her over and over.", ko: "너무 당황해서 계속 사과했어요." },
+          { en: "Since then, I always remember it when I go to that cafe.", ko: "그 이후로, 저는 그 카페에 갈 때마다 항상 그 일이 생각나요." }
         ],
         pronunciation: [
-          { en: "About a year ago, I almost had a fashion disaster right before my friend's wedding.", ko: "어바우러이어어고, 아이올모스트 해더패션디재스터 라잇비포마이 프렌즈웨딩" },
-          { en: "The night before the wedding, I tried on my suit and realized it was way too big — I'd lost some weight without noticing.", ko: "더나잇비포더웨딩, 아이트라이드온마이수트 앤리얼라이즈드 잇워즈웨이투빅, 아이드로스트 썸웨이트 위다웃노티싱" },
-          { en: "I panicked and rushed to find a tailor shop that could alter it in time.", ko: "아이패닉트앤 러쉬투파인더 테일러샵 댓쿠드올터릿 인타임" },
-          { en: "Luckily, I found one, but they told me it might not be ready until the morning of the wedding.", ko: "럭키리, 아이파운드원, 벗데이톨드미 잇마잇낫비레디 언틸더모닝어브더웨딩" },
-          { en: "I spent the whole next morning anxiously waiting for a call from the shop.", ko: "아이스펜트더홀 넥스트모닝 앵셔슬리웨이팅퍼어콜 프럼더샵" },
-          { en: "Fortunately, they finished it just in time, and I picked it up an hour before the ceremony.", ko: "포츄네틀리, 데이피니쉬드잇 저스트인타임, 앤아이픽트잇업 언아워비포더세레모니" },
-          { en: "It was such a stressful morning, but I made it to the wedding looking sharp after all.", ko: "잇워즈서치어 스트레스풀모닝, 벗아이메이딧투더웨딩 룩킹샤프애프터올" }
+          { en: "About two months ago, I had a really memorable time at a cafe.", ko: "어바웃 투 먼쓰어고, 아이 해더 릴리 메머러블 타임 앳어 카페" },
+          { en: "I went there with my best friend, Jinwoo.", ko: "아이 웬트 데어 윗마이 베스트 프렌드, 진우" },
+          { en: "After a while, he went to the restroom, and I was just relaxing, waiting for him.", ko: "애프터러 와일, 히 웬트투더 레스트룸, 앤 아이 워즈 저스트 릴렉싱, 웨이팅 퍼힘" },
+          { en: "Suddenly, a woman bumped into me while walking by and spilled her coffee all over my shirt.", ko: "서든리, 어 우먼 범트인투미 와일 워킹바이 앤 스필드 허 커피 올오버 마이 셔츠" },
+          { en: "My shirt got completely soaked, and I got really upset.", ko: "마이 셔츠 갓 컴플리틀리 소우크트, 앤 아이 갓 릴리 업셋" },
+          { en: "Even though she apologized, I kept complaining to her.", ko: "이븐도우 쉬 어팔러자이즈드, 아이 켑트 컴플레이닝투허" },
+          { en: "Then, when my friend came back, I was totally shocked — she was his wife!", ko: "덴, 웬마이 프렌드 케임백, 아이 워즈 토탈리 샥트, 쉬 워즈 히즈 와이프!" },
+          { en: "I was so embarrassed. I kept apologizing to her over and over.", ko: "아이 워즈 소우 임배러스트. 아이 켑트 어팔러자이징투허 오버앤오버" },
+          { en: "Since then, I always remember it when I go to that cafe.", ko: "신스덴, 아이 올웨이즈 리멤버릿 웬아이 고투댓 카페" }
         ],
         warnings: [
-          { word: "tailor", guide: "테일러" },
-          { word: "anxiously", guide: "앵셔슬리" },
-          { word: "ceremony", guide: "세레모니" },
-          { word: "fortunately", guide: "포츄네틀리" }
+          { word: "apologized", guide: "어팔러자이즈드" },
+          { word: "embarrassed", guide: "임배러스트" },
+          { word: "soaked", guide: "소우크트" },
+          { word: "complaining", guide: "컴플레이닝" }
         ]
       }
     ]
