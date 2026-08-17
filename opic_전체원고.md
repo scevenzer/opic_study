@@ -667,9 +667,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 당신 나라에서 인기 있는 최근 기술에 대해 말해 주세요. 사람들이 가장 많이 사용하는 기술은 무엇이고, 무엇에 쓰이나요?
 
-**원고**: Well, I'd say the recent technology that people use the most is the smartphone. According to a news article, about 85% of Korean people currently use smartphones — even elementary school students have their own. Smartphones pack all kinds of functions into one device. Some people just use them to make calls, but most people use them for all sorts of things — surfing the internet, watching movies, listening to music, managing schedules, running their daily lives, and even paying for shopping. You can basically do everything you'd normally do on a computer, right from your smartphone. It's also super handy. That's why smartphones are the most-used technology in my country.
+**원고**: Most people in Korea use smartphones. Honestly, people can't really live without it. About 85% of Koreans use one, even young kids. You can easily call, text, and surf the internet. I personally use it for work, banking, even shopping. Overall, it's pretty similar to a computer now.
 
-**한글 해석**: 음, 요즘 사람들이 가장 많이 쓰는 기술은 스마트폰인 것 같아요. 뉴스 기사를 보니까 현재 한국 사람의 약 85%가 스마트폰을 쓰고 있대요 — 초등학생들도 자기 스마트폰이 있고요. 스마트폰은 정말 다양한 기능을 하나의 기기에 다 담고 있어요. 그냥 전화만 쓰는 사람도 있지만, 대부분은 인터넷 서핑, 영화 감상, 음악 듣기, 일정 관리, 일상생활 관리, 심지어 쇼핑 결제까지 온갖 용도로 써요. 컴퓨터로 하던 걸 사실상 다 스마트폰 하나로 할 수 있어요. 게다가 정말 편리하고요. 그래서 우리나라에서 스마트폰이 제일 많이 쓰이는 기술이에요.
+**한글 해석**: 한국 사람들 대부분이 스마트폰을 써요. 솔직히, 사람들이 그거 없이는 정말 못 살아요. 한국인의 약 85%가 쓰는데, 어린 애들도 다 있어요. 쉽게 전화하고, 문자하고, 인터넷 서핑도 할 수 있어요. 저는 개인적으로 그걸 일, 은행일, 쇼핑 같은 데 써요. 전반적으로, 이제 컴퓨터랑 꽤 비슷해요.
 
 ### 2. [과거 비교] (question id: 110)
 
@@ -677,9 +677,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 기술이 그 어느 때보다 빠르게 발전하고 있어요. 기술이 어떻게 변했는지 말해 주세요. 시간이 지나면서 어떤 변화가 있었나요?
 
-**원고**: I think the biggest changes have happened with smartphones, so let me talk about that. In the past — say, just five years ago — people mainly used their smartphones to make calls, text, chat on free messengers, use the internet, or check email. They could already do what they used to do on a computer, so it seemed like there wasn't much room left for smartphones to improve. However, people started caring more about privacy and security, and as always, they wanted more convenience. As a result, smartphones now offer fingerprint sensors or iris scanners for extra security, and mobile payment functions. Recent smartphones even have waterproof features. I expect smartphones to keep advancing even more in the future.
+**원고**: Let me tell you how smartphones have changed. A few years ago, people mainly just used smartphones to call, text, and check email. Back then, it seemed like smartphones couldn't get much better than that. But eventually, people wanted even more privacy, security, and convenience. So now, smartphones actually have fingerprint sensors, iris scanners, and mobile payments. Recent smartphones are even completely waterproof. Honestly, I think smartphones will just keep improving.
 
-**한글 해석**: 가장 큰 변화가 일어난 건 스마트폰인 것 같아서 그 얘기를 해볼게요. 과거에는, 불과 5년 전만 해도, 사람들은 스마트폰으로 주로 전화 걸고, 문자 보내고, 무료 메신저로 채팅하고, 인터넷 쓰고, 이메일 확인하는 정도였어요. 컴퓨터로 하던 걸 이미 할 수 있어서, 스마트폰이 더 발전할 여지가 별로 없어 보였어요. 그런데 사람들이 사생활과 보안에 더 신경 쓰기 시작했고, 늘 그렇듯 더 큰 편리함도 원했어요. 그 결과, 이제 스마트폰은 보안 강화를 위한 지문 센서나 홍채 스캐너, 그리고 모바일 결제 기능까지 제공해요. 최근 스마트폰에는 방수 기능까지 있어요. 앞으로도 스마트폰이 계속 더 발전할 거라고 기대해요.
+**한글 해석**: 스마트폰이 어떻게 변했는지 말씀드릴게요. 몇 년 전에는, 사람들이 그냥 주로 전화, 문자, 이메일 확인에 스마트폰을 썼어요. 그때는, 스마트폰이 그거보다 더 좋아질 수 없을 것 같았어요. 근데 결국, 사람들은 훨씬 더 큰 사생활 보호, 보안, 편리함을 원했어요. 그래서 이제 스마트폰은 실제로 지문 센서, 홍채 스캐너, 모바일 결제가 있어요. 최근 스마트폰은 완전히 방수 기능까지 있어요. 솔직히, 스마트폰은 그냥 계속 발전할 거라고 생각해요.
 
 ### 3. [기억에 남는 경험] (question id: 111)
 
@@ -687,9 +687,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 새로운 기술 때문에 답답했던 적이 있을 거예요. 신기술 때문에 어려움을 겪었던 경험을 말해 주세요. 어떤 문제가 있었고 왜 답답했나요?
 
-**원고**: About two years ago, I bought a new smartphone online. At the time, the fingerprint sensor was a huge sensation, so I was really excited to use it. At first, everything seemed fine — the sensor seemed to work properly. However, a few days later, I kept failing to use the sensor. The phone wouldn't read my fingerprint, so I couldn't even log in. I tried resetting the sensor and trying again, but it wasn't easy. As a result, I had to take it to the service center, and it turned out to be a technical problem with my phone. Luckily, I was able to get an exchange, and the new one worked well. Now I use the sensor just fine, without any problems.
+**원고**: Let me tell you about my experience from about two years ago. At that time, I bought a new smartphone, and I went to a cafe with my friend Jinwoo. He went to the restroom, and I waited for him. Suddenly, a woman walking by hit my table, and her coffee spilled all over my smartphone. At that time, my phone didn't have a waterproof feature, so my phone got broken. The woman apologized to me, but I kept complaining to her. But after that, my friend came back, and I was really shocked because she was my friend's wife. Oh, I was really embarrassed. I kept apologizing to her over and over. I wish my phone had been waterproof.
 
-**한글 해석**: 약 2년 전에 온라인으로 새 스마트폰을 샀어요. 그때 지문 인식 센서가 엄청 화제라서 써보는 게 기대됐어요. 처음엔 다 괜찮아 보였어요 — 센서도 제대로 작동하는 것 같았고요. 그런데 며칠 지나니까 센서 인식이 계속 실패하는 거예요. 지문을 못 읽어서 로그인조차 안 됐어요. 센서를 재설정하고 다시 해봤는데도 쉽지 않았어요. 결국 서비스 센터에 가져갔는데, 알고 보니 제 폰의 기술적 결함이었더라고요. 다행히 교환을 받았고, 새 걸로는 잘 작동했어요. 지금은 아무 문제 없이 센서를 잘 쓰고 있어요.
+**한글 해석**: 2년 전쯤 있었던 일을 말씀드릴게요. 그때 새 스마트폰을 샀는데, 친구 진우랑 카페에 갔어요. 친구가 화장실에 갔고, 저는 기다리고 있었어요. 갑자기 지나가던 여자가 제 테이블에 부딪혔고, 커피가 제 스마트폰에 다 쏟아졌어요. 그때 제 폰은 방수 기능이 없어서, 폰이 고장 났어요. 여자가 사과했지만, 저는 계속 불평했어요. 그런데 그 후에 친구가 돌아왔고, 알고 보니 그 여자가 친구 아내라서 정말 놀랐어요. 아, 너무 창피했어요. 계속 사과하고 또 사과했어요. 제 폰이 방수였으면 좋았을 텐데.
 
 ---
 
@@ -701,9 +701,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 당신 나라에서는 명절 때 보통 어디서 기념행사나 파티를 하나요? 직장인가요, 사는 곳인가요? 집에서 하나요, 공원에서 하나요, 아니면 다른 곳에 가나요?
 
-**원고**: I think in Korea, people usually celebrate holidays at home. For example, for holidays like Lunar New Year's Day or Korean Thanksgiving, people get together with family and relatives at home. Usually, family members come from all over the country for memorial rituals and gather in one place — wherever the eldest family member or the grandparents live. For religious holidays like Buddha's Birthday or Christmas, though, celebrations are often held at churches or temples instead. People have a special service or worship at those religious places. And people with no religion just like to spend time with family or friends, either at home or somewhere else like restaurants, pubs, or amusement parks.
+**원고**: Most people in Korea celebrate holidays at home. Honestly, family and relatives all gather in one place. About Lunar New Year or Chuseok, people travel from all over the country. You usually go to wherever the eldest family member lives. I personally spend it with my parents every year. Overall, it's a warm time with family.
 
-**한글 해석**: 제 생각엔 한국에서는 보통 명절을 집에서 보내는 것 같아요. 예를 들어 설날이나 추석 같은 명절엔 가족, 친척들이 집에 모여요. 보통 제사를 지내려고 전국 각지에서 가족들이 모이는데, 큰어른이나 조부모님이 계신 곳으로 모여요. 그런데 부처님오신날이나 크리스마스 같은 종교 휴일엔 교회나 절에서 기념행사를 하는 경우가 많아요. 그런 종교적인 장소에서 특별 예배나 법회를 드리죠. 그리고 종교가 없는 사람들은 집에서든 식당, 술집, 놀이공원 같은 다른 곳에서든 그냥 가족이나 친구들과 시간을 보내는 걸 좋아해요.
+**한글 해석**: 한국 사람들 대부분이 명절을 집에서 보내요. 솔직히, 가족이랑 친척들이 다 한 곳에 모여요. 설날이나 추석 때는, 사람들이 전국 각지에서 이동해요. 보통 큰어른이 계신 곳으로 가요. 저는 개인적으로 매년 부모님이랑 같이 보내요. 전반적으로, 가족이랑 함께하는 따뜻한 시간이에요.
 
 ### 2. [최근경험] (question id: 166)
 
@@ -711,9 +711,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 최근에 했던 명절 모임이나 행사에 대해 말해 주세요. 어디로 갔나요? 어떤 행사였나요? 어떻게 기념했나요?
 
-**원고**: I'd like to tell you about the last Lunar New Year I spent with my family. The day before the holiday, my wife and I cleaned the whole house and made some traditional food, like fried pancakes. On the morning of New Year's Day, our relatives came over, and we all had a memorial ritual together. After that, the kids bowed to the adults, and we gave them some money as a New Year's gift. Then, we all sat down and had rice cake soup, which is a must-have on New Year's Day. For the rest of the day, we just relaxed at home and chatted. Even though it was pretty busy in the morning, it was a really warm and meaningful day.
+**원고**: The last holiday I remember was Lunar New Year. My family wanted to do something fun together, so we decided to watch a movie titled 'Hope.' We went to Megabox near my parents' house. It was pretty crowded that day, especially with families, so I was a bit surprised. As soon as we arrived, we got tickets and some snacks. Then we watched the movie for about two hours. It was about people who encounter aliens. The movie was awesome — I was especially impressed by the special effects. After that, we relaxed at home and chatted about the movie together. It was such a great holiday.
 
-**한글 해석**: 최근에 가족들과 보낸 설날에 대해 말씀드릴게요. 명절 전날, 아내와 저는 집 전체를 청소하고 전 같은 전통 음식을 만들었어요. 설날 아침에는 친척들이 오셔서 다 같이 차례를 지냈어요. 그 후에 아이들이 어른들께 세배를 했고, 저희는 아이들에게 세뱃돈을 줬어요. 그다음엔 다 같이 앉아서 설날에 꼭 먹는 떡국을 먹었어요. 남은 하루는 그냥 집에서 쉬면서 얘기 나누며 보냈어요. 아침엔 꽤 바빴지만, 정말 따뜻하고 의미 있는 하루였어요.
+**한글 해석**: 제가 기억하는 최근 명절은 설날이었어요. 가족이 다 같이 재미있는 걸 하고 싶어 해서, 'Hope'라는 영화를 보기로 했어요. 부모님 댁 근처 메가박스에 갔어요. 그날 꽤 붐볐는데, 특히 가족 단위가 많아서 좀 놀랐어요. 도착하자마자 티켓이랑 간식을 샀어요. 그러고 나서 약 두 시간 동안 영화를 봤어요. 외계인을 만나는 사람들 얘기였어요. 영화가 정말 좋았어요 — 특히 특수효과가 인상 깊었어요. 그 후엔 집에서 쉬면서 영화 얘기를 나눴어요. 정말 좋은 명절이었어요.
 
 ### 3. [기억에 남는 경험] (question id: 167)
 
@@ -721,9 +721,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 명절 행사와 관련해서 기억에 남거나 힘들었던 경험에 대해 말해 주세요. 무슨 일이 있었고, 어떻게 해결했나요?
 
-**원고**: Let me tell you about something that happened last Chuseok, the Korean Thanksgiving. My family and I were driving down to Busan to visit my parents for the holiday. However, the traffic was much worse than usual, since everyone travels on the same day. We were stuck on the highway for hours, and I started to worry we'd be late for the memorial ritual. So, we skipped our usual rest stop break and just kept driving. Luckily, we arrived just a few minutes before the ritual started. It was such a stressful drive, but I was really relieved we made it in time.
+**원고**: Let me tell you about something that happened last Christmas Eve. I wanted to have a party at home, so I invited my family and friends. I decided to cook hot chicken soup, since it was cold and I thought it would warm everybody up. It was my first time cooking it, and everything seemed fine at first. But at the last stage, I put in a lot of sugar instead of salt by mistake. I tried to fix it by adding salt, but it didn't work. The whole dish was ruined, so we ended up ordering pizza and fried chicken instead. It was such a disappointing Christmas dinner.
 
-**한글 해석**: 작년 추석에 있었던 일을 말씀드릴게요. 가족과 함께 명절을 보내려고 부산에 계신 부모님 댁으로 운전해서 가고 있었어요. 그런데 다들 같은 날 이동하다 보니 평소보다 훨씬 교통이 심했어요. 고속도로에서 몇 시간이나 꼼짝 못 했고, 차례 시간에 늦을까 봐 걱정되기 시작했어요. 그래서 평소에 들르던 휴게소도 건너뛰고 계속 운전만 했어요. 다행히 차례가 시작되기 몇 분 전에 도착했어요. 정말 스트레스 받는 운전이었지만, 시간 안에 도착해서 너무 다행이었어요.
+**한글 해석**: 작년 크리스마스 이브에 있었던 일을 말씀드릴게요. 집에서 파티를 하고 싶어서, 가족이랑 친구들을 초대했어요. 날씨가 추워서 다들 따뜻해질 것 같아 닭곰탕을 요리하기로 했어요. 처음 해보는 요리였는데, 처음엔 다 괜찮아 보였어요. 그런데 마지막 단계에서 실수로 소금 대신 설탕을 많이 넣었어요. 소금을 더 넣어서 고쳐보려고 했는데, 안 됐어요. 요리를 완전히 망쳐서, 결국 피자랑 치킨을 시켰어요. 정말 아쉬운 크리스마스 저녁이었어요.
 
 ---
 
@@ -735,9 +735,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 동네에서 열리는 모임이나 행사에 대해 말해 주세요.
 
-**원고**: To be honest, I'm not that interested in local events, so I don't know a whole lot about them. But one that comes to mind is the cherry blossom festival. It's held along the stream near my neighborhood every April. During the festival, people take pictures under the blossoms, and there are food stalls and small performances too. The atmosphere is really lively, especially in the evening when the trees are lit up. So even though I don't go every year, I know it's one of the biggest events in my area.
+**원고**: Local events in my neighborhood are usually held at Central Park. The game festival is one of the biggest festivals, held every summer. It's big enough to accommodate about a thousand people. When you go, you'll first see game booths, then food stalls selling popcorn and snacks, then performances. It's a really fun event.
 
-**한글 해석**: 솔직히 동네 행사에는 그렇게 관심이 없어서 잘은 몰라요. 그래도 하나 떠오르는 게 있다면 벚꽃축제예요. 매년 4월에 저희 동네 하천 근처에서 열려요. 축제 기간에는 사람들이 벚꽃 아래에서 사진을 찍고, 먹거리 포장마차랑 작은 공연도 있어요. 특히 저녁에 나무에 조명이 켜지면 분위기가 정말 활기차요. 그래서 매년 가는 건 아니지만, 저희 동네에서 제일 큰 행사 중 하나라는 건 알아요.
+**한글 해석**: 저희 동네 지역행사는 보통 센트럴파크에서 열려요. 게임 축제가 제일 큰 축제 중 하나인데, 매년 여름에 열려요. 천 명 정도 수용할 수 있을 만큼 커요. 가면, 먼저 게임 부스가 보이고, 그다음엔 팝콘이랑 간식 파는 포장마차, 그다음엔 공연도 있어요. 정말 재밌는 행사예요.
 
 ### 2. [기억에 남는 경험] (question id: 169)
 
@@ -745,9 +745,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 사시는 지역에서 열렸던 모임이나 행사에 대해 말해 주세요. 어디서 열렸고, 목적이 무엇이었고, 누가 있었고, 무슨 일이 있었나요?
 
-**원고**: I think it was last spring when I went to a celebration in my neighborhood. The cherry blossom festival was held along the stream, and I went there with my wife and son. As soon as we parked, we were surprised by how many people had shown up. We walked along the path under the blossoms and took a bunch of family photos. The view was honestly amazing — the pink petals were falling everywhere. After the walk, we grabbed some snacks from a food stall and sat by the stream for a while. It was such a relaxing day, and my son still talks about it sometimes.
+**원고**: Let me tell you about my experience from about two years ago. I was supposed to go to the game festival at Central Park with my family. However, my son suddenly got a bad cold, so we couldn't go. Instead, I decided to make Korean-style chicken soup to help him get his strength back. I went to the store and bought chicken, rice, and ginseng. I stuffed the chicken with the rice and ginseng, then boiled it for about two hours. It turned out amazing! My son was really touched by how good it tasted, and he said he was already feeling better.
 
-**한글 해석**: 작년 봄에 동네 행사에 갔던 게 생각나요. 벚꽃축제가 하천을 따라 열렸는데, 아내랑 아들이랑 같이 갔어요. 주차를 하자마자 사람이 이렇게 많이 왔나 싶을 정도로 놀랐어요. 벚꽃 아래 길을 따라 걸으면서 가족 사진을 많이 찍었어요. 경치가 정말 멋있었어요 — 분홍색 꽃잎이 사방에 떨어지고 있었어요. 산책 후엔 포장마차에서 간식을 사서 하천가에 잠깐 앉아 있었어요. 정말 여유로운 하루였고, 아들은 아직도 가끔 그날 얘기를 해요.
+**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 가족이랑 센트럴파크에서 열리는 게임 축제에 가기로 되어 있었어요. 그런데 아들이 갑자기 감기가 심하게 걸려서 못 갔어요. 대신 아들 기력 회복에 도움이 되게 삼계탕을 해주기로 했어요. 마트에 가서 닭, 쌀, 인삼을 샀어요. 닭 안에 쌀이랑 인삼을 채워 넣고, 두 시간 정도 끓였어요. 결과가 정말 좋았어요! 아들이 맛있다고 정말 감동받았고, 벌써 몸이 좀 나아진 것 같다고 했어요.
 
 ### 3. [기억에 남는 경험] (question id: 170)
 
@@ -755,9 +755,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 지역 행사에서 가끔 예상치 못한 일이 생기기도 하죠. 사는 지역 행사에서 있었던 예상치 못한 일에 대해 말해 주세요.
 
-**원고**: Something unexpected happened at a local flea market I joined last fall. I brought some things I didn't use anymore, hoping to sell them. For the first couple of hours, hardly anyone stopped by my table, so it was pretty boring. Then, out of nowhere, one of my neighbors walked up and started chatting with me. It turned out she had found my umbrella months ago, which I had completely forgotten about, and she'd been holding onto it, hoping to run into me. We both laughed about it, and I finally got my umbrella back. I never expected to get something back at a flea market instead of just selling things.
+**원고**: About two years ago, I had a very memorable experience at Central Park. At that time, I was jogging alone along the park trail. Suddenly, I heard a terrible live music sound. It was so terrible that I couldn't stand it. I was curious, so I followed the sound. In the middle of the park, someone was singing a song to his girlfriend. And you know what? He was my colleague! He was proposing to her by singing! Poor her! She looked embarrassed, and I was very ashamed too. Some people around him were even laughing. I didn't know why he chose singing as a proposal, but he got a 'yes' in the end. Since that day, whenever I visit the park, I remember that funny moment.
 
-**한글 해석**: 작년 가을에 참여했던 동네 플리마켓에서 예상치 못한 일이 있었어요. 안 쓰는 물건들을 챙겨가서 팔아보려고 했어요. 처음 두 시간 정도는 제 자리에 오는 사람이 거의 없어서 꽤 지루했어요. 그러다 갑자기 이웃 한 분이 다가와서 말을 걸었어요. 알고 보니 몇 달 전에 제가 완전히 잊고 있었던 제 우산을 그분이 주워서 절 만나면 돌려주려고 가지고 계셨던 거였어요. 저희 둘 다 웃었고, 저는 결국 우산을 돌려받았어요. 물건을 팔러 갔는데 오히려 뭔가를 돌려받게 될 줄은 전혀 몰랐어요.
+**한글 해석**: 약 2년 전, 센트럴파크에서 정말 기억에 남는 경험을 했어요. 그때 저는 공원 산책로를 따라 혼자 조깅하고 있었어요. 갑자기 끔찍한 라이브 노랫소리가 들렸어요. 너무 끔찍해서 참을 수가 없었어요. 궁금해서 그 소리를 따라갔어요. 공원 한가운데서 누군가 여자친구에게 노래를 불러주고 있었어요. 그런데 있잖아요? 그 사람은 제 직장 동료였어요! 노래로 프러포즈를 하고 있었던 거예요! 불쌍한 그녀! 여자친구는 당황한 표정이었고, 저도 너무 민망했어요. 주변 사람들 중 몇몇은 웃기까지 했어요. 왜 하필 노래를 프러포즈 방법으로 골랐는지는 모르겠지만, 결국 그는 '예스'를 받아냈어요. 그날 이후로 그 공원에 갈 때마다 그 재밌었던 순간이 떠올라요.
 
 ---
 
@@ -769,9 +769,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 당신 나라 사람들이 보통 어떻게 이동하는지 말해 주세요. 자가용을 운전하나요? 기차나 버스를 이용하나요? 일반적인 교통수단은 무엇인가요?
 
-**원고**: In Korea, we have a lot of public transportation options, like buses, subways, taxis, and trains. I'd say public transportation here is pretty cheap and convenient. Among all of them, buses and subways are the most popular. That's mainly because there are so many routes, and they're usually the fastest way to get around, especially during rush hour. Buses even have their own dedicated lanes, so they don't get stuck in regular traffic. That said, plenty of people still drive their own cars, especially outside the city. In big cities, though, there's almost always some kind of traffic jam.
+**원고**: Most people in Korea use public transportation, like buses and subways. Honestly, it's pretty cheap and convenient. Buses have a special lane, so no traffic. You can get almost anywhere, especially during rush hour. I personally take the subway most of the time. Overall, it's really convenient here.
 
-**한글 해석**: 한국에는 버스, 지하철, 택시, 기차 같은 대중교통 수단이 많아요. 여기 대중교통은 꽤 저렴하고 편리한 편이에요. 그중에서도 버스랑 지하철이 제일 인기 있어요. 노선이 워낙 많고, 특히 출퇴근 시간엔 제일 빠른 이동 수단이라서 그런 것 같아요. 버스는 전용 차선까지 있어서 일반 차량 정체에 잘 안 걸려요. 그래도 도시 외곽에서는 자가용을 이용하는 사람도 많아요. 다만 대도시에서는 거의 항상 어느 정도 교통체증이 있어요.
+**한글 해석**: 한국 사람들 대부분이 버스나 지하철 같은 대중교통을 이용해요. 솔직히, 꽤 저렴하고 편리해요. 버스는 전용 차선이 있어서, 정체가 없어요. 출퇴근 시간에도 거의 어디든 갈 수 있어요. 저는 개인적으로 대부분 지하철을 타요. 전반적으로, 여기는 정말 편리해요.
 
 ### 2. [활동묘사] (question id: 172)
 
@@ -779,9 +779,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 평소에 어떤 교통수단을 이용하는지 말해 주세요. 보통 어디로 가고, 어떻게 가나요?
 
-**원고**: On a typical weekday, I mostly commute to work. It takes about an hour to get there, and I usually take the subway. In the mornings, the roads are always jammed, so the subway is honestly the fastest option. While I'm on the subway, I usually listen to music or read something on my phone. If it gets too crowded, I sometimes switch to a bus instead. I actually like taking the bus too, since I can look outside and see the city go by.
+**원고**: On weekdays, I usually get to work by car. Because there's no public transportation to my company. On weekends, though, everything is different. I usually take the bus with my family. We have a lot of free time, and taking the bus helps us avoid parking and traffic when we go to Seoul. It takes about an hour, and we talk about our day. It's nothing special, but I always enjoy that time on the bus.
 
-**한글 해석**: 평일엔 보통 출근을 해요. 가는 데 한 시간 정도 걸리는데, 주로 지하철을 타요. 아침엔 도로가 항상 막혀서 지하철이 사실상 제일 빠른 방법이에요. 지하철에서는 보통 음악을 듣거나 휴대폰으로 뭔가를 읽어요. 너무 붐비면 가끔 버스로 갈아타기도 해요. 사실 버스 타는 것도 좋아해요, 밖을 보면서 도시 풍경을 볼 수 있거든요.
+**한글 해석**: 평일에는 보통 차로 출근해요. 회사까지 오는 대중교통이 없어서요. 주말엔, 근데, 다 달라요. 보통 가족이랑 버스를 타요. 저희는 자유 시간이 많고, 버스를 타면 서울 갈 때 주차랑 교통체증을 피할 수 있어요. 한 시간 정도 걸리는데, 그동안 오늘 하루 얘기를 해요. 특별한 건 아니지만, 버스에서 그 시간이 항상 즐거워요.
 
 ### 3. [과거 비교] (question id: 173)
 
@@ -789,9 +789,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 어릴 때는 어떻게 이동했나요? 그때는 교통수단이 지금과 달랐나요? 그 당시 사람들이 어떻게 이동했는지 설명해 주세요.
 
-**원고**: Let me tell you how transportation has changed where I live. When I was young, there were only a few subway lines, even in big cities. Back then, I also had to pay in cash every time I took a bus or the subway. It was pretty inconvenient, especially when I didn't have any change on me. Now, there are so many more subway lines, and almost everyone uses a transportation card instead of cash. Subway stations also have screen doors for safety now, and buses have TV screens showing schedules and news. Overall, I'd say transportation today is way more convenient and safer than it used to be.
+**원고**: Most things about transportation have changed a lot over the years. Honestly, when I was a kid, there were only a few subway lines. About payment, people used to pay in cash every time. Now, you can just tap a transportation card instead. I personally think subway stations are much safer now, with screen doors. Overall, it's way more convenient these days.
 
-**한글 해석**: 제가 사는 곳의 교통수단이 어떻게 바뀌었는지 말씀드릴게요. 제가 어릴 때는 대도시에도 지하철 노선이 몇 개 없었어요. 그때는 버스나 지하철을 탈 때마다 현금으로 냈어요. 특히 잔돈이 없을 때는 꽤 불편했어요. 지금은 지하철 노선도 훨씬 많아졌고, 거의 다들 현금 대신 교통카드를 써요. 지하철역에는 안전을 위한 스크린도어가 생겼고, 버스에는 시간표나 뉴스를 보여주는 TV 화면도 있어요. 전반적으로 지금 교통수단이 예전보다 훨씬 편리하고 안전해진 것 같아요.
+**한글 해석**: 교통수단은 대부분 몇 년 동안 많이 변했어요. 솔직히, 제가 어릴 때는 지하철 노선이 몇 개 없었어요. 결제는, 사람들이 매번 현금으로 냈어요. 지금은, 그냥 교통카드를 대면 돼요. 저는 개인적으로 지하철역에 스크린도어가 생겨서 훨씬 안전해진 것 같아요. 전반적으로, 요즘은 훨씬 편리해요.
 
 ---
 
