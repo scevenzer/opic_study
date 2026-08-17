@@ -3788,27 +3788,31 @@ const TOPICS = [
         question: "You need to make an appointment with your doctor. Call the doctor's office and describe what you need. Ask three or four questions to find out when the doctor is available.",
         translation: "병원 예약을 잡아야 해요. 병원에 전화해서 필요한 걸 설명하고, 의사가 언제 가능한지 알아보기 위해 3~4가지 질문을 해보세요.",
         type: "롤플레이 · 질문하기",
-        structure: ["인사", "목적: 건강검진 받고싶어서 병원가려함", "질문1: 좋은 날(토요일)", "질문2: 가능한시간(7시쯤)", "질문3: 병원 위치 정보", "마무리"],
+        structure: ["인사", "목적: 건강검진 받고싶어서 병원가려함", "질문1: 좋은 날(월요일)", "질문2: 가능한시간(오후7시)", "질문3: 주차장여부", "마무리: 예약 확정요청"],
         script: [
           { en: "Hi there.", ko: "안녕하세요." },
           { en: "Well, I'd like to see a doctor for a health checkup.", ko: "건강검진을 받고 싶어서요." },
-          { en: "When do you think is good to come in? Anyway, I'd like Saturday.", ko: "언제 오는 게 좋을까요? 아무튼 토요일이 좋겠어요." },
-          { en: "What time is available? — Oh, I think around 7 is good.", ko: "몇 시가 가능한가요? — 아, 7시쯤이 좋을 것 같아요." },
-          { en: "Where is your office? Can you give me the location information?", ko: "병원이 어디 있나요? 위치 정보를 좀 주시겠어요?" },
-          { en: "Thank you for the information. Bye.", ko: "정보 감사합니다. 안녕히 계세요." }
+          { en: "When do you think is good to come in? — Monday? Okay.", ko: "언제 오는 게 좋을까요? — 월요일이요? 알겠어요." },
+          { en: "What time is available? — Seven PM? Okay, good.", ko: "몇 시가 가능한가요? — 오후 7시요? 네, 좋아요." },
+          { en: "Do you have a parking lot? — Awesome, great.", ko: "주차장 있나요? — 좋네요, 잘됐어요." },
+          { en: "Thank you for the information.", ko: "정보 감사합니다." },
+          { en: "So, please confirm my appointment for Monday at seven PM.", ko: "그럼 월요일 오후 7시로 예약 확정해주세요." },
+          { en: "Thank you. Bye.", ko: "감사합니다. 안녕히 계세요." }
         ],
         pronunciation: [
           { en: "Hi there.", ko: "하이데어" },
           { en: "Well, I'd like to see a doctor for a health checkup.", ko: "웰, 아이드라익투 씨어 닥터 퍼러 헬쓰 첵업" },
-          { en: "When do you think is good to come in? Anyway, I'd like Saturday.", ko: "웬두유씽크이즈 굿투컴인? 애니웨이, 아이드라익 새터데이" },
-          { en: "What time is available? I think around 7 is good.", ko: "왓타임이즈 어베일러블? 아이씽크 어라운드세븐이즈굿" },
-          { en: "Where is your office? Can you give me the location information?", ko: "웨어이즈 유어오피스? 캔유기브미 더 로케이션 인포메이션" },
-          { en: "Thank you for the information. Bye.", ko: "땡큐퍼디 인포메이션. 바이" }
+          { en: "When do you think is good to come in? Monday? Okay.", ko: "웬두유씽크이즈 굿투컴인? 먼데이? 오케이" },
+          { en: "What time is available? Seven PM? Okay, good.", ko: "왓타임이즈 어베일러블? 세븐피엠? 오케이, 굿" },
+          { en: "Do you have a parking lot? Awesome, great.", ko: "두유해버 파킹랏? 어썸, 그레잇" },
+          { en: "Thank you for the information.", ko: "땡큐퍼디 인포메이션" },
+          { en: "So, please confirm my appointment for Monday at seven PM.", ko: "소, 플리즈 컨펌 마이 어포인트먼트 퍼 먼데이 앳 세븐피엠" },
+          { en: "Thank you. Bye.", ko: "땡큐. 바이" }
         ],
         warnings: [
           { word: "checkup", guide: "첵업" },
           { word: "available", guide: "어베일러블" },
-          { word: "location", guide: "로케이션" },
+          { word: "confirm", guide: "컨펌" },
           { word: "appointment", guide: "어포인트먼트" }
         ]
       },
@@ -3817,29 +3821,28 @@ const TOPICS = [
         question: "On the day of your appointment, you think you are not able to make it. Call the doctor's office and explain your situation. Offer some alternatives to reschedule.",
         translation: "예약 당일에 갈 수 없을 것 같아요. 병원에 전화해서 상황을 설명하고, 일정을 다시 잡기 위한 대안을 제시하세요.",
         type: "롤플레이 · 해결하기",
-        structure: ["인사", "목적: 예약 때문에 전화", "상황설명: 아내가 심한두통+고열로 병원감, 심한감기 진단", "대안1: 날짜 재조정(다음주말)", "대안2: 이번엔 취소, 시간되면 다시연락(다음분기쯤)", "마무리"],
+        structure: ["인사", "목적: 오늘 예약 때문에 전화", "상황설명: 아내가 감기로 쉬어야함", "대안1: 날짜 재조정(다음주말)", "대안2: 이번엔 취소", "마무리: 다시 전화달라"],
         script: [
-          { en: "Hi there.", ko: "안녕하세요." },
-          { en: "I'm calling about our appointment.", ko: "저희 예약 때문에 전화드렸어요." },
-          { en: "I can't come to your office because my wife is very sick — she has a bad headache and a high fever, so I took her to the doctor, and he said it's a bad cold and she needs rest. She's still in bed.", ko: "병원에 못 갈 것 같아요, 아내가 많이 아파서 — 심한 두통이랑 고열이 있어서 병원에 데려갔는데, 의사가 심한 감기라 쉬어야 한다고 했어요. 아직 침대에 누워 있어요." },
-          { en: "So, I wonder if we could reschedule the appointment. How about next weekend?", ko: "그래서 말인데, 예약을 다시 잡을 수 있을까요? 다음 주말은 어때요?" },
-          { en: "Or, can we just cancel this time? If I have free time, I'll call back — maybe next quarter.", ko: "아니면 이번엔 그냥 취소할까요? 시간 되면 다시 전화드릴게요 — 아마 다음 분기쯤이요." },
-          { en: "Thank you for understanding.", ko: "이해해주셔서 감사합니다." }
+          { en: "Hi there, it's Dongjun.", ko: "안녕하세요, 저 동준이에요." },
+          { en: "I'm calling about our appointment today.", ko: "오늘 예약 때문에 전화드렸어요." },
+          { en: "I'm sorry, we can't make it because my wife isn't feeling well — she has a bad cold and needs to rest.", ko: "죄송한데, 저희 못 갈 것 같아요 — 아내가 몸이 안 좋아서 심한 감기라 쉬어야 해서요." },
+          { en: "So, I wonder if we could reschedule. How about next weekend?", ko: "그래서 말인데, 일정을 다시 잡을 수 있을까요? 다음 주말은 어때요?" },
+          { en: "Or, can we just cancel this time?", ko: "아니면 이번엔 그냥 취소할 수 있을까요?" },
+          { en: "Please call me back. Thanks.", ko: "다시 전화 주세요. 감사합니다." }
         ],
         pronunciation: [
-          { en: "Hi there.", ko: "하이데어" },
-          { en: "I'm calling about our appointment.", ko: "아임 콜링어바웃 아워 어포인트먼트" },
-          { en: "I can't come to your office because my wife is very sick —", ko: "아이캔트 컴투유어오피스 비커즈 마이와이프이즈 베리씩" },
-          { en: "she has a bad headache and a high fever, so I took her to the doctor, and he said it's a bad cold and she needs rest.", ko: "쉬해저 배드헤데이크 앤어 하이피버, 소아이 툭허투더닥터, 앤히세드 잇처 배드콜드 앤쉬니즈레스트" },
-          { en: "So, I wonder if we could reschedule the appointment. How about next weekend?", ko: "소, 아이원더이프위쿠드 리스케줄디 어포인트먼트. 하우어바웃 넥스트위켄드?" },
-          { en: "Or, can we just cancel this time? If I have free time, I'll call back — maybe next quarter.", ko: "오어, 캔위 저스트 캔슬디스타임? 이프아이해브 프리타임, 아일콜백, 메이비 넥스트 쿼터" },
-          { en: "Thank you for understanding.", ko: "땡큐퍼 언더스탠딩" }
+          { en: "Hi there, it's Dongjun.", ko: "하이데어, 잇츠 동준" },
+          { en: "I'm calling about our appointment today.", ko: "아임 콜링어바웃 아워 어포인트먼트 투데이" },
+          { en: "I'm sorry, we can't make it because my wife isn't feeling well — she has a bad cold and needs to rest.", ko: "아임쏘리, 위캔트 메이킷 비커즈 마이와이프 이즌트 필링웰, 쉬해저 배드콜드 앤 니즈투레스트" },
+          { en: "So, I wonder if we could reschedule. How about next weekend?", ko: "소, 아이원더이프위쿠드 리스케줄. 하우어바웃 넥스트위켄드?" },
+          { en: "Or, can we just cancel this time?", ko: "오어, 캔위 저스트 캔슬디스타임?" },
+          { en: "Please call me back. Thanks.", ko: "플리즈 콜미백. 땡스" }
         ],
         warnings: [
           { word: "appointment", guide: "어포인트먼트" },
+          { word: "feeling", guide: "필링" },
           { word: "reschedule", guide: "리스케줄" },
-          { word: "quarter", guide: "쿼터" },
-          { word: "understanding", guide: "언더스탠딩" }
+          { word: "cancel", guide: "캔슬" }
         ]
       },
       {
@@ -3847,32 +3850,30 @@ const TOPICS = [
         question: "Think about a time when you had a difficulty making a plan. Tell me all about the details, what happened, and what you needed to do.",
         translation: "계획을 세우는 데 어려움을 겪었던 경험을 떠올려 보세요. 무슨 일이 있었고, 무엇을 해야 했는지 자세히 말해 주세요.",
         type: "기억에 남는 경험",
-        structure: ["2년전 경험", "친구들과 해운대해변 여행 예정", "처음엔 신나고 기대됨", "그날 아내가 갑자기 아픔(두통+고열)→병원→심한감기 진단", "그녀를 돌볼 사람이 나밖에 없었음", "재조정 시도했지만 안됨", "결국 취소하고 아내와 있음", "그래도 도울 수 있어서 행복했음"],
+        structure: ["2년전 경험", "친구와 휴가 계획했으나 아들이 아파서 병원감", "그것 때문에 여행 못가고 집에 있음", "아들 위해 삼계탕 요리 결심", "처음 만들었지만 맛있었음", "여행 못갔지만 집에서 좋은 시간 보냄"],
         script: [
-          { en: "Let me tell you about my experience from about two years ago.", ko: "약 2년 전 있었던 일을 말씀드릴게요." },
-          { en: "I was supposed to take a trip to Haeundae Beach with my friends.", ko: "친구들이랑 해운대 해변으로 여행 가기로 되어 있었어요." },
-          { en: "At first, everything seemed fine. I was excited to go to the beach and have fun.", ko: "처음엔 다 괜찮아 보였어요. 해변 가서 재밌게 놀 생각에 신났었죠." },
-          { en: "However, my wife suddenly got sick that day — she had a bad headache and a high fever, so I took her to the doctor, and he said it was a bad cold.", ko: "그런데 그날 갑자기 아내가 아팠어요 — 심한 두통이랑 고열이 있어서 병원에 데려갔는데, 의사가 심한 감기라고 했어요." },
-          { en: "To make matters worse, I was the only one who could take care of her at the time.", ko: "엎친 데 덮친 격으로, 그때 그녀를 돌볼 수 있는 사람이 저밖에 없었어요." },
-          { en: "So I tried to reschedule the trip, but it wasn't easy.", ko: "그래서 여행 날짜를 다시 잡으려고 했는데 쉽지 않았어요." },
-          { en: "As a result, I had to cancel the trip and stay with my wife instead.", ko: "결국 여행을 취소하고 대신 아내와 함께 있어야 했어요." },
-          { en: "Nevertheless, I was happy to help my wife and be with her when she needed me.", ko: "그래도, 아내가 필요할 때 도와주고 곁에 있어줄 수 있어서 행복했어요." }
+          { en: "Let me tell you about my experience from about two years ago.", ko: "약 2년 전에 있었던 일을 말씀드릴게요." },
+          { en: "At the time, we planned to go on a vacation with my friend.", ko: "그때 친구랑 휴가를 가기로 계획했었어요." },
+          { en: "However, my son wasn't feeling well, so he had to see a doctor.", ko: "그런데 아들이 몸이 안 좋아서 병원에 가야 했어요." },
+          { en: "Because of that, we couldn't go on the trip and had to stay home instead.", ko: "그것 때문에 여행을 못 가고 대신 집에 있어야 했어요." },
+          { en: "So, I decided to cook Korean chicken soup for my son, because I thought it would be good for him.", ko: "그래서 아들을 위해 삼계탕을 만들기로 했어요, 아들한테 좋을 것 같아서요." },
+          { en: "It was my first time making it, but it was really good.", ko: "처음 만들어보는 거였는데, 정말 맛있었어요." },
+          { en: "Although we couldn't go on the trip, we had a good time at home.", ko: "여행은 못 갔지만, 집에서 좋은 시간을 보냈어요." }
         ],
         pronunciation: [
           { en: "Let me tell you about my experience from about two years ago.", ko: "렛미 텔유 어바웃 마이 익스피어리언스 프럼 어바웃 투이어즈어고" },
-          { en: "I was supposed to take a trip to Haeundae Beach with my friends.", ko: "아이워즈 서포즈드투 테이커 트립투 해운대비치 위드마이 프렌즈" },
-          { en: "At first, everything seemed fine. I was excited to go to the beach and have fun.", ko: "앳퍼스트, 에브리씽 씸드파인. 아이워즈 익사이티드투고투더 비치앤 해브펀" },
-          { en: "However, my wife suddenly got sick that day — she had a bad headache and a high fever, so I took her to the doctor, and he said it was a bad cold.", ko: "하우에버, 마이와이프 서든리 갓씩 댓데이, 쉬해더 배드헤데이크 앤어 하이피버, 소아이 툭허투더 닥터, 앤히세드 잇워저 배드콜드" },
-          { en: "To make matters worse, I was the only one who could take care of her at the time.", ko: "투메익 매터즈워스, 아이워즈디온리원 후쿠드 테익케어러브허 앳더타임" },
-          { en: "So I tried to reschedule the trip, but it wasn't easy.", ko: "소아이 트라이투 리스케줄더 트립, 벗잇 워즌트이지" },
-          { en: "As a result, I had to cancel the trip and stay with my wife instead.", ko: "애저리절트, 아이해드투 캔슬더 트립 앤 스테이위드마이와이프 인스테드" },
-          { en: "Nevertheless, I was happy to help my wife and be with her when she needed me.", ko: "네버덜레스, 아이워즈 해피투헬프 마이와이프 앤비위더 웬쉬 니디드미" }
+          { en: "At the time, we planned to go on a vacation with my friend.", ko: "앳더타임, 위플랜드투 고온어 베케이션 위드마이 프렌드" },
+          { en: "However, my son wasn't feeling well, so he had to see a doctor.", ko: "하우에버, 마이썬 워즌트 필링웰, 소히 해드투 씨어닥터" },
+          { en: "Because of that, we couldn't go on the trip and had to stay home instead.", ko: "비커즈어브댓, 위쿠든 고온더 트립 앤 해드투 스테이홈 인스테드" },
+          { en: "So, I decided to cook Korean chicken soup for my son, because I thought it would be good for him.", ko: "소, 아이디사이디드투 쿡 코리안 치킨수프 퍼마이썬, 비커즈 아이쏫잇 우드비 굿퍼힘" },
+          { en: "It was my first time making it, but it was really good.", ko: "잇워즈 마이퍼스트타임 메이킹잇, 벗잇워즈 릴리굿" },
+          { en: "Although we couldn't go on the trip, we had a good time at home.", ko: "얼도우 위쿠든 고온더 트립, 위해더 굿타임 앳홈" }
         ],
         warnings: [
-          { word: "headache", guide: "헤데이크" },
-          { word: "reschedule", guide: "리스케줄" },
-          { word: "nevertheless", guide: "네버덜레스" },
-          { word: "instead", guide: "인스테드" }
+          { word: "planned", guide: "플랜드" },
+          { word: "instead", guide: "인스테드" },
+          { word: "decided", guide: "디사이디드" },
+          { word: "although", guide: "얼도우" }
         ]
       }
     ]
