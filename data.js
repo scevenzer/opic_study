@@ -3724,28 +3724,28 @@ const TOPICS = [
         question: "The travel agent informs you that the vacation you want is not available for the date you want. Call your friend and leave a message explaining the situation and offer two or three alternatives.",
         translation: "여행사 직원이 원하는 날짜에 원하는 휴가 상품이 없다고 알려줘요. 친구에게 전화해서 상황을 설명하는 메시지를 남기고 두세 가지 대안을 제시하세요.",
         type: "롤플레이 · 해결하기",
-        structure: ["인사", "목적: 휴가 때문에 전화", "상황설명: 여행사가 그 패키지 예약불가라고함", "대안1: 날짜 재조정(다음주말)", "대안2: 다른 여행지 찾아보기", "마무리"],
+        structure: ["인사", "목적: 휴가 때문에 전화", "상황설명: 예약이 안됨", "대안1: 날짜 재조정(다음달)", "대안2: 다른 여행지(삿포로/홍콩)", "마무리: 다시 전화달라"],
         script: [
-          { en: "Hello, is this Sunggyu? This is Dongjun. How are you?", ko: "안녕, 성규니? 나 동준이야. 잘 지내?" },
+          { en: "Hey, Jinwoo? It's me, DJ.", ko: "안녕 진우야? 나 DJ야." },
           { en: "I'm calling about our vacation.", ko: "우리 휴가 때문에 전화했어." },
-          { en: "I'm sorry, but we can't go on the travel package for our vacation — the travel agency told me it's not available.", ko: "미안한데, 우리 휴가로 잡았던 여행 패키지를 못 갈 것 같아 — 여행사에서 예약이 안 된다고 하더라고." },
-          { en: "So, I wonder if we could reschedule the vacation. How about next weekend?", ko: "그래서 말인데, 휴가 날짜를 다시 잡을 수 있을까? 다음 주말은 어때?" },
-          { en: "Or, can we go somewhere else? I'll search for information about other destinations online.", ko: "아니면 다른 곳으로 갈까? 다른 여행지를 인터넷으로 찾아볼게." },
-          { en: "Please call me back when you get this message, bye.", ko: "이 메시지 받으면 다시 전화해줘, 안녕." }
+          { en: "I'm sorry, we can't make it because our reservation isn't available.", ko: "미안한데, 예약이 안 돼서 못 갈 것 같아." },
+          { en: "So, I wonder if we could reschedule — about next month.", ko: "그래서 말인데, 일정을 다시 잡을 수 있을까 해서 — 다음 달쯤으로." },
+          { en: "Or, if you're up for it, we could go to another destination. How about Sapporo or Hong Kong?", ko: "아니면, 괜찮으면 다른 여행지로 갈까? 삿포로나 홍콩 어때?" },
+          { en: "Please call me back. Bye.", ko: "다시 전화 줘. 안녕." }
         ],
         pronunciation: [
-          { en: "Hello, is this Sunggyu? This is Dongjun. How are you?", ko: "헬로, 이즈디스 성규? 디스이즈 동준. 하우아유?" },
+          { en: "Hey, Jinwoo? It's me, DJ.", ko: "헤이, 진우? 잇츠미, 디제이" },
           { en: "I'm calling about our vacation.", ko: "아임 콜링어바웃 아워 베케이션" },
-          { en: "I'm sorry, but we can't go on the travel package for our vacation — the travel agency told me it's not available.", ko: "아임쏘리, 벗위캔트 고온더 트래블패키지 퍼아워베케이션, 더 트래블에이전시 톨드미 잇츠낫 어베일러블" },
-          { en: "So, I wonder if we could reschedule the vacation. How about next weekend?", ko: "소, 아이원더이프위쿠드 리스케줄더베케이션. 하우어바웃 넥스트위켄드?" },
-          { en: "Or, can we go somewhere else? I'll search for information about other destinations online.", ko: "오어, 캔위 고 썸웨어엘스? 아일 서치퍼 인포메이션 어바웃 아더 데스티네이션즈 온라인" },
-          { en: "Please call me back when you get this message, bye.", ko: "플리즈 콜미백 웬유겟디스 메시지, 바이" }
+          { en: "I'm sorry, we can't make it because our reservation isn't available.", ko: "아임쏘리, 위캔트 메이킷 비커즈 아워 레저베이션 이즌트 어베일러블" },
+          { en: "So, I wonder if we could reschedule — about next month.", ko: "소, 아이원더이프위쿠드 리스케줄, 어바웃 넥스트먼쓰" },
+          { en: "Or, if you're up for it, we could go to another destination. How about Sapporo or Hong Kong?", ko: "오어, 이퓨어 업퍼릿, 위쿠드 고투 어나더 데스티네이션. 하우어바웃 삿포로 오어 홍콩?" },
+          { en: "Please call me back. Bye.", ko: "플리즈 콜미백. 바이" }
         ],
         warnings: [
-          { word: "package", guide: "패키지" },
+          { word: "reservation", guide: "레저베이션" },
           { word: "available", guide: "어베일러블" },
           { word: "reschedule", guide: "리스케줄" },
-          { word: "destinations", guide: "데스티네이션즈" }
+          { word: "destination", guide: "데스티네이션" }
         ]
       },
       {
@@ -3753,32 +3753,28 @@ const TOPICS = [
         question: "Think about a time when you had a difficulty making a vacation plan. Tell me all about the details, what happened, and what you needed to do.",
         translation: "휴가 계획을 세우는 데 어려움을 겪었던 경험을 떠올려 보세요. 무슨 일이 있었고, 무엇을 해야 했는지 자세히 말해 주세요.",
         type: "기억에 남는 경험",
-        structure: ["2년전 경험", "친구들과 해운대해변 여행 예정", "처음엔 신나고 기대됨", "그날 아내가 갑자기 아픔(두통+고열)→병원→심한감기 진단", "그녀를 돌볼 사람이 나밖에 없었음", "날짜 재조정 시도했지만 안됨", "결국 여행취소하고 아내와 있음", "그래도 도울 수 있어서 행복했음"],
+        structure: ["2년전 경험", "친구와 휴가 예정이었으나 아들이 아파서 병원감", "그것 때문에 여행 못가고 집에 있음", "아들 위해 삼계탕 요리 결심", "처음 만들었지만 맛있었음", "여행 못갔지만 집에서 좋은 시간 보냄"],
         script: [
-          { en: "Let me tell you about my experience from about two years ago.", ko: "약 2년 전 있었던 일을 말씀드릴게요." },
-          { en: "I was supposed to take a trip to Haeundae Beach with my friends.", ko: "친구들이랑 해운대 해변으로 여행 가기로 되어 있었어요." },
-          { en: "At first, everything seemed fine. I was excited to go to the beach and have fun.", ko: "처음엔 다 괜찮아 보였어요. 해변 가서 재밌게 놀 생각에 신났었죠." },
-          { en: "However, my wife suddenly got sick that day — she had a bad headache and a high fever, so I took her to the doctor, and he said it was a bad cold.", ko: "그런데 그날 갑자기 아내가 아팠어요 — 심한 두통이랑 고열이 있어서 병원에 데려갔는데, 의사가 심한 감기라고 했어요." },
-          { en: "To make matters worse, I was the only one who could take care of her at the time.", ko: "엎친 데 덮친 격으로, 그때 그녀를 돌볼 수 있는 사람이 저밖에 없었어요." },
-          { en: "So I tried to reschedule the trip, but it wasn't easy.", ko: "그래서 여행 날짜를 다시 잡으려고 했는데 쉽지 않았어요." },
-          { en: "As a result, I had to cancel the trip and stay with my wife instead.", ko: "결국 여행을 취소하고 대신 아내와 함께 있어야 했어요." },
-          { en: "Nevertheless, I was happy to help my wife and be with her when she needed me.", ko: "그래도, 아내가 필요할 때 도와주고 곁에 있어줄 수 있어서 행복했어요." }
+          { en: "Let me tell you about my experience from about two years ago.", ko: "약 2년 전에 있었던 일을 말씀드릴게요." },
+          { en: "At the time, we were supposed to go on a vacation with my friend, but my son wasn't feeling well, so he had to see a doctor.", ko: "그때 친구랑 휴가를 가기로 되어 있었는데, 아들이 몸이 안 좋아서 병원에 가야 했어요." },
+          { en: "Because of that, we couldn't go on the trip and had to stay home instead.", ko: "그것 때문에 여행을 못 가고 대신 집에 있어야 했어요." },
+          { en: "So, I decided to cook Korean chicken soup for my son, because I thought it would be good for him.", ko: "그래서 아들을 위해 삼계탕을 만들기로 했어요, 아들한테 좋을 것 같아서요." },
+          { en: "It was my first time making it, but it was really good.", ko: "처음 만들어보는 거였는데, 정말 맛있었어요." },
+          { en: "Although we couldn't go on the trip, we had a really good time at home.", ko: "여행은 못 갔지만, 집에서 정말 좋은 시간을 보냈어요." }
         ],
         pronunciation: [
           { en: "Let me tell you about my experience from about two years ago.", ko: "렛미 텔유 어바웃 마이 익스피어리언스 프럼 어바웃 투이어즈어고" },
-          { en: "I was supposed to take a trip to Haeundae Beach with my friends.", ko: "아이워즈 서포즈드투 테이커 트립투 해운대비치 위드마이 프렌즈" },
-          { en: "At first, everything seemed fine. I was excited to go to the beach and have fun.", ko: "앳퍼스트, 에브리씽 씸드파인. 아이워즈 익사이티드투고투더 비치앤 해브펀" },
-          { en: "However, my wife suddenly got sick that day — she had a bad headache and a high fever, so I took her to the doctor, and he said it was a bad cold.", ko: "하우에버, 마이와이프 서든리 갓씩 댓데이, 쉬해더 배드헤데이크 앤어 하이피버, 소아이 툭허투더 닥터, 앤히세드 잇워저 배드콜드" },
-          { en: "To make matters worse, I was the only one who could take care of her at the time.", ko: "투메익 매터즈워스, 아이워즈디온리원 후쿠드 테익케어러브허 앳더타임" },
-          { en: "So I tried to reschedule the trip, but it wasn't easy.", ko: "소아이 트라이투 리스케줄더 트립, 벗잇 워즌트이지" },
-          { en: "As a result, I had to cancel the trip and stay with my wife instead.", ko: "애저리절트, 아이해드투 캔슬더 트립 앤 스테이위드마이와이프 인스테드" },
-          { en: "Nevertheless, I was happy to help my wife and be with her when she needed me.", ko: "네버덜레스, 아이워즈 해피투헬프 마이와이프 앤비위더 웬쉬 니디드미" }
+          { en: "At the time, we were supposed to go on a vacation with my friend, but my son wasn't feeling well, so he had to see a doctor.", ko: "앳더타임, 위워 서포즈드투 고온어 베케이션 위드마이 프렌드, 벗마이썬 워즌트 필링웰, 소히 해드투 씨어닥터" },
+          { en: "Because of that, we couldn't go on the trip and had to stay home instead.", ko: "비커즈어브댓, 위쿠든 고온더 트립 앤 해드투 스테이홈 인스테드" },
+          { en: "So, I decided to cook Korean chicken soup for my son, because I thought it would be good for him.", ko: "소, 아이디사이디드투 쿡 코리안 치킨수프 퍼마이썬, 비커즈 아이쏫잇 우드비 굿퍼힘" },
+          { en: "It was my first time making it, but it was really good.", ko: "잇워즈 마이퍼스트타임 메이킹잇, 벗잇워즈 릴리굿" },
+          { en: "Although we couldn't go on the trip, we had a really good time at home.", ko: "얼도우 위쿠든 고온더 트립, 위해더 릴리 굿타임 앳홈" }
         ],
         warnings: [
-          { word: "headache", guide: "헤데이크" },
-          { word: "reschedule", guide: "리스케줄" },
-          { word: "nevertheless", guide: "네버덜레스" },
-          { word: "instead", guide: "인스테드" }
+          { word: "vacation", guide: "베케이션" },
+          { word: "decided", guide: "디사이디드" },
+          { word: "instead", guide: "인스테드" },
+          { word: "although", guide: "얼도우" }
         ]
       }
     ]

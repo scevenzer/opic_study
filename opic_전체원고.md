@@ -1383,9 +1383,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 여행사 직원이 원하는 날짜에 원하는 휴가 상품이 없다고 알려줘요. 친구에게 전화해서 상황을 설명하는 메시지를 남기고 두세 가지 대안을 제시하세요.
 
-**원고**: Hello, is this Sunggyu? This is Dongjun. How are you? I'm calling about our vacation. I'm sorry, but we can't go on the travel package for our vacation — the travel agency told me it's not available. So, I wonder if we could reschedule the vacation. How about next weekend? Or, can we go somewhere else? I'll search for information about other destinations online. Please call me back when you get this message, bye.
+**원고**: Hey, Jinwoo? It's me, DJ. I'm calling about our vacation. I'm sorry, we can't make it because our reservation isn't available. So, I wonder if we could reschedule — about next month. Or, if you're up for it, we could go to another destination. How about Sapporo or Hong Kong? Please call me back. Bye.
 
-**한글 해석**: 안녕, 성규니? 나 동준이야. 잘 지내? 우리 휴가 때문에 전화했어. 미안한데, 우리 휴가로 잡았던 여행 패키지를 못 갈 것 같아 — 여행사에서 예약이 안 된다고 하더라고. 그래서 말인데, 휴가 날짜를 다시 잡을 수 있을까? 다음 주말은 어때? 아니면 다른 곳으로 갈까? 다른 여행지를 인터넷으로 찾아볼게. 이 메시지 받으면 다시 전화해줘, 안녕.
+**한글 해석**: 안녕 진우야? 나 DJ야. 우리 휴가 때문에 전화했어. 미안한데, 예약이 안 돼서 못 갈 것 같아. 그래서 말인데, 일정을 다시 잡을 수 있을까 해서 — 다음 달쯤으로. 아니면, 괜찮으면 다른 여행지로 갈까? 삿포로나 홍콩 어때? 다시 전화 줘. 안녕.
 
 ### 3. [기억에 남는 경험] (question id: 152)
 
@@ -1393,9 +1393,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 휴가 계획을 세우는 데 어려움을 겪었던 경험을 떠올려 보세요. 무슨 일이 있었고, 무엇을 해야 했는지 자세히 말해 주세요.
 
-**원고**: Let me tell you about my experience from about two years ago. I was supposed to take a trip to Haeundae Beach with my friends. At first, everything seemed fine. I was excited to go to the beach and have fun. However, my wife suddenly got sick that day — she had a bad headache and a high fever, so I took her to the doctor, and he said it was a bad cold. To make matters worse, I was the only one who could take care of her at the time. So I tried to reschedule the trip, but it wasn't easy. As a result, I had to cancel the trip and stay with my wife instead. Nevertheless, I was happy to help my wife and be with her when she needed me.
+**원고**: Let me tell you about my experience from about two years ago. At the time, we were supposed to go on a vacation with my friend, but my son wasn't feeling well, so he had to see a doctor. Because of that, we couldn't go on the trip and had to stay home instead. So, I decided to cook Korean chicken soup for my son, because I thought it would be good for him. It was my first time making it, but it was really good. Although we couldn't go on the trip, we had a really good time at home.
 
-**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 친구들이랑 해운대 해변으로 여행 가기로 되어 있었어요. 처음엔 다 괜찮아 보였어요. 해변 가서 재밌게 놀 생각에 신났었죠. 그런데 그날 갑자기 아내가 아팠어요 — 심한 두통이랑 고열이 있어서 병원에 데려갔는데, 의사가 심한 감기라고 했어요. 엎친 데 덮친 격으로, 그때 그녀를 돌볼 수 있는 사람이 저밖에 없었어요. 그래서 여행 날짜를 다시 잡으려고 했는데 쉽지 않았어요. 결국 여행을 취소하고 대신 아내와 함께 있어야 했어요. 그래도, 아내가 필요할 때 도와주고 곁에 있어줄 수 있어서 행복했어요.
+**한글 해석**: 약 2년 전에 있었던 일을 말씀드릴게요. 그때 친구랑 휴가를 가기로 되어 있었는데, 아들이 몸이 안 좋아서 병원에 가야 했어요. 그것 때문에 여행을 못 가고 대신 집에 있어야 했어요. 그래서 아들을 위해 삼계탕을 만들기로 했어요, 아들한테 좋을 것 같아서요. 처음 만들어보는 거였는데, 정말 맛있었어요. 여행은 못 갔지만, 집에서 정말 좋은 시간을 보냈어요.
 
 ---
 
