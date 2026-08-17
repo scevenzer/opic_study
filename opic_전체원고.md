@@ -1155,9 +1155,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 장비가 망가지거나 제대로 작동하지 않았던 상황에 대해 말해 주세요. 무슨 일이 있었고, 어떻게 해결했나요? 배경부터 결과까지 자세히 말해 주세요.
 
-**원고**: Let me tell you about my experience from about two years ago. At the time, I needed a new smartphone, so I ordered one online. At first, everything seemed fine. I was excited to get my new smartphone. However, when it was delivered, I found something wrong with it — it turned on and off by itself. To make matters worse, it looked like a used one — it had some scratches on the corner. So I tried to get an exchange, but it wasn't easy. As a result, I had to get a refund and return it. It was such a disappointing experience.
+**원고**: Let me tell you about my experience from about two years ago. At the time, I needed a new desk, so I ordered one online. At first, everything seemed fine. I was excited to get the new desk. However, when it was delivered, I found something wrong with it — the wooden board had some stains. To make matters worse, it looked like a used one — two of the legs had scratches too. So I tried to get an exchange, but they said it would take another month. As a result, I had to get a refund and return the desk. It was really disappointing.
 
-**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 그때 스마트폰이 새로 필요해서 온라인으로 하나 주문했어요. 처음엔 다 괜찮아 보였어요. 새 스마트폰 받는 게 기대됐죠. 그런데 배송받아보니 문제가 있었어요 — 저절로 켜졌다 꺼졌다 하는 거예요. 엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 모서리에 긁힌 자국도 있었고요. 그래서 교환해보려고 했는데 쉽지 않았어요. 결국 환불받고 반품해야 했어요. 정말 실망스러운 경험이었죠.
+**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 그때 새 책상이 필요해서 온라인으로 하나 주문했어요. 처음엔 다 괜찮아 보였어요. 새 책상 받는 게 기대됐죠. 그런데 배송받아보니 문제가 있었어요 — 나무 상판에 얼룩이 있었어요. 엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 다리 두 개에도 긁힌 자국이 있었고요. 그래서 교환해보려고 했는데, 한 달이 더 걸린다고 했어요. 결국 환불받고 책상을 반품해야 했어요. 정말 실망스러웠어요.
 
 ---
 
@@ -1189,9 +1189,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 가끔 가구에 문제가 생기기도 하죠. 가구가 망가지거나 천이 얼룩지거나 찢어지기도 해요. 가구에 문제가 있었던 경험을 말해 주세요. 무슨 일이 있었고 어떻게 해결했나요?
 
-**원고**: Let me tell you about my experience from about two years ago. At that time, I needed a new desk, so I ordered one online. At first, everything seemed fine. I was excited to get the new desk. However, when it was delivered, I found something wrong with it — the wooden board had some stains. To make matters worse, it looked like a used one — two of the legs had scratches too. So I tried to get an exchange, but they said I'd have to wait another month for the same model. As a result, I had to get a refund and return the table. It was such a disappointing experience.
+**원고**: Let me tell you about my experience from about two years ago. At the time, I needed a new desk, so I ordered one online. At first, everything seemed fine. I was excited to get the new desk. However, when it was delivered, I found something wrong with it — the wooden board had some stains. To make matters worse, it looked like a used one — two of the legs had scratches too. So I tried to get an exchange, but they said it would take another month. As a result, I had to get a refund and return the desk. It was really disappointing.
 
-**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 그때 새 책상이 필요해서 온라인으로 하나 주문했어요. 처음엔 다 괜찮아 보였어요. 새 책상 받는 게 기대됐죠. 그런데 배송받아보니 문제가 있었어요 — 나무판에 얼룩이 있었어요. 엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 다리 두 개에도 긁힌 자국이 있었고요. 그래서 교환하려고 했는데, 같은 모델은 한 달을 더 기다려야 한다더라고요. 결국 환불받고 책상을 반품했어요. 정말 실망스러운 경험이었죠.
+**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 그때 새 책상이 필요해서 온라인으로 하나 주문했어요. 처음엔 다 괜찮아 보였어요. 새 책상 받는 게 기대됐죠. 그런데 배송받아보니 문제가 있었어요 — 나무 상판에 얼룩이 있었어요. 엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 다리 두 개에도 긁힌 자국이 있었고요. 그래서 교환해보려고 했는데, 한 달이 더 걸린다고 했어요. 결국 환불받고 책상을 반품해야 했어요. 정말 실망스러웠어요.
 
 ---
 
@@ -1237,9 +1237,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 옷가게에 있고 옷을 사야 해요. 점원에게 사고 싶은 옷에 대해 3~4가지 질문을 해보세요.
 
-**원고**: Hi there. Well, I want to buy a T-shirt because mine is too old. I have some questions about it. What kinds of T-shirts are popular these days? Can you give me any recommendations? — Oh, good. What new features do they have? I want something waterproof — do you think they have that? — Oh, that's great. What's the price? I have a budget of $200 — can I get a discount? — Awesome, that's the answer I wanted. Thank you for the information.
+**원고**: Hi there. I'd like to buy a shirt because mine is too old. What kinds of shirts are popular these days? Can you give me any recommendations? What features does it have? What's the price? Do you have any discounts? Thank you for the information.
 
-**한글 해석**: 안녕하세요. 제 티셔츠가 너무 오래돼서 새로 사려고요. 몇 가지 여쭤볼게요. 요즘 어떤 티셔츠가 인기 있나요? 추천해주실 수 있어요? — 오, 좋네요. 어떤 새로운 기능이 있나요? 방수 기능이 있으면 좋겠는데, 그런 게 있을까요? — 오, 좋네요. 가격이 어떻게 되나요? 예산이 200달러인데 할인받을 수 있을까요? — 좋네요, 원하던 답이에요. 정보 감사합니다.
+**한글 해석**: 안녕하세요. 제 셔츠가 너무 오래돼서 새로 사고 싶어요. 요즘 어떤 셔츠가 인기 있나요? 추천해주실 수 있어요? 어떤 기능이 있나요? 가격이 어떻게 되나요? 할인 있나요? 정보 감사합니다.
 
 ### 2. [롤플레이 · 해결하기] (question id: 139)
 
@@ -1257,9 +1257,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 상황극은 여기까지예요. 구매한 물건이나 받은 서비스가 마음에 안 들었던 적이 있나요? 문제가 뭐였고 어떻게 해결했나요? 자세히 말해 주세요.
 
-**원고**: Let me tell you about my experience from about two years ago. At the time, I needed a new smartphone, so I ordered one online. At first, everything seemed fine. I was excited to get my new smartphone. However, when it was delivered, I found something wrong with it — it turned on and off by itself. To make matters worse, it looked like a used one — it had some scratches on the corner. So I tried to get an exchange, but it wasn't easy. As a result, I had to get a refund and return it. It was such a disappointing experience.
+**원고**: Let me tell you about my experience from about two years ago. At the time, I needed a new desk, so I ordered one online. At first, everything seemed fine. I was excited to get the new desk. However, when it was delivered, I found something wrong with it — the wooden board had some stains. To make matters worse, it looked like a used one — two of the legs had scratches too. So I tried to get an exchange, but they said it would take another month. As a result, I had to get a refund and return the desk. It was really disappointing.
 
-**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 그때 스마트폰이 새로 필요해서 온라인으로 하나 주문했어요. 처음엔 다 괜찮아 보였어요. 새 스마트폰 받는 게 기대됐죠. 그런데 배송받아보니 문제가 있었어요 — 저절로 켜졌다 꺼졌다 하는 거예요. 엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 모서리에 긁힌 자국도 있었고요. 그래서 교환해보려고 했는데 쉽지 않았어요. 결국 환불받고 반품해야 했어요. 정말 실망스러운 경험이었죠.
+**한글 해석**: 약 2년 전 있었던 일을 말씀드릴게요. 그때 새 책상이 필요해서 온라인으로 하나 주문했어요. 처음엔 다 괜찮아 보였어요. 새 책상 받는 게 기대됐죠. 그런데 배송받아보니 문제가 있었어요 — 나무 상판에 얼룩이 있었어요. 엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 다리 두 개에도 긁힌 자국이 있었고요. 그래서 교환해보려고 했는데, 한 달이 더 걸린다고 했어요. 결국 환불받고 책상을 반품해야 했어요. 정말 실망스러웠어요.
 
 ---
 
@@ -1373,9 +1373,9 @@ data.js 기준 자동 생성. 카테고리 → 토픽 → 문제 순서를 그�
 
 **번역**: 친구와 휴가를 계획 중이에요. 여행사에 전화해서 계획 중인 휴가 종류를 설명하고, 필요한 정보를 알아보기 위한 질문을 3~4개 해보세요.
 
-**원고**: Hi there. Travel agency, right? — Yes. Well, I'd like to take a trip on my vacation. I have some questions about it. What kinds of destinations are popular these days? Can you give me any recommendations? What features do those destinations have? In my case, I like to swim in the ocean — do you think they have a beach? When do you think is good for a vacation? — Last weekend? Okay. Thank you for the information. Bye.
+**원고**: Hi there, is this the travel agency? — Yes. I'd like to make a reservation for our vacation. What destinations are popular these days? Can you give me any recommendations? — Tokyo? Oh, that sounds good. How much is it? — I have a budget of $2,000. Do you have any discounts or promotions? When can I go? — Next month? Okay, sounds good. So, please confirm two tickets to Tokyo for next month. Please call me back. Thank you.
 
-**한글 해석**: 안녕하세요. 여행사 맞죠? — 네. 휴가 때 여행을 가고 싶은데, 몇 가지 여쭤볼게요. 요즘 어떤 여행지가 인기 있나요? 추천해주실 수 있어요? 그 여행지들은 어떤 특징이 있나요? 저는 바다 수영을 좋아하는데, 해변이 있을까요? 휴가는 언제가 좋을까요? — 지난 주말이요? 알겠어요. 정보 감사합니다. 안녕히 계세요.
+**한글 해석**: 안녕하세요, 여행사 맞나요? — 네. 저희 휴가 예약을 하고 싶어요. 요즘 어떤 여행지가 인기 있나요? 추천해주실 수 있어요? — 도쿄요? 오, 좋네요. 얼마인가요? — 예산이 2,000달러 정도인데. 할인이나 프로모션 있나요? 언제 갈 수 있나요? — 다음 달이요? 좋아요, 괜찮네요. 그럼 다음 달 도쿄행 티켓 두 장으로 확정해주세요. 다시 전화 주세요. 감사합니다.
 
 ### 2. [롤플레이 · 해결하기] (question id: 151)
 

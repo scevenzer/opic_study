@@ -3079,28 +3079,27 @@ const TOPICS = [
         question: "Can you tell me about a situation where you had some kind of equipment that broke or didn't work properly? What happened? How did you resolve the problem? Give me the background to the result in detail.",
         translation: "장비가 망가지거나 제대로 작동하지 않았던 상황에 대해 말해 주세요. 무슨 일이 있었고, 어떻게 해결했나요? 배경부터 결과까지 자세히 말해 주세요.",
         type: "기억에 남는 경험",
-        structure: ["2년 전 경험", "새 스마트폰 온라인 주문", "처음엔 기대감", "받아보니 저절로 켜졌다꺼짐", "중고품처럼 모서리에 긁힌자국까지", "교환 시도했지만 쉽지않음", "결국 환불받고 반품", "실망스러운 경험이었음"],
+        structure: ["2년전 경험", "새 책상 온라인 주문", "처음엔 기대감", "배송받아보니 상판에 얼룩", "다리에 긁힌자국까지, 중고품 같음", "교환 시도했지만 한달 더 걸린다함", "결국 환불받고 반품", "실망스러운 경험이었음"],
         script: [
           { en: "Let me tell you about my experience from about two years ago.", ko: "약 2년 전 있었던 일을 말씀드릴게요." },
-          { en: "At the time, I needed a new smartphone, so I ordered one online.", ko: "그때 스마트폰이 새로 필요해서 온라인으로 하나 주문했어요." },
-          { en: "At first, everything seemed fine. I was excited to get my new smartphone.", ko: "처음엔 다 괜찮아 보였어요. 새 스마트폰 받는 게 기대됐죠." },
-          { en: "However, when it was delivered, I found something wrong with it — it turned on and off by itself.", ko: "그런데 배송받아보니 문제가 있었어요 — 저절로 켜졌다 꺼졌다 하는 거예요." },
-          { en: "To make matters worse, it looked like a used one — it had some scratches on the corner.", ko: "엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 모서리에 긁힌 자국도 있었고요." },
-          { en: "So I tried to get an exchange, but it wasn't easy.", ko: "그래서 교환해보려고 했는데 쉽지 않았어요." },
-          { en: "As a result, I had to get a refund and return it. It was such a disappointing experience.", ko: "결국 환불받고 반품해야 했어요. 정말 실망스러운 경험이었죠." }
+          { en: "At the time, I needed a new desk, so I ordered one online.", ko: "그때 새 책상이 필요해서 온라인으로 하나 주문했어요." },
+          { en: "At first, everything seemed fine. I was excited to get the new desk.", ko: "처음엔 다 괜찮아 보였어요. 새 책상 받는 게 기대됐죠." },
+          { en: "However, when it was delivered, I found something wrong with it — the wooden board had some stains.", ko: "그런데 배송받아보니 문제가 있었어요 — 나무 상판에 얼룩이 있었어요." },
+          { en: "To make matters worse, it looked like a used one — two of the legs had scratches too.", ko: "엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 다리 두 개에도 긁힌 자국이 있었고요." },
+          { en: "So I tried to get an exchange, but they said it would take another month.", ko: "그래서 교환해보려고 했는데, 한 달이 더 걸린다고 했어요." },
+          { en: "As a result, I had to get a refund and return the desk. It was really disappointing.", ko: "결국 환불받고 책상을 반품해야 했어요. 정말 실망스러웠어요." }
         ],
         pronunciation: [
           { en: "Let me tell you about my experience from about two years ago.", ko: "렛미 텔유 어바웃 마이 익스피어리언스 프럼 어바웃 투이어즈어고" },
-          { en: "At the time, I needed a new smartphone, so I ordered one online.", ko: "앳더타임, 아이니디더 뉴 스마트폰, 소아이 오더드원 온라인" },
-          { en: "At first, everything seemed fine. I was excited to get my new smartphone.", ko: "앳퍼스트, 에브리씽 씸드파인. 아이워즈 익사이티드 투겟마이 뉴스마트폰" },
-          { en: "However, when it was delivered, I found something wrong with it — it turned on and off by itself.", ko: "하우에버, 웬잇워즈 딜리버드, 아이파운드 썸씽롱 위딧, 잇턴드 온앤오프 바이잇셀프" },
-          { en: "To make matters worse, it looked like a used one — it had some scratches on the corner.", ko: "투메익 매터즈워스, 잇룩트 라이커 유즈드원, 잇해드 썸 스크래치즈 온더 코너" },
-          { en: "So I tried to get an exchange, but it wasn't easy.", ko: "소아이 트라이투 게런 익스체인지, 벗잇 워즌트 이지" },
-          { en: "As a result, I had to get a refund and return it.", ko: "애저 리절트, 아이해드투 게러 리펀드 앤 리턴잇" },
-          { en: "It was such a disappointing experience.", ko: "잇워즈 서치어 디서포인팅 익스피어리언스" }
+          { en: "At the time, I needed a new desk, so I ordered one online.", ko: "앳더타임, 아이니디더 뉴 데스크, 소아이 오더드원 온라인" },
+          { en: "At first, everything seemed fine. I was excited to get the new desk.", ko: "앳퍼스트, 에브리씽 씸드파인. 아이워즈 익사이티드 투겟더 뉴데스크" },
+          { en: "However, when it was delivered, I found something wrong with it — the wooden board had some stains.", ko: "하우에버, 웬잇워즈 딜리버드, 아이파운드 썸씽롱 위딧, 더 우든보드 해드 썸 스테인즈" },
+          { en: "To make matters worse, it looked like a used one — two of the legs had scratches too.", ko: "투메익 매터즈워스, 잇룩트 라이커 유즈드원, 투어브더 렉스 해드 스크래치즈 투" },
+          { en: "So I tried to get an exchange, but they said it would take another month.", ko: "소아이 트라이투 게런 익스체인지, 벗데이세드 잇우드테익 어나더먼쓰" },
+          { en: "As a result, I had to get a refund and return the desk. It was really disappointing.", ko: "애저 리절트, 아이해드투 게러 리펀드 앤 리턴더 데스크. 잇워즈 릴리 디서포인팅" }
         ],
         warnings: [
-          { word: "delivered", guide: "딜리버드" },
+          { word: "stains", guide: "스테인즈" },
           { word: "scratches", guide: "스크래치즈" },
           { word: "exchange", guide: "익스체인지" },
           { word: "disappointing", guide: "디서포인팅" }
@@ -3175,25 +3174,24 @@ const TOPICS = [
         question: "Problems arise related to furniture in your home. Sometimes furniture breaks or fabrics get stains or ripped. Tell me about a time you had furniture with a problem. What happened? How did you fix it?",
         translation: "가끔 가구에 문제가 생기기도 하죠. 가구가 망가지거나 천이 얼룩지거나 찢어지기도 해요. 가구에 문제가 있었던 경험을 말해 주세요. 무슨 일이 있었고 어떻게 해결했나요?",
         type: "문제 해결 경험",
-        structure: ["2년 전 경험", "새 책상 온라인 주문", "처음엔 기대감", "배송받아보니 나무판에 얼룩", "다리 두개 긁힌자국까지", "교환시도 → 같은모델 한달대기해야함", "결국 환불받고 반품"],
+        structure: ["2년전 경험", "새 책상 온라인 주문", "처음엔 기대감", "배송받아보니 상판에 얼룩", "다리에 긁힌자국까지, 중고품 같음", "교환 시도했지만 한달 더 걸린다함", "결국 환불받고 반품", "실망스러운 경험이었음"],
         script: [
           { en: "Let me tell you about my experience from about two years ago.", ko: "약 2년 전 있었던 일을 말씀드릴게요." },
-          { en: "At that time, I needed a new desk, so I ordered one online.", ko: "그때 새 책상이 필요해서 온라인으로 하나 주문했어요." },
+          { en: "At the time, I needed a new desk, so I ordered one online.", ko: "그때 새 책상이 필요해서 온라인으로 하나 주문했어요." },
           { en: "At first, everything seemed fine. I was excited to get the new desk.", ko: "처음엔 다 괜찮아 보였어요. 새 책상 받는 게 기대됐죠." },
-          { en: "However, when it was delivered, I found something wrong with it — the wooden board had some stains.", ko: "그런데 배송받아보니 문제가 있었어요 — 나무판에 얼룩이 있었어요." },
+          { en: "However, when it was delivered, I found something wrong with it — the wooden board had some stains.", ko: "그런데 배송받아보니 문제가 있었어요 — 나무 상판에 얼룩이 있었어요." },
           { en: "To make matters worse, it looked like a used one — two of the legs had scratches too.", ko: "엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 다리 두 개에도 긁힌 자국이 있었고요." },
-          { en: "So I tried to get an exchange, but they said I'd have to wait another month for the same model.", ko: "그래서 교환하려고 했는데, 같은 모델은 한 달을 더 기다려야 한다더라고요." },
-          { en: "As a result, I had to get a refund and return the table. It was such a disappointing experience.", ko: "결국 환불받고 책상을 반품했어요. 정말 실망스러운 경험이었죠." }
+          { en: "So I tried to get an exchange, but they said it would take another month.", ko: "그래서 교환해보려고 했는데, 한 달이 더 걸린다고 했어요." },
+          { en: "As a result, I had to get a refund and return the desk. It was really disappointing.", ko: "결국 환불받고 책상을 반품해야 했어요. 정말 실망스러웠어요." }
         ],
         pronunciation: [
           { en: "Let me tell you about my experience from about two years ago.", ko: "렛미 텔유 어바웃 마이 익스피어리언스 프럼 어바웃 투이어즈어고" },
-          { en: "At that time, I needed a new desk, so I ordered one online.", ko: "앳댓타임, 아이 니디더 뉴 데스크, 소 아이 오더드원 온라인" },
-          { en: "At first, everything seemed fine. I was excited to get the new desk.", ko: "앳퍼스트, 에브리씽 씸드 파인. 아이워즈 익사이티드 투겟더 뉴 데스크" },
-          { en: "However, when it was delivered, I found something wrong with it — the wooden board had some stains.", ko: "하우에버, 웬잇워즈 딜리버드, 아이 파운드 썸씽 롱 위딧, 더 우든 보드 해드 썸 스테인즈" },
-          { en: "To make matters worse, it looked like a used one — two of the legs had scratches too.", ko: "투 메익 매터즈 워스, 잇 룩트 라이커 유즈드원, 투어브더 렉즈 해드 스크래치즈투" },
-          { en: "So I tried to get an exchange, but they said I'd have to wait another month for the same model.", ko: "소 아이 트라이투 게런 익스체인지, 벗 데이 세드 아이드 해브투 웨이트 어나더 먼쓰 퍼더 세임 모델" },
-          { en: "As a result, I had to get a refund and return the table.", ko: "애저 리절트, 아이 해드투 게러 리펀드 앤 리턴더 테이블" },
-          { en: "It was such a disappointing experience.", ko: "잇 워즈 서치어 디서포인팅 익스피어리언스" }
+          { en: "At the time, I needed a new desk, so I ordered one online.", ko: "앳더타임, 아이니디더 뉴 데스크, 소아이 오더드원 온라인" },
+          { en: "At first, everything seemed fine. I was excited to get the new desk.", ko: "앳퍼스트, 에브리씽 씸드파인. 아이워즈 익사이티드 투겟더 뉴데스크" },
+          { en: "However, when it was delivered, I found something wrong with it — the wooden board had some stains.", ko: "하우에버, 웬잇워즈 딜리버드, 아이파운드 썸씽롱 위딧, 더 우든보드 해드 썸 스테인즈" },
+          { en: "To make matters worse, it looked like a used one — two of the legs had scratches too.", ko: "투메익 매터즈워스, 잇룩트 라이커 유즈드원, 투어브더 렉스 해드 스크래치즈 투" },
+          { en: "So I tried to get an exchange, but they said it would take another month.", ko: "소아이 트라이투 게런 익스체인지, 벗데이세드 잇우드테익 어나더먼쓰" },
+          { en: "As a result, I had to get a refund and return the desk. It was really disappointing.", ko: "애저 리절트, 아이해드투 게러 리펀드 앤 리턴더 데스크. 잇워즈 릴리 디서포인팅" }
         ],
         warnings: [
           { word: "stains", guide: "스테인즈" },
@@ -3310,28 +3308,28 @@ const TOPICS = [
         question: "You are at a clothing store and need to get some clothes. Ask the clerk three or four questions about the clothes you'd like to buy.",
         translation: "옷가게에 있고 옷을 사야 해요. 점원에게 사고 싶은 옷에 대해 3~4가지 질문을 해보세요.",
         type: "롤플레이 · 질문하기",
-        structure: ["인사", "목적: 오래된 티셔츠 대신 새로 사려함", "질문1: 요즘 인기 티셔츠+추천", "질문2: 새기능(방수여부)", "질문3: 가격($200예산)+할인", "마무리"],
+        structure: ["인사", "목적: 셔츠 오래돼서 새로 사려함", "질문1: 인기셔츠+추천", "질문2: 기능", "질문3: 가격+할인", "마무리"],
         script: [
           { en: "Hi there.", ko: "안녕하세요." },
-          { en: "Well, I want to buy a T-shirt because mine is too old. I have some questions about it.", ko: "제 티셔츠가 너무 오래돼서 새로 사려고요. 몇 가지 여쭤볼게요." },
-          { en: "What kinds of T-shirts are popular these days? Can you give me any recommendations? — Oh, good.", ko: "요즘 어떤 티셔츠가 인기 있나요? 추천해주실 수 있어요? — 오, 좋네요." },
-          { en: "What new features do they have? I want something waterproof — do you think they have that? — Oh, that's great.", ko: "어떤 새로운 기능이 있나요? 방수 기능이 있으면 좋겠는데, 그런 게 있을까요? — 오, 좋네요." },
-          { en: "What's the price? I have a budget of $200 — can I get a discount? — Awesome, that's the answer I wanted.", ko: "가격이 어떻게 되나요? 예산이 200달러인데 할인받을 수 있을까요? — 좋네요, 원하던 답이에요." },
+          { en: "I'd like to buy a shirt because mine is too old.", ko: "제 셔츠가 너무 오래돼서 새로 사고 싶어요." },
+          { en: "What kinds of shirts are popular these days? Can you give me any recommendations?", ko: "요즘 어떤 셔츠가 인기 있나요? 추천해주실 수 있어요?" },
+          { en: "What features does it have?", ko: "어떤 기능이 있나요?" },
+          { en: "What's the price? Do you have any discounts?", ko: "가격이 어떻게 되나요? 할인 있나요?" },
           { en: "Thank you for the information.", ko: "정보 감사합니다." }
         ],
         pronunciation: [
           { en: "Hi there.", ko: "하이데어" },
-          { en: "Well, I want to buy a T-shirt because mine is too old. I have some questions about it.", ko: "웰, 아이원투바이어 티셔츠 비커즈 마인이즈투올드. 아이해브 썸퀘스천즈 어바웃잇" },
-          { en: "What kinds of T-shirts are popular these days? Can you give me any recommendations?", ko: "왓카인즈어브 티셔츠알 파퓰러 디즈데이즈? 캔유기브미 애니 레커멘데이션즈?" },
-          { en: "What new features do they have? I want something waterproof — do you think they have that?", ko: "왓뉴 피처즈두데이해브? 아이원트 썸씽 워터프루프, 두유씽크데이해브댓?" },
-          { en: "What's the price? I have a budget of $200 — can I get a discount?", ko: "왓츠더프라이스? 아이해버버짓어브 투헌드레드달러즈, 캔아이게러 디스카운트?" },
+          { en: "I'd like to buy a shirt because mine is too old.", ko: "아이드 라익투 바이어 셔츠 비커즈 마인이즈 투올드" },
+          { en: "What kinds of shirts are popular these days? Can you give me any recommendations?", ko: "왓카인즈어브 셔츠알 파퓰러 디즈데이즈? 캔유기브미 애니 레커멘데이션즈?" },
+          { en: "What features does it have?", ko: "왓 피처스 더짓해브?" },
+          { en: "What's the price? Do you have any discounts?", ko: "왓츠더 프라이스? 두유해브 애니 디스카운츠?" },
           { en: "Thank you for the information.", ko: "땡큐퍼디 인포메이션" }
         ],
         warnings: [
-          { word: "waterproof", guide: "워터프루프" },
           { word: "recommendations", guide: "레커멘데이션즈" },
-          { word: "budget", guide: "버짓" },
-          { word: "discount", guide: "디스카운트" }
+          { word: "features", guide: "피처스" },
+          { word: "discounts", guide: "디스카운츠" },
+          { word: "shirt", guide: "셔츠" }
         ]
       },
       {
@@ -3368,28 +3366,27 @@ const TOPICS = [
         question: "That's the end of the situation. Have you ever been unhappy with something you bought or some service you received? What was the problem? How did you handle it? Tell me everything in detail.",
         translation: "상황극은 여기까지예요. 구매한 물건이나 받은 서비스가 마음에 안 들었던 적이 있나요? 문제가 뭐였고 어떻게 해결했나요? 자세히 말해 주세요.",
         type: "기억에 남는 경험",
-        structure: ["2년 전 경험", "새 스마트폰 온라인 주문", "처음엔 기대감", "받아보니 저절로 켜졌다꺼짐", "중고품처럼 모서리에 긁힌자국까지", "교환 시도했지만 쉽지않음", "결국 환불받고 반품", "실망스러운 경험이었음"],
+        structure: ["2년전 경험", "새 책상 온라인 주문", "처음엔 기대감", "배송받아보니 상판에 얼룩", "다리에 긁힌자국까지, 중고품 같음", "교환 시도했지만 한달 더 걸린다함", "결국 환불받고 반품", "실망스러운 경험이었음"],
         script: [
           { en: "Let me tell you about my experience from about two years ago.", ko: "약 2년 전 있었던 일을 말씀드릴게요." },
-          { en: "At the time, I needed a new smartphone, so I ordered one online.", ko: "그때 스마트폰이 새로 필요해서 온라인으로 하나 주문했어요." },
-          { en: "At first, everything seemed fine. I was excited to get my new smartphone.", ko: "처음엔 다 괜찮아 보였어요. 새 스마트폰 받는 게 기대됐죠." },
-          { en: "However, when it was delivered, I found something wrong with it — it turned on and off by itself.", ko: "그런데 배송받아보니 문제가 있었어요 — 저절로 켜졌다 꺼졌다 하는 거예요." },
-          { en: "To make matters worse, it looked like a used one — it had some scratches on the corner.", ko: "엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 모서리에 긁힌 자국도 있었고요." },
-          { en: "So I tried to get an exchange, but it wasn't easy.", ko: "그래서 교환해보려고 했는데 쉽지 않았어요." },
-          { en: "As a result, I had to get a refund and return it. It was such a disappointing experience.", ko: "결국 환불받고 반품해야 했어요. 정말 실망스러운 경험이었죠." }
+          { en: "At the time, I needed a new desk, so I ordered one online.", ko: "그때 새 책상이 필요해서 온라인으로 하나 주문했어요." },
+          { en: "At first, everything seemed fine. I was excited to get the new desk.", ko: "처음엔 다 괜찮아 보였어요. 새 책상 받는 게 기대됐죠." },
+          { en: "However, when it was delivered, I found something wrong with it — the wooden board had some stains.", ko: "그런데 배송받아보니 문제가 있었어요 — 나무 상판에 얼룩이 있었어요." },
+          { en: "To make matters worse, it looked like a used one — two of the legs had scratches too.", ko: "엎친 데 덮친 격으로 중고품처럼 보이기까지 했어요 — 다리 두 개에도 긁힌 자국이 있었고요." },
+          { en: "So I tried to get an exchange, but they said it would take another month.", ko: "그래서 교환해보려고 했는데, 한 달이 더 걸린다고 했어요." },
+          { en: "As a result, I had to get a refund and return the desk. It was really disappointing.", ko: "결국 환불받고 책상을 반품해야 했어요. 정말 실망스러웠어요." }
         ],
         pronunciation: [
           { en: "Let me tell you about my experience from about two years ago.", ko: "렛미 텔유 어바웃 마이 익스피어리언스 프럼 어바웃 투이어즈어고" },
-          { en: "At the time, I needed a new smartphone, so I ordered one online.", ko: "앳더타임, 아이니디더 뉴 스마트폰, 소아이 오더드원 온라인" },
-          { en: "At first, everything seemed fine. I was excited to get my new smartphone.", ko: "앳퍼스트, 에브리씽 씸드파인. 아이워즈 익사이티드 투겟마이 뉴스마트폰" },
-          { en: "However, when it was delivered, I found something wrong with it — it turned on and off by itself.", ko: "하우에버, 웬잇워즈 딜리버드, 아이파운드 썸씽롱 위딧, 잇턴드 온앤오프 바이잇셀프" },
-          { en: "To make matters worse, it looked like a used one — it had some scratches on the corner.", ko: "투메익 매터즈워스, 잇룩트 라이커 유즈드원, 잇해드 썸 스크래치즈 온더 코너" },
-          { en: "So I tried to get an exchange, but it wasn't easy.", ko: "소아이 트라이투 게런 익스체인지, 벗잇 워즌트 이지" },
-          { en: "As a result, I had to get a refund and return it.", ko: "애저 리절트, 아이해드투 게러 리펀드 앤 리턴잇" },
-          { en: "It was such a disappointing experience.", ko: "잇워즈 서치어 디서포인팅 익스피어리언스" }
+          { en: "At the time, I needed a new desk, so I ordered one online.", ko: "앳더타임, 아이니디더 뉴 데스크, 소아이 오더드원 온라인" },
+          { en: "At first, everything seemed fine. I was excited to get the new desk.", ko: "앳퍼스트, 에브리씽 씸드파인. 아이워즈 익사이티드 투겟더 뉴데스크" },
+          { en: "However, when it was delivered, I found something wrong with it — the wooden board had some stains.", ko: "하우에버, 웬잇워즈 딜리버드, 아이파운드 썸씽롱 위딧, 더 우든보드 해드 썸 스테인즈" },
+          { en: "To make matters worse, it looked like a used one — two of the legs had scratches too.", ko: "투메익 매터즈워스, 잇룩트 라이커 유즈드원, 투어브더 렉스 해드 스크래치즈 투" },
+          { en: "So I tried to get an exchange, but they said it would take another month.", ko: "소아이 트라이투 게런 익스체인지, 벗데이세드 잇우드테익 어나더먼쓰" },
+          { en: "As a result, I had to get a refund and return the desk. It was really disappointing.", ko: "애저 리절트, 아이해드투 게러 리펀드 앤 리턴더 데스크. 잇워즈 릴리 디서포인팅" }
         ],
         warnings: [
-          { word: "delivered", guide: "딜리버드" },
+          { word: "stains", guide: "스테인즈" },
           { word: "scratches", guide: "스크래치즈" },
           { word: "exchange", guide: "익스체인지" },
           { word: "disappointing", guide: "디서포인팅" }
@@ -3696,28 +3693,30 @@ const TOPICS = [
         question: "You are planning a vacation with your friend. Call the travel agency and describe the kinds of vacation you and your friend are planning. Ask three or four questions to find out what you need to know.",
         translation: "친구와 휴가를 계획 중이에요. 여행사에 전화해서 계획 중인 휴가 종류를 설명하고, 필요한 정보를 알아보기 위한 질문을 3~4개 해보세요.",
         type: "롤플레이 · 질문하기",
-        structure: ["인사: 여행사 확인", "목적: 휴가로 여행가고 싶음", "질문1: 요즘 인기 여행지+추천", "질문2: 그 여행지 특징(바다에서 수영하고싶음, 해변있는지)", "질문3: 좋은 시기(지난주말)", "마무리"],
+        structure: ["인사: 여행사 확인", "목적: 휴가 예약하고싶음", "질문1: 인기여행지+추천(도쿄)", "질문2: 가격($2000예산)+할인/프로모션", "질문3: 가능시기(다음달)", "마무리: 도쿄행 2장 확정요청"],
         script: [
-          { en: "Hi there. Travel agency, right? — Yes.", ko: "안녕하세요. 여행사 맞죠? — 네." },
-          { en: "Well, I'd like to take a trip on my vacation. I have some questions about it.", ko: "휴가 때 여행을 가고 싶은데, 몇 가지 여쭤볼게요." },
-          { en: "What kinds of destinations are popular these days? Can you give me any recommendations?", ko: "요즘 어떤 여행지가 인기 있나요? 추천해주실 수 있어요?" },
-          { en: "What features do those destinations have? In my case, I like to swim in the ocean — do you think they have a beach?", ko: "그 여행지들은 어떤 특징이 있나요? 저는 바다 수영을 좋아하는데, 해변이 있을까요?" },
-          { en: "When do you think is good for a vacation? — Last weekend? Okay.", ko: "휴가는 언제가 좋을까요? — 지난 주말이요? 알겠어요." },
-          { en: "Thank you for the information. Bye.", ko: "정보 감사합니다. 안녕히 계세요." }
+          { en: "Hi there, is this the travel agency? — Yes.", ko: "안녕하세요, 여행사 맞나요? — 네." },
+          { en: "I'd like to make a reservation for our vacation.", ko: "저희 휴가 예약을 하고 싶어요." },
+          { en: "What destinations are popular these days? Can you give me any recommendations? — Tokyo? Oh, that sounds good.", ko: "요즘 어떤 여행지가 인기 있나요? 추천해주실 수 있어요? — 도쿄요? 오, 좋네요." },
+          { en: "How much is it? — I have a budget of $2,000. Do you have any discounts or promotions?", ko: "얼마인가요? — 예산이 2,000달러 정도인데. 할인이나 프로모션 있나요?" },
+          { en: "When can I go? — Next month? Okay, sounds good.", ko: "언제 갈 수 있나요? — 다음 달이요? 좋아요, 괜찮네요." },
+          { en: "So, please confirm two tickets to Tokyo for next month.", ko: "그럼 다음 달 도쿄행 티켓 두 장으로 확정해주세요." },
+          { en: "Please call me back. Thank you.", ko: "다시 전화 주세요. 감사합니다." }
         ],
         pronunciation: [
-          { en: "Hi there. Travel agency, right?", ko: "하이데어. 트래블 에이전시, 라잇?" },
-          { en: "Well, I'd like to take a trip on my vacation. I have some questions about it.", ko: "웰, 아이드라익투 테이커 트립 온마이 베케이션. 아이해브 썸퀘스천즈 어바웃잇" },
-          { en: "What kinds of destinations are popular these days? Can you give me any recommendations?", ko: "왓카인즈어브 데스티네이션즈알 파퓰러 디즈데이즈? 캔유기브미 애니 레커멘데이션즈?" },
-          { en: "What features do those destinations have? In my case, I like to swim in the ocean — do you think they have a beach?", ko: "왓피처즈두도우즈 데스티네이션즈해브? 인마이케이스, 아이라익투 스윔인디오션, 두유씽크데이해버비치?" },
-          { en: "When do you think is good for a vacation?", ko: "웬두유씽크이즈 굿퍼러 베케이션?" },
-          { en: "Thank you for the information. Bye.", ko: "땡큐퍼디 인포메이션. 바이" }
+          { en: "Hi there, is this the travel agency? Yes.", ko: "하이데어, 이즈디스더 트래블에이전시? 예스" },
+          { en: "I'd like to make a reservation for our vacation.", ko: "아이드 라익투 메이커 레저베이션 퍼아워 베케이션" },
+          { en: "What destinations are popular these days? Can you give me any recommendations? Tokyo? Oh, that sounds good.", ko: "왓 데스티네이션즈알 파퓰러 디즈데이즈? 캔유기브미 애니 레커멘데이션즈? 도쿄? 오, 댓 사운즈굿" },
+          { en: "How much is it? I have a budget of $2,000. Do you have any discounts or promotions?", ko: "하우머치이즈잇? 아이해버 버짓어브 투싸우전드달러즈. 두유해브 애니 디스카운츠오어 프로모션즈?" },
+          { en: "When can I go? Next month? Okay, sounds good.", ko: "웬캔아이고? 넥스트먼쓰? 오케이, 사운즈굿" },
+          { en: "So, please confirm two tickets to Tokyo for next month.", ko: "소, 플리즈 컨펌 투 티킷츠투 도쿄 퍼 넥스트먼쓰" },
+          { en: "Please call me back. Thank you.", ko: "플리즈 콜미백. 땡큐" }
         ],
         warnings: [
-          { word: "agency", guide: "에이전시" },
+          { word: "reservation", guide: "레저베이션" },
           { word: "destinations", guide: "데스티네이션즈" },
-          { word: "recommendations", guide: "레커멘데이션즈" },
-          { word: "ocean", guide: "오션" }
+          { word: "promotions", guide: "프로모션즈" },
+          { word: "confirm", guide: "컨펌" }
         ]
       },
       {
